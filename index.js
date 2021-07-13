@@ -51,10 +51,11 @@ prompt.get(properties, function (err, result) {
   client.connect();
   client.query(`SELECT srid,trim(proj4text) as proj4text from spatial_ref_sys where proj4text != '';`, function (err, res) {
     if(!err) {
-      var stringData = "";
+      var stringData = "module.exports = function (Proj4js) {\r\n";
       res.rows.map(function(row) {
-        stringData = `${stringData}${start_epsg}${row.srid}${end_epsg_start_proj4js}${row.proj4text}${end_proj4js}\r\n`
+        stringData = `  ${stringData}${start_epsg}${row.srid}${end_epsg_start_proj4js}${row.proj4text}${end_proj4js}\r\n`
       });
+      stringData += "}"
       fs.writeFileSync('epsg.js', stringData);
     } else {
       onErr(err);

@@ -46,7 +46,7 @@ prompt.get(properties, function (err, result) {
     port: result.port,
     database: result.database,
     user: result.username,
-    password: 'k'
+    password: result.password
   });
   client.connect();
   client.query(`SELECT srid,trim(proj4text) as proj4text from spatial_ref_sys where proj4text != '';`, function (err, res) {

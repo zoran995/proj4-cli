@@ -12,17 +12,20 @@ var properties = [
   },
   {
     name: 'port',
+    type: 'integer',
     description: 'PORT',
     default: 5432
   },
   {
     name: 'database',
+    type: 'string',
     description: 'Database name',
     required: true
   },
   {
     name: 'username',
     description: 'Username',
+    default: 'postgres',
     required: true
   },
   {
@@ -31,6 +34,12 @@ var properties = [
     required: true,
     hidden: true,
     replace: '*'
+  },
+  {
+    name: 'proj4function',
+    type: 'boolean',
+    description: 'Save generated result as proj4 function?',
+    default: true
   }
 ]
 
@@ -50,12 +59,21 @@ prompt.get(properties, function (err, result) {
   });
   client.connect();
   client.query(`SELECT srid,trim(proj4text) as proj4text from spatial_ref_sys where proj4text != '';`, function (err, res) {
-    if(!err) {
-      var stringData = "module.exports = function (Proj4js) {\r\n";
-      res.rows.map(function(row) {
-        stringData = `  ${stringData}${start_epsg}${row.srid}${end_epsg_start_proj4js}${row.proj4text}${end_proj4js}\r\n`
-      });
-      stringData += "}"
+    if (!err) {
+      var stringData = "";
+      if (result.proj4function) {
+        stringData = "module.exports = function (Proj4js) {\r\n";
+        res.rows.map(function(row) {
+          stringData = `${stringData}  ${start_epsg}${row.srid}${end_epsg_start_proj4js}${row.proj4text}${end_proj4js}\r\n`
+        });
+        stringData += "}"
+      } else {
+        stringData = "export const proj4def = {\r\n"
+        res.rows.map(function(row) {
+          stringData = `${stringData}  ${row.srid}: "${row.proj4text}",\r\n`
+        });
+        stringData += "}"
+      }
       fs.writeFileSync('epsg.js', stringData);
     } else {
       onErr(err);

@@ -62,15 +62,10 @@ prompt.get(properties, function (err, result) {
     }
     client.end();
   });
-  
 });
-
-
-// 
-
-//prompt.stop();
 
 function onErr(err) {
   console.log(err);
+  prompt.stop();
   return 1;
 }

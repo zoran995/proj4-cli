@@ -14,6 +14,7 @@
   "files": [
     "dist"
   ],
+  "types": "dist/epsg.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zoran995/proj4-cli.git"

@@ -2,7 +2,6 @@
   "name": "proj4-cli",
   "version": "0.0.2",
   "description": "A Node.js cli to generate one easy-to-use file for proj4js of all epsg definitions from PostGIS ",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +9,5 @@
   "license": "MIT",
   "devDependencies": {
     "lerna": "^4.0.0"
-  },
-  "files": [
-    "./index.js",
-    "epsg.ts",
-    "dist"
-  ],
-  "types": "dist/epsg.d.ts"
+  }
 }

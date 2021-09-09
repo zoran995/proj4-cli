@@ -1,0 +1,26 @@
+{
+  "name": "@proj4-cli/cli",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Zoran Kokeza <zorankokeza95@gmail.com>",
+  "homepage": "https://github.com/zoran995/proj4-cli#readme",
+  "license": "MIT",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "pg": "^8.6.0",
+    "prompt": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoran995/proj4-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zoran995/proj4-cli/issues"
+  }
+}

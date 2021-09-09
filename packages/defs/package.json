@@ -1,0 +1,26 @@
+{
+  "name": "@proj4-cli/defs",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Zoran Kokeza <zorankokeza95@gmail.com>",
+  "homepage": "https://github.com/zoran995/proj4-cli#readme",
+  "license": "MIT",
+  "main": "dist/epsg.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoran995/proj4-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "prepare": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/zoran995/proj4-cli/issues"
+  }
+}

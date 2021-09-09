@@ -1,10 +1,11 @@
 {
-  "name": "@proj4-cli/defs",
+  "name": "proj4-cli-defs",
   "version": "0.0.4",
   "description": "",
   "author": "Zoran Kokeza <zorankokeza95@gmail.com>",
   "homepage": "https://github.com/zoran995/proj4-cli#readme",
   "license": "MIT",
+  "access": "public",
   "private": false,
   "main": "dist/epsg.js",
   "directories": {
@@ -27,5 +28,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "5e9e9e1811a9c2eba26663a3050822c5a2b2e496"
+  "gitHead": "2244d9e4fb5c639bd45ed069cda08a5f7d98dcd6"
 }

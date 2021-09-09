@@ -68,13 +68,13 @@ prompt.get(properties, function (err, result) {
         });
         stringData += "}"
       } else {
-        stringData = "export const proj4def = {\r\n"
+        stringData = "export const proj4def: Record<number, string> = {\r\n"
         res.rows.map(function(row) {
           stringData = `${stringData}  ${row.srid}: "${row.proj4text}",\r\n`
         });
         stringData += "}"
       }
-      fs.writeFileSync('epsg.js', stringData);
+      fs.writeFileSync('epsg.ts', stringData);
     } else {
       onErr(err);
     }

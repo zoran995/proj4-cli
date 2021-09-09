@@ -4,7 +4,8 @@
   "description": "A Node.js cli to generate one easy-to-use file for proj4js of all epsg definitions from PostGIS ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "tsc"
   },
   "author": "Zoran Kokeza",
   "license": "MIT",
@@ -12,5 +13,14 @@
   "dependencies": {
     "pg": "^8.6.0",
     "prompt": "^1.1.0"
-  }
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "files": [
+    "./index.js",
+    "epsg.ts",
+    "dist"
+  ],
+  "types": "dist/epsg.d.ts"
 }

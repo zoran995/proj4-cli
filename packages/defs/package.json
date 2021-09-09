@@ -23,5 +23,9 @@
   },
   "bugs": {
     "url": "https://github.com/zoran995/proj4-cli/issues"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "5e9e9e1811a9c2eba26663a3050822c5a2b2e496"
 }

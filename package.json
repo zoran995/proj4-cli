@@ -1,6 +1,6 @@
 {
   "name": "proj4-cli-defs",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A Node.js cli to generate one easy-to-use file for proj4js of all epsg definitions from PostGIS ",
   "main": "index.js",
   "access": "public",

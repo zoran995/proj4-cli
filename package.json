@@ -3,6 +3,8 @@
   "version": "1.0.1-1",
   "description": "A Node.js cli to generate one easy-to-use file for proj4js of all epsg definitions from PostGIS ",
   "main": "index.js",
+  "access": "public",
+  "private": false,
   "scripts": {
     "build": "tsc",
     "generate": "node scripts/generate.ts",
@@ -35,5 +37,12 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoran995/proj4-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/zoran995/proj4-cli/issues"
+  }
 }

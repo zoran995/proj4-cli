@@ -21,9 +21,13 @@
     "typescript": "^5.9.3"
   },
   "exports": {
-    ".": {
+    "./espg.js": {
       "import": "./dist/epsg.js",
       "types": "./dist/epsg.d.ts"
+    },
+    "./espg-fn.js": {
+      "import": "./dist/epsg-fn.js",
+      "types": "./dist/epsg-fn.d.ts"
     }
   },
   "files": [

@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgis/postgis:latest
+    platform: linux/amd64
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+      POSTGRES_DB: proj4-cli
+    ports:
+      - 5432:5432

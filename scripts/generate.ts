@@ -3,6 +3,7 @@
 import { Client, type QueryResult } from "pg";
 import fs from "node:fs";
 import { Command } from "commander";
+import prettier from "prettier";
 
 type Options = {
   host: string;
@@ -62,7 +63,7 @@ client.connect();
 
 client.query<SpatialRefRow>(
   `SELECT srid,trim(proj4text) as proj4text from spatial_ref_sys where proj4text != '';`,
-  (err, res: QueryResult<SpatialRefRow>) => {
+  async (err, res: QueryResult<SpatialRefRow>) => {
     if (err) {
       console.error("Database error:", err);
       client.end();
@@ -86,7 +87,12 @@ client.query<SpatialRefRow>(
       stringData += "}";
     }
 
-    fs.writeFileSync(options.filename, stringData);
+    const formatted = await prettier.format(stringData, {
+      parser: "typescript",
+      filepath: options.filename,
+    });
+
+    fs.writeFileSync(options.filename, formatted);
     console.log(`Successfully generated ${options.filename}`);
 
     client.end();

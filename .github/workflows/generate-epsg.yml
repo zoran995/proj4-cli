@@ -1,0 +1,78 @@
+name: Generate EPSG Definitions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0" # Weekly on Sunday at midnight UTC
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgis/postgis:latest
+        env:
+          POSTGRES_USER: admin
+          POSTGRES_PASSWORD: admin
+          POSTGRES_DB: proj4-cli
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate EPSG definitions function
+        run: |
+          node scripts/generate.ts \
+            --host localhost \
+            --port 5432 \
+            --database proj4-cli \
+            --username admin \
+            --password admin \
+            --filename epsg-fn.ts \
+            --function
+
+      - name: Generate EPSG definitions object
+        run: |
+          node scripts/generate.ts \
+            --host localhost \
+            --port 5432 \
+            --database proj4-cli \
+            --username admin \
+            --password admin \
+            --filename epsg.ts \
+            --object
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code epsg.ts || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add epsg.ts
+          git add epsg-fn.ts
+          git commit -m "chore: update EPSG definitions from PostGIS"
+          git push

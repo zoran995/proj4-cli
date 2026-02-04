@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc",
     "generate": "node scripts/generate.ts",
+    "format": "prettier --write .",
     "preversion": "npm run build"
   },
   "type": "module",
@@ -18,6 +19,7 @@
     "@types/pg": "^8.16.0",
     "commander": "^14.0.3",
     "pg": "^8.18.0",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3"
   },
   "exports": {

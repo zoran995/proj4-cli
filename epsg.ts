@@ -4745,387 +4745,752 @@ export const proj4def: Record<number, string> = {
   8991: "+proj=longlat +ellps=GRS80 +no_defs",
   8992: "+proj=longlat +ellps=GRS80 +no_defs",
   8993: "+proj=longlat +ellps=GRS80 +no_defs",
-  20004: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=4500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20005: "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=5500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20006: "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20007: "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20008: "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20009: "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=9500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20010: "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=10500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20011: "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=11500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20012: "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=12500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20013: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20014: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=14500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20015: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=15500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20016: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=16500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20017: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=17500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20018: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=18500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20019: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20020: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=20500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20021: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=21500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20022: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=22500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20023: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=23500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20024: "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=24500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20025: "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=25500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20026: "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=26500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20027: "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=27500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20028: "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=28500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20029: "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=29500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20030: "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=30500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20031: "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=31500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20032: "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=32500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20064: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20065: "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20066: "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20067: "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20068: "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20069: "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20070: "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20071: "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20072: "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20073: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20074: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20075: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20076: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20077: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20078: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20079: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20080: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20081: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20082: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20083: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20084: "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20085: "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20086: "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20087: "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20088: "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20089: "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20090: "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20091: "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20092: "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
-  20135: "+proj=utm +zone=35 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
-  20136: "+proj=utm +zone=36 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
-  20137: "+proj=utm +zone=37 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
-  20138: "+proj=utm +zone=38 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
-  20248: "+proj=utm +zone=48 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20249: "+proj=utm +zone=49 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20250: "+proj=utm +zone=50 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20251: "+proj=utm +zone=51 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20252: "+proj=utm +zone=52 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20253: "+proj=utm +zone=53 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20254: "+proj=utm +zone=54 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20004:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=4500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20005:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=5500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20006:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20007:
+    "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20008:
+    "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20009:
+    "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=9500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20010:
+    "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=10500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20011:
+    "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=11500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20012:
+    "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=12500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20013:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20014:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=14500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20015:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=15500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20016:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=16500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20017:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=17500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20018:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=18500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20019:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20020:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=20500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20021:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=21500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20022:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=22500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20023:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=23500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20024:
+    "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=24500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20025:
+    "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=25500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20026:
+    "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=26500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20027:
+    "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=27500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20028:
+    "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=28500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20029:
+    "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=29500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20030:
+    "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=30500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20031:
+    "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=31500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20032:
+    "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=32500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20064:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20065:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20066:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20067:
+    "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20068:
+    "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20069:
+    "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20070:
+    "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20071:
+    "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20072:
+    "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20073:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20074:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20075:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20076:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20077:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20078:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20079:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20080:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20081:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20082:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20083:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20084:
+    "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20085:
+    "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20086:
+    "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20087:
+    "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20088:
+    "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20089:
+    "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20090:
+    "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20091:
+    "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20092:
+    "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=24.47,-130.89,-81.56,0,0,0.13,-0.22 +units=m +no_defs",
+  20135:
+    "+proj=utm +zone=35 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
+  20136:
+    "+proj=utm +zone=36 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
+  20137:
+    "+proj=utm +zone=37 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
+  20138:
+    "+proj=utm +zone=38 +ellps=clrk80 +towgs84=-166,-15,204,0,0,0,0 +units=m +no_defs",
+  20248:
+    "+proj=utm +zone=48 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20249:
+    "+proj=utm +zone=49 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20250:
+    "+proj=utm +zone=50 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20251:
+    "+proj=utm +zone=51 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20252:
+    "+proj=utm +zone=52 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20253:
+    "+proj=utm +zone=53 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20254:
+    "+proj=utm +zone=54 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
   37251: "+proj=longlat +ellps=intl +no_defs",
-  20255: "+proj=utm +zone=55 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20256: "+proj=utm +zone=56 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20257: "+proj=utm +zone=57 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20258: "+proj=utm +zone=58 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
-  20348: "+proj=utm +zone=48 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20349: "+proj=utm +zone=49 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20350: "+proj=utm +zone=50 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20351: "+proj=utm +zone=51 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20352: "+proj=utm +zone=52 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20255:
+    "+proj=utm +zone=55 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20256:
+    "+proj=utm +zone=56 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20257:
+    "+proj=utm +zone=57 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20258:
+    "+proj=utm +zone=58 +south +ellps=aust_SA +towgs84=-117.808,-51.536,137.784,0.303,0.446,0.234,-0.29 +units=m +no_defs",
+  20348:
+    "+proj=utm +zone=48 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20349:
+    "+proj=utm +zone=49 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20350:
+    "+proj=utm +zone=50 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20351:
+    "+proj=utm +zone=51 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20352:
+    "+proj=utm +zone=52 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
   37252: "+proj=longlat +ellps=clrk66 +no_defs",
-  20353: "+proj=utm +zone=53 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20354: "+proj=utm +zone=54 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20355: "+proj=utm +zone=55 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20356: "+proj=utm +zone=56 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20357: "+proj=utm +zone=57 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20358: "+proj=utm +zone=58 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
-  20436: "+proj=utm +zone=36 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
-  20437: "+proj=utm +zone=37 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
-  20438: "+proj=utm +zone=38 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
-  20439: "+proj=utm +zone=39 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
-  20440: "+proj=utm +zone=40 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
-  20499: "+proj=utm +zone=39 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
-  20538: "+proj=utm +zone=38 +ellps=krass +towgs84=-43,-163,45,0,0,0,0 +units=m +no_defs",
-  20539: "+proj=utm +zone=39 +ellps=krass +towgs84=-43,-163,45,0,0,0,0 +units=m +no_defs",
-  20790: "+proj=tmerc +lat_0=39.66666666666666 +lon_0=1 +k=1 +x_0=200000 +y_0=300000 +ellps=intl +towgs84=-304.046,-60.576,103.64,0,0,0,0 +pm=lisbon +units=m +no_defs",
-  20791: "+proj=tmerc +lat_0=39.66666666666666 +lon_0=1 +k=1 +x_0=0 +y_0=0 +ellps=intl +towgs84=-304.046,-60.576,103.64,0,0,0,0 +pm=lisbon +units=m +no_defs",
-  20822: "+proj=utm +zone=22 +south +ellps=intl +towgs84=-151.99,287.04,-147.45,0,0,0,0 +units=m +no_defs",
-  20823: "+proj=utm +zone=23 +south +ellps=intl +towgs84=-151.99,287.04,-147.45,0,0,0,0 +units=m +no_defs",
-  20824: "+proj=utm +zone=24 +south +ellps=intl +towgs84=-151.99,287.04,-147.45,0,0,0,0 +units=m +no_defs",
-  20934: "+proj=utm +zone=34 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-143,-90,-294,0,0,0,0 +units=m +no_defs",
-  20935: "+proj=utm +zone=35 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-143,-90,-294,0,0,0,0 +units=m +no_defs",
-  20936: "+proj=utm +zone=36 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-143,-90,-294,0,0,0,0 +units=m +no_defs",
-  21035: "+proj=utm +zone=35 +south +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
-  21036: "+proj=utm +zone=36 +south +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
-  21037: "+proj=utm +zone=37 +south +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
-  21095: "+proj=utm +zone=35 +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
-  21096: "+proj=utm +zone=36 +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
-  21097: "+proj=utm +zone=37 +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
-  21100: "+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +pm=jakarta +units=m +no_defs",
-  21148: "+proj=utm +zone=48 +south +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +units=m +no_defs",
-  21149: "+proj=utm +zone=49 +south +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +units=m +no_defs",
-  21150: "+proj=utm +zone=50 +south +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +units=m +no_defs",
-  21291: "+proj=tmerc +lat_0=0 +lon_0=-62 +k=0.9995000000000001 +x_0=400000 +y_0=0 +ellps=clrk80 +towgs84=31.95,300.99,419.19,0,0,0,0 +units=m +no_defs",
-  21292: "+proj=tmerc +lat_0=13.17638888888889 +lon_0=-59.55972222222222 +k=0.9999986 +x_0=30000 +y_0=75000 +ellps=clrk80 +towgs84=31.95,300.99,419.19,0,0,0,0 +units=m +no_defs",
-  21413: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21414: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=14500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21415: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=15500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21416: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=16500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21417: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=17500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21418: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=18500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21419: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21420: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=20500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21421: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=21500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21422: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=22500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21423: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=23500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21453: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21454: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21455: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21456: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21457: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21458: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21459: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21460: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21461: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21462: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21463: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21473: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21474: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21475: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21476: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21477: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21478: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21479: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21480: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21481: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21482: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21483: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
-  21500: "+proj=lcc +lat_1=49.83333333333334 +lat_2=51.16666666666666 +lat_0=90 +lon_0=0 +x_0=150000 +y_0=5400000 +ellps=intl +pm=brussels +units=m +no_defs",
-  21780: "+proj=somerc +lat_0=46.95240555555556 +lon_0=0 +k_0=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +pm=bern +units=m +no_defs",
+  20353:
+    "+proj=utm +zone=53 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20354:
+    "+proj=utm +zone=54 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20355:
+    "+proj=utm +zone=55 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20356:
+    "+proj=utm +zone=56 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20357:
+    "+proj=utm +zone=57 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20358:
+    "+proj=utm +zone=58 +south +ellps=aust_SA +towgs84=-134,-48,149,0,0,0,0 +units=m +no_defs",
+  20436:
+    "+proj=utm +zone=36 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
+  20437:
+    "+proj=utm +zone=37 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
+  20438:
+    "+proj=utm +zone=38 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
+  20439:
+    "+proj=utm +zone=39 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
+  20440:
+    "+proj=utm +zone=40 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
+  20499:
+    "+proj=utm +zone=39 +ellps=intl +towgs84=-143,-236,7,0,0,0,0 +units=m +no_defs",
+  20538:
+    "+proj=utm +zone=38 +ellps=krass +towgs84=-43,-163,45,0,0,0,0 +units=m +no_defs",
+  20539:
+    "+proj=utm +zone=39 +ellps=krass +towgs84=-43,-163,45,0,0,0,0 +units=m +no_defs",
+  20790:
+    "+proj=tmerc +lat_0=39.66666666666666 +lon_0=1 +k=1 +x_0=200000 +y_0=300000 +ellps=intl +towgs84=-304.046,-60.576,103.64,0,0,0,0 +pm=lisbon +units=m +no_defs",
+  20791:
+    "+proj=tmerc +lat_0=39.66666666666666 +lon_0=1 +k=1 +x_0=0 +y_0=0 +ellps=intl +towgs84=-304.046,-60.576,103.64,0,0,0,0 +pm=lisbon +units=m +no_defs",
+  20822:
+    "+proj=utm +zone=22 +south +ellps=intl +towgs84=-151.99,287.04,-147.45,0,0,0,0 +units=m +no_defs",
+  20823:
+    "+proj=utm +zone=23 +south +ellps=intl +towgs84=-151.99,287.04,-147.45,0,0,0,0 +units=m +no_defs",
+  20824:
+    "+proj=utm +zone=24 +south +ellps=intl +towgs84=-151.99,287.04,-147.45,0,0,0,0 +units=m +no_defs",
+  20934:
+    "+proj=utm +zone=34 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-143,-90,-294,0,0,0,0 +units=m +no_defs",
+  20935:
+    "+proj=utm +zone=35 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-143,-90,-294,0,0,0,0 +units=m +no_defs",
+  20936:
+    "+proj=utm +zone=36 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-143,-90,-294,0,0,0,0 +units=m +no_defs",
+  21035:
+    "+proj=utm +zone=35 +south +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
+  21036:
+    "+proj=utm +zone=36 +south +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
+  21037:
+    "+proj=utm +zone=37 +south +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
+  21095:
+    "+proj=utm +zone=35 +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
+  21096:
+    "+proj=utm +zone=36 +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
+  21097:
+    "+proj=utm +zone=37 +ellps=clrk80 +towgs84=-160,-6,-302,0,0,0,0 +units=m +no_defs",
+  21100:
+    "+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +pm=jakarta +units=m +no_defs",
+  21148:
+    "+proj=utm +zone=48 +south +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +units=m +no_defs",
+  21149:
+    "+proj=utm +zone=49 +south +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +units=m +no_defs",
+  21150:
+    "+proj=utm +zone=50 +south +ellps=bessel +towgs84=-377,681,-50,0,0,0,0 +units=m +no_defs",
+  21291:
+    "+proj=tmerc +lat_0=0 +lon_0=-62 +k=0.9995000000000001 +x_0=400000 +y_0=0 +ellps=clrk80 +towgs84=31.95,300.99,419.19,0,0,0,0 +units=m +no_defs",
+  21292:
+    "+proj=tmerc +lat_0=13.17638888888889 +lon_0=-59.55972222222222 +k=0.9999986 +x_0=30000 +y_0=75000 +ellps=clrk80 +towgs84=31.95,300.99,419.19,0,0,0,0 +units=m +no_defs",
+  21413:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21414:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=14500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21415:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=15500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21416:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=16500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21417:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=17500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21418:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=18500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21419:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21420:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=20500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21421:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=21500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21422:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=22500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21423:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=23500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21453:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21454:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21455:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21456:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21457:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21458:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21459:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21460:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21461:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21462:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21463:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21473:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21474:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21475:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21476:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21477:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21478:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21479:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21480:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21481:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21482:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21483:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=15.8,-154.4,-82.3,0,0,0,0 +units=m +no_defs",
+  21500:
+    "+proj=lcc +lat_1=49.83333333333334 +lat_2=51.16666666666666 +lat_0=90 +lon_0=0 +x_0=150000 +y_0=5400000 +ellps=intl +pm=brussels +units=m +no_defs",
+  21780:
+    "+proj=somerc +lat_0=46.95240555555556 +lon_0=0 +k_0=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +pm=bern +units=m +no_defs",
   32605: "+proj=utm +zone=5 +datum=WGS84 +units=m +no_defs",
-  21781: "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs",
-  21782: "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs",
-  21817: "+proj=utm +zone=17 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21818: "+proj=utm +zone=18 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21891: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-77.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21892: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-74.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21893: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-71.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21894: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-68.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21896: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-77.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21897: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-74.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21898: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-71.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  21899: "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-68.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
-  22032: "+proj=utm +zone=32 +south +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
-  22033: "+proj=utm +zone=33 +south +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
-  22091: "+proj=tmerc +lat_0=0 +lon_0=11.5 +k=0.9996 +x_0=500000 +y_0=10000000 +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
-  22092: "+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9996 +x_0=500000 +y_0=10000000 +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
-  22171: "+proj=tmerc +lat_0=-90 +lon_0=-72 +k=1 +x_0=1500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22172: "+proj=tmerc +lat_0=-90 +lon_0=-69 +k=1 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22173: "+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22174: "+proj=tmerc +lat_0=-90 +lon_0=-63 +k=1 +x_0=4500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22175: "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22176: "+proj=tmerc +lat_0=-90 +lon_0=-57 +k=1 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22177: "+proj=tmerc +lat_0=-90 +lon_0=-54 +k=1 +x_0=7500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22181: "+proj=tmerc +lat_0=-90 +lon_0=-72 +k=1 +x_0=1500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22182: "+proj=tmerc +lat_0=-90 +lon_0=-69 +k=1 +x_0=2500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22183: "+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22184: "+proj=tmerc +lat_0=-90 +lon_0=-63 +k=1 +x_0=4500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22185: "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22186: "+proj=tmerc +lat_0=-90 +lon_0=-57 +k=1 +x_0=6500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22187: "+proj=tmerc +lat_0=-90 +lon_0=-54 +k=1 +x_0=7500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  22191: "+proj=tmerc +lat_0=-90 +lon_0=-72 +k=1 +x_0=1500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22192: "+proj=tmerc +lat_0=-90 +lon_0=-69 +k=1 +x_0=2500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22193: "+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22194: "+proj=tmerc +lat_0=-90 +lon_0=-63 +k=1 +x_0=4500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22195: "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22196: "+proj=tmerc +lat_0=-90 +lon_0=-57 +k=1 +x_0=6500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22197: "+proj=tmerc +lat_0=-90 +lon_0=-54 +k=1 +x_0=7500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
-  22234: "+proj=utm +zone=34 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22235: "+proj=utm +zone=35 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22236: "+proj=utm +zone=36 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22275: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22277: "+proj=tmerc +lat_0=0 +lon_0=17 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22279: "+proj=tmerc +lat_0=0 +lon_0=19 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22281: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22283: "+proj=tmerc +lat_0=0 +lon_0=23 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22285: "+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22287: "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22289: "+proj=tmerc +lat_0=0 +lon_0=29 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  23028: "+proj=utm +zone=28 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  22291: "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
-  22293: "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  21781:
+    "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=600000 +y_0=200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs",
+  21782:
+    "+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs",
+  21817:
+    "+proj=utm +zone=17 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21818:
+    "+proj=utm +zone=18 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21891:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-77.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21892:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-74.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21893:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-71.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21894:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-68.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21896:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-77.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21897:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-74.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21898:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-71.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  21899:
+    "+proj=tmerc +lat_0=4.599047222222222 +lon_0=-68.08091666666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +towgs84=307,304,-318,0,0,0,0 +units=m +no_defs",
+  22032:
+    "+proj=utm +zone=32 +south +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
+  22033:
+    "+proj=utm +zone=33 +south +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
+  22091:
+    "+proj=tmerc +lat_0=0 +lon_0=11.5 +k=0.9996 +x_0=500000 +y_0=10000000 +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
+  22092:
+    "+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9996 +x_0=500000 +y_0=10000000 +ellps=clrk80 +towgs84=-50.9,-347.6,-231,0,0,0,0 +units=m +no_defs",
+  22171:
+    "+proj=tmerc +lat_0=-90 +lon_0=-72 +k=1 +x_0=1500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22172:
+    "+proj=tmerc +lat_0=-90 +lon_0=-69 +k=1 +x_0=2500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22173:
+    "+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22174:
+    "+proj=tmerc +lat_0=-90 +lon_0=-63 +k=1 +x_0=4500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22175:
+    "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22176:
+    "+proj=tmerc +lat_0=-90 +lon_0=-57 +k=1 +x_0=6500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22177:
+    "+proj=tmerc +lat_0=-90 +lon_0=-54 +k=1 +x_0=7500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22181:
+    "+proj=tmerc +lat_0=-90 +lon_0=-72 +k=1 +x_0=1500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22182:
+    "+proj=tmerc +lat_0=-90 +lon_0=-69 +k=1 +x_0=2500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22183:
+    "+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22184:
+    "+proj=tmerc +lat_0=-90 +lon_0=-63 +k=1 +x_0=4500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22185:
+    "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22186:
+    "+proj=tmerc +lat_0=-90 +lon_0=-57 +k=1 +x_0=6500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22187:
+    "+proj=tmerc +lat_0=-90 +lon_0=-54 +k=1 +x_0=7500000 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  22191:
+    "+proj=tmerc +lat_0=-90 +lon_0=-72 +k=1 +x_0=1500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22192:
+    "+proj=tmerc +lat_0=-90 +lon_0=-69 +k=1 +x_0=2500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22193:
+    "+proj=tmerc +lat_0=-90 +lon_0=-66 +k=1 +x_0=3500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22194:
+    "+proj=tmerc +lat_0=-90 +lon_0=-63 +k=1 +x_0=4500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22195:
+    "+proj=tmerc +lat_0=-90 +lon_0=-60 +k=1 +x_0=5500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22196:
+    "+proj=tmerc +lat_0=-90 +lon_0=-57 +k=1 +x_0=6500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22197:
+    "+proj=tmerc +lat_0=-90 +lon_0=-54 +k=1 +x_0=7500000 +y_0=0 +ellps=intl +towgs84=-148,136,90,0,0,0,0 +units=m +no_defs",
+  22234:
+    "+proj=utm +zone=34 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22235:
+    "+proj=utm +zone=35 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22236:
+    "+proj=utm +zone=36 +south +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22275:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22277:
+    "+proj=tmerc +lat_0=0 +lon_0=17 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22279:
+    "+proj=tmerc +lat_0=0 +lon_0=19 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22281:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22283:
+    "+proj=tmerc +lat_0=0 +lon_0=23 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22285:
+    "+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22287:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22289:
+    "+proj=tmerc +lat_0=0 +lon_0=29 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  23028:
+    "+proj=utm +zone=28 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  22291:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
+  22293:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=0 +y_0=0 +axis=wsu +a=6378249.145 +b=6356514.966398753 +towgs84=-136,-108,-292,0,0,0,0 +units=m +no_defs",
   22332: "+proj=utm +zone=32 +datum=carthage +units=m +no_defs",
-  22391: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=9.9 +k_0=0.999625544 +x_0=500000 +y_0=300000 +datum=carthage +units=m +no_defs",
-  22392: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=9.9 +k_0=0.999625769 +x_0=500000 +y_0=300000 +datum=carthage +units=m +no_defs",
-  22521: "+proj=utm +zone=21 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
-  22522: "+proj=utm +zone=22 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
-  22523: "+proj=utm +zone=23 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
-  22524: "+proj=utm +zone=24 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
-  22525: "+proj=utm +zone=25 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
-  22700: "+proj=lcc +lat_1=34.65 +lat_0=34.65 +lon_0=37.35 +k_0=0.9996256 +x_0=300000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-190.421,8.532,238.69,0,0,0,0 +units=m +no_defs",
-  22770: "+proj=lcc +lat_1=34.65 +lat_0=34.65 +lon_0=37.35 +k_0=0.9996256 +x_0=300000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-190.421,8.532,238.69,0,0,0,0 +units=m +no_defs",
-  22780: "+proj=sterea +lat_0=34.2 +lon_0=39.15 +k=0.9995341 +x_0=0 +y_0=0 +a=6378249.2 +b=6356515 +towgs84=-190.421,8.532,238.69,0,0,0,0 +units=m +no_defs",
+  22391:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=9.9 +k_0=0.999625544 +x_0=500000 +y_0=300000 +datum=carthage +units=m +no_defs",
+  22392:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=9.9 +k_0=0.999625769 +x_0=500000 +y_0=300000 +datum=carthage +units=m +no_defs",
+  22521:
+    "+proj=utm +zone=21 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
+  22522:
+    "+proj=utm +zone=22 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
+  22523:
+    "+proj=utm +zone=23 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
+  22524:
+    "+proj=utm +zone=24 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
+  22525:
+    "+proj=utm +zone=25 +south +ellps=intl +towgs84=-205.57,168.77,-4.12,0,0,0,0 +units=m +no_defs",
+  22700:
+    "+proj=lcc +lat_1=34.65 +lat_0=34.65 +lon_0=37.35 +k_0=0.9996256 +x_0=300000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-190.421,8.532,238.69,0,0,0,0 +units=m +no_defs",
+  22770:
+    "+proj=lcc +lat_1=34.65 +lat_0=34.65 +lon_0=37.35 +k_0=0.9996256 +x_0=300000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-190.421,8.532,238.69,0,0,0,0 +units=m +no_defs",
+  22780:
+    "+proj=sterea +lat_0=34.2 +lon_0=39.15 +k=0.9995341 +x_0=0 +y_0=0 +a=6378249.2 +b=6356515 +towgs84=-190.421,8.532,238.69,0,0,0,0 +units=m +no_defs",
   22832: "+proj=utm +zone=32 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  22991: "+proj=tmerc +lat_0=30 +lon_0=35 +k=1 +x_0=300000 +y_0=1100000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
-  22992: "+proj=tmerc +lat_0=30 +lon_0=31 +k=1 +x_0=615000 +y_0=810000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
-  22993: "+proj=tmerc +lat_0=30 +lon_0=27 +k=1 +x_0=700000 +y_0=200000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
-  22994: "+proj=tmerc +lat_0=30 +lon_0=27 +k=1 +x_0=700000 +y_0=1200000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
+  22991:
+    "+proj=tmerc +lat_0=30 +lon_0=35 +k=1 +x_0=300000 +y_0=1100000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
+  22992:
+    "+proj=tmerc +lat_0=30 +lon_0=31 +k=1 +x_0=615000 +y_0=810000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
+  22993:
+    "+proj=tmerc +lat_0=30 +lon_0=27 +k=1 +x_0=700000 +y_0=200000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
+  22994:
+    "+proj=tmerc +lat_0=30 +lon_0=27 +k=1 +x_0=700000 +y_0=1200000 +ellps=helmert +towgs84=-130,110,-13,0,0,0,0 +units=m +no_defs",
   37253: "+proj=longlat +ellps=intl +no_defs",
-  23029: "+proj=utm +zone=29 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23030: "+proj=utm +zone=30 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23031: "+proj=utm +zone=31 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23032: "+proj=utm +zone=32 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23033: "+proj=utm +zone=33 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23034: "+proj=utm +zone=34 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23035: "+proj=utm +zone=35 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23036: "+proj=utm +zone=36 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23037: "+proj=utm +zone=37 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23038: "+proj=utm +zone=38 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23029:
+    "+proj=utm +zone=29 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23030:
+    "+proj=utm +zone=30 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23031:
+    "+proj=utm +zone=31 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23032:
+    "+proj=utm +zone=32 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23033:
+    "+proj=utm +zone=33 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23034:
+    "+proj=utm +zone=34 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23035:
+    "+proj=utm +zone=35 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23036:
+    "+proj=utm +zone=36 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23037:
+    "+proj=utm +zone=37 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23038:
+    "+proj=utm +zone=38 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
   37254: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  23090: "+proj=tmerc +lat_0=0 +lon_0=0 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23095: "+proj=tmerc +lat_0=0 +lon_0=5 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
-  23239: "+proj=utm +zone=39 +ellps=clrk80 +towgs84=-333.102,-11.02,230.69,0,0,0.554,0.219 +units=m +no_defs",
-  23240: "+proj=utm +zone=40 +ellps=clrk80 +towgs84=-333.102,-11.02,230.69,0,0,0.554,0.219 +units=m +no_defs",
+  23090:
+    "+proj=tmerc +lat_0=0 +lon_0=0 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23095:
+    "+proj=tmerc +lat_0=0 +lon_0=5 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-87,-98,-121,0,0,0,0 +units=m +no_defs",
+  23239:
+    "+proj=utm +zone=39 +ellps=clrk80 +towgs84=-333.102,-11.02,230.69,0,0,0.554,0.219 +units=m +no_defs",
+  23240:
+    "+proj=utm +zone=40 +ellps=clrk80 +towgs84=-333.102,-11.02,230.69,0,0,0.554,0.219 +units=m +no_defs",
   23433: "+proj=utm +zone=33 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  23700: "+proj=somerc +lat_0=47.14439372222222 +lon_0=19.04857177777778 +k_0=0.99993 +x_0=650000 +y_0=200000 +ellps=GRS67 +towgs84=52.17,-71.82,-14.9,0,0,0,0 +units=m +no_defs",
-  23830: "+proj=tmerc +lat_0=0 +lon_0=94.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23831: "+proj=tmerc +lat_0=0 +lon_0=97.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23832: "+proj=tmerc +lat_0=0 +lon_0=100.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23700:
+    "+proj=somerc +lat_0=47.14439372222222 +lon_0=19.04857177777778 +k_0=0.99993 +x_0=650000 +y_0=200000 +ellps=GRS67 +towgs84=52.17,-71.82,-14.9,0,0,0,0 +units=m +no_defs",
+  23830:
+    "+proj=tmerc +lat_0=0 +lon_0=94.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23831:
+    "+proj=tmerc +lat_0=0 +lon_0=97.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23832:
+    "+proj=tmerc +lat_0=0 +lon_0=100.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
   26707: "+proj=utm +zone=7 +datum=NAD27 +units=m +no_defs",
-  23833: "+proj=tmerc +lat_0=0 +lon_0=103.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23834: "+proj=tmerc +lat_0=0 +lon_0=106.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23835: "+proj=tmerc +lat_0=0 +lon_0=109.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23836: "+proj=tmerc +lat_0=0 +lon_0=112.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23837: "+proj=tmerc +lat_0=0 +lon_0=115.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23838: "+proj=tmerc +lat_0=0 +lon_0=118.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23839: "+proj=tmerc +lat_0=0 +lon_0=121.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23840: "+proj=tmerc +lat_0=0 +lon_0=124.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23841: "+proj=tmerc +lat_0=0 +lon_0=127.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23833:
+    "+proj=tmerc +lat_0=0 +lon_0=103.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23834:
+    "+proj=tmerc +lat_0=0 +lon_0=106.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23835:
+    "+proj=tmerc +lat_0=0 +lon_0=109.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23836:
+    "+proj=tmerc +lat_0=0 +lon_0=112.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23837:
+    "+proj=tmerc +lat_0=0 +lon_0=115.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23838:
+    "+proj=tmerc +lat_0=0 +lon_0=118.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23839:
+    "+proj=tmerc +lat_0=0 +lon_0=121.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23840:
+    "+proj=tmerc +lat_0=0 +lon_0=124.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23841:
+    "+proj=tmerc +lat_0=0 +lon_0=127.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
   26708: "+proj=utm +zone=8 +datum=NAD27 +units=m +no_defs",
-  23842: "+proj=tmerc +lat_0=0 +lon_0=130.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23843: "+proj=tmerc +lat_0=0 +lon_0=133.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23844: "+proj=tmerc +lat_0=0 +lon_0=136.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23845: "+proj=tmerc +lat_0=0 +lon_0=139.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23846: "+proj=utm +zone=46 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23847: "+proj=utm +zone=47 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23848: "+proj=utm +zone=48 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23849: "+proj=utm +zone=49 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23850: "+proj=utm +zone=50 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23851: "+proj=utm +zone=51 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23852: "+proj=utm +zone=52 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23853: "+proj=utm +zone=53 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23866: "+proj=utm +zone=46 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23867: "+proj=utm +zone=47 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23868: "+proj=utm +zone=48 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23869: "+proj=utm +zone=49 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23870: "+proj=utm +zone=50 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23871: "+proj=utm +zone=51 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23872: "+proj=utm +zone=52 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23877: "+proj=utm +zone=47 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23842:
+    "+proj=tmerc +lat_0=0 +lon_0=130.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23843:
+    "+proj=tmerc +lat_0=0 +lon_0=133.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23844:
+    "+proj=tmerc +lat_0=0 +lon_0=136.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23845:
+    "+proj=tmerc +lat_0=0 +lon_0=139.5 +k=0.9999 +x_0=200000 +y_0=1500000 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23846:
+    "+proj=utm +zone=46 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23847:
+    "+proj=utm +zone=47 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23848:
+    "+proj=utm +zone=48 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23849:
+    "+proj=utm +zone=49 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23850:
+    "+proj=utm +zone=50 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23851:
+    "+proj=utm +zone=51 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23852:
+    "+proj=utm +zone=52 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23853:
+    "+proj=utm +zone=53 +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23866:
+    "+proj=utm +zone=46 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23867:
+    "+proj=utm +zone=47 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23868:
+    "+proj=utm +zone=48 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23869:
+    "+proj=utm +zone=49 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23870:
+    "+proj=utm +zone=50 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23871:
+    "+proj=utm +zone=51 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23872:
+    "+proj=utm +zone=52 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23877:
+    "+proj=utm +zone=47 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
   104924: "+proj=longlat +R=49300 +no_defs",
-  23878: "+proj=utm +zone=48 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23879: "+proj=utm +zone=49 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23880: "+proj=utm +zone=50 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23881: "+proj=utm +zone=51 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23882: "+proj=utm +zone=52 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23883: "+proj=utm +zone=53 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23884: "+proj=utm +zone=54 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  23886: "+proj=utm +zone=46 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23887: "+proj=utm +zone=47 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23888: "+proj=utm +zone=48 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23889: "+proj=utm +zone=49 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23890: "+proj=utm +zone=50 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23891: "+proj=utm +zone=51 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23892: "+proj=utm +zone=52 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23893: "+proj=utm +zone=53 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23894: "+proj=utm +zone=54 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
-  23946: "+proj=utm +zone=46 +a=6377276.345 +b=6356075.41314024 +towgs84=217,823,299,0,0,0,0 +units=m +no_defs",
-  23947: "+proj=utm +zone=47 +a=6377276.345 +b=6356075.41314024 +towgs84=217,823,299,0,0,0,0 +units=m +no_defs",
-  23948: "+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=217,823,299,0,0,0,0 +units=m +no_defs",
-  24047: "+proj=utm +zone=47 +a=6377276.345 +b=6356075.41314024 +towgs84=210,814,289,0,0,0,0 +units=m +no_defs",
-  24048: "+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=210,814,289,0,0,0,0 +units=m +no_defs",
-  24100: "+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=167638.49597 +y_0=121918.90616 +a=6378249.144808011 +b=6356514.966204134 +to_meter=0.3047972654 +no_defs",
-  24200: "+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=250000 +y_0=150000 +ellps=clrk66 +towgs84=70,207,389.5,0,0,0,0 +units=m +no_defs",
-  24305: "+proj=utm +zone=45 +a=6377276.345 +b=6356075.41314024 +towgs84=214,804,268,0,0,0,0 +units=m +no_defs",
-  24306: "+proj=utm +zone=46 +a=6377276.345 +b=6356075.41314024 +towgs84=214,804,268,0,0,0,0 +units=m +no_defs",
-  24311: "+proj=utm +zone=41 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
-  24312: "+proj=utm +zone=42 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
-  24313: "+proj=utm +zone=43 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
-  24342: "+proj=utm +zone=42 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  23878:
+    "+proj=utm +zone=48 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23879:
+    "+proj=utm +zone=49 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23880:
+    "+proj=utm +zone=50 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23881:
+    "+proj=utm +zone=51 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23882:
+    "+proj=utm +zone=52 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23883:
+    "+proj=utm +zone=53 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23884:
+    "+proj=utm +zone=54 +south +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  23886:
+    "+proj=utm +zone=46 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23887:
+    "+proj=utm +zone=47 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23888:
+    "+proj=utm +zone=48 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23889:
+    "+proj=utm +zone=49 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23890:
+    "+proj=utm +zone=50 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23891:
+    "+proj=utm +zone=51 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23892:
+    "+proj=utm +zone=52 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23893:
+    "+proj=utm +zone=53 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23894:
+    "+proj=utm +zone=54 +south +a=6378160 +b=6356774.50408554 +towgs84=-24,-15,5,0,0,0,0 +units=m +no_defs",
+  23946:
+    "+proj=utm +zone=46 +a=6377276.345 +b=6356075.41314024 +towgs84=217,823,299,0,0,0,0 +units=m +no_defs",
+  23947:
+    "+proj=utm +zone=47 +a=6377276.345 +b=6356075.41314024 +towgs84=217,823,299,0,0,0,0 +units=m +no_defs",
+  23948:
+    "+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=217,823,299,0,0,0,0 +units=m +no_defs",
+  24047:
+    "+proj=utm +zone=47 +a=6377276.345 +b=6356075.41314024 +towgs84=210,814,289,0,0,0,0 +units=m +no_defs",
+  24048:
+    "+proj=utm +zone=48 +a=6377276.345 +b=6356075.41314024 +towgs84=210,814,289,0,0,0,0 +units=m +no_defs",
+  24100:
+    "+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=167638.49597 +y_0=121918.90616 +a=6378249.144808011 +b=6356514.966204134 +to_meter=0.3047972654 +no_defs",
+  24200:
+    "+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=250000 +y_0=150000 +ellps=clrk66 +towgs84=70,207,389.5,0,0,0,0 +units=m +no_defs",
+  24305:
+    "+proj=utm +zone=45 +a=6377276.345 +b=6356075.41314024 +towgs84=214,804,268,0,0,0,0 +units=m +no_defs",
+  24306:
+    "+proj=utm +zone=46 +a=6377276.345 +b=6356075.41314024 +towgs84=214,804,268,0,0,0,0 +units=m +no_defs",
+  24311:
+    "+proj=utm +zone=41 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
+  24312:
+    "+proj=utm +zone=42 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
+  24313:
+    "+proj=utm +zone=43 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
+  24342:
+    "+proj=utm +zone=42 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
   37255: "+proj=longlat +ellps=bessel +no_defs",
-  24343: "+proj=utm +zone=43 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24344: "+proj=utm +zone=44 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24345: "+proj=utm +zone=45 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24346: "+proj=utm +zone=46 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24347: "+proj=utm +zone=47 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24370: "+proj=lcc +lat_1=39.5 +lat_0=39.5 +lon_0=68 +k_0=0.99846154 +x_0=2153865.73916853 +y_0=2368292.194628102 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
-  24371: "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=68 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
-  24372: "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=74 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
-  24373: "+proj=lcc +lat_1=19 +lat_0=19 +lon_0=80 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
-  24374: "+proj=lcc +lat_1=12 +lat_0=12 +lon_0=80 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
-  24375: "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=90 +k_0=0.99878641 +x_0=2743185.69 +y_0=914395.23 +a=6377276.345 +b=6356075.41314024 +towgs84=214,804,268,0,0,0,0 +units=m +no_defs",
-  24376: "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=68 +k_0=0.99878641 +x_0=2743196.4 +y_0=914398.8 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
-  24377: "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=74 +k_0=0.99878641 +x_0=2743196.4 +y_0=914398.8 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
-  24378: "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=68 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24379: "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=74 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24380: "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=90 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24381: "+proj=lcc +lat_1=19 +lat_0=19 +lon_0=80 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24343:
+    "+proj=utm +zone=43 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24344:
+    "+proj=utm +zone=44 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24345:
+    "+proj=utm +zone=45 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24346:
+    "+proj=utm +zone=46 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24347:
+    "+proj=utm +zone=47 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24370:
+    "+proj=lcc +lat_1=39.5 +lat_0=39.5 +lon_0=68 +k_0=0.99846154 +x_0=2153865.73916853 +y_0=2368292.194628102 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
+  24371:
+    "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=68 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
+  24372:
+    "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=74 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
+  24373:
+    "+proj=lcc +lat_1=19 +lat_0=19 +lon_0=80 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
+  24374:
+    "+proj=lcc +lat_1=12 +lat_0=12 +lon_0=80 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
+  24375:
+    "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=90 +k_0=0.99878641 +x_0=2743185.69 +y_0=914395.23 +a=6377276.345 +b=6356075.41314024 +towgs84=214,804,268,0,0,0,0 +units=m +no_defs",
+  24376:
+    "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=68 +k_0=0.99878641 +x_0=2743196.4 +y_0=914398.8 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
+  24377:
+    "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=74 +k_0=0.99878641 +x_0=2743196.4 +y_0=914398.8 +a=6377301.243 +b=6356100.230165384 +towgs84=283,682,231,0,0,0,0 +units=m +no_defs",
+  24378:
+    "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=68 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24379:
+    "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=74 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24380:
+    "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=90 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24381:
+    "+proj=lcc +lat_1=19 +lat_0=19 +lon_0=80 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
   26709: "+proj=utm +zone=9 +datum=NAD27 +units=m +no_defs",
-  24382: "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=90 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
-  24383: "+proj=lcc +lat_1=12 +lat_0=12 +lon_0=80 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
-  24500: "+proj=cass +lat_0=1.287646666666667 +lon_0=103.8530022222222 +x_0=30000 +y_0=30000 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +units=m +no_defs",
-  24547: "+proj=utm +zone=47 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +units=m +no_defs",
-  24548: "+proj=utm +zone=48 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +units=m +no_defs",
-  24571: "+proj=omerc +lat_0=4 +lonc=102.25 +alpha=323.0257905 +k=0.99984 +x_0=804671.2997750348 +y_0=0 +no_uoff +gamma=323.1301023611111 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +to_meter=20.11678249437587 +no_defs",
-  24600: "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=45 +k_0=0.9987864078000001 +x_0=1500000 +y_0=1166200 +ellps=clrk80 +towgs84=-294.7,-200.1,525.5,0,0,0,0 +units=m +no_defs",
-  24718: "+proj=utm +zone=18 +ellps=intl +towgs84=-273.5,110.6,-357.9,0,0,0,0 +units=m +no_defs",
-  24719: "+proj=utm +zone=19 +ellps=intl +towgs84=-273.5,110.6,-357.9,0,0,0,0 +units=m +no_defs",
-  24720: "+proj=utm +zone=20 +ellps=intl +towgs84=-273.5,110.6,-357.9,0,0,0,0 +units=m +no_defs",
-  24817: "+proj=utm +zone=17 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24818: "+proj=utm +zone=18 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24819: "+proj=utm +zone=19 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24820: "+proj=utm +zone=20 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24821: "+proj=utm +zone=21 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24877: "+proj=utm +zone=17 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24878: "+proj=utm +zone=18 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24879: "+proj=utm +zone=19 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24880: "+proj=utm +zone=20 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24881: "+proj=utm +zone=21 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24882: "+proj=utm +zone=22 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24891: "+proj=tmerc +lat_0=-6 +lon_0=-80.5 +k=0.99983008 +x_0=222000 +y_0=1426834.743 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24892: "+proj=tmerc +lat_0=-9.5 +lon_0=-76 +k=0.99932994 +x_0=720000 +y_0=1039979.159 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  24893: "+proj=tmerc +lat_0=-9.5 +lon_0=-70.5 +k=0.99952992 +x_0=1324000 +y_0=1040084.558 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
-  25000: "+proj=tmerc +lat_0=4.666666666666667 +lon_0=-1 +k=0.99975 +x_0=274319.51 +y_0=0 +ellps=clrk80 +towgs84=-130,29,364,0,0,0,0 +units=m +no_defs",
+  24382:
+    "+proj=lcc +lat_1=26 +lat_0=26 +lon_0=90 +k_0=0.99878641 +x_0=2743195.592233322 +y_0=914398.5307444407 +a=6377299.36559538 +b=6356098.359005156 +to_meter=0.9143985307444408 +no_defs",
+  24383:
+    "+proj=lcc +lat_1=12 +lat_0=12 +lon_0=80 +k_0=0.99878641 +x_0=2743195.5 +y_0=914398.5 +a=6377299.151 +b=6356098.145120132 +towgs84=295,736,257,0,0,0,0 +units=m +no_defs",
+  24500:
+    "+proj=cass +lat_0=1.287646666666667 +lon_0=103.8530022222222 +x_0=30000 +y_0=30000 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +units=m +no_defs",
+  24547:
+    "+proj=utm +zone=47 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +units=m +no_defs",
+  24548:
+    "+proj=utm +zone=48 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +units=m +no_defs",
+  24571:
+    "+proj=omerc +lat_0=4 +lonc=102.25 +alpha=323.0257905 +k=0.99984 +x_0=804671.2997750348 +y_0=0 +no_uoff +gamma=323.1301023611111 +a=6377304.063 +b=6356103.038993155 +towgs84=-11,851,5,0,0,0,0 +to_meter=20.11678249437587 +no_defs",
+  24600:
+    "+proj=lcc +lat_1=32.5 +lat_0=32.5 +lon_0=45 +k_0=0.9987864078000001 +x_0=1500000 +y_0=1166200 +ellps=clrk80 +towgs84=-294.7,-200.1,525.5,0,0,0,0 +units=m +no_defs",
+  24718:
+    "+proj=utm +zone=18 +ellps=intl +towgs84=-273.5,110.6,-357.9,0,0,0,0 +units=m +no_defs",
+  24719:
+    "+proj=utm +zone=19 +ellps=intl +towgs84=-273.5,110.6,-357.9,0,0,0,0 +units=m +no_defs",
+  24720:
+    "+proj=utm +zone=20 +ellps=intl +towgs84=-273.5,110.6,-357.9,0,0,0,0 +units=m +no_defs",
+  24817:
+    "+proj=utm +zone=17 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24818:
+    "+proj=utm +zone=18 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24819:
+    "+proj=utm +zone=19 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24820:
+    "+proj=utm +zone=20 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24821:
+    "+proj=utm +zone=21 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24877:
+    "+proj=utm +zone=17 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24878:
+    "+proj=utm +zone=18 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24879:
+    "+proj=utm +zone=19 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24880:
+    "+proj=utm +zone=20 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24881:
+    "+proj=utm +zone=21 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24882:
+    "+proj=utm +zone=22 +south +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24891:
+    "+proj=tmerc +lat_0=-6 +lon_0=-80.5 +k=0.99983008 +x_0=222000 +y_0=1426834.743 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24892:
+    "+proj=tmerc +lat_0=-9.5 +lon_0=-76 +k=0.99932994 +x_0=720000 +y_0=1039979.159 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  24893:
+    "+proj=tmerc +lat_0=-9.5 +lon_0=-70.5 +k=0.99952992 +x_0=1324000 +y_0=1040084.558 +ellps=intl +towgs84=-288,175,-376,0,0,0,0 +units=m +no_defs",
+  25000:
+    "+proj=tmerc +lat_0=4.666666666666667 +lon_0=-1 +k=0.99975 +x_0=274319.51 +y_0=0 +ellps=clrk80 +towgs84=-130,29,364,0,0,0,0 +units=m +no_defs",
   25231: "+proj=utm +zone=31 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  25391: "+proj=tmerc +lat_0=0 +lon_0=117 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
-  25392: "+proj=tmerc +lat_0=0 +lon_0=119 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
+  25391:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
+  25392:
+    "+proj=tmerc +lat_0=0 +lon_0=119 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
   26710: "+proj=utm +zone=10 +datum=NAD27 +units=m +no_defs",
-  25393: "+proj=tmerc +lat_0=0 +lon_0=121 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
-  25394: "+proj=tmerc +lat_0=0 +lon_0=123 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
-  25395: "+proj=tmerc +lat_0=0 +lon_0=125 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
-  25700: "+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +towgs84=-587.8,519.75,145.76,0,0,0,0 +pm=jakarta +units=m +no_defs",
-  25828: "+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25829: "+proj=utm +zone=29 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25830: "+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25831: "+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25832: "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25833: "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25834: "+proj=utm +zone=34 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25835: "+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25836: "+proj=utm +zone=36 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25837: "+proj=utm +zone=37 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25838: "+proj=utm +zone=38 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25884: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  25932: "+proj=utm +zone=32 +south +ellps=intl +towgs84=-254.1,-5.36,-100.29,0,0,0,0 +units=m +no_defs",
-  26191: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=-5.4 +k_0=0.999625769 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
-  26192: "+proj=lcc +lat_1=29.7 +lat_0=29.7 +lon_0=-5.4 +k_0=0.9996155960000001 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
-  26193: "+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.9996 +x_0=1200000 +y_0=400000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
-  26194: "+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.999616304 +x_0=1200000 +y_0=400000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
-  26195: "+proj=lcc +lat_1=22.5 +lat_0=22.5 +lon_0=-5.4 +k_0=0.999616437 +x_0=1500000 +y_0=400000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
-  26237: "+proj=utm +zone=37 +ellps=bessel +towgs84=639,405,60,0,0,0,0 +units=m +no_defs",
-  26331: "+proj=utm +zone=31 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
-  26332: "+proj=utm +zone=32 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
-  26391: "+proj=tmerc +lat_0=4 +lon_0=4.5 +k=0.99975 +x_0=230738.26 +y_0=0 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
-  26392: "+proj=tmerc +lat_0=4 +lon_0=8.5 +k=0.99975 +x_0=670553.98 +y_0=0 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
-  26393: "+proj=tmerc +lat_0=4 +lon_0=12.5 +k=0.99975 +x_0=1110369.7 +y_0=0 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
-  26432: "+proj=utm +zone=32 +south +ellps=intl +towgs84=-252.95,-4.11,-96.38,0,0,0,0 +units=m +no_defs",
+  25393:
+    "+proj=tmerc +lat_0=0 +lon_0=121 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
+  25394:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
+  25395:
+    "+proj=tmerc +lat_0=0 +lon_0=125 +k=0.99995 +x_0=500000 +y_0=0 +ellps=clrk66 +towgs84=-133,-77,-51,0,0,0,0 +units=m +no_defs",
+  25700:
+    "+proj=merc +lon_0=110 +k=0.997 +x_0=3900000 +y_0=900000 +ellps=bessel +towgs84=-587.8,519.75,145.76,0,0,0,0 +pm=jakarta +units=m +no_defs",
+  25828:
+    "+proj=utm +zone=28 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25829:
+    "+proj=utm +zone=29 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25830:
+    "+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25831:
+    "+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25832:
+    "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25833:
+    "+proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25834:
+    "+proj=utm +zone=34 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25835:
+    "+proj=utm +zone=35 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25836:
+    "+proj=utm +zone=36 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25837:
+    "+proj=utm +zone=37 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25838:
+    "+proj=utm +zone=38 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25884:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  25932:
+    "+proj=utm +zone=32 +south +ellps=intl +towgs84=-254.1,-5.36,-100.29,0,0,0,0 +units=m +no_defs",
+  26191:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=-5.4 +k_0=0.999625769 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
+  26192:
+    "+proj=lcc +lat_1=29.7 +lat_0=29.7 +lon_0=-5.4 +k_0=0.9996155960000001 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
+  26193:
+    "+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.9996 +x_0=1200000 +y_0=400000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
+  26194:
+    "+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.999616304 +x_0=1200000 +y_0=400000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
+  26195:
+    "+proj=lcc +lat_1=22.5 +lat_0=22.5 +lon_0=-5.4 +k_0=0.999616437 +x_0=1500000 +y_0=400000 +a=6378249.2 +b=6356515 +towgs84=31,146,47,0,0,0,0 +units=m +no_defs",
+  26237:
+    "+proj=utm +zone=37 +ellps=bessel +towgs84=639,405,60,0,0,0,0 +units=m +no_defs",
+  26331:
+    "+proj=utm +zone=31 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
+  26332:
+    "+proj=utm +zone=32 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
+  26391:
+    "+proj=tmerc +lat_0=4 +lon_0=4.5 +k=0.99975 +x_0=230738.26 +y_0=0 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
+  26392:
+    "+proj=tmerc +lat_0=4 +lon_0=8.5 +k=0.99975 +x_0=670553.98 +y_0=0 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
+  26393:
+    "+proj=tmerc +lat_0=4 +lon_0=12.5 +k=0.99975 +x_0=1110369.7 +y_0=0 +ellps=clrk80 +towgs84=-92,-93,122,0,0,0,0 +units=m +no_defs",
+  26432:
+    "+proj=utm +zone=32 +south +ellps=intl +towgs84=-252.95,-4.11,-96.38,0,0,0,0 +units=m +no_defs",
   26711: "+proj=utm +zone=11 +datum=NAD27 +units=m +no_defs",
-  26591: "+proj=tmerc +lat_0=0 +lon_0=-3.45233333333333 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +pm=rome +units=m +no_defs",
-  26592: "+proj=tmerc +lat_0=0 +lon_0=2.54766666666666 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +pm=rome +units=m +no_defs",
-  26632: "+proj=utm +zone=32 +a=6378249.2 +b=6356515 +towgs84=-74,-130,42,0,0,0,0 +units=m +no_defs",
-  26692: "+proj=utm +zone=32 +south +a=6378249.2 +b=6356515 +towgs84=-74,-130,42,0,0,0,0 +units=m +no_defs",
+  26591:
+    "+proj=tmerc +lat_0=0 +lon_0=-3.45233333333333 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +pm=rome +units=m +no_defs",
+  26592:
+    "+proj=tmerc +lat_0=0 +lon_0=2.54766666666666 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +towgs84=-104.1,-49.1,-9.9,0.971,-2.917,0.714,-11.68 +pm=rome +units=m +no_defs",
+  26632:
+    "+proj=utm +zone=32 +a=6378249.2 +b=6356515 +towgs84=-74,-130,42,0,0,0,0 +units=m +no_defs",
+  26692:
+    "+proj=utm +zone=32 +south +a=6378249.2 +b=6356515 +towgs84=-74,-130,42,0,0,0,0 +units=m +no_defs",
   26701: "+proj=utm +zone=1 +datum=NAD27 +units=m +no_defs",
   26702: "+proj=utm +zone=2 +datum=NAD27 +units=m +no_defs",
   26703: "+proj=utm +zone=3 +datum=NAD27 +units=m +no_defs",
@@ -5143,136 +5508,262 @@ export const proj4def: Record<number, string> = {
   26720: "+proj=utm +zone=20 +datum=NAD27 +units=m +no_defs",
   26721: "+proj=utm +zone=21 +datum=NAD27 +units=m +no_defs",
   26722: "+proj=utm +zone=22 +datum=NAD27 +units=m +no_defs",
-  26729: "+proj=tmerc +lat_0=30.5 +lon_0=-85.83333333333333 +k=0.99996 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26730: "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26731: "+proj=omerc +lat_0=57 +lonc=-133.6666666666667 +alpha=323.1301023611111 +k=0.9999 +x_0=5000000.001016002 +y_0=-5000000.001016002 +no_uoff +gamma=323.1301023611111 +datum=NAD27 +units=us-ft +no_defs",
-  26732: "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26733: "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26734: "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26735: "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26736: "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26737: "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=213360.4267208534 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26729:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-85.83333333333333 +k=0.99996 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26730:
+    "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26731:
+    "+proj=omerc +lat_0=57 +lonc=-133.6666666666667 +alpha=323.1301023611111 +k=0.9999 +x_0=5000000.001016002 +y_0=-5000000.001016002 +no_uoff +gamma=323.1301023611111 +datum=NAD27 +units=us-ft +no_defs",
+  26732:
+    "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26733:
+    "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26734:
+    "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26735:
+    "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26736:
+    "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26737:
+    "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=213360.4267208534 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   37257: "+proj=longlat +ellps=krass +no_defs",
-  26738: "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26739: "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=182880.3657607315 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26740: "+proj=lcc +lat_1=53.83333333333334 +lat_2=51.83333333333334 +lat_0=51 +lon_0=-176 +x_0=914401.8288036576 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26741: "+proj=lcc +lat_1=41.66666666666666 +lat_2=40 +lat_0=39.33333333333334 +lon_0=-122 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26742: "+proj=lcc +lat_1=39.83333333333334 +lat_2=38.33333333333334 +lat_0=37.66666666666666 +lon_0=-122 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26743: "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.06666666666667 +lat_0=36.5 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26744: "+proj=lcc +lat_1=37.25 +lat_2=36 +lat_0=35.33333333333334 +lon_0=-119 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26745: "+proj=lcc +lat_1=35.46666666666667 +lat_2=34.03333333333333 +lat_0=33.5 +lon_0=-118 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26746: "+proj=lcc +lat_1=33.88333333333333 +lat_2=32.78333333333333 +lat_0=32.16666666666666 +lon_0=-116.25 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26747: "+proj=lcc +lat_1=34.41666666666666 +lat_2=33.86666666666667 +lat_0=34.13333333333333 +lon_0=-118.3333333333333 +x_0=1276106.450596901 +y_0=127079.524511049 +datum=NAD27 +units=us-ft +no_defs",
-  26748: "+proj=tmerc +lat_0=31 +lon_0=-110.1666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26749: "+proj=tmerc +lat_0=31 +lon_0=-111.9166666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26750: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26751: "+proj=lcc +lat_1=36.23333333333333 +lat_2=34.93333333333333 +lat_0=34.33333333333334 +lon_0=-92 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26752: "+proj=lcc +lat_1=34.76666666666667 +lat_2=33.3 +lat_0=32.66666666666666 +lon_0=-92 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26753: "+proj=lcc +lat_1=39.71666666666667 +lat_2=40.78333333333333 +lat_0=39.33333333333334 +lon_0=-105.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26754: "+proj=lcc +lat_1=39.75 +lat_2=38.45 +lat_0=37.83333333333334 +lon_0=-105.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26769: "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-114 +k=0.9999473679999999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26755: "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.23333333333333 +lat_0=36.66666666666666 +lon_0=-105.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26756: "+proj=lcc +lat_1=41.86666666666667 +lat_2=41.2 +lat_0=40.83333333333334 +lon_0=-72.75 +x_0=182880.3657607315 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26757: "+proj=tmerc +lat_0=38 +lon_0=-75.41666666666667 +k=0.999995 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26758: "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-81 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26759: "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-82 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26760: "+proj=lcc +lat_1=30.75 +lat_2=29.58333333333333 +lat_0=29 +lon_0=-84.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26766: "+proj=tmerc +lat_0=30 +lon_0=-82.16666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26767: "+proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26768: "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-112.1666666666667 +k=0.9999473679999999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26770: "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-115.75 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26771: "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-88.33333333333333 +k=0.9999749999999999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26772: "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-90.16666666666667 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26773: "+proj=tmerc +lat_0=37.5 +lon_0=-85.66666666666667 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26774: "+proj=tmerc +lat_0=37.5 +lon_0=-87.08333333333333 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26775: "+proj=lcc +lat_1=43.26666666666667 +lat_2=42.06666666666667 +lat_0=41.5 +lon_0=-93.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26776: "+proj=lcc +lat_1=41.78333333333333 +lat_2=40.61666666666667 +lat_0=40 +lon_0=-93.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26777: "+proj=lcc +lat_1=39.78333333333333 +lat_2=38.71666666666667 +lat_0=38.33333333333334 +lon_0=-98 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26778: "+proj=lcc +lat_1=38.56666666666667 +lat_2=37.26666666666667 +lat_0=36.66666666666666 +lon_0=-98.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26779: "+proj=lcc +lat_1=37.96666666666667 +lat_2=38.96666666666667 +lat_0=37.5 +lon_0=-84.25 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26780: "+proj=lcc +lat_1=36.73333333333333 +lat_2=37.93333333333333 +lat_0=36.33333333333334 +lon_0=-85.75 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26781: "+proj=lcc +lat_1=31.16666666666667 +lat_2=32.66666666666666 +lat_0=30.66666666666667 +lon_0=-92.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26782: "+proj=lcc +lat_1=29.3 +lat_2=30.7 +lat_0=28.66666666666667 +lon_0=-91.33333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26783: "+proj=tmerc +lat_0=43.83333333333334 +lon_0=-68.5 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26784: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26785: "+proj=lcc +lat_1=38.3 +lat_2=39.45 +lat_0=37.83333333333334 +lon_0=-77 +x_0=243840.4876809754 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26786: "+proj=lcc +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=182880.3657607315 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26892: "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26787: "+proj=lcc +lat_1=41.28333333333333 +lat_2=41.48333333333333 +lat_0=41 +lon_0=-70.5 +x_0=60960.12192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26791: "+proj=lcc +lat_1=47.03333333333333 +lat_2=48.63333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26792: "+proj=lcc +lat_1=45.61666666666667 +lat_2=47.05 +lat_0=45 +lon_0=-94.25 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26793: "+proj=lcc +lat_1=43.78333333333333 +lat_2=45.21666666666667 +lat_0=43 +lon_0=-94 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26794: "+proj=tmerc +lat_0=29.66666666666667 +lon_0=-88.83333333333333 +k=0.99996 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26795: "+proj=tmerc +lat_0=30.5 +lon_0=-90.33333333333333 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26796: "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-90.5 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26797: "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-92.5 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26798: "+proj=tmerc +lat_0=36.16666666666666 +lon_0=-94.5 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26799: "+proj=lcc +lat_1=34.41666666666666 +lat_2=33.86666666666667 +lat_0=34.13333333333333 +lon_0=-118.3333333333333 +x_0=1276106.450596901 +y_0=1268253.006858014 +datum=NAD27 +units=us-ft +no_defs",
-  26801: "+proj=tmerc +lat_0=41.5 +lon_0=-83.66666666666667 +k=0.999942857 +x_0=152400.3048006096 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
-  26802: "+proj=tmerc +lat_0=41.5 +lon_0=-85.75 +k=0.999909091 +x_0=152400.3048006096 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
-  26803: "+proj=tmerc +lat_0=41.5 +lon_0=-88.75 +k=0.999909091 +x_0=152400.3048006096 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
-  26811: "+proj=lcc +lat_1=45.48333333333333 +lat_2=47.08333333333334 +lat_0=44.78333333333333 +lon_0=-87 +x_0=609601.2192024384 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
-  26812: "+proj=lcc +lat_1=44.18333333333333 +lat_2=45.7 +lat_0=43.31666666666667 +lon_0=-84.33333333333333 +x_0=609601.2192024384 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
-  26813: "+proj=lcc +lat_1=42.1 +lat_2=43.66666666666666 +lat_0=41.5 +lon_0=-84.33333333333333 +x_0=609601.2192024384 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
-  26814: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26738:
+    "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26739:
+    "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=182880.3657607315 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26740:
+    "+proj=lcc +lat_1=53.83333333333334 +lat_2=51.83333333333334 +lat_0=51 +lon_0=-176 +x_0=914401.8288036576 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26741:
+    "+proj=lcc +lat_1=41.66666666666666 +lat_2=40 +lat_0=39.33333333333334 +lon_0=-122 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26742:
+    "+proj=lcc +lat_1=39.83333333333334 +lat_2=38.33333333333334 +lat_0=37.66666666666666 +lon_0=-122 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26743:
+    "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.06666666666667 +lat_0=36.5 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26744:
+    "+proj=lcc +lat_1=37.25 +lat_2=36 +lat_0=35.33333333333334 +lon_0=-119 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26745:
+    "+proj=lcc +lat_1=35.46666666666667 +lat_2=34.03333333333333 +lat_0=33.5 +lon_0=-118 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26746:
+    "+proj=lcc +lat_1=33.88333333333333 +lat_2=32.78333333333333 +lat_0=32.16666666666666 +lon_0=-116.25 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26747:
+    "+proj=lcc +lat_1=34.41666666666666 +lat_2=33.86666666666667 +lat_0=34.13333333333333 +lon_0=-118.3333333333333 +x_0=1276106.450596901 +y_0=127079.524511049 +datum=NAD27 +units=us-ft +no_defs",
+  26748:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.1666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26749:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.9166666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26750:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26751:
+    "+proj=lcc +lat_1=36.23333333333333 +lat_2=34.93333333333333 +lat_0=34.33333333333334 +lon_0=-92 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26752:
+    "+proj=lcc +lat_1=34.76666666666667 +lat_2=33.3 +lat_0=32.66666666666666 +lon_0=-92 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26753:
+    "+proj=lcc +lat_1=39.71666666666667 +lat_2=40.78333333333333 +lat_0=39.33333333333334 +lon_0=-105.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26754:
+    "+proj=lcc +lat_1=39.75 +lat_2=38.45 +lat_0=37.83333333333334 +lon_0=-105.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26769:
+    "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-114 +k=0.9999473679999999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26755:
+    "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.23333333333333 +lat_0=36.66666666666666 +lon_0=-105.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26756:
+    "+proj=lcc +lat_1=41.86666666666667 +lat_2=41.2 +lat_0=40.83333333333334 +lon_0=-72.75 +x_0=182880.3657607315 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26757:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.41666666666667 +k=0.999995 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26758:
+    "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-81 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26759:
+    "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-82 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26760:
+    "+proj=lcc +lat_1=30.75 +lat_2=29.58333333333333 +lat_0=29 +lon_0=-84.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26766:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.16666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26767:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26768:
+    "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-112.1666666666667 +k=0.9999473679999999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26770:
+    "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-115.75 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26771:
+    "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-88.33333333333333 +k=0.9999749999999999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26772:
+    "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-90.16666666666667 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26773:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.66666666666667 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26774:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.08333333333333 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26775:
+    "+proj=lcc +lat_1=43.26666666666667 +lat_2=42.06666666666667 +lat_0=41.5 +lon_0=-93.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26776:
+    "+proj=lcc +lat_1=41.78333333333333 +lat_2=40.61666666666667 +lat_0=40 +lon_0=-93.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26777:
+    "+proj=lcc +lat_1=39.78333333333333 +lat_2=38.71666666666667 +lat_0=38.33333333333334 +lon_0=-98 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26778:
+    "+proj=lcc +lat_1=38.56666666666667 +lat_2=37.26666666666667 +lat_0=36.66666666666666 +lon_0=-98.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26779:
+    "+proj=lcc +lat_1=37.96666666666667 +lat_2=38.96666666666667 +lat_0=37.5 +lon_0=-84.25 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26780:
+    "+proj=lcc +lat_1=36.73333333333333 +lat_2=37.93333333333333 +lat_0=36.33333333333334 +lon_0=-85.75 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26781:
+    "+proj=lcc +lat_1=31.16666666666667 +lat_2=32.66666666666666 +lat_0=30.66666666666667 +lon_0=-92.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26782:
+    "+proj=lcc +lat_1=29.3 +lat_2=30.7 +lat_0=28.66666666666667 +lon_0=-91.33333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26783:
+    "+proj=tmerc +lat_0=43.83333333333334 +lon_0=-68.5 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26784:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26785:
+    "+proj=lcc +lat_1=38.3 +lat_2=39.45 +lat_0=37.83333333333334 +lon_0=-77 +x_0=243840.4876809754 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26786:
+    "+proj=lcc +lat_1=41.71666666666667 +lat_2=42.68333333333333 +lat_0=41 +lon_0=-71.5 +x_0=182880.3657607315 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26892:
+    "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26787:
+    "+proj=lcc +lat_1=41.28333333333333 +lat_2=41.48333333333333 +lat_0=41 +lon_0=-70.5 +x_0=60960.12192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26791:
+    "+proj=lcc +lat_1=47.03333333333333 +lat_2=48.63333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26792:
+    "+proj=lcc +lat_1=45.61666666666667 +lat_2=47.05 +lat_0=45 +lon_0=-94.25 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26793:
+    "+proj=lcc +lat_1=43.78333333333333 +lat_2=45.21666666666667 +lat_0=43 +lon_0=-94 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26794:
+    "+proj=tmerc +lat_0=29.66666666666667 +lon_0=-88.83333333333333 +k=0.99996 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26795:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-90.33333333333333 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26796:
+    "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-90.5 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26797:
+    "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-92.5 +k=0.999933333 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26798:
+    "+proj=tmerc +lat_0=36.16666666666666 +lon_0=-94.5 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26799:
+    "+proj=lcc +lat_1=34.41666666666666 +lat_2=33.86666666666667 +lat_0=34.13333333333333 +lon_0=-118.3333333333333 +x_0=1276106.450596901 +y_0=1268253.006858014 +datum=NAD27 +units=us-ft +no_defs",
+  26801:
+    "+proj=tmerc +lat_0=41.5 +lon_0=-83.66666666666667 +k=0.999942857 +x_0=152400.3048006096 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
+  26802:
+    "+proj=tmerc +lat_0=41.5 +lon_0=-85.75 +k=0.999909091 +x_0=152400.3048006096 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
+  26803:
+    "+proj=tmerc +lat_0=41.5 +lon_0=-88.75 +k=0.999909091 +x_0=152400.3048006096 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
+  26811:
+    "+proj=lcc +lat_1=45.48333333333333 +lat_2=47.08333333333334 +lat_0=44.78333333333333 +lon_0=-87 +x_0=609601.2192024384 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
+  26812:
+    "+proj=lcc +lat_1=44.18333333333333 +lat_2=45.7 +lat_0=43.31666666666667 +lon_0=-84.33333333333333 +x_0=609601.2192024384 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
+  26813:
+    "+proj=lcc +lat_1=42.1 +lat_2=43.66666666666666 +lat_0=41.5 +lon_0=-84.33333333333333 +x_0=609601.2192024384 +y_0=0 +a=6378450.047548896 +b=6356826.621488444 +units=us-ft +no_defs",
+  26814:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
   37259: "+proj=longlat +ellps=intl +no_defs",
-  26815: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26819: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101601 +y_0=99999.99998984 +datum=NAD83 +units=m +no_defs",
-  26820: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101601 +y_0=99999.99998984 +datum=NAD83 +units=m +no_defs",
-  26821: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101601 +y_0=99999.99998984 +datum=NAD83 +units=m +no_defs",
-  26822: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.0000101601 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26823: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=1968500 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26824: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=1968500 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26825: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26893: "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26826: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26830: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26831: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26832: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26833: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.0000101601 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26834: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26835: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26836: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26815:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26819:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101601 +y_0=99999.99998984 +datum=NAD83 +units=m +no_defs",
+  26820:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101601 +y_0=99999.99998984 +datum=NAD83 +units=m +no_defs",
+  26821:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101601 +y_0=99999.99998984 +datum=NAD83 +units=m +no_defs",
+  26822:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.0000101601 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26823:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=1968500 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26824:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=1968500 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26825:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26893:
+    "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26826:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26830:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26831:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26832:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26833:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.0000101601 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26834:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26835:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26836:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
   37260: "+proj=longlat +ellps=clrk66 +no_defs",
-  26837: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26841: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26842: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26843: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26844: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.0000101601 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26845: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26846: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26847: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  26848: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  26849: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +datum=NAD83 +units=us-ft +no_defs",
-  26850: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101599 +y_0=99999.99998983997 +datum=NAD83 +units=us-ft +no_defs",
-  26851: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101599 +y_0=99999.99998983997 +datum=NAD83 +units=us-ft +no_defs",
-  26852: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.00001016 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  26853: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  26854: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  26855: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26837:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26841:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26842:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26843:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101601 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26844:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.0000101601 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26845:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26846:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=1968500 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26847:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  26848:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  26849:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +datum=NAD83 +units=us-ft +no_defs",
+  26850:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101599 +y_0=99999.99998983997 +datum=NAD83 +units=us-ft +no_defs",
+  26851:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101599 +y_0=99999.99998983997 +datum=NAD83 +units=us-ft +no_defs",
+  26852:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.00001016 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  26853:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  26854:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  26855:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
   32606: "+proj=utm +zone=6 +datum=WGS84 +units=m +no_defs",
-  26856: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26857: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26858: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26859: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26860: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26861: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26862: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26863: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26864: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26865: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26866: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26867: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26868: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26869: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26870: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
-  26891: "+proj=tmerc +lat_0=0 +lon_0=-82.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26894: "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26895: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26896: "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26897: "+proj=tmerc +lat_0=0 +lon_0=-96 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26898: "+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  26899: "+proj=tmerc +lat_0=0 +lon_0=-56 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26856:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26857:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26858:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26859:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26860:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26861:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26862:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26863:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26864:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26865:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26866:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26867:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26868:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000.00001016 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26869:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26870:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs",
+  26891:
+    "+proj=tmerc +lat_0=0 +lon_0=-82.5 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26894:
+    "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26895:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26896:
+    "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26897:
+    "+proj=tmerc +lat_0=0 +lon_0=-96 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26898:
+    "+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  26899:
+    "+proj=tmerc +lat_0=0 +lon_0=-56 +k=0.9999 +x_0=304800 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
   26901: "+proj=utm +zone=1 +datum=NAD83 +units=m +no_defs",
   26902: "+proj=utm +zone=2 +datum=NAD83 +units=m +no_defs",
   26903: "+proj=utm +zone=3 +datum=NAD83 +units=m +no_defs",
@@ -5296,824 +5787,1613 @@ export const proj4def: Record<number, string> = {
   26921: "+proj=utm +zone=21 +datum=NAD83 +units=m +no_defs",
   26922: "+proj=utm +zone=22 +datum=NAD83 +units=m +no_defs",
   26923: "+proj=utm +zone=23 +datum=NAD83 +units=m +no_defs",
-  26929: "+proj=tmerc +lat_0=30.5 +lon_0=-85.83333333333333 +k=0.99996 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26930: "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  53001: "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  26931: "+proj=omerc +lat_0=57 +lonc=-133.6666666666667 +alpha=323.1301023611111 +k=0.9999 +x_0=5000000 +y_0=-5000000 +no_uoff +gamma=323.1301023611111 +datum=NAD83 +units=m +no_defs",
-  26932: "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26933: "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26934: "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26935: "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26936: "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26937: "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26938: "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26939: "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26940: "+proj=lcc +lat_1=53.83333333333334 +lat_2=51.83333333333334 +lat_0=51 +lon_0=-176 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26941: "+proj=lcc +lat_1=41.66666666666666 +lat_2=40 +lat_0=39.33333333333334 +lon_0=-122 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26942: "+proj=lcc +lat_1=39.83333333333334 +lat_2=38.33333333333334 +lat_0=37.66666666666666 +lon_0=-122 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26943: "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.06666666666667 +lat_0=36.5 +lon_0=-120.5 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26944: "+proj=lcc +lat_1=37.25 +lat_2=36 +lat_0=35.33333333333334 +lon_0=-119 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26945: "+proj=lcc +lat_1=35.46666666666667 +lat_2=34.03333333333333 +lat_0=33.5 +lon_0=-118 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26946: "+proj=lcc +lat_1=33.88333333333333 +lat_2=32.78333333333333 +lat_0=32.16666666666666 +lon_0=-116.25 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26948: "+proj=tmerc +lat_0=31 +lon_0=-110.1666666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26949: "+proj=tmerc +lat_0=31 +lon_0=-111.9166666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26950: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333 +x_0=213360 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26951: "+proj=lcc +lat_1=36.23333333333333 +lat_2=34.93333333333333 +lat_0=34.33333333333334 +lon_0=-92 +x_0=400000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26952: "+proj=lcc +lat_1=34.76666666666667 +lat_2=33.3 +lat_0=32.66666666666666 +lon_0=-92 +x_0=400000 +y_0=400000 +datum=NAD83 +units=m +no_defs",
-  26953: "+proj=lcc +lat_1=40.78333333333333 +lat_2=39.71666666666667 +lat_0=39.33333333333334 +lon_0=-105.5 +x_0=914401.8289 +y_0=304800.6096 +datum=NAD83 +units=m +no_defs",
-  26954: "+proj=lcc +lat_1=39.75 +lat_2=38.45 +lat_0=37.83333333333334 +lon_0=-105.5 +x_0=914401.8289 +y_0=304800.6096 +datum=NAD83 +units=m +no_defs",
-  26955: "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.23333333333333 +lat_0=36.66666666666666 +lon_0=-105.5 +x_0=914401.8289 +y_0=304800.6096 +datum=NAD83 +units=m +no_defs",
-  26956: "+proj=lcc +lat_1=41.86666666666667 +lat_2=41.2 +lat_0=40.83333333333334 +lon_0=-72.75 +x_0=304800.6096 +y_0=152400.3048 +datum=NAD83 +units=m +no_defs",
-  26957: "+proj=tmerc +lat_0=38 +lon_0=-75.41666666666667 +k=0.999995 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26958: "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-81 +k=0.999941177 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26959: "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-82 +k=0.999941177 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26960: "+proj=lcc +lat_1=30.75 +lat_2=29.58333333333333 +lat_0=29 +lon_0=-84.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26961: "+proj=tmerc +lat_0=18.83333333333333 +lon_0=-155.5 +k=0.999966667 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26962: "+proj=tmerc +lat_0=20.33333333333333 +lon_0=-156.6666666666667 +k=0.999966667 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26963: "+proj=tmerc +lat_0=21.16666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26964: "+proj=tmerc +lat_0=21.83333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26965: "+proj=tmerc +lat_0=21.66666666666667 +lon_0=-160.1666666666667 +k=1 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26966: "+proj=tmerc +lat_0=30 +lon_0=-82.16666666666667 +k=0.9999 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26967: "+proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26968: "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-112.1666666666667 +k=0.9999473679999999 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26929:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-85.83333333333333 +k=0.99996 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26930:
+    "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  53001:
+    "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  26931:
+    "+proj=omerc +lat_0=57 +lonc=-133.6666666666667 +alpha=323.1301023611111 +k=0.9999 +x_0=5000000 +y_0=-5000000 +no_uoff +gamma=323.1301023611111 +datum=NAD83 +units=m +no_defs",
+  26932:
+    "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26933:
+    "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26934:
+    "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26935:
+    "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26936:
+    "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26937:
+    "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26938:
+    "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26939:
+    "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26940:
+    "+proj=lcc +lat_1=53.83333333333334 +lat_2=51.83333333333334 +lat_0=51 +lon_0=-176 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26941:
+    "+proj=lcc +lat_1=41.66666666666666 +lat_2=40 +lat_0=39.33333333333334 +lon_0=-122 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26942:
+    "+proj=lcc +lat_1=39.83333333333334 +lat_2=38.33333333333334 +lat_0=37.66666666666666 +lon_0=-122 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26943:
+    "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.06666666666667 +lat_0=36.5 +lon_0=-120.5 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26944:
+    "+proj=lcc +lat_1=37.25 +lat_2=36 +lat_0=35.33333333333334 +lon_0=-119 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26945:
+    "+proj=lcc +lat_1=35.46666666666667 +lat_2=34.03333333333333 +lat_0=33.5 +lon_0=-118 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26946:
+    "+proj=lcc +lat_1=33.88333333333333 +lat_2=32.78333333333333 +lat_0=32.16666666666666 +lon_0=-116.25 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26948:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.1666666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26949:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.9166666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26950:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333 +x_0=213360 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26951:
+    "+proj=lcc +lat_1=36.23333333333333 +lat_2=34.93333333333333 +lat_0=34.33333333333334 +lon_0=-92 +x_0=400000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26952:
+    "+proj=lcc +lat_1=34.76666666666667 +lat_2=33.3 +lat_0=32.66666666666666 +lon_0=-92 +x_0=400000 +y_0=400000 +datum=NAD83 +units=m +no_defs",
+  26953:
+    "+proj=lcc +lat_1=40.78333333333333 +lat_2=39.71666666666667 +lat_0=39.33333333333334 +lon_0=-105.5 +x_0=914401.8289 +y_0=304800.6096 +datum=NAD83 +units=m +no_defs",
+  26954:
+    "+proj=lcc +lat_1=39.75 +lat_2=38.45 +lat_0=37.83333333333334 +lon_0=-105.5 +x_0=914401.8289 +y_0=304800.6096 +datum=NAD83 +units=m +no_defs",
+  26955:
+    "+proj=lcc +lat_1=38.43333333333333 +lat_2=37.23333333333333 +lat_0=36.66666666666666 +lon_0=-105.5 +x_0=914401.8289 +y_0=304800.6096 +datum=NAD83 +units=m +no_defs",
+  26956:
+    "+proj=lcc +lat_1=41.86666666666667 +lat_2=41.2 +lat_0=40.83333333333334 +lon_0=-72.75 +x_0=304800.6096 +y_0=152400.3048 +datum=NAD83 +units=m +no_defs",
+  26957:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.41666666666667 +k=0.999995 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26958:
+    "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-81 +k=0.999941177 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26959:
+    "+proj=tmerc +lat_0=24.33333333333333 +lon_0=-82 +k=0.999941177 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26960:
+    "+proj=lcc +lat_1=30.75 +lat_2=29.58333333333333 +lat_0=29 +lon_0=-84.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26961:
+    "+proj=tmerc +lat_0=18.83333333333333 +lon_0=-155.5 +k=0.999966667 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26962:
+    "+proj=tmerc +lat_0=20.33333333333333 +lon_0=-156.6666666666667 +k=0.999966667 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26963:
+    "+proj=tmerc +lat_0=21.16666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26964:
+    "+proj=tmerc +lat_0=21.83333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26965:
+    "+proj=tmerc +lat_0=21.66666666666667 +lon_0=-160.1666666666667 +k=1 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26966:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.16666666666667 +k=0.9999 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26967:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.16666666666667 +k=0.9999 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26968:
+    "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-112.1666666666667 +k=0.9999473679999999 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
   32607: "+proj=utm +zone=7 +datum=WGS84 +units=m +no_defs",
-  26969: "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-114 +k=0.9999473679999999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26970: "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-115.75 +k=0.999933333 +x_0=800000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26971: "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-88.33333333333333 +k=0.9999749999999999 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26972: "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-90.16666666666667 +k=0.999941177 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26973: "+proj=tmerc +lat_0=37.5 +lon_0=-85.66666666666667 +k=0.999966667 +x_0=100000 +y_0=250000 +datum=NAD83 +units=m +no_defs",
-  26974: "+proj=tmerc +lat_0=37.5 +lon_0=-87.08333333333333 +k=0.999966667 +x_0=900000 +y_0=250000 +datum=NAD83 +units=m +no_defs",
-  26975: "+proj=lcc +lat_1=43.26666666666667 +lat_2=42.06666666666667 +lat_0=41.5 +lon_0=-93.5 +x_0=1500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
-  26976: "+proj=lcc +lat_1=41.78333333333333 +lat_2=40.61666666666667 +lat_0=40 +lon_0=-93.5 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26977: "+proj=lcc +lat_1=39.78333333333333 +lat_2=38.71666666666667 +lat_0=38.33333333333334 +lon_0=-98 +x_0=400000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26969:
+    "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-114 +k=0.9999473679999999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26970:
+    "+proj=tmerc +lat_0=41.66666666666666 +lon_0=-115.75 +k=0.999933333 +x_0=800000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26971:
+    "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-88.33333333333333 +k=0.9999749999999999 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26972:
+    "+proj=tmerc +lat_0=36.66666666666666 +lon_0=-90.16666666666667 +k=0.999941177 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26973:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.66666666666667 +k=0.999966667 +x_0=100000 +y_0=250000 +datum=NAD83 +units=m +no_defs",
+  26974:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.08333333333333 +k=0.999966667 +x_0=900000 +y_0=250000 +datum=NAD83 +units=m +no_defs",
+  26975:
+    "+proj=lcc +lat_1=43.26666666666667 +lat_2=42.06666666666667 +lat_0=41.5 +lon_0=-93.5 +x_0=1500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
+  26976:
+    "+proj=lcc +lat_1=41.78333333333333 +lat_2=40.61666666666667 +lat_0=40 +lon_0=-93.5 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26977:
+    "+proj=lcc +lat_1=39.78333333333333 +lat_2=38.71666666666667 +lat_0=38.33333333333334 +lon_0=-98 +x_0=400000 +y_0=0 +datum=NAD83 +units=m +no_defs",
   104118: "+proj=longlat +ellps=GRS80 +no_defs",
-  26978: "+proj=lcc +lat_1=38.56666666666667 +lat_2=37.26666666666667 +lat_0=36.66666666666666 +lon_0=-98.5 +x_0=400000 +y_0=400000 +datum=NAD83 +units=m +no_defs",
-  26979: "+proj=lcc +lat_1=37.96666666666667 +lat_2=37.96666666666667 +lat_0=37.5 +lon_0=-84.25 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26980: "+proj=lcc +lat_1=37.93333333333333 +lat_2=36.73333333333333 +lat_0=36.33333333333334 +lon_0=-85.75 +x_0=500000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
-  26981: "+proj=lcc +lat_1=32.66666666666666 +lat_2=31.16666666666667 +lat_0=30.5 +lon_0=-92.5 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26982: "+proj=lcc +lat_1=30.7 +lat_2=29.3 +lat_0=28.5 +lon_0=-91.33333333333333 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26983: "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26984: "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26985: "+proj=lcc +lat_1=39.45 +lat_2=38.3 +lat_0=37.66666666666666 +lon_0=-77 +x_0=400000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26986: "+proj=lcc +lat_1=42.68333333333333 +lat_2=41.71666666666667 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000 +datum=NAD83 +units=m +no_defs",
-  26987: "+proj=lcc +lat_1=41.48333333333333 +lat_2=41.28333333333333 +lat_0=41 +lon_0=-70.5 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26988: "+proj=lcc +lat_1=47.08333333333334 +lat_2=45.48333333333333 +lat_0=44.78333333333333 +lon_0=-87 +x_0=8000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26989: "+proj=lcc +lat_1=45.7 +lat_2=44.18333333333333 +lat_0=43.31666666666667 +lon_0=-84.36666666666666 +x_0=6000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26990: "+proj=lcc +lat_1=43.66666666666666 +lat_2=42.1 +lat_0=41.5 +lon_0=-84.36666666666666 +x_0=4000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26991: "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
-  26992: "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
-  26993: "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
-  26994: "+proj=tmerc +lat_0=29.5 +lon_0=-88.83333333333333 +k=0.99995 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26995: "+proj=tmerc +lat_0=29.5 +lon_0=-90.33333333333333 +k=0.99995 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26996: "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-90.5 +k=0.999933333 +x_0=250000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26997: "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-92.5 +k=0.999933333 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  26998: "+proj=tmerc +lat_0=36.16666666666666 +lon_0=-94.5 +k=0.999941177 +x_0=850000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  27037: "+proj=utm +zone=37 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
-  27038: "+proj=utm +zone=38 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
-  27039: "+proj=utm +zone=39 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
-  27040: "+proj=utm +zone=40 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
-  27120: "+proj=utm +zone=20 +ellps=intl +towgs84=-10,375,165,0,0,0,0 +units=m +no_defs",
-  27200: "+proj=nzmg +lat_0=-41 +lon_0=173 +x_0=2510000 +y_0=6023150 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27429: "+proj=utm +zone=29 +ellps=intl +towgs84=-223.237,110.193,36.649,0,0,0,0 +units=m +no_defs",
-  27205: "+proj=tmerc +lat_0=-36.87986527777778 +lon_0=174.7643393611111 +k=0.9999 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27206: "+proj=tmerc +lat_0=-37.76124980555556 +lon_0=176.46619725 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27207: "+proj=tmerc +lat_0=-38.62470277777778 +lon_0=177.8856362777778 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27208: "+proj=tmerc +lat_0=-39.65092930555556 +lon_0=176.6736805277778 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27209: "+proj=tmerc +lat_0=-39.13575830555556 +lon_0=174.22801175 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27210: "+proj=tmerc +lat_0=-39.51247038888889 +lon_0=175.6400368055556 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27211: "+proj=tmerc +lat_0=-40.24194713888889 +lon_0=175.4880996111111 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27212: "+proj=tmerc +lat_0=-40.92553263888889 +lon_0=175.6473496666667 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  26978:
+    "+proj=lcc +lat_1=38.56666666666667 +lat_2=37.26666666666667 +lat_0=36.66666666666666 +lon_0=-98.5 +x_0=400000 +y_0=400000 +datum=NAD83 +units=m +no_defs",
+  26979:
+    "+proj=lcc +lat_1=37.96666666666667 +lat_2=37.96666666666667 +lat_0=37.5 +lon_0=-84.25 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26980:
+    "+proj=lcc +lat_1=37.93333333333333 +lat_2=36.73333333333333 +lat_0=36.33333333333334 +lon_0=-85.75 +x_0=500000 +y_0=500000 +datum=NAD83 +units=m +no_defs",
+  26981:
+    "+proj=lcc +lat_1=32.66666666666666 +lat_2=31.16666666666667 +lat_0=30.5 +lon_0=-92.5 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26982:
+    "+proj=lcc +lat_1=30.7 +lat_2=29.3 +lat_0=28.5 +lon_0=-91.33333333333333 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26983:
+    "+proj=tmerc +lat_0=43.66666666666666 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26984:
+    "+proj=tmerc +lat_0=42.83333333333334 +lon_0=-70.16666666666667 +k=0.999966667 +x_0=900000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26985:
+    "+proj=lcc +lat_1=39.45 +lat_2=38.3 +lat_0=37.66666666666666 +lon_0=-77 +x_0=400000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26986:
+    "+proj=lcc +lat_1=42.68333333333333 +lat_2=41.71666666666667 +lat_0=41 +lon_0=-71.5 +x_0=200000 +y_0=750000 +datum=NAD83 +units=m +no_defs",
+  26987:
+    "+proj=lcc +lat_1=41.48333333333333 +lat_2=41.28333333333333 +lat_0=41 +lon_0=-70.5 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26988:
+    "+proj=lcc +lat_1=47.08333333333334 +lat_2=45.48333333333333 +lat_0=44.78333333333333 +lon_0=-87 +x_0=8000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26989:
+    "+proj=lcc +lat_1=45.7 +lat_2=44.18333333333333 +lat_0=43.31666666666667 +lon_0=-84.36666666666666 +x_0=6000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26990:
+    "+proj=lcc +lat_1=43.66666666666666 +lat_2=42.1 +lat_0=41.5 +lon_0=-84.36666666666666 +x_0=4000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26991:
+    "+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
+  26992:
+    "+proj=lcc +lat_1=47.05 +lat_2=45.61666666666667 +lat_0=45 +lon_0=-94.25 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
+  26993:
+    "+proj=lcc +lat_1=45.21666666666667 +lat_2=43.78333333333333 +lat_0=43 +lon_0=-94 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
+  26994:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.83333333333333 +k=0.99995 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26995:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.33333333333333 +k=0.99995 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26996:
+    "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-90.5 +k=0.999933333 +x_0=250000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26997:
+    "+proj=tmerc +lat_0=35.83333333333334 +lon_0=-92.5 +k=0.999933333 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  26998:
+    "+proj=tmerc +lat_0=36.16666666666666 +lon_0=-94.5 +k=0.999941177 +x_0=850000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  27037:
+    "+proj=utm +zone=37 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
+  27038:
+    "+proj=utm +zone=38 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
+  27039:
+    "+proj=utm +zone=39 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
+  27040:
+    "+proj=utm +zone=40 +ellps=clrk80 +towgs84=-249,-156,381,0,0,0,0 +units=m +no_defs",
+  27120:
+    "+proj=utm +zone=20 +ellps=intl +towgs84=-10,375,165,0,0,0,0 +units=m +no_defs",
+  27200:
+    "+proj=nzmg +lat_0=-41 +lon_0=173 +x_0=2510000 +y_0=6023150 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27429:
+    "+proj=utm +zone=29 +ellps=intl +towgs84=-223.237,110.193,36.649,0,0,0,0 +units=m +no_defs",
+  27205:
+    "+proj=tmerc +lat_0=-36.87986527777778 +lon_0=174.7643393611111 +k=0.9999 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27206:
+    "+proj=tmerc +lat_0=-37.76124980555556 +lon_0=176.46619725 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27207:
+    "+proj=tmerc +lat_0=-38.62470277777778 +lon_0=177.8856362777778 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27208:
+    "+proj=tmerc +lat_0=-39.65092930555556 +lon_0=176.6736805277778 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27209:
+    "+proj=tmerc +lat_0=-39.13575830555556 +lon_0=174.22801175 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27210:
+    "+proj=tmerc +lat_0=-39.51247038888889 +lon_0=175.6400368055556 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27211:
+    "+proj=tmerc +lat_0=-40.24194713888889 +lon_0=175.4880996111111 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27212:
+    "+proj=tmerc +lat_0=-40.92553263888889 +lon_0=175.6473496666667 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
   32608: "+proj=utm +zone=8 +datum=WGS84 +units=m +no_defs",
-  27213: "+proj=tmerc +lat_0=-41.30131963888888 +lon_0=174.7766231111111 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +no_defs",
-  27214: "+proj=tmerc +lat_0=-40.71475905555556 +lon_0=172.6720465 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27215: "+proj=tmerc +lat_0=-41.27454472222222 +lon_0=173.2993168055555 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27216: "+proj=tmerc +lat_0=-41.28991152777778 +lon_0=172.1090281944444 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27217: "+proj=tmerc +lat_0=-41.81080286111111 +lon_0=171.5812600555556 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27218: "+proj=tmerc +lat_0=-42.33369427777778 +lon_0=171.5497713055556 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27219: "+proj=tmerc +lat_0=-42.68911658333333 +lon_0=173.0101333888889 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27220: "+proj=tmerc +lat_0=-41.54448666666666 +lon_0=173.8020741111111 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  28348: "+proj=utm +zone=48 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  27221: "+proj=tmerc +lat_0=-42.88632236111111 +lon_0=170.9799935 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27222: "+proj=tmerc +lat_0=-43.11012813888889 +lon_0=170.2609258333333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27223: "+proj=tmerc +lat_0=-43.97780288888889 +lon_0=168.606267 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27224: "+proj=tmerc +lat_0=-43.59063758333333 +lon_0=172.7271935833333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27225: "+proj=tmerc +lat_0=-43.74871155555556 +lon_0=171.3607484722222 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27226: "+proj=tmerc +lat_0=-44.40222036111111 +lon_0=171.0572508333333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27227: "+proj=tmerc +lat_0=-44.73526797222222 +lon_0=169.4677550833333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27228: "+proj=tmerc +lat_0=-45.13290258333333 +lon_0=168.3986411944444 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27213:
+    "+proj=tmerc +lat_0=-41.30131963888888 +lon_0=174.7766231111111 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +no_defs",
+  27214:
+    "+proj=tmerc +lat_0=-40.71475905555556 +lon_0=172.6720465 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27215:
+    "+proj=tmerc +lat_0=-41.27454472222222 +lon_0=173.2993168055555 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27216:
+    "+proj=tmerc +lat_0=-41.28991152777778 +lon_0=172.1090281944444 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27217:
+    "+proj=tmerc +lat_0=-41.81080286111111 +lon_0=171.5812600555556 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27218:
+    "+proj=tmerc +lat_0=-42.33369427777778 +lon_0=171.5497713055556 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27219:
+    "+proj=tmerc +lat_0=-42.68911658333333 +lon_0=173.0101333888889 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27220:
+    "+proj=tmerc +lat_0=-41.54448666666666 +lon_0=173.8020741111111 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  28348:
+    "+proj=utm +zone=48 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  27221:
+    "+proj=tmerc +lat_0=-42.88632236111111 +lon_0=170.9799935 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27222:
+    "+proj=tmerc +lat_0=-43.11012813888889 +lon_0=170.2609258333333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27223:
+    "+proj=tmerc +lat_0=-43.97780288888889 +lon_0=168.606267 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27224:
+    "+proj=tmerc +lat_0=-43.59063758333333 +lon_0=172.7271935833333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27225:
+    "+proj=tmerc +lat_0=-43.74871155555556 +lon_0=171.3607484722222 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27226:
+    "+proj=tmerc +lat_0=-44.40222036111111 +lon_0=171.0572508333333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27227:
+    "+proj=tmerc +lat_0=-44.73526797222222 +lon_0=169.4677550833333 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27228:
+    "+proj=tmerc +lat_0=-45.13290258333333 +lon_0=168.3986411944444 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
   32609: "+proj=utm +zone=9 +datum=WGS84 +units=m +no_defs",
-  27229: "+proj=tmerc +lat_0=-45.56372616666666 +lon_0=167.7388617777778 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27230: "+proj=tmerc +lat_0=-45.81619661111111 +lon_0=170.6285951666667 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27231: "+proj=tmerc +lat_0=-45.86151336111111 +lon_0=170.2825891111111 +k=0.99996 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27232: "+proj=tmerc +lat_0=-46.60000961111111 +lon_0=168.342872 +k=1 +x_0=300002.66 +y_0=699999.58 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27258: "+proj=utm +zone=58 +south +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27259: "+proj=utm +zone=59 +south +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27260: "+proj=utm +zone=60 +south +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27291: "+proj=tmerc +lat_0=-39 +lon_0=175.5 +k=1 +x_0=274319.5243848086 +y_0=365759.3658464114 +datum=nzgd49 +to_meter=0.9143984146160287 +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  28349: "+proj=utm +zone=49 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  27292: "+proj=tmerc +lat_0=-44 +lon_0=171.5 +k=1 +x_0=457199.2073080143 +y_0=457199.2073080143 +datum=nzgd49 +to_meter=0.9143984146160287 +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
-  27391: "+proj=tmerc +lat_0=58 +lon_0=-4.666666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27392: "+proj=tmerc +lat_0=58 +lon_0=-2.333333333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27393: "+proj=tmerc +lat_0=58 +lon_0=0 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27394: "+proj=tmerc +lat_0=58 +lon_0=2.5 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27395: "+proj=tmerc +lat_0=58 +lon_0=6.166666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27396: "+proj=tmerc +lat_0=58 +lon_0=10.16666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27397: "+proj=tmerc +lat_0=58 +lon_0=14.16666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27398: "+proj=tmerc +lat_0=58 +lon_0=18.33333333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
-  27492: "+proj=tmerc +lat_0=39.66666666666666 +lon_0=-8.131906111111112 +k=1 +x_0=180.598 +y_0=-86.98999999999999 +ellps=intl +towgs84=-223.237,110.193,36.649,0,0,0,0 +units=m +no_defs",
-  27493: "+proj=tmerc +lat_0=39.66666666666666 +lon_0=-8.131906111111112 +k=1 +x_0=180.598 +y_0=-86.98999999999999 +ellps=intl +towgs84=-223.237,110.193,36.649,0,0,0,0 +units=m +no_defs",
-  27500: "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=5.399999999999999 +k_0=0.99950908 +x_0=500000 +y_0=300000 +a=6376523 +b=6355862.933255573 +pm=2.337208333333333 +units=m +no_defs",
-  27561: "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27562: "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27563: "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27564: "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27571: "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27229:
+    "+proj=tmerc +lat_0=-45.56372616666666 +lon_0=167.7388617777778 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27230:
+    "+proj=tmerc +lat_0=-45.81619661111111 +lon_0=170.6285951666667 +k=1 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27231:
+    "+proj=tmerc +lat_0=-45.86151336111111 +lon_0=170.2825891111111 +k=0.99996 +x_0=300000 +y_0=700000 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27232:
+    "+proj=tmerc +lat_0=-46.60000961111111 +lon_0=168.342872 +k=1 +x_0=300002.66 +y_0=699999.58 +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27258:
+    "+proj=utm +zone=58 +south +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27259:
+    "+proj=utm +zone=59 +south +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27260:
+    "+proj=utm +zone=60 +south +datum=nzgd49 +units=m +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27291:
+    "+proj=tmerc +lat_0=-39 +lon_0=175.5 +k=1 +x_0=274319.5243848086 +y_0=365759.3658464114 +datum=nzgd49 +to_meter=0.9143984146160287 +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  28349:
+    "+proj=utm +zone=49 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  27292:
+    "+proj=tmerc +lat_0=-44 +lon_0=171.5 +k=1 +x_0=457199.2073080143 +y_0=457199.2073080143 +datum=nzgd49 +to_meter=0.9143984146160287 +towgs84=59.47,-5.04,187.44,0.47,-0.1,1.024,-4.5993 +nadgrids=nzgd2kgrid0005.gsb +no_defs",
+  27391:
+    "+proj=tmerc +lat_0=58 +lon_0=-4.666666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27392:
+    "+proj=tmerc +lat_0=58 +lon_0=-2.333333333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27393:
+    "+proj=tmerc +lat_0=58 +lon_0=0 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27394:
+    "+proj=tmerc +lat_0=58 +lon_0=2.5 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27395:
+    "+proj=tmerc +lat_0=58 +lon_0=6.166666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27396:
+    "+proj=tmerc +lat_0=58 +lon_0=10.16666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27397:
+    "+proj=tmerc +lat_0=58 +lon_0=14.16666666666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27398:
+    "+proj=tmerc +lat_0=58 +lon_0=18.33333333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +b=6356173.508712696 +towgs84=278.3,93,474.5,7.889,0.05,-6.61,6.21 +pm=oslo +units=m +no_defs",
+  27492:
+    "+proj=tmerc +lat_0=39.66666666666666 +lon_0=-8.131906111111112 +k=1 +x_0=180.598 +y_0=-86.98999999999999 +ellps=intl +towgs84=-223.237,110.193,36.649,0,0,0,0 +units=m +no_defs",
+  27493:
+    "+proj=tmerc +lat_0=39.66666666666666 +lon_0=-8.131906111111112 +k=1 +x_0=180.598 +y_0=-86.98999999999999 +ellps=intl +towgs84=-223.237,110.193,36.649,0,0,0,0 +units=m +no_defs",
+  27500:
+    "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=5.399999999999999 +k_0=0.99950908 +x_0=500000 +y_0=300000 +a=6376523 +b=6355862.933255573 +pm=2.337208333333333 +units=m +no_defs",
+  27561:
+    "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27562:
+    "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27563:
+    "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27564:
+    "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27571:
+    "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
   32610: "+proj=utm +zone=10 +datum=WGS84 +units=m +no_defs",
-  27572: "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27573: "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27574: "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27581: "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27582: "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27583: "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27584: "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27591: "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27572:
+    "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27573:
+    "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27574:
+    "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27581:
+    "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27582:
+    "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27583:
+    "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27584:
+    "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27591:
+    "+proj=lcc +lat_1=49.50000000000001 +lat_0=49.50000000000001 +lon_0=0 +k_0=0.999877341 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
   54008: "+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  27592: "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27593: "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27594: "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
-  27700: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs",
-  28191: "+proj=cass +lat_0=31.73409694444445 +lon_0=35.21208055555556 +x_0=170251.555 +y_0=126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs",
-  28192: "+proj=tmerc +lat_0=31.73409694444445 +lon_0=35.21208055555556 +k=1 +x_0=170251.555 +y_0=1126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs",
-  28193: "+proj=cass +lat_0=31.73409694444445 +lon_0=35.21208055555556 +x_0=170251.555 +y_0=1126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs",
-  28232: "+proj=utm +zone=32 +south +a=6378249.2 +b=6356515 +towgs84=-148,51,-291,0,0,0,0 +units=m +no_defs",
+  27592:
+    "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=0 +k_0=0.99987742 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27593:
+    "+proj=lcc +lat_1=44.10000000000001 +lat_0=44.10000000000001 +lon_0=0 +k_0=0.999877499 +x_0=600000 +y_0=200000 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27594:
+    "+proj=lcc +lat_1=42.16500000000001 +lat_0=42.16500000000001 +lon_0=0 +k_0=0.99994471 +x_0=234.358 +y_0=185861.369 +a=6378249.2 +b=6356515 +towgs84=-168,-60,320,0,0,0,0 +pm=paris +units=m +no_defs",
+  27700:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +datum=OSGB36 +units=m +no_defs",
+  28191:
+    "+proj=cass +lat_0=31.73409694444445 +lon_0=35.21208055555556 +x_0=170251.555 +y_0=126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs",
+  28192:
+    "+proj=tmerc +lat_0=31.73409694444445 +lon_0=35.21208055555556 +k=1 +x_0=170251.555 +y_0=1126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs",
+  28193:
+    "+proj=cass +lat_0=31.73409694444445 +lon_0=35.21208055555556 +x_0=170251.555 +y_0=1126867.909 +a=6378300.789 +b=6356566.435 +towgs84=-275.7224,94.7824,340.8944,-8.001,-4.42,-11.821,1 +units=m +no_defs",
+  28232:
+    "+proj=utm +zone=32 +south +a=6378249.2 +b=6356515 +towgs84=-148,51,-291,0,0,0,0 +units=m +no_defs",
   32611: "+proj=utm +zone=11 +datum=WGS84 +units=m +no_defs",
-  28350: "+proj=utm +zone=50 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28351: "+proj=utm +zone=51 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28352: "+proj=utm +zone=52 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28353: "+proj=utm +zone=53 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28354: "+proj=utm +zone=54 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28355: "+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28356: "+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28357: "+proj=utm +zone=57 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28358: "+proj=utm +zone=58 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  28402: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=2500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28403: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=3500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28404: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=4500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28405: "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=5500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28406: "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28407: "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28408: "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28409: "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=9500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28410: "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=10500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28411: "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=11500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28412: "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=12500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28413: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28414: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=14500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28415: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=15500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28416: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=16500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28417: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=17500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28418: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=18500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28419: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28420: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=20500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28421: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=21500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28422: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=22500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28423: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=23500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28424: "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=24500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28425: "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=25500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28426: "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=26500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28427: "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=27500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28428: "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=28500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28429: "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=29500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28430: "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=30500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28431: "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=31500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28432: "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=32500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28462: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28463: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28464: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28465: "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28466: "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28467: "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28468: "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28469: "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28470: "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28350:
+    "+proj=utm +zone=50 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28351:
+    "+proj=utm +zone=51 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28352:
+    "+proj=utm +zone=52 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28353:
+    "+proj=utm +zone=53 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28354:
+    "+proj=utm +zone=54 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28355:
+    "+proj=utm +zone=55 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28356:
+    "+proj=utm +zone=56 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28357:
+    "+proj=utm +zone=57 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28358:
+    "+proj=utm +zone=58 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  28402:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=2500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28403:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=3500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28404:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=4500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28405:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=5500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28406:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=6500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28407:
+    "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28408:
+    "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28409:
+    "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=9500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28410:
+    "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=10500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28411:
+    "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=11500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28412:
+    "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=12500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28413:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=13500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28414:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=14500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28415:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=15500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28416:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=16500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28417:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=17500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28418:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=18500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28419:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=19500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28420:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=20500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28421:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=21500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28422:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=22500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28423:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=23500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28424:
+    "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=24500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28425:
+    "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=25500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28426:
+    "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=26500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28427:
+    "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=27500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28428:
+    "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=28500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28429:
+    "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=29500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28430:
+    "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=30500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28431:
+    "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=31500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28432:
+    "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=32500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28462:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28463:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28464:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28465:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28466:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28467:
+    "+proj=tmerc +lat_0=0 +lon_0=39 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28468:
+    "+proj=tmerc +lat_0=0 +lon_0=45 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28469:
+    "+proj=tmerc +lat_0=0 +lon_0=51 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28470:
+    "+proj=tmerc +lat_0=0 +lon_0=57 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
   29635: "+proj=utm +zone=35 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  28471: "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28472: "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28473: "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28474: "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28475: "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28476: "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28477: "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28478: "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28479: "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28471:
+    "+proj=tmerc +lat_0=0 +lon_0=63 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28472:
+    "+proj=tmerc +lat_0=0 +lon_0=69 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28473:
+    "+proj=tmerc +lat_0=0 +lon_0=75 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28474:
+    "+proj=tmerc +lat_0=0 +lon_0=81 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28475:
+    "+proj=tmerc +lat_0=0 +lon_0=87 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28476:
+    "+proj=tmerc +lat_0=0 +lon_0=93 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28477:
+    "+proj=tmerc +lat_0=0 +lon_0=99 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28478:
+    "+proj=tmerc +lat_0=0 +lon_0=105 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28479:
+    "+proj=tmerc +lat_0=0 +lon_0=111 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
   29636: "+proj=utm +zone=36 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  28480: "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28481: "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28482: "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28483: "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28484: "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28485: "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28486: "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28487: "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28488: "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  30800: "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
-  28489: "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28490: "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28491: "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28492: "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
-  28600: "+proj=tmerc +lat_0=24.45 +lon_0=51.21666666666667 +k=0.99999 +x_0=200000 +y_0=300000 +ellps=intl +towgs84=-128.16,-282.42,21.93,0,0,0,0 +units=m +no_defs",
-  28991: "+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=0 +y_0=0 +ellps=bessel +towgs84=565.2369,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812 +units=m +no_defs",
-  28992: "+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.2369,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812 +units=m +no_defs",
-  29100: "+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29101: "+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  28480:
+    "+proj=tmerc +lat_0=0 +lon_0=117 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28481:
+    "+proj=tmerc +lat_0=0 +lon_0=123 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28482:
+    "+proj=tmerc +lat_0=0 +lon_0=129 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28483:
+    "+proj=tmerc +lat_0=0 +lon_0=135 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28484:
+    "+proj=tmerc +lat_0=0 +lon_0=141 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28485:
+    "+proj=tmerc +lat_0=0 +lon_0=147 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28486:
+    "+proj=tmerc +lat_0=0 +lon_0=153 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28487:
+    "+proj=tmerc +lat_0=0 +lon_0=159 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28488:
+    "+proj=tmerc +lat_0=0 +lon_0=165 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  30800:
+    "+proj=tmerc +lat_0=0 +lon_0=15.80827777777778 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+  28489:
+    "+proj=tmerc +lat_0=0 +lon_0=171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28490:
+    "+proj=tmerc +lat_0=0 +lon_0=177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28491:
+    "+proj=tmerc +lat_0=0 +lon_0=-177 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28492:
+    "+proj=tmerc +lat_0=0 +lon_0=-171 +k=1 +x_0=500000 +y_0=0 +ellps=krass +towgs84=23.92,-141.27,-80.9,0,0.35,0.82,-0.12 +units=m +no_defs",
+  28600:
+    "+proj=tmerc +lat_0=24.45 +lon_0=51.21666666666667 +k=0.99999 +x_0=200000 +y_0=300000 +ellps=intl +towgs84=-128.16,-282.42,21.93,0,0,0,0 +units=m +no_defs",
+  28991:
+    "+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=0 +y_0=0 +ellps=bessel +towgs84=565.2369,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812 +units=m +no_defs",
+  28992:
+    "+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +towgs84=565.2369,50.0087,465.658,-0.406857,0.350733,-1.87035,4.0812 +units=m +no_defs",
+  29100:
+    "+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29101:
+    "+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
   104119: "+proj=longlat +ellps=GRS80 +no_defs",
-  29118: "+proj=utm +zone=18 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29119: "+proj=utm +zone=19 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29120: "+proj=utm +zone=20 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29121: "+proj=utm +zone=21 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29122: "+proj=utm +zone=22 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29168: "+proj=utm +zone=18 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29169: "+proj=utm +zone=19 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29170: "+proj=utm +zone=20 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29171: "+proj=utm +zone=21 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29172: "+proj=utm +zone=22 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29177: "+proj=utm +zone=17 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29178: "+proj=utm +zone=18 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29179: "+proj=utm +zone=19 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29180: "+proj=utm +zone=20 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29181: "+proj=utm +zone=21 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29182: "+proj=utm +zone=22 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29183: "+proj=utm +zone=23 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29184: "+proj=utm +zone=24 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29185: "+proj=utm +zone=25 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
-  29187: "+proj=utm +zone=17 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29188: "+proj=utm +zone=18 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29189: "+proj=utm +zone=19 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29190: "+proj=utm +zone=20 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29191: "+proj=utm +zone=21 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29192: "+proj=utm +zone=22 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29193: "+proj=utm +zone=23 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29194: "+proj=utm +zone=24 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29195: "+proj=utm +zone=25 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
-  29220: "+proj=utm +zone=20 +south +ellps=intl +towgs84=-355,21,72,0,0,0,0 +units=m +no_defs",
-  29221: "+proj=utm +zone=21 +south +ellps=intl +towgs84=-355,21,72,0,0,0,0 +units=m +no_defs",
-  29333: "+proj=utm +zone=33 +south +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +units=m +no_defs",
-  29371: "+proj=tmerc +lat_0=-22 +lon_0=11 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29373: "+proj=tmerc +lat_0=-22 +lon_0=13 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29375: "+proj=tmerc +lat_0=-22 +lon_0=15 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29377: "+proj=tmerc +lat_0=-22 +lon_0=17 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29379: "+proj=tmerc +lat_0=-22 +lon_0=19 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29381: "+proj=tmerc +lat_0=-22 +lon_0=21 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29383: "+proj=tmerc +lat_0=-22 +lon_0=23 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29385: "+proj=tmerc +lat_0=-22 +lon_0=25 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
-  29700: "+proj=omerc +lat_0=-18.9 +lonc=44.10000000000001 +alpha=18.9 +k=0.9995000000000001 +x_0=400000 +y_0=800000 +gamma=18.9 +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +pm=paris +units=m +no_defs",
-  29702: "+proj=omerc +lat_0=-18.9 +lonc=44.10000000000001 +alpha=18.9 +k=0.9995000000000001 +x_0=400000 +y_0=800000 +gamma=18.9 +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +pm=paris +units=m +no_defs",
-  29738: "+proj=utm +zone=38 +south +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +units=m +no_defs",
-  29739: "+proj=utm +zone=39 +south +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +units=m +no_defs",
-  29849: "+proj=utm +zone=49 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs",
-  29850: "+proj=utm +zone=50 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs",
-  29871: "+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +k=0.99984 +x_0=590476.8714630401 +y_0=442857.653094361 +gamma=53.13010236111111 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +to_meter=20.11676512155263 +no_defs",
-  29872: "+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +k=0.99984 +x_0=590476.8727431979 +y_0=442857.6545573985 +gamma=53.13010236111111 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +to_meter=0.3047994715386762 +no_defs",
-  29873: "+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +k=0.99984 +x_0=590476.87 +y_0=442857.65 +gamma=53.13010236111111 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs",
-  29900: "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +datum=ire65 +units=m +no_defs",
-  29901: "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1 +x_0=200000 +y_0=250000 +ellps=airy +towgs84=482.5,-130.6,564.6,-1.042,-0.214,-0.631,8.15 +units=m +no_defs",
-  29902: "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +datum=ire65 +units=m +no_defs",
-  29903: "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +ellps=mod_airy +towgs84=482.5,-130.6,564.6,-1.042,-0.214,-0.631,8.15 +units=m +no_defs",
-  30161: "+proj=tmerc +lat_0=33 +lon_0=129.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30162: "+proj=tmerc +lat_0=33 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30163: "+proj=tmerc +lat_0=36 +lon_0=132.1666666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30164: "+proj=tmerc +lat_0=33 +lon_0=133.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  29118:
+    "+proj=utm +zone=18 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29119:
+    "+proj=utm +zone=19 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29120:
+    "+proj=utm +zone=20 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29121:
+    "+proj=utm +zone=21 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29122:
+    "+proj=utm +zone=22 +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29168:
+    "+proj=utm +zone=18 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29169:
+    "+proj=utm +zone=19 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29170:
+    "+proj=utm +zone=20 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29171:
+    "+proj=utm +zone=21 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29172:
+    "+proj=utm +zone=22 +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29177:
+    "+proj=utm +zone=17 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29178:
+    "+proj=utm +zone=18 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29179:
+    "+proj=utm +zone=19 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29180:
+    "+proj=utm +zone=20 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29181:
+    "+proj=utm +zone=21 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29182:
+    "+proj=utm +zone=22 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29183:
+    "+proj=utm +zone=23 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29184:
+    "+proj=utm +zone=24 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29185:
+    "+proj=utm +zone=25 +south +ellps=GRS67 +towgs84=-57,1,-41,0,0,0,0 +units=m +no_defs",
+  29187:
+    "+proj=utm +zone=17 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29188:
+    "+proj=utm +zone=18 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29189:
+    "+proj=utm +zone=19 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29190:
+    "+proj=utm +zone=20 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29191:
+    "+proj=utm +zone=21 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29192:
+    "+proj=utm +zone=22 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29193:
+    "+proj=utm +zone=23 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29194:
+    "+proj=utm +zone=24 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29195:
+    "+proj=utm +zone=25 +south +ellps=aust_SA +towgs84=-66.87,4.37,-38.52,0,0,0,0 +units=m +no_defs",
+  29220:
+    "+proj=utm +zone=20 +south +ellps=intl +towgs84=-355,21,72,0,0,0,0 +units=m +no_defs",
+  29221:
+    "+proj=utm +zone=21 +south +ellps=intl +towgs84=-355,21,72,0,0,0,0 +units=m +no_defs",
+  29333:
+    "+proj=utm +zone=33 +south +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +units=m +no_defs",
+  29371:
+    "+proj=tmerc +lat_0=-22 +lon_0=11 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29373:
+    "+proj=tmerc +lat_0=-22 +lon_0=13 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29375:
+    "+proj=tmerc +lat_0=-22 +lon_0=15 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29377:
+    "+proj=tmerc +lat_0=-22 +lon_0=17 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29379:
+    "+proj=tmerc +lat_0=-22 +lon_0=19 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29381:
+    "+proj=tmerc +lat_0=-22 +lon_0=21 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29383:
+    "+proj=tmerc +lat_0=-22 +lon_0=23 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29385:
+    "+proj=tmerc +lat_0=-22 +lon_0=25 +k=1 +x_0=0 +y_0=0 +axis=wsu +ellps=bess_nam +towgs84=616,97,-251,0,0,0,0 +to_meter=1.0000135965 +no_defs",
+  29700:
+    "+proj=omerc +lat_0=-18.9 +lonc=44.10000000000001 +alpha=18.9 +k=0.9995000000000001 +x_0=400000 +y_0=800000 +gamma=18.9 +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +pm=paris +units=m +no_defs",
+  29702:
+    "+proj=omerc +lat_0=-18.9 +lonc=44.10000000000001 +alpha=18.9 +k=0.9995000000000001 +x_0=400000 +y_0=800000 +gamma=18.9 +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +pm=paris +units=m +no_defs",
+  29738:
+    "+proj=utm +zone=38 +south +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +units=m +no_defs",
+  29739:
+    "+proj=utm +zone=39 +south +ellps=intl +towgs84=-189,-242,-91,0,0,0,0 +units=m +no_defs",
+  29849:
+    "+proj=utm +zone=49 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs",
+  29850:
+    "+proj=utm +zone=50 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs",
+  29871:
+    "+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +k=0.99984 +x_0=590476.8714630401 +y_0=442857.653094361 +gamma=53.13010236111111 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +to_meter=20.11676512155263 +no_defs",
+  29872:
+    "+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +k=0.99984 +x_0=590476.8727431979 +y_0=442857.6545573985 +gamma=53.13010236111111 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +to_meter=0.3047994715386762 +no_defs",
+  29873:
+    "+proj=omerc +lat_0=4 +lonc=115 +alpha=53.31582047222222 +k=0.99984 +x_0=590476.87 +y_0=442857.65 +gamma=53.13010236111111 +ellps=evrstSS +towgs84=-679,669,-48,0,0,0,0 +units=m +no_defs",
+  29900:
+    "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +datum=ire65 +units=m +no_defs",
+  29901:
+    "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1 +x_0=200000 +y_0=250000 +ellps=airy +towgs84=482.5,-130.6,564.6,-1.042,-0.214,-0.631,8.15 +units=m +no_defs",
+  29902:
+    "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +datum=ire65 +units=m +no_defs",
+  29903:
+    "+proj=tmerc +lat_0=53.5 +lon_0=-8 +k=1.000035 +x_0=200000 +y_0=250000 +ellps=mod_airy +towgs84=482.5,-130.6,564.6,-1.042,-0.214,-0.631,8.15 +units=m +no_defs",
+  30161:
+    "+proj=tmerc +lat_0=33 +lon_0=129.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30162:
+    "+proj=tmerc +lat_0=33 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30163:
+    "+proj=tmerc +lat_0=36 +lon_0=132.1666666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30164:
+    "+proj=tmerc +lat_0=33 +lon_0=133.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
   104120: "+proj=longlat +ellps=GRS80 +no_defs",
-  30165: "+proj=tmerc +lat_0=36 +lon_0=134.3333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30166: "+proj=tmerc +lat_0=36 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30167: "+proj=tmerc +lat_0=36 +lon_0=137.1666666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30168: "+proj=tmerc +lat_0=36 +lon_0=138.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30169: "+proj=tmerc +lat_0=36 +lon_0=139.8333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30170: "+proj=tmerc +lat_0=40 +lon_0=140.8333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30171: "+proj=tmerc +lat_0=44 +lon_0=140.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30172: "+proj=tmerc +lat_0=44 +lon_0=142.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30173: "+proj=tmerc +lat_0=44 +lon_0=144.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30174: "+proj=tmerc +lat_0=26 +lon_0=142 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30175: "+proj=tmerc +lat_0=26 +lon_0=127.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30176: "+proj=tmerc +lat_0=26 +lon_0=124 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30177: "+proj=tmerc +lat_0=26 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30178: "+proj=tmerc +lat_0=20 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30179: "+proj=tmerc +lat_0=26 +lon_0=154 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
-  30200: "+proj=cass +lat_0=10.44166666666667 +lon_0=-61.33333333333334 +x_0=86501.46392051999 +y_0=65379.0134283 +a=6378293.645208759 +b=6356617.987679838 +towgs84=-61.702,284.488,472.052,0,0,0,0 +to_meter=0.201166195164 +no_defs",
+  30165:
+    "+proj=tmerc +lat_0=36 +lon_0=134.3333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30166:
+    "+proj=tmerc +lat_0=36 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30167:
+    "+proj=tmerc +lat_0=36 +lon_0=137.1666666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30168:
+    "+proj=tmerc +lat_0=36 +lon_0=138.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30169:
+    "+proj=tmerc +lat_0=36 +lon_0=139.8333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30170:
+    "+proj=tmerc +lat_0=40 +lon_0=140.8333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30171:
+    "+proj=tmerc +lat_0=44 +lon_0=140.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30172:
+    "+proj=tmerc +lat_0=44 +lon_0=142.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30173:
+    "+proj=tmerc +lat_0=44 +lon_0=144.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30174:
+    "+proj=tmerc +lat_0=26 +lon_0=142 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30175:
+    "+proj=tmerc +lat_0=26 +lon_0=127.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30176:
+    "+proj=tmerc +lat_0=26 +lon_0=124 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30177:
+    "+proj=tmerc +lat_0=26 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30178:
+    "+proj=tmerc +lat_0=20 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30179:
+    "+proj=tmerc +lat_0=26 +lon_0=154 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +towgs84=-146.414,507.337,680.507,0,0,0,0 +units=m +no_defs",
+  30200:
+    "+proj=cass +lat_0=10.44166666666667 +lon_0=-61.33333333333334 +x_0=86501.46392051999 +y_0=65379.0134283 +a=6378293.645208759 +b=6356617.987679838 +towgs84=-61.702,284.488,472.052,0,0,0,0 +to_meter=0.201166195164 +no_defs",
   30339: "+proj=utm +zone=39 +ellps=helmert +units=m +no_defs",
   30340: "+proj=utm +zone=40 +ellps=helmert +units=m +no_defs",
-  30491: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-73,-247,227,0,0,0,0 +units=m +no_defs",
-  31028: "+proj=utm +zone=28 +a=6378249.2 +b=6356515 +towgs84=-30,190,89,0,0,0,0 +units=m +no_defs",
-  30492: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-73,-247,227,0,0,0,0 +units=m +no_defs",
-  30493: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  30494: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +units=m +no_defs",
-  30729: "+proj=utm +zone=29 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
-  30730: "+proj=utm +zone=30 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
-  30731: "+proj=utm +zone=31 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
-  30732: "+proj=utm +zone=32 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
-  30791: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
-  30792: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
-  31121: "+proj=utm +zone=21 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
-  31154: "+proj=tmerc +lat_0=0 +lon_0=-54 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
-  31170: "+proj=tmerc +lat_0=0 +lon_0=-55.68333333333333 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
-  31171: "+proj=tmerc +lat_0=0 +lon_0=-55.68333333333333 +k=0.9999 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
-  31251: "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +pm=ferro +units=m +no_defs",
-  31252: "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +pm=ferro +units=m +no_defs",
-  31253: "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +pm=ferro +units=m +no_defs",
-  31254: "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=0 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
-  31255: "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=0 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
+  30491:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-73,-247,227,0,0,0,0 +units=m +no_defs",
+  31028:
+    "+proj=utm +zone=28 +a=6378249.2 +b=6356515 +towgs84=-30,190,89,0,0,0,0 +units=m +no_defs",
+  30492:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +towgs84=-73,-247,227,0,0,0,0 +units=m +no_defs",
+  30493:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +units=m +no_defs",
+  30494:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +a=6378249.2 +b=6356515 +units=m +no_defs",
+  30729:
+    "+proj=utm +zone=29 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
+  30730:
+    "+proj=utm +zone=30 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
+  30731:
+    "+proj=utm +zone=31 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
+  30732:
+    "+proj=utm +zone=32 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
+  30791:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
+  30792:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +ellps=clrk80 +towgs84=-209.3622,-87.8162,404.6198,0.0046,3.4784,0.5805,-1.4547 +units=m +no_defs",
+  31121:
+    "+proj=utm +zone=21 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
+  31154:
+    "+proj=tmerc +lat_0=0 +lon_0=-54 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
+  31170:
+    "+proj=tmerc +lat_0=0 +lon_0=-55.68333333333333 +k=0.9996 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
+  31171:
+    "+proj=tmerc +lat_0=0 +lon_0=-55.68333333333333 +k=0.9999 +x_0=500000 +y_0=0 +ellps=intl +towgs84=-265,120,-358,0,0,0,0 +units=m +no_defs",
+  31251:
+    "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +pm=ferro +units=m +no_defs",
+  31252:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +pm=ferro +units=m +no_defs",
+  31253:
+    "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=-5000000 +ellps=bessel +towgs84=577.326,90.129,463.919,5.137,1.474,5.297,2.4232 +pm=ferro +units=m +no_defs",
+  31254:
+    "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=0 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
+  31255:
+    "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=0 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
   54009: "+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  31256: "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=0 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
-  31257: "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=150000 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
-  31258: "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=450000 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
-  31259: "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=750000 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
-  31265: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31266: "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31267: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31268: "+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31275: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=5500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31466: "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31276: "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=6500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31277: "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31278: "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31279: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=8500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31281: "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31282: "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31283: "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31284: "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=150000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31285: "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=450000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31286: "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=750000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31287: "+proj=lcc +lat_1=49 +lat_2=46 +lat_0=47.5 +lon_0=13.33333333333333 +x_0=400000 +y_0=400000 +datum=hermannskogel +units=m +no_defs",
-  31288: "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=150000 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31289: "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=450000 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31290: "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=750000 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31291: "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31292: "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31293: "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
-  31294: "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=150000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31295: "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=450000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31256:
+    "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=0 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
+  31257:
+    "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=150000 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
+  31258:
+    "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=450000 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
+  31259:
+    "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=750000 +y_0=-5000000 +datum=hermannskogel +units=m +no_defs",
+  31265:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31266:
+    "+proj=tmerc +lat_0=0 +lon_0=18 +k=1 +x_0=6500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31267:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31268:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31275:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=5500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31466:
+    "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31276:
+    "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=6500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31277:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31278:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31279:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=8500000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31281:
+    "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31282:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31283:
+    "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31284:
+    "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=150000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31285:
+    "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=450000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31286:
+    "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=750000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31287:
+    "+proj=lcc +lat_1=49 +lat_2=46 +lat_0=47.5 +lon_0=13.33333333333333 +x_0=400000 +y_0=400000 +datum=hermannskogel +units=m +no_defs",
+  31288:
+    "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=150000 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31289:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=450000 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31290:
+    "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=750000 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31291:
+    "+proj=tmerc +lat_0=0 +lon_0=28 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31292:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31293:
+    "+proj=tmerc +lat_0=0 +lon_0=34 +k=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=682,-203,480,0,0,0,0 +pm=ferro +units=m +no_defs",
+  31294:
+    "+proj=tmerc +lat_0=0 +lon_0=10.33333333333333 +k=1 +x_0=150000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31295:
+    "+proj=tmerc +lat_0=0 +lon_0=13.33333333333333 +k=1 +x_0=450000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
   54010: "+proj=eck6 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  31296: "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=750000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
-  31297: "+proj=lcc +lat_1=49 +lat_2=46 +lat_0=47.5 +lon_0=13.33333333333333 +x_0=400000 +y_0=400000 +datum=hermannskogel +units=m +no_defs",
-  31300: "+proj=lcc +lat_1=49.83333333333334 +lat_2=51.16666666666666 +lat_0=90 +lon_0=4.356939722222222 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs",
-  31370: "+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs",
-  31461: "+proj=tmerc +lat_0=0 +lon_0=3 +k=1 +x_0=1500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31462: "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31463: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31464: "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31465: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31467: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31468: "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31469: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +datum=potsdam +units=m +no_defs",
-  31528: "+proj=utm +zone=28 +a=6378249.2 +b=6356515 +towgs84=-23,259,-9,0,0,0,0 +units=m +no_defs",
-  31529: "+proj=utm +zone=29 +a=6378249.2 +b=6356515 +towgs84=-23,259,-9,0,0,0,0 +units=m +no_defs",
-  31600: "+proj=sterea +lat_0=45.9 +lon_0=25.39246588888889 +k=0.9996667 +x_0=500000 +y_0=500000 +ellps=intl +towgs84=103.25,-100.4,-307.19,0,0,0,0 +units=m +no_defs",
-  31700: "+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=28,-121,-77,0,0,0,0 +units=m +no_defs",
-  31838: "+proj=utm +zone=38 +ellps=WGS84 +towgs84=-3.2,-5.7,2.8,0,0,0,0 +units=m +no_defs",
-  31839: "+proj=utm +zone=39 +ellps=WGS84 +towgs84=-3.2,-5.7,2.8,0,0,0,0 +units=m +no_defs",
-  31900: "+proj=tmerc +lat_0=0 +lon_0=48 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-20.8,11.3,2.4,0,0,0,0 +units=m +no_defs",
-  31901: "+proj=tmerc +lat_0=0 +lon_0=48 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-20.8,11.3,2.4,0,0,0,0 +units=m +no_defs",
-  31965: "+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31966: "+proj=utm +zone=12 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31967: "+proj=utm +zone=13 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31968: "+proj=utm +zone=14 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31969: "+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31970: "+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31971: "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31972: "+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31973: "+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31974: "+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31975: "+proj=utm +zone=21 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31976: "+proj=utm +zone=22 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31977: "+proj=utm +zone=17 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31978: "+proj=utm +zone=18 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31979: "+proj=utm +zone=19 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31980: "+proj=utm +zone=20 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31981: "+proj=utm +zone=21 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31982: "+proj=utm +zone=22 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31983: "+proj=utm +zone=23 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31984: "+proj=utm +zone=24 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31985: "+proj=utm +zone=25 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31986: "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31987: "+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31988: "+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31989: "+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31990: "+proj=utm +zone=21 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31991: "+proj=utm +zone=22 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31992: "+proj=utm +zone=17 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31993: "+proj=utm +zone=18 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31994: "+proj=utm +zone=19 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31995: "+proj=utm +zone=20 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31996: "+proj=utm +zone=21 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31997: "+proj=utm +zone=22 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31998: "+proj=utm +zone=23 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  31999: "+proj=utm +zone=24 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  32000: "+proj=utm +zone=25 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  32001: "+proj=lcc +lat_1=48.71666666666667 +lat_2=47.85 +lat_0=47 +lon_0=-109.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32002: "+proj=lcc +lat_1=47.88333333333333 +lat_2=46.45 +lat_0=45.83333333333334 +lon_0=-109.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  31296:
+    "+proj=tmerc +lat_0=0 +lon_0=16.33333333333333 +k=1 +x_0=750000 +y_0=0 +datum=hermannskogel +units=m +no_defs",
+  31297:
+    "+proj=lcc +lat_1=49 +lat_2=46 +lat_0=47.5 +lon_0=13.33333333333333 +x_0=400000 +y_0=400000 +datum=hermannskogel +units=m +no_defs",
+  31300:
+    "+proj=lcc +lat_1=49.83333333333334 +lat_2=51.16666666666666 +lat_0=90 +lon_0=4.356939722222222 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs",
+  31370:
+    "+proj=lcc +lat_1=51.16666723333333 +lat_2=49.8333339 +lat_0=90 +lon_0=4.367486666666666 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,0.3366,-0.457,1.8422,-1.2747 +units=m +no_defs",
+  31461:
+    "+proj=tmerc +lat_0=0 +lon_0=3 +k=1 +x_0=1500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31462:
+    "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31463:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31464:
+    "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31465:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31467:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31468:
+    "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31469:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +datum=potsdam +units=m +no_defs",
+  31528:
+    "+proj=utm +zone=28 +a=6378249.2 +b=6356515 +towgs84=-23,259,-9,0,0,0,0 +units=m +no_defs",
+  31529:
+    "+proj=utm +zone=29 +a=6378249.2 +b=6356515 +towgs84=-23,259,-9,0,0,0,0 +units=m +no_defs",
+  31600:
+    "+proj=sterea +lat_0=45.9 +lon_0=25.39246588888889 +k=0.9996667 +x_0=500000 +y_0=500000 +ellps=intl +towgs84=103.25,-100.4,-307.19,0,0,0,0 +units=m +no_defs",
+  31700:
+    "+proj=sterea +lat_0=46 +lon_0=25 +k=0.99975 +x_0=500000 +y_0=500000 +ellps=krass +towgs84=28,-121,-77,0,0,0,0 +units=m +no_defs",
+  31838:
+    "+proj=utm +zone=38 +ellps=WGS84 +towgs84=-3.2,-5.7,2.8,0,0,0,0 +units=m +no_defs",
+  31839:
+    "+proj=utm +zone=39 +ellps=WGS84 +towgs84=-3.2,-5.7,2.8,0,0,0,0 +units=m +no_defs",
+  31900:
+    "+proj=tmerc +lat_0=0 +lon_0=48 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-20.8,11.3,2.4,0,0,0,0 +units=m +no_defs",
+  31901:
+    "+proj=tmerc +lat_0=0 +lon_0=48 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +towgs84=-20.8,11.3,2.4,0,0,0,0 +units=m +no_defs",
+  31965:
+    "+proj=utm +zone=11 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31966:
+    "+proj=utm +zone=12 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31967:
+    "+proj=utm +zone=13 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31968:
+    "+proj=utm +zone=14 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31969:
+    "+proj=utm +zone=15 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31970:
+    "+proj=utm +zone=16 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31971:
+    "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31972:
+    "+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31973:
+    "+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31974:
+    "+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31975:
+    "+proj=utm +zone=21 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31976:
+    "+proj=utm +zone=22 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31977:
+    "+proj=utm +zone=17 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31978:
+    "+proj=utm +zone=18 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31979:
+    "+proj=utm +zone=19 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31980:
+    "+proj=utm +zone=20 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31981:
+    "+proj=utm +zone=21 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31982:
+    "+proj=utm +zone=22 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31983:
+    "+proj=utm +zone=23 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31984:
+    "+proj=utm +zone=24 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31985:
+    "+proj=utm +zone=25 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31986:
+    "+proj=utm +zone=17 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31987:
+    "+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31988:
+    "+proj=utm +zone=19 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31989:
+    "+proj=utm +zone=20 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31990:
+    "+proj=utm +zone=21 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31991:
+    "+proj=utm +zone=22 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31992:
+    "+proj=utm +zone=17 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31993:
+    "+proj=utm +zone=18 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31994:
+    "+proj=utm +zone=19 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31995:
+    "+proj=utm +zone=20 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31996:
+    "+proj=utm +zone=21 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31997:
+    "+proj=utm +zone=22 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31998:
+    "+proj=utm +zone=23 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  31999:
+    "+proj=utm +zone=24 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  32000:
+    "+proj=utm +zone=25 +south +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+  32001:
+    "+proj=lcc +lat_1=48.71666666666667 +lat_2=47.85 +lat_0=47 +lon_0=-109.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32002:
+    "+proj=lcc +lat_1=47.88333333333333 +lat_2=46.45 +lat_0=45.83333333333334 +lon_0=-109.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   54011: "+proj=eck5 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  32003: "+proj=lcc +lat_1=46.4 +lat_2=44.86666666666667 +lat_0=44 +lon_0=-109.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32005: "+proj=lcc +lat_1=41.85 +lat_2=42.81666666666667 +lat_0=41.33333333333334 +lon_0=-100 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32006: "+proj=lcc +lat_1=40.28333333333333 +lat_2=41.71666666666667 +lat_0=39.66666666666666 +lon_0=-99.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32007: "+proj=tmerc +lat_0=34.75 +lon_0=-115.5833333333333 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32008: "+proj=tmerc +lat_0=34.75 +lon_0=-116.6666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32009: "+proj=tmerc +lat_0=34.75 +lon_0=-118.5833333333333 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32010: "+proj=tmerc +lat_0=42.5 +lon_0=-71.66666666666667 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32011: "+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.66666666666667 +k=0.9999749999999999 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32012: "+proj=tmerc +lat_0=31 +lon_0=-104.3333333333333 +k=0.999909091 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32013: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32014: "+proj=tmerc +lat_0=31 +lon_0=-107.8333333333333 +k=0.999916667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32015: "+proj=tmerc +lat_0=40 +lon_0=-74.33333333333333 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32016: "+proj=tmerc +lat_0=40 +lon_0=-76.58333333333333 +k=0.9999375 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32017: "+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32018: "+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=40.5 +lon_0=-74 +x_0=304800.6096012192 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32019: "+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32020: "+proj=lcc +lat_1=47.43333333333333 +lat_2=48.73333333333333 +lat_0=47 +lon_0=-100.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32021: "+proj=lcc +lat_1=46.18333333333333 +lat_2=47.48333333333333 +lat_0=45.66666666666666 +lon_0=-100.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32022: "+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32023: "+proj=lcc +lat_1=38.73333333333333 +lat_2=40.03333333333333 +lat_0=38 +lon_0=-82.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32024: "+proj=lcc +lat_1=35.56666666666667 +lat_2=36.76666666666667 +lat_0=35 +lon_0=-98 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32025: "+proj=lcc +lat_1=33.93333333333333 +lat_2=35.23333333333333 +lat_0=33.33333333333334 +lon_0=-98 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32026: "+proj=lcc +lat_1=44.33333333333334 +lat_2=46 +lat_0=43.66666666666666 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32027: "+proj=lcc +lat_1=42.33333333333334 +lat_2=44 +lat_0=41.66666666666666 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32028: "+proj=lcc +lat_1=40.88333333333333 +lat_2=41.95 +lat_0=40.16666666666666 +lon_0=-77.75 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32029: "+proj=lcc +lat_1=39.93333333333333 +lat_2=40.8 +lat_0=39.33333333333334 +lon_0=-77.75 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32003:
+    "+proj=lcc +lat_1=46.4 +lat_2=44.86666666666667 +lat_0=44 +lon_0=-109.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32005:
+    "+proj=lcc +lat_1=41.85 +lat_2=42.81666666666667 +lat_0=41.33333333333334 +lon_0=-100 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32006:
+    "+proj=lcc +lat_1=40.28333333333333 +lat_2=41.71666666666667 +lat_0=39.66666666666666 +lon_0=-99.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32007:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.5833333333333 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32008:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.6666666666667 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32009:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.5833333333333 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32010:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.66666666666667 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32011:
+    "+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.66666666666667 +k=0.9999749999999999 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32012:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.3333333333333 +k=0.999909091 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32013:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32014:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.8333333333333 +k=0.999916667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32015:
+    "+proj=tmerc +lat_0=40 +lon_0=-74.33333333333333 +k=0.999966667 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32016:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.58333333333333 +k=0.9999375 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32017:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32018:
+    "+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=40.5 +lon_0=-74 +x_0=304800.6096012192 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32019:
+    "+proj=lcc +lat_1=34.33333333333334 +lat_2=36.16666666666666 +lat_0=33.75 +lon_0=-79 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32020:
+    "+proj=lcc +lat_1=47.43333333333333 +lat_2=48.73333333333333 +lat_0=47 +lon_0=-100.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32021:
+    "+proj=lcc +lat_1=46.18333333333333 +lat_2=47.48333333333333 +lat_0=45.66666666666666 +lon_0=-100.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32022:
+    "+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32023:
+    "+proj=lcc +lat_1=38.73333333333333 +lat_2=40.03333333333333 +lat_0=38 +lon_0=-82.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32024:
+    "+proj=lcc +lat_1=35.56666666666667 +lat_2=36.76666666666667 +lat_0=35 +lon_0=-98 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32025:
+    "+proj=lcc +lat_1=33.93333333333333 +lat_2=35.23333333333333 +lat_0=33.33333333333334 +lon_0=-98 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32026:
+    "+proj=lcc +lat_1=44.33333333333334 +lat_2=46 +lat_0=43.66666666666666 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32027:
+    "+proj=lcc +lat_1=42.33333333333334 +lat_2=44 +lat_0=41.66666666666666 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32028:
+    "+proj=lcc +lat_1=40.88333333333333 +lat_2=41.95 +lat_0=40.16666666666666 +lon_0=-77.75 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32029:
+    "+proj=lcc +lat_1=39.93333333333333 +lat_2=40.8 +lat_0=39.33333333333334 +lon_0=-77.75 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   32612: "+proj=utm +zone=12 +datum=WGS84 +units=m +no_defs",
-  32030: "+proj=tmerc +lat_0=41.08333333333334 +lon_0=-71.5 +k=0.9999938 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32031: "+proj=lcc +lat_1=33.76666666666667 +lat_2=34.96666666666667 +lat_0=33 +lon_0=-81 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32033: "+proj=lcc +lat_1=32.33333333333334 +lat_2=33.66666666666666 +lat_0=31.83333333333333 +lon_0=-81 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32034: "+proj=lcc +lat_1=44.41666666666666 +lat_2=45.68333333333333 +lat_0=43.83333333333334 +lon_0=-100 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32035: "+proj=lcc +lat_1=42.83333333333334 +lat_2=44.4 +lat_0=42.33333333333334 +lon_0=-100.3333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32036: "+proj=lcc +lat_1=35.25 +lat_2=36.41666666666666 +lat_0=34.66666666666666 +lon_0=-86 +x_0=30480.06096012192 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32037: "+proj=lcc +lat_1=34.65 +lat_2=36.18333333333333 +lat_0=34 +lon_0=-101.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32038: "+proj=lcc +lat_1=32.13333333333333 +lat_2=33.96666666666667 +lat_0=31.66666666666667 +lon_0=-97.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32030:
+    "+proj=tmerc +lat_0=41.08333333333334 +lon_0=-71.5 +k=0.9999938 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32031:
+    "+proj=lcc +lat_1=33.76666666666667 +lat_2=34.96666666666667 +lat_0=33 +lon_0=-81 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32033:
+    "+proj=lcc +lat_1=32.33333333333334 +lat_2=33.66666666666666 +lat_0=31.83333333333333 +lon_0=-81 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32034:
+    "+proj=lcc +lat_1=44.41666666666666 +lat_2=45.68333333333333 +lat_0=43.83333333333334 +lon_0=-100 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32035:
+    "+proj=lcc +lat_1=42.83333333333334 +lat_2=44.4 +lat_0=42.33333333333334 +lon_0=-100.3333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32036:
+    "+proj=lcc +lat_1=35.25 +lat_2=36.41666666666666 +lat_0=34.66666666666666 +lon_0=-86 +x_0=30480.06096012192 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32037:
+    "+proj=lcc +lat_1=34.65 +lat_2=36.18333333333333 +lat_0=34 +lon_0=-101.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32038:
+    "+proj=lcc +lat_1=32.13333333333333 +lat_2=33.96666666666667 +lat_0=31.66666666666667 +lon_0=-97.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   32613: "+proj=utm +zone=13 +datum=WGS84 +units=m +no_defs",
-  32039: "+proj=lcc +lat_1=30.11666666666667 +lat_2=31.88333333333333 +lat_0=29.66666666666667 +lon_0=-100.3333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32040: "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333333 +lat_0=27.83333333333333 +lon_0=-99 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32041: "+proj=lcc +lat_1=26.16666666666667 +lat_2=27.83333333333333 +lat_0=25.66666666666667 +lon_0=-98.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32042: "+proj=lcc +lat_1=40.71666666666667 +lat_2=41.78333333333333 +lat_0=40.33333333333334 +lon_0=-111.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32043: "+proj=lcc +lat_1=39.01666666666667 +lat_2=40.65 +lat_0=38.33333333333334 +lon_0=-111.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32044: "+proj=lcc +lat_1=37.21666666666667 +lat_2=38.35 +lat_0=36.66666666666666 +lon_0=-111.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32045: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964286 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32046: "+proj=lcc +lat_1=38.03333333333333 +lat_2=39.2 +lat_0=37.66666666666666 +lon_0=-78.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32039:
+    "+proj=lcc +lat_1=30.11666666666667 +lat_2=31.88333333333333 +lat_0=29.66666666666667 +lon_0=-100.3333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32040:
+    "+proj=lcc +lat_1=28.38333333333333 +lat_2=30.28333333333333 +lat_0=27.83333333333333 +lon_0=-99 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32041:
+    "+proj=lcc +lat_1=26.16666666666667 +lat_2=27.83333333333333 +lat_0=25.66666666666667 +lon_0=-98.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32042:
+    "+proj=lcc +lat_1=40.71666666666667 +lat_2=41.78333333333333 +lat_0=40.33333333333334 +lon_0=-111.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32043:
+    "+proj=lcc +lat_1=39.01666666666667 +lat_2=40.65 +lat_0=38.33333333333334 +lon_0=-111.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32044:
+    "+proj=lcc +lat_1=37.21666666666667 +lat_2=38.35 +lat_0=36.66666666666666 +lon_0=-111.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32045:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964286 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32046:
+    "+proj=lcc +lat_1=38.03333333333333 +lat_2=39.2 +lat_0=37.66666666666666 +lon_0=-78.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   32614: "+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs",
-  32047: "+proj=lcc +lat_1=36.76666666666667 +lat_2=37.96666666666667 +lat_0=36.33333333333334 +lon_0=-78.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32048: "+proj=lcc +lat_1=47.5 +lat_2=48.73333333333333 +lat_0=47 +lon_0=-120.8333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32049: "+proj=lcc +lat_1=45.83333333333334 +lat_2=47.33333333333334 +lat_0=45.33333333333334 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32050: "+proj=lcc +lat_1=39 +lat_2=40.25 +lat_0=38.5 +lon_0=-79.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32051: "+proj=lcc +lat_1=37.48333333333333 +lat_2=38.88333333333333 +lat_0=37 +lon_0=-81 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32052: "+proj=lcc +lat_1=45.56666666666667 +lat_2=46.76666666666667 +lat_0=45.16666666666666 +lon_0=-90 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32053: "+proj=lcc +lat_1=44.25 +lat_2=45.5 +lat_0=43.83333333333334 +lon_0=-90 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32054: "+proj=lcc +lat_1=42.73333333333333 +lat_2=44.06666666666667 +lat_0=42 +lon_0=-90 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32047:
+    "+proj=lcc +lat_1=36.76666666666667 +lat_2=37.96666666666667 +lat_0=36.33333333333334 +lon_0=-78.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32048:
+    "+proj=lcc +lat_1=47.5 +lat_2=48.73333333333333 +lat_0=47 +lon_0=-120.8333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32049:
+    "+proj=lcc +lat_1=45.83333333333334 +lat_2=47.33333333333334 +lat_0=45.33333333333334 +lon_0=-120.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32050:
+    "+proj=lcc +lat_1=39 +lat_2=40.25 +lat_0=38.5 +lon_0=-79.5 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32051:
+    "+proj=lcc +lat_1=37.48333333333333 +lat_2=38.88333333333333 +lat_0=37 +lon_0=-81 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32052:
+    "+proj=lcc +lat_1=45.56666666666667 +lat_2=46.76666666666667 +lat_0=45.16666666666666 +lon_0=-90 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32053:
+    "+proj=lcc +lat_1=44.25 +lat_2=45.5 +lat_0=43.83333333333334 +lon_0=-90 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32054:
+    "+proj=lcc +lat_1=42.73333333333333 +lat_2=44.06666666666667 +lat_0=42 +lon_0=-90 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   32615: "+proj=utm +zone=15 +datum=WGS84 +units=m +no_defs",
-  32055: "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-105.1666666666667 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32056: "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-107.3333333333333 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32057: "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-108.75 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32058: "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-110.0833333333333 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32061: "+proj=lcc +lat_1=16.81666666666667 +lat_0=16.81666666666667 +lon_0=-90.33333333333333 +k_0=0.99992226 +x_0=500000 +y_0=292209.579 +datum=NAD27 +units=m +no_defs",
-  32062: "+proj=lcc +lat_1=14.9 +lat_0=14.9 +lon_0=-90.33333333333333 +k_0=0.99989906 +x_0=500000 +y_0=325992.681 +datum=NAD27 +units=m +no_defs",
-  32064: "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32065: "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32066: "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32055:
+    "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-105.1666666666667 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32056:
+    "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-107.3333333333333 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32057:
+    "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-108.75 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32058:
+    "+proj=tmerc +lat_0=40.66666666666666 +lon_0=-110.0833333333333 +k=0.999941177 +x_0=152400.3048006096 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32061:
+    "+proj=lcc +lat_1=16.81666666666667 +lat_0=16.81666666666667 +lon_0=-90.33333333333333 +k_0=0.99992226 +x_0=500000 +y_0=292209.579 +datum=NAD27 +units=m +no_defs",
+  32062:
+    "+proj=lcc +lat_1=14.9 +lat_0=14.9 +lon_0=-90.33333333333333 +k_0=0.99989906 +x_0=500000 +y_0=325992.681 +datum=NAD27 +units=m +no_defs",
+  32064:
+    "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32065:
+    "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32066:
+    "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   37211: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  32067: "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32074: "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32075: "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32076: "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32077: "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32081: "+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32082: "+proj=tmerc +lat_0=0 +lon_0=-56 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32083: "+proj=tmerc +lat_0=0 +lon_0=-58.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32084: "+proj=tmerc +lat_0=0 +lon_0=-61.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32085: "+proj=tmerc +lat_0=0 +lon_0=-64.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32086: "+proj=tmerc +lat_0=0 +lon_0=-67.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32098: "+proj=lcc +lat_1=60 +lat_2=46 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  32099: "+proj=lcc +lat_1=27.83333333333333 +lat_2=26.16666666666667 +lat_0=25.66666666666667 +lon_0=-91.33333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32100: "+proj=lcc +lat_1=49 +lat_2=45 +lat_0=44.25 +lon_0=-109.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32104: "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32107: "+proj=tmerc +lat_0=34.75 +lon_0=-115.5833333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +datum=NAD83 +units=m +no_defs",
-  32108: "+proj=tmerc +lat_0=34.75 +lon_0=-116.6666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +datum=NAD83 +units=m +no_defs",
-  32109: "+proj=tmerc +lat_0=34.75 +lon_0=-118.5833333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +datum=NAD83 +units=m +no_defs",
-  32110: "+proj=tmerc +lat_0=42.5 +lon_0=-71.66666666666667 +k=0.999966667 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32067:
+    "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32074:
+    "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32075:
+    "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32076:
+    "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32077:
+    "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32081:
+    "+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32082:
+    "+proj=tmerc +lat_0=0 +lon_0=-56 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32083:
+    "+proj=tmerc +lat_0=0 +lon_0=-58.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32084:
+    "+proj=tmerc +lat_0=0 +lon_0=-61.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32085:
+    "+proj=tmerc +lat_0=0 +lon_0=-64.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32086:
+    "+proj=tmerc +lat_0=0 +lon_0=-67.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32098:
+    "+proj=lcc +lat_1=60 +lat_2=46 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  32099:
+    "+proj=lcc +lat_1=27.83333333333333 +lat_2=26.16666666666667 +lat_0=25.66666666666667 +lon_0=-91.33333333333333 +x_0=609601.2192024384 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32100:
+    "+proj=lcc +lat_1=49 +lat_2=45 +lat_0=44.25 +lon_0=-109.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32104:
+    "+proj=lcc +lat_1=43 +lat_2=40 +lat_0=39.83333333333334 +lon_0=-100 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32107:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.5833333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +datum=NAD83 +units=m +no_defs",
+  32108:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.6666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +datum=NAD83 +units=m +no_defs",
+  32109:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.5833333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +datum=NAD83 +units=m +no_defs",
+  32110:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.66666666666667 +k=0.999966667 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
   37212: "+proj=longlat +ellps=intl +no_defs",
-  32111: "+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32112: "+proj=tmerc +lat_0=31 +lon_0=-104.3333333333333 +k=0.999909091 +x_0=165000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32113: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32114: "+proj=tmerc +lat_0=31 +lon_0=-107.8333333333333 +k=0.999916667 +x_0=830000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32115: "+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32116: "+proj=tmerc +lat_0=40 +lon_0=-76.58333333333333 +k=0.9999375 +x_0=250000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32117: "+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32118: "+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32119: "+proj=lcc +lat_1=36.16666666666666 +lat_2=34.33333333333334 +lat_0=33.75 +lon_0=-79 +x_0=609601.22 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32111:
+    "+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32112:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.3333333333333 +k=0.999909091 +x_0=165000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32113:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32114:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.8333333333333 +k=0.999916667 +x_0=830000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32115:
+    "+proj=tmerc +lat_0=38.83333333333334 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32116:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.58333333333333 +k=0.9999375 +x_0=250000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32117:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32118:
+    "+proj=lcc +lat_1=41.03333333333333 +lat_2=40.66666666666666 +lat_0=40.16666666666666 +lon_0=-74 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32119:
+    "+proj=lcc +lat_1=36.16666666666666 +lat_2=34.33333333333334 +lat_0=33.75 +lon_0=-79 +x_0=609601.22 +y_0=0 +datum=NAD83 +units=m +no_defs",
   37213: "+proj=longlat +ellps=intl +no_defs",
-  32120: "+proj=lcc +lat_1=48.73333333333333 +lat_2=47.43333333333333 +lat_0=47 +lon_0=-100.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32121: "+proj=lcc +lat_1=47.48333333333333 +lat_2=46.18333333333333 +lat_0=45.66666666666666 +lon_0=-100.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32122: "+proj=lcc +lat_1=41.7 +lat_2=40.43333333333333 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32123: "+proj=lcc +lat_1=40.03333333333333 +lat_2=38.73333333333333 +lat_0=38 +lon_0=-82.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32124: "+proj=lcc +lat_1=36.76666666666667 +lat_2=35.56666666666667 +lat_0=35 +lon_0=-98 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32125: "+proj=lcc +lat_1=35.23333333333333 +lat_2=33.93333333333333 +lat_0=33.33333333333334 +lon_0=-98 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32126: "+proj=lcc +lat_1=46 +lat_2=44.33333333333334 +lat_0=43.66666666666666 +lon_0=-120.5 +x_0=2500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32127: "+proj=lcc +lat_1=44 +lat_2=42.33333333333334 +lat_0=41.66666666666666 +lon_0=-120.5 +x_0=1500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32128: "+proj=lcc +lat_1=41.95 +lat_2=40.88333333333333 +lat_0=40.16666666666666 +lon_0=-77.75 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32129: "+proj=lcc +lat_1=40.96666666666667 +lat_2=39.93333333333333 +lat_0=39.33333333333334 +lon_0=-77.75 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32130: "+proj=tmerc +lat_0=41.08333333333334 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32133: "+proj=lcc +lat_1=34.83333333333334 +lat_2=32.5 +lat_0=31.83333333333333 +lon_0=-81 +x_0=609600 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32134: "+proj=lcc +lat_1=45.68333333333333 +lat_2=44.41666666666666 +lat_0=43.83333333333334 +lon_0=-100 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32135: "+proj=lcc +lat_1=44.4 +lat_2=42.83333333333334 +lat_0=42.33333333333334 +lon_0=-100.3333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32136: "+proj=lcc +lat_1=36.41666666666666 +lat_2=35.25 +lat_0=34.33333333333334 +lon_0=-86 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32137: "+proj=lcc +lat_1=36.18333333333333 +lat_2=34.65 +lat_0=34 +lon_0=-101.5 +x_0=200000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
-  32138: "+proj=lcc +lat_1=33.96666666666667 +lat_2=32.13333333333333 +lat_0=31.66666666666667 +lon_0=-98.5 +x_0=600000 +y_0=2000000 +datum=NAD83 +units=m +no_defs",
-  32156: "+proj=tmerc +lat_0=40.5 +lon_0=-107.3333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
-  32139: "+proj=lcc +lat_1=31.88333333333333 +lat_2=30.11666666666667 +lat_0=29.66666666666667 +lon_0=-100.3333333333333 +x_0=700000 +y_0=3000000 +datum=NAD83 +units=m +no_defs",
-  32140: "+proj=lcc +lat_1=30.28333333333333 +lat_2=28.38333333333333 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000 +y_0=4000000 +datum=NAD83 +units=m +no_defs",
-  32141: "+proj=lcc +lat_1=27.83333333333333 +lat_2=26.16666666666667 +lat_0=25.66666666666667 +lon_0=-98.5 +x_0=300000 +y_0=5000000 +datum=NAD83 +units=m +no_defs",
-  32142: "+proj=lcc +lat_1=41.78333333333333 +lat_2=40.71666666666667 +lat_0=40.33333333333334 +lon_0=-111.5 +x_0=500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
-  32143: "+proj=lcc +lat_1=40.65 +lat_2=39.01666666666667 +lat_0=38.33333333333334 +lon_0=-111.5 +x_0=500000 +y_0=2000000 +datum=NAD83 +units=m +no_defs",
-  32144: "+proj=lcc +lat_1=38.35 +lat_2=37.21666666666667 +lat_0=36.66666666666666 +lon_0=-111.5 +x_0=500000 +y_0=3000000 +datum=NAD83 +units=m +no_defs",
-  32145: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964286 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32146: "+proj=lcc +lat_1=39.2 +lat_2=38.03333333333333 +lat_0=37.66666666666666 +lon_0=-78.5 +x_0=3500000 +y_0=2000000 +datum=NAD83 +units=m +no_defs",
-  32157: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32147: "+proj=lcc +lat_1=37.96666666666667 +lat_2=36.76666666666667 +lat_0=36.33333333333334 +lon_0=-78.5 +x_0=3500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
-  32148: "+proj=lcc +lat_1=48.73333333333333 +lat_2=47.5 +lat_0=47 +lon_0=-120.8333333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32149: "+proj=lcc +lat_1=47.33333333333334 +lat_2=45.83333333333334 +lat_0=45.33333333333334 +lon_0=-120.5 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32150: "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32151: "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32152: "+proj=lcc +lat_1=46.76666666666667 +lat_2=45.56666666666667 +lat_0=45.16666666666666 +lon_0=-90 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32153: "+proj=lcc +lat_1=45.5 +lat_2=44.25 +lat_0=43.83333333333334 +lon_0=-90 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32154: "+proj=lcc +lat_1=44.06666666666667 +lat_2=42.73333333333333 +lat_0=42 +lon_0=-90 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32155: "+proj=tmerc +lat_0=40.5 +lon_0=-105.1666666666667 +k=0.9999375 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32158: "+proj=tmerc +lat_0=40.5 +lon_0=-110.0833333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
-  32161: "+proj=lcc +lat_1=18.43333333333333 +lat_2=18.03333333333333 +lat_0=17.83333333333333 +lon_0=-66.43333333333334 +x_0=200000 +y_0=200000 +datum=NAD83 +units=m +no_defs",
-  32164: "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  32165: "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  32166: "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  32167: "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  32180: "+proj=tmerc +lat_0=0 +lon_0=-55.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32181: "+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32182: "+proj=tmerc +lat_0=0 +lon_0=-56 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32183: "+proj=tmerc +lat_0=0 +lon_0=-58.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32184: "+proj=tmerc +lat_0=0 +lon_0=-61.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32185: "+proj=tmerc +lat_0=0 +lon_0=-64.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32186: "+proj=tmerc +lat_0=0 +lon_0=-67.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32187: "+proj=tmerc +lat_0=0 +lon_0=-70.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32188: "+proj=tmerc +lat_0=0 +lon_0=-73.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32189: "+proj=tmerc +lat_0=0 +lon_0=-76.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32190: "+proj=tmerc +lat_0=0 +lon_0=-79.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32191: "+proj=tmerc +lat_0=0 +lon_0=-82.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32192: "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32193: "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32194: "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32195: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32196: "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32197: "+proj=tmerc +lat_0=0 +lon_0=-96 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32198: "+proj=lcc +lat_1=60 +lat_2=46 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32199: "+proj=lcc +lat_1=27.83333333333333 +lat_2=26.16666666666667 +lat_0=25.5 +lon_0=-91.33333333333333 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  32201: "+proj=utm +zone=1 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32202: "+proj=utm +zone=2 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32203: "+proj=utm +zone=3 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32204: "+proj=utm +zone=4 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32205: "+proj=utm +zone=5 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32206: "+proj=utm +zone=6 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32207: "+proj=utm +zone=7 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32208: "+proj=utm +zone=8 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32209: "+proj=utm +zone=9 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32210: "+proj=utm +zone=10 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32211: "+proj=utm +zone=11 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32212: "+proj=utm +zone=12 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32213: "+proj=utm +zone=13 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32214: "+proj=utm +zone=14 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32120:
+    "+proj=lcc +lat_1=48.73333333333333 +lat_2=47.43333333333333 +lat_0=47 +lon_0=-100.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32121:
+    "+proj=lcc +lat_1=47.48333333333333 +lat_2=46.18333333333333 +lat_0=45.66666666666666 +lon_0=-100.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32122:
+    "+proj=lcc +lat_1=41.7 +lat_2=40.43333333333333 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32123:
+    "+proj=lcc +lat_1=40.03333333333333 +lat_2=38.73333333333333 +lat_0=38 +lon_0=-82.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32124:
+    "+proj=lcc +lat_1=36.76666666666667 +lat_2=35.56666666666667 +lat_0=35 +lon_0=-98 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32125:
+    "+proj=lcc +lat_1=35.23333333333333 +lat_2=33.93333333333333 +lat_0=33.33333333333334 +lon_0=-98 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32126:
+    "+proj=lcc +lat_1=46 +lat_2=44.33333333333334 +lat_0=43.66666666666666 +lon_0=-120.5 +x_0=2500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32127:
+    "+proj=lcc +lat_1=44 +lat_2=42.33333333333334 +lat_0=41.66666666666666 +lon_0=-120.5 +x_0=1500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32128:
+    "+proj=lcc +lat_1=41.95 +lat_2=40.88333333333333 +lat_0=40.16666666666666 +lon_0=-77.75 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32129:
+    "+proj=lcc +lat_1=40.96666666666667 +lat_2=39.93333333333333 +lat_0=39.33333333333334 +lon_0=-77.75 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32130:
+    "+proj=tmerc +lat_0=41.08333333333334 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32133:
+    "+proj=lcc +lat_1=34.83333333333334 +lat_2=32.5 +lat_0=31.83333333333333 +lon_0=-81 +x_0=609600 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32134:
+    "+proj=lcc +lat_1=45.68333333333333 +lat_2=44.41666666666666 +lat_0=43.83333333333334 +lon_0=-100 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32135:
+    "+proj=lcc +lat_1=44.4 +lat_2=42.83333333333334 +lat_0=42.33333333333334 +lon_0=-100.3333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32136:
+    "+proj=lcc +lat_1=36.41666666666666 +lat_2=35.25 +lat_0=34.33333333333334 +lon_0=-86 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32137:
+    "+proj=lcc +lat_1=36.18333333333333 +lat_2=34.65 +lat_0=34 +lon_0=-101.5 +x_0=200000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
+  32138:
+    "+proj=lcc +lat_1=33.96666666666667 +lat_2=32.13333333333333 +lat_0=31.66666666666667 +lon_0=-98.5 +x_0=600000 +y_0=2000000 +datum=NAD83 +units=m +no_defs",
+  32156:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.3333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
+  32139:
+    "+proj=lcc +lat_1=31.88333333333333 +lat_2=30.11666666666667 +lat_0=29.66666666666667 +lon_0=-100.3333333333333 +x_0=700000 +y_0=3000000 +datum=NAD83 +units=m +no_defs",
+  32140:
+    "+proj=lcc +lat_1=30.28333333333333 +lat_2=28.38333333333333 +lat_0=27.83333333333333 +lon_0=-99 +x_0=600000 +y_0=4000000 +datum=NAD83 +units=m +no_defs",
+  32141:
+    "+proj=lcc +lat_1=27.83333333333333 +lat_2=26.16666666666667 +lat_0=25.66666666666667 +lon_0=-98.5 +x_0=300000 +y_0=5000000 +datum=NAD83 +units=m +no_defs",
+  32142:
+    "+proj=lcc +lat_1=41.78333333333333 +lat_2=40.71666666666667 +lat_0=40.33333333333334 +lon_0=-111.5 +x_0=500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
+  32143:
+    "+proj=lcc +lat_1=40.65 +lat_2=39.01666666666667 +lat_0=38.33333333333334 +lon_0=-111.5 +x_0=500000 +y_0=2000000 +datum=NAD83 +units=m +no_defs",
+  32144:
+    "+proj=lcc +lat_1=38.35 +lat_2=37.21666666666667 +lat_0=36.66666666666666 +lon_0=-111.5 +x_0=500000 +y_0=3000000 +datum=NAD83 +units=m +no_defs",
+  32145:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964286 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32146:
+    "+proj=lcc +lat_1=39.2 +lat_2=38.03333333333333 +lat_0=37.66666666666666 +lon_0=-78.5 +x_0=3500000 +y_0=2000000 +datum=NAD83 +units=m +no_defs",
+  32157:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32147:
+    "+proj=lcc +lat_1=37.96666666666667 +lat_2=36.76666666666667 +lat_0=36.33333333333334 +lon_0=-78.5 +x_0=3500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
+  32148:
+    "+proj=lcc +lat_1=48.73333333333333 +lat_2=47.5 +lat_0=47 +lon_0=-120.8333333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32149:
+    "+proj=lcc +lat_1=47.33333333333334 +lat_2=45.83333333333334 +lat_0=45.33333333333334 +lon_0=-120.5 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32150:
+    "+proj=lcc +lat_1=40.25 +lat_2=39 +lat_0=38.5 +lon_0=-79.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32151:
+    "+proj=lcc +lat_1=38.88333333333333 +lat_2=37.48333333333333 +lat_0=37 +lon_0=-81 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32152:
+    "+proj=lcc +lat_1=46.76666666666667 +lat_2=45.56666666666667 +lat_0=45.16666666666666 +lon_0=-90 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32153:
+    "+proj=lcc +lat_1=45.5 +lat_2=44.25 +lat_0=43.83333333333334 +lon_0=-90 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32154:
+    "+proj=lcc +lat_1=44.06666666666667 +lat_2=42.73333333333333 +lat_0=42 +lon_0=-90 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32155:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.1666666666667 +k=0.9999375 +x_0=200000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32158:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.0833333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +datum=NAD83 +units=m +no_defs",
+  32161:
+    "+proj=lcc +lat_1=18.43333333333333 +lat_2=18.03333333333333 +lat_0=17.83333333333333 +lon_0=-66.43333333333334 +x_0=200000 +y_0=200000 +datum=NAD83 +units=m +no_defs",
+  32164:
+    "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  32165:
+    "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  32166:
+    "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  32167:
+    "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  32180:
+    "+proj=tmerc +lat_0=0 +lon_0=-55.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32181:
+    "+proj=tmerc +lat_0=0 +lon_0=-53 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32182:
+    "+proj=tmerc +lat_0=0 +lon_0=-56 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32183:
+    "+proj=tmerc +lat_0=0 +lon_0=-58.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32184:
+    "+proj=tmerc +lat_0=0 +lon_0=-61.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32185:
+    "+proj=tmerc +lat_0=0 +lon_0=-64.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32186:
+    "+proj=tmerc +lat_0=0 +lon_0=-67.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32187:
+    "+proj=tmerc +lat_0=0 +lon_0=-70.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32188:
+    "+proj=tmerc +lat_0=0 +lon_0=-73.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32189:
+    "+proj=tmerc +lat_0=0 +lon_0=-76.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32190:
+    "+proj=tmerc +lat_0=0 +lon_0=-79.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32191:
+    "+proj=tmerc +lat_0=0 +lon_0=-82.5 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32192:
+    "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32193:
+    "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32194:
+    "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32195:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32196:
+    "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32197:
+    "+proj=tmerc +lat_0=0 +lon_0=-96 +k=0.9999 +x_0=304800 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32198:
+    "+proj=lcc +lat_1=60 +lat_2=46 +lat_0=44 +lon_0=-68.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32199:
+    "+proj=lcc +lat_1=27.83333333333333 +lat_2=26.16666666666667 +lat_0=25.5 +lon_0=-91.33333333333333 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  32201:
+    "+proj=utm +zone=1 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32202:
+    "+proj=utm +zone=2 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32203:
+    "+proj=utm +zone=3 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32204:
+    "+proj=utm +zone=4 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32205:
+    "+proj=utm +zone=5 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32206:
+    "+proj=utm +zone=6 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32207:
+    "+proj=utm +zone=7 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32208:
+    "+proj=utm +zone=8 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32209:
+    "+proj=utm +zone=9 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32210:
+    "+proj=utm +zone=10 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32211:
+    "+proj=utm +zone=11 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32212:
+    "+proj=utm +zone=12 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32213:
+    "+proj=utm +zone=13 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32214:
+    "+proj=utm +zone=14 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
   37214: "+proj=longlat +ellps=intl +no_defs",
-  32215: "+proj=utm +zone=15 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32216: "+proj=utm +zone=16 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32217: "+proj=utm +zone=17 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32218: "+proj=utm +zone=18 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32219: "+proj=utm +zone=19 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32220: "+proj=utm +zone=20 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32221: "+proj=utm +zone=21 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32222: "+proj=utm +zone=22 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32223: "+proj=utm +zone=23 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32224: "+proj=utm +zone=24 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32215:
+    "+proj=utm +zone=15 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32216:
+    "+proj=utm +zone=16 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32217:
+    "+proj=utm +zone=17 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32218:
+    "+proj=utm +zone=18 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32219:
+    "+proj=utm +zone=19 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32220:
+    "+proj=utm +zone=20 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32221:
+    "+proj=utm +zone=21 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32222:
+    "+proj=utm +zone=22 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32223:
+    "+proj=utm +zone=23 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32224:
+    "+proj=utm +zone=24 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
   37215: "+proj=longlat +ellps=intl +no_defs",
-  32225: "+proj=utm +zone=25 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32226: "+proj=utm +zone=26 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32227: "+proj=utm +zone=27 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32228: "+proj=utm +zone=28 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32229: "+proj=utm +zone=29 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32230: "+proj=utm +zone=30 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32231: "+proj=utm +zone=31 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32232: "+proj=utm +zone=32 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32233: "+proj=utm +zone=33 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32234: "+proj=utm +zone=34 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32225:
+    "+proj=utm +zone=25 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32226:
+    "+proj=utm +zone=26 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32227:
+    "+proj=utm +zone=27 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32228:
+    "+proj=utm +zone=28 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32229:
+    "+proj=utm +zone=29 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32230:
+    "+proj=utm +zone=30 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32231:
+    "+proj=utm +zone=31 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32232:
+    "+proj=utm +zone=32 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32233:
+    "+proj=utm +zone=33 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32234:
+    "+proj=utm +zone=34 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
   37216: "+proj=longlat +ellps=intl +no_defs",
-  32235: "+proj=utm +zone=35 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32236: "+proj=utm +zone=36 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32237: "+proj=utm +zone=37 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32238: "+proj=utm +zone=38 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32239: "+proj=utm +zone=39 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32240: "+proj=utm +zone=40 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32241: "+proj=utm +zone=41 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32242: "+proj=utm +zone=42 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32243: "+proj=utm +zone=43 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32244: "+proj=utm +zone=44 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32235:
+    "+proj=utm +zone=35 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32236:
+    "+proj=utm +zone=36 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32237:
+    "+proj=utm +zone=37 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32238:
+    "+proj=utm +zone=38 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32239:
+    "+proj=utm +zone=39 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32240:
+    "+proj=utm +zone=40 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32241:
+    "+proj=utm +zone=41 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32242:
+    "+proj=utm +zone=42 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32243:
+    "+proj=utm +zone=43 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32244:
+    "+proj=utm +zone=44 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
   37217: "+proj=longlat +ellps=intl +no_defs",
-  32245: "+proj=utm +zone=45 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32246: "+proj=utm +zone=46 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32247: "+proj=utm +zone=47 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32248: "+proj=utm +zone=48 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32249: "+proj=utm +zone=49 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32250: "+proj=utm +zone=50 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32251: "+proj=utm +zone=51 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32252: "+proj=utm +zone=52 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32253: "+proj=utm +zone=53 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32254: "+proj=utm +zone=54 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32245:
+    "+proj=utm +zone=45 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32246:
+    "+proj=utm +zone=46 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32247:
+    "+proj=utm +zone=47 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32248:
+    "+proj=utm +zone=48 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32249:
+    "+proj=utm +zone=49 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32250:
+    "+proj=utm +zone=50 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32251:
+    "+proj=utm +zone=51 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32252:
+    "+proj=utm +zone=52 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32253:
+    "+proj=utm +zone=53 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32254:
+    "+proj=utm +zone=54 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
   37218: "+proj=longlat +ellps=intl +no_defs",
-  32255: "+proj=utm +zone=55 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32256: "+proj=utm +zone=56 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32257: "+proj=utm +zone=57 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32258: "+proj=utm +zone=58 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32259: "+proj=utm +zone=59 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32260: "+proj=utm +zone=60 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32301: "+proj=utm +zone=1 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32302: "+proj=utm +zone=2 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32303: "+proj=utm +zone=3 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32304: "+proj=utm +zone=4 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32255:
+    "+proj=utm +zone=55 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32256:
+    "+proj=utm +zone=56 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32257:
+    "+proj=utm +zone=57 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32258:
+    "+proj=utm +zone=58 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32259:
+    "+proj=utm +zone=59 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32260:
+    "+proj=utm +zone=60 +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32301:
+    "+proj=utm +zone=1 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32302:
+    "+proj=utm +zone=2 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32303:
+    "+proj=utm +zone=3 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32304:
+    "+proj=utm +zone=4 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
   37219: "+proj=longlat +ellps=intl +no_defs",
-  32305: "+proj=utm +zone=5 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32306: "+proj=utm +zone=6 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32307: "+proj=utm +zone=7 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32308: "+proj=utm +zone=8 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32309: "+proj=utm +zone=9 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32310: "+proj=utm +zone=10 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32311: "+proj=utm +zone=11 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32312: "+proj=utm +zone=12 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32313: "+proj=utm +zone=13 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32314: "+proj=utm +zone=14 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32315: "+proj=utm +zone=15 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32316: "+proj=utm +zone=16 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32317: "+proj=utm +zone=17 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32318: "+proj=utm +zone=18 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32319: "+proj=utm +zone=19 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32320: "+proj=utm +zone=20 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32321: "+proj=utm +zone=21 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32322: "+proj=utm +zone=22 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32323: "+proj=utm +zone=23 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32324: "+proj=utm +zone=24 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32325: "+proj=utm +zone=25 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32326: "+proj=utm +zone=26 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32327: "+proj=utm +zone=27 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32328: "+proj=utm +zone=28 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32329: "+proj=utm +zone=29 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32330: "+proj=utm +zone=30 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32331: "+proj=utm +zone=31 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32332: "+proj=utm +zone=32 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32333: "+proj=utm +zone=33 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32334: "+proj=utm +zone=34 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32335: "+proj=utm +zone=35 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32336: "+proj=utm +zone=36 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32337: "+proj=utm +zone=37 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32338: "+proj=utm +zone=38 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32339: "+proj=utm +zone=39 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32340: "+proj=utm +zone=40 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32341: "+proj=utm +zone=41 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32342: "+proj=utm +zone=42 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32343: "+proj=utm +zone=43 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32344: "+proj=utm +zone=44 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32345: "+proj=utm +zone=45 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32346: "+proj=utm +zone=46 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32347: "+proj=utm +zone=47 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32348: "+proj=utm +zone=48 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32349: "+proj=utm +zone=49 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32350: "+proj=utm +zone=50 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32351: "+proj=utm +zone=51 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32352: "+proj=utm +zone=52 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32353: "+proj=utm +zone=53 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32354: "+proj=utm +zone=54 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32355: "+proj=utm +zone=55 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32356: "+proj=utm +zone=56 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32357: "+proj=utm +zone=57 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32358: "+proj=utm +zone=58 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32359: "+proj=utm +zone=59 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32360: "+proj=utm +zone=60 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
-  32401: "+proj=utm +zone=1 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32402: "+proj=utm +zone=2 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32403: "+proj=utm +zone=3 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32404: "+proj=utm +zone=4 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32405: "+proj=utm +zone=5 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32406: "+proj=utm +zone=6 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32407: "+proj=utm +zone=7 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32408: "+proj=utm +zone=8 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32409: "+proj=utm +zone=9 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32410: "+proj=utm +zone=10 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32411: "+proj=utm +zone=11 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32412: "+proj=utm +zone=12 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32413: "+proj=utm +zone=13 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32414: "+proj=utm +zone=14 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32415: "+proj=utm +zone=15 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32416: "+proj=utm +zone=16 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32417: "+proj=utm +zone=17 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32418: "+proj=utm +zone=18 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32419: "+proj=utm +zone=19 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32420: "+proj=utm +zone=20 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32421: "+proj=utm +zone=21 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32422: "+proj=utm +zone=22 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32423: "+proj=utm +zone=23 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32424: "+proj=utm +zone=24 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32425: "+proj=utm +zone=25 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32426: "+proj=utm +zone=26 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32427: "+proj=utm +zone=27 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32428: "+proj=utm +zone=28 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32429: "+proj=utm +zone=29 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32430: "+proj=utm +zone=30 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32431: "+proj=utm +zone=31 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32432: "+proj=utm +zone=32 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32433: "+proj=utm +zone=33 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32434: "+proj=utm +zone=34 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32435: "+proj=utm +zone=35 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32436: "+proj=utm +zone=36 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32437: "+proj=utm +zone=37 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32438: "+proj=utm +zone=38 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32439: "+proj=utm +zone=39 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32440: "+proj=utm +zone=40 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32441: "+proj=utm +zone=41 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32442: "+proj=utm +zone=42 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32443: "+proj=utm +zone=43 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32444: "+proj=utm +zone=44 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32445: "+proj=utm +zone=45 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32446: "+proj=utm +zone=46 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32447: "+proj=utm +zone=47 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32448: "+proj=utm +zone=48 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32449: "+proj=utm +zone=49 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32450: "+proj=utm +zone=50 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32451: "+proj=utm +zone=51 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32452: "+proj=utm +zone=52 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32453: "+proj=utm +zone=53 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32454: "+proj=utm +zone=54 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32455: "+proj=utm +zone=55 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32456: "+proj=utm +zone=56 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32457: "+proj=utm +zone=57 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32458: "+proj=utm +zone=58 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32459: "+proj=utm +zone=59 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32460: "+proj=utm +zone=60 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32501: "+proj=utm +zone=1 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32502: "+proj=utm +zone=2 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32503: "+proj=utm +zone=3 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32504: "+proj=utm +zone=4 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32505: "+proj=utm +zone=5 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32506: "+proj=utm +zone=6 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32507: "+proj=utm +zone=7 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32508: "+proj=utm +zone=8 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32509: "+proj=utm +zone=9 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32510: "+proj=utm +zone=10 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32511: "+proj=utm +zone=11 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32512: "+proj=utm +zone=12 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32513: "+proj=utm +zone=13 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32514: "+proj=utm +zone=14 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32515: "+proj=utm +zone=15 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32516: "+proj=utm +zone=16 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32517: "+proj=utm +zone=17 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32518: "+proj=utm +zone=18 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32519: "+proj=utm +zone=19 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32520: "+proj=utm +zone=20 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32521: "+proj=utm +zone=21 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32522: "+proj=utm +zone=22 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32523: "+proj=utm +zone=23 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32524: "+proj=utm +zone=24 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32525: "+proj=utm +zone=25 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32526: "+proj=utm +zone=26 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32527: "+proj=utm +zone=27 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32528: "+proj=utm +zone=28 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32529: "+proj=utm +zone=29 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32530: "+proj=utm +zone=30 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32531: "+proj=utm +zone=31 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32532: "+proj=utm +zone=32 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32533: "+proj=utm +zone=33 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32534: "+proj=utm +zone=34 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32535: "+proj=utm +zone=35 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32536: "+proj=utm +zone=36 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32537: "+proj=utm +zone=37 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32538: "+proj=utm +zone=38 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32539: "+proj=utm +zone=39 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32540: "+proj=utm +zone=40 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32541: "+proj=utm +zone=41 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32542: "+proj=utm +zone=42 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32543: "+proj=utm +zone=43 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32544: "+proj=utm +zone=44 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32545: "+proj=utm +zone=45 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32546: "+proj=utm +zone=46 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32547: "+proj=utm +zone=47 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32548: "+proj=utm +zone=48 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32549: "+proj=utm +zone=49 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32550: "+proj=utm +zone=50 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32551: "+proj=utm +zone=51 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32552: "+proj=utm +zone=52 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32553: "+proj=utm +zone=53 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32554: "+proj=utm +zone=54 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32555: "+proj=utm +zone=55 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32556: "+proj=utm +zone=56 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32557: "+proj=utm +zone=57 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32558: "+proj=utm +zone=58 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32559: "+proj=utm +zone=59 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
-  32560: "+proj=utm +zone=60 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32305:
+    "+proj=utm +zone=5 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32306:
+    "+proj=utm +zone=6 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32307:
+    "+proj=utm +zone=7 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32308:
+    "+proj=utm +zone=8 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32309:
+    "+proj=utm +zone=9 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32310:
+    "+proj=utm +zone=10 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32311:
+    "+proj=utm +zone=11 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32312:
+    "+proj=utm +zone=12 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32313:
+    "+proj=utm +zone=13 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32314:
+    "+proj=utm +zone=14 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32315:
+    "+proj=utm +zone=15 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32316:
+    "+proj=utm +zone=16 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32317:
+    "+proj=utm +zone=17 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32318:
+    "+proj=utm +zone=18 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32319:
+    "+proj=utm +zone=19 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32320:
+    "+proj=utm +zone=20 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32321:
+    "+proj=utm +zone=21 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32322:
+    "+proj=utm +zone=22 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32323:
+    "+proj=utm +zone=23 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32324:
+    "+proj=utm +zone=24 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32325:
+    "+proj=utm +zone=25 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32326:
+    "+proj=utm +zone=26 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32327:
+    "+proj=utm +zone=27 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32328:
+    "+proj=utm +zone=28 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32329:
+    "+proj=utm +zone=29 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32330:
+    "+proj=utm +zone=30 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32331:
+    "+proj=utm +zone=31 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32332:
+    "+proj=utm +zone=32 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32333:
+    "+proj=utm +zone=33 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32334:
+    "+proj=utm +zone=34 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32335:
+    "+proj=utm +zone=35 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32336:
+    "+proj=utm +zone=36 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32337:
+    "+proj=utm +zone=37 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32338:
+    "+proj=utm +zone=38 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32339:
+    "+proj=utm +zone=39 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32340:
+    "+proj=utm +zone=40 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32341:
+    "+proj=utm +zone=41 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32342:
+    "+proj=utm +zone=42 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32343:
+    "+proj=utm +zone=43 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32344:
+    "+proj=utm +zone=44 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32345:
+    "+proj=utm +zone=45 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32346:
+    "+proj=utm +zone=46 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32347:
+    "+proj=utm +zone=47 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32348:
+    "+proj=utm +zone=48 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32349:
+    "+proj=utm +zone=49 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32350:
+    "+proj=utm +zone=50 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32351:
+    "+proj=utm +zone=51 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32352:
+    "+proj=utm +zone=52 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32353:
+    "+proj=utm +zone=53 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32354:
+    "+proj=utm +zone=54 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32355:
+    "+proj=utm +zone=55 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32356:
+    "+proj=utm +zone=56 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32357:
+    "+proj=utm +zone=57 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32358:
+    "+proj=utm +zone=58 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32359:
+    "+proj=utm +zone=59 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32360:
+    "+proj=utm +zone=60 +south +ellps=WGS72 +towgs84=0,0,4.5,0,0,0.554,0.2263 +units=m +no_defs",
+  32401:
+    "+proj=utm +zone=1 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32402:
+    "+proj=utm +zone=2 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32403:
+    "+proj=utm +zone=3 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32404:
+    "+proj=utm +zone=4 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32405:
+    "+proj=utm +zone=5 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32406:
+    "+proj=utm +zone=6 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32407:
+    "+proj=utm +zone=7 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32408:
+    "+proj=utm +zone=8 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32409:
+    "+proj=utm +zone=9 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32410:
+    "+proj=utm +zone=10 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32411:
+    "+proj=utm +zone=11 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32412:
+    "+proj=utm +zone=12 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32413:
+    "+proj=utm +zone=13 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32414:
+    "+proj=utm +zone=14 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32415:
+    "+proj=utm +zone=15 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32416:
+    "+proj=utm +zone=16 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32417:
+    "+proj=utm +zone=17 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32418:
+    "+proj=utm +zone=18 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32419:
+    "+proj=utm +zone=19 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32420:
+    "+proj=utm +zone=20 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32421:
+    "+proj=utm +zone=21 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32422:
+    "+proj=utm +zone=22 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32423:
+    "+proj=utm +zone=23 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32424:
+    "+proj=utm +zone=24 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32425:
+    "+proj=utm +zone=25 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32426:
+    "+proj=utm +zone=26 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32427:
+    "+proj=utm +zone=27 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32428:
+    "+proj=utm +zone=28 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32429:
+    "+proj=utm +zone=29 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32430:
+    "+proj=utm +zone=30 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32431:
+    "+proj=utm +zone=31 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32432:
+    "+proj=utm +zone=32 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32433:
+    "+proj=utm +zone=33 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32434:
+    "+proj=utm +zone=34 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32435:
+    "+proj=utm +zone=35 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32436:
+    "+proj=utm +zone=36 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32437:
+    "+proj=utm +zone=37 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32438:
+    "+proj=utm +zone=38 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32439:
+    "+proj=utm +zone=39 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32440:
+    "+proj=utm +zone=40 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32441:
+    "+proj=utm +zone=41 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32442:
+    "+proj=utm +zone=42 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32443:
+    "+proj=utm +zone=43 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32444:
+    "+proj=utm +zone=44 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32445:
+    "+proj=utm +zone=45 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32446:
+    "+proj=utm +zone=46 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32447:
+    "+proj=utm +zone=47 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32448:
+    "+proj=utm +zone=48 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32449:
+    "+proj=utm +zone=49 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32450:
+    "+proj=utm +zone=50 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32451:
+    "+proj=utm +zone=51 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32452:
+    "+proj=utm +zone=52 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32453:
+    "+proj=utm +zone=53 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32454:
+    "+proj=utm +zone=54 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32455:
+    "+proj=utm +zone=55 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32456:
+    "+proj=utm +zone=56 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32457:
+    "+proj=utm +zone=57 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32458:
+    "+proj=utm +zone=58 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32459:
+    "+proj=utm +zone=59 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32460:
+    "+proj=utm +zone=60 +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32501:
+    "+proj=utm +zone=1 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32502:
+    "+proj=utm +zone=2 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32503:
+    "+proj=utm +zone=3 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32504:
+    "+proj=utm +zone=4 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32505:
+    "+proj=utm +zone=5 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32506:
+    "+proj=utm +zone=6 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32507:
+    "+proj=utm +zone=7 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32508:
+    "+proj=utm +zone=8 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32509:
+    "+proj=utm +zone=9 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32510:
+    "+proj=utm +zone=10 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32511:
+    "+proj=utm +zone=11 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32512:
+    "+proj=utm +zone=12 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32513:
+    "+proj=utm +zone=13 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32514:
+    "+proj=utm +zone=14 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32515:
+    "+proj=utm +zone=15 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32516:
+    "+proj=utm +zone=16 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32517:
+    "+proj=utm +zone=17 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32518:
+    "+proj=utm +zone=18 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32519:
+    "+proj=utm +zone=19 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32520:
+    "+proj=utm +zone=20 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32521:
+    "+proj=utm +zone=21 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32522:
+    "+proj=utm +zone=22 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32523:
+    "+proj=utm +zone=23 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32524:
+    "+proj=utm +zone=24 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32525:
+    "+proj=utm +zone=25 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32526:
+    "+proj=utm +zone=26 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32527:
+    "+proj=utm +zone=27 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32528:
+    "+proj=utm +zone=28 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32529:
+    "+proj=utm +zone=29 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32530:
+    "+proj=utm +zone=30 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32531:
+    "+proj=utm +zone=31 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32532:
+    "+proj=utm +zone=32 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32533:
+    "+proj=utm +zone=33 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32534:
+    "+proj=utm +zone=34 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32535:
+    "+proj=utm +zone=35 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32536:
+    "+proj=utm +zone=36 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32537:
+    "+proj=utm +zone=37 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32538:
+    "+proj=utm +zone=38 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32539:
+    "+proj=utm +zone=39 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32540:
+    "+proj=utm +zone=40 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32541:
+    "+proj=utm +zone=41 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32542:
+    "+proj=utm +zone=42 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32543:
+    "+proj=utm +zone=43 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32544:
+    "+proj=utm +zone=44 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32545:
+    "+proj=utm +zone=45 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32546:
+    "+proj=utm +zone=46 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32547:
+    "+proj=utm +zone=47 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32548:
+    "+proj=utm +zone=48 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32549:
+    "+proj=utm +zone=49 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32550:
+    "+proj=utm +zone=50 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32551:
+    "+proj=utm +zone=51 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32552:
+    "+proj=utm +zone=52 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32553:
+    "+proj=utm +zone=53 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32554:
+    "+proj=utm +zone=54 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32555:
+    "+proj=utm +zone=55 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32556:
+    "+proj=utm +zone=56 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32557:
+    "+proj=utm +zone=57 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32558:
+    "+proj=utm +zone=58 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32559:
+    "+proj=utm +zone=59 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
+  32560:
+    "+proj=utm +zone=60 +south +ellps=WGS72 +towgs84=0,0,1.9,0,0,0.814,-0.38 +units=m +no_defs",
   32601: "+proj=utm +zone=1 +datum=WGS84 +units=m +no_defs",
   32602: "+proj=utm +zone=2 +datum=WGS84 +units=m +no_defs",
   32603: "+proj=utm +zone=3 +datum=WGS84 +units=m +no_defs",
@@ -6168,13 +7448,20 @@ export const proj4def: Record<number, string> = {
   32659: "+proj=utm +zone=59 +datum=WGS84 +units=m +no_defs",
   37224: "+proj=longlat +ellps=intl +no_defs",
   32660: "+proj=utm +zone=60 +datum=WGS84 +units=m +no_defs",
-  32661: "+proj=stere +lat_0=90 +lat_ts=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
-  32662: "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  32663: "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  32664: "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
-  32665: "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
-  32666: "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
-  32667: "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
+  32661:
+    "+proj=stere +lat_0=90 +lat_ts=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
+  32662:
+    "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  32663:
+    "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  32664:
+    "+proj=tmerc +lat_0=0 +lon_0=-99 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
+  32665:
+    "+proj=tmerc +lat_0=0 +lon_0=-93 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
+  32666:
+    "+proj=tmerc +lat_0=0 +lon_0=-87 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
+  32667:
+    "+proj=tmerc +lat_0=0 +lon_0=-81 +k=0.9996 +x_0=500000.001016002 +y_0=0 +datum=WGS84 +units=us-ft +no_defs",
   32701: "+proj=utm +zone=1 +south +datum=WGS84 +units=m +no_defs",
   32702: "+proj=utm +zone=2 +south +datum=WGS84 +units=m +no_defs",
   32703: "+proj=utm +zone=3 +south +datum=WGS84 +units=m +no_defs",
@@ -6235,8 +7522,10 @@ export const proj4def: Record<number, string> = {
   32758: "+proj=utm +zone=58 +south +datum=WGS84 +units=m +no_defs",
   32759: "+proj=utm +zone=59 +south +datum=WGS84 +units=m +no_defs",
   32760: "+proj=utm +zone=60 +south +datum=WGS84 +units=m +no_defs",
-  32761: "+proj=stere +lat_0=-90 +lat_ts=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
-  32766: "+proj=tmerc +lat_0=0 +lon_0=36 +k=0.9996 +x_0=500000 +y_0=10000000 +datum=WGS84 +units=m +no_defs",
+  32761:
+    "+proj=stere +lat_0=-90 +lat_ts=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
+  32766:
+    "+proj=tmerc +lat_0=0 +lon_0=36 +k=0.9996 +x_0=500000 +y_0=10000000 +datum=WGS84 +units=m +no_defs",
   2181: "+proj=tmerc +lat_0=0 +lon_0=27 +k=0.9996 +x_0=9500000 +y_0=0 +ellps=intl +units=m +no_defs",
   2182: "+proj=tmerc +lat_0=0 +lon_0=30 +k=0.9996 +x_0=10500000 +y_0=0 +ellps=intl +units=m +no_defs",
   2183: "+proj=tmerc +lat_0=0 +lon_0=33 +k=0.9996 +x_0=11500000 +y_0=0 +ellps=intl +units=m +no_defs",
@@ -6246,35 +7535,56 @@ export const proj4def: Record<number, string> = {
   37225: "+proj=longlat +ellps=clrk80ign +no_defs",
   2187: "+proj=tmerc +lat_0=0 +lon_0=45 +k=0.9996 +x_0=15500000 +y_0=0 +ellps=intl +units=m +no_defs",
   4305: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  20002: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=2500000 +y_0=0 +ellps=krass +units=m +no_defs",
-  20003: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=3500000 +y_0=0 +ellps=krass +units=m +no_defs",
-  20062: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs",
-  20063: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  20002:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=2500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  20003:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=3500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  20062:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  20063:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs",
   24721: "+proj=utm +zone=21 +ellps=intl +units=m +no_defs",
-  26761: "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26762: "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26763: "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26761:
+    "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26762:
+    "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26763:
+    "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
   37226: "+proj=longlat +ellps=intl +no_defs",
-  26764: "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26765: "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26788: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=609601.219202438 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26789: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3333333333333 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=609601.219202438 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  26790: "+proj=lcc +lat_0=41.5 +lon_0=-84.3333333333333 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=609601.219202438 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  30591: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
-  30592: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
-  31491: "+proj=tmerc +lat_0=0 +lon_0=3 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
-  31492: "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +units=m +no_defs",
-  31493: "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +ellps=bessel +units=m +no_defs",
-  31494: "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +ellps=bessel +units=m +no_defs",
-  31495: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+  26764:
+    "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26765:
+    "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26788:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=609601.219202438 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26789:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3333333333333 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=609601.219202438 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  26790:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3333333333333 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=609601.219202438 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  30591:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
+  30592:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
+  31491:
+    "+proj=tmerc +lat_0=0 +lon_0=3 +k=1 +x_0=1500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+  31492:
+    "+proj=tmerc +lat_0=0 +lon_0=6 +k=1 +x_0=2500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+  31493:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=1 +x_0=3500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+  31494:
+    "+proj=tmerc +lat_0=0 +lon_0=12 +k=1 +x_0=4500000 +y_0=0 +ellps=bessel +units=m +no_defs",
+  31495:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=5500000 +y_0=0 +ellps=bessel +units=m +no_defs",
   31917: "+proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs",
   31918: "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
   31919: "+proj=utm +zone=19 +ellps=GRS80 +units=m +no_defs",
   31920: "+proj=utm +zone=20 +ellps=GRS80 +units=m +no_defs",
   31921: "+proj=utm +zone=21 +ellps=GRS80 +units=m +no_defs",
   31922: "+proj=utm +zone=22 +ellps=GRS80 +units=m +no_defs",
-  32059: "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  32060: "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +datum=NAD27 +units=us-ft +no_defs",
+  32059:
+    "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=152400.30480061 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  32060:
+    "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +datum=NAD27 +units=us-ft +no_defs",
   37001: "+proj=longlat +ellps=NWL9D +no_defs",
   37002: "+proj=longlat +ellps=fschr60 +no_defs",
   37003: "+proj=longlat +ellps=fschr68 +no_defs",
@@ -6291,9 +7601,11 @@ export const proj4def: Record<number, string> = {
   37206: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
   37207: "+proj=longlat +ellps=fschr60m +no_defs",
   37208: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  53002: "+proj=eqc +lat_ts=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53002:
+    "+proj=eqc +lat_ts=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53003: "+proj=mill +R_A +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53004: "+proj=merc +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53004:
+    "+proj=merc +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53008: "+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53009: "+proj=moll +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53010: "+proj=eck6 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
@@ -6303,58 +7615,94 @@ export const proj4def: Record<number, string> = {
   53014: "+proj=eck2 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53015: "+proj=eck1 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53016: "+proj=gall +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53018: "+proj=wink1 +lon_0=0 +lat_ts=50.4597762521898 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53019: "+proj=wink2 +lon_0=0 +lat_1=50.4597762521898 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53021: "+proj=poly +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53018:
+    "+proj=wink1 +lon_0=0 +lat_ts=50.4597762521898 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53019:
+    "+proj=wink2 +lon_0=0 +lat_1=50.4597762521898 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53021:
+    "+proj=poly +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53022: "+proj=qua_aut +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53023: "+proj=loxim +lat_1=40 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53024: "+proj=bonne +lat_1=60 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53025: "+proj=omerc +lat_0=40 +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +k=1 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53026: "+proj=stere +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53027: "+proj=eqdc +lat_0=0 +lon_0=0 +lat_1=60 +lat_2=60 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53028: "+proj=cass +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53023:
+    "+proj=loxim +lat_1=40 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53024:
+    "+proj=bonne +lat_1=60 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53025:
+    "+proj=omerc +lat_0=40 +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +k=1 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53026:
+    "+proj=stere +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53027:
+    "+proj=eqdc +lat_0=0 +lon_0=0 +lat_1=60 +lat_2=60 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53028:
+    "+proj=cass +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53029: "+proj=vandg +R_A +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53030: "+proj=robin +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53031: "+proj=tpeqd +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53032: "+proj=aeqd +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53034: "+proj=cea +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
-  53035: "+proj=eqearth +lon_0=0 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
-  53036: "+proj=eqearth +lon_0=-90 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
-  53037: "+proj=eqearth +lon_0=150 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
-  53042: "+proj=wintri +lon_0=0 +lat_1=50.467 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53031:
+    "+proj=tpeqd +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53032:
+    "+proj=aeqd +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53034:
+    "+proj=cea +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
+  53035:
+    "+proj=eqearth +lon_0=0 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
+  53036:
+    "+proj=eqearth +lon_0=-90 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
+  53037:
+    "+proj=eqearth +lon_0=150 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
+  53042:
+    "+proj=wintri +lon_0=0 +lat_1=50.467 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53043: "+proj=aitoff +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53046: "+proj=crast +lon_0=0 +x_0=0 +y_0=0 +R=6371000 +units=m +no_defs",
   53074: "+proj=wag4 +lon_0=0 +x_0=0 +y_0=0 +R=6371007 +units=m +no_defs",
   53075: "+proj=wag5 +lon_0=0 +x_0=0 +y_0=0 +R=6371008.7714 +units=m +no_defs",
   53076: "+proj=wag7 +lon_0=0 +x_0=0 +y_0=0 +R=6371007 +units=m +no_defs",
-  54001: "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54002: "+proj=eqc +lat_ts=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54003: "+proj=mill +R_A +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54004: "+proj=merc +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54001:
+    "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54002:
+    "+proj=eqc +lat_ts=60 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54003:
+    "+proj=mill +R_A +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54004:
+    "+proj=merc +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54012: "+proj=eck4 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54013: "+proj=eck3 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54014: "+proj=eck2 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54015: "+proj=eck1 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54016: "+proj=gall +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54018: "+proj=wink1 +lon_0=0 +lat_ts=50.4597762521898 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54019: "+proj=wink2 +lon_0=0 +lat_1=50.4597762521898 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54021: "+proj=poly +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54018:
+    "+proj=wink1 +lon_0=0 +lat_ts=50.4597762521898 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54019:
+    "+proj=wink2 +lon_0=0 +lat_1=50.4597762521898 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54021:
+    "+proj=poly +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54022: "+proj=qua_aut +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54023: "+proj=loxim +lat_1=40 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54024: "+proj=bonne +lat_1=60 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54025: "+proj=omerc +lat_0=40 +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54026: "+proj=stere +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54027: "+proj=eqdc +lat_0=0 +lon_0=0 +lat_1=60 +lat_2=60 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54028: "+proj=cass +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54029: "+proj=vandg +R_A +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54023:
+    "+proj=loxim +lat_1=40 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54024:
+    "+proj=bonne +lat_1=60 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54025:
+    "+proj=omerc +lat_0=40 +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54026:
+    "+proj=stere +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54027:
+    "+proj=eqdc +lat_0=0 +lon_0=0 +lat_1=60 +lat_2=60 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54028:
+    "+proj=cass +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54029:
+    "+proj=vandg +R_A +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54030: "+proj=robin +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54031: "+proj=tpeqd +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54032: "+proj=aeqd +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54034: "+proj=cea +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54031:
+    "+proj=tpeqd +lat_1=0 +lon_1=0 +lat_2=60 +lon_2=60 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54032:
+    "+proj=aeqd +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54034:
+    "+proj=cea +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54035: "+proj=eqearth +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54036: "+proj=eqearth +lon_0=-90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54037: "+proj=eqearth +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  54042: "+proj=wintri +lon_0=0 +lat_1=50.467 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54036:
+    "+proj=eqearth +lon_0=-90 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54037:
+    "+proj=eqearth +lon_0=150 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  54042:
+    "+proj=wintri +lon_0=0 +lat_1=50.467 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54043: "+proj=aitoff +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54046: "+proj=crast +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54052: "+proj=goode +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
@@ -6362,55 +7710,100 @@ export const proj4def: Record<number, string> = {
   54074: "+proj=wag4 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54075: "+proj=wag5 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   54076: "+proj=wag7 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  65061: "+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +datum=NAD27 +units=us-ft +no_defs",
-  65062: "+proj=lcc +lat_1=-14.2666666666667 +lat_0=-14.2666666666667 +lon_0=-170 +k_0=1 +x_0=152400.30480061 +y_0=95169.3116586233 +ellps=clrk66 +units=us-ft +no_defs",
-  65161: "+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +datum=NAD83 +units=m +no_defs",
-  65163: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
-  102001: "+proj=aea +lat_0=40 +lon_0=-96 +lat_1=50 +lat_2=70 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102002: "+proj=lcc +lat_0=40 +lon_0=-96 +lat_1=50 +lat_2=70 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102003: "+proj=aea +lat_0=37.5 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102004: "+proj=lcc +lat_0=39 +lon_0=-96 +lat_1=33 +lat_2=45 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  65061:
+    "+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +datum=NAD27 +units=us-ft +no_defs",
+  65062:
+    "+proj=lcc +lat_1=-14.2666666666667 +lat_0=-14.2666666666667 +lon_0=-170 +k_0=1 +x_0=152400.30480061 +y_0=95169.3116586233 +ellps=clrk66 +units=us-ft +no_defs",
+  65161:
+    "+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +datum=NAD83 +units=m +no_defs",
+  65163:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
+  102001:
+    "+proj=aea +lat_0=40 +lon_0=-96 +lat_1=50 +lat_2=70 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102002:
+    "+proj=lcc +lat_0=40 +lon_0=-96 +lat_1=50 +lat_2=70 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102003:
+    "+proj=aea +lat_0=37.5 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102004:
+    "+proj=lcc +lat_0=39 +lon_0=-96 +lat_1=33 +lat_2=45 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
   104121: "+proj=longlat +ellps=GRS80 +no_defs",
-  102005: "+proj=eqdc +lat_0=39 +lon_0=-96 +lat_1=33 +lat_2=45 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102006: "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102007: "+proj=aea +lat_0=13 +lon_0=-157 +lat_1=8 +lat_2=18 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102008: "+proj=aea +lat_0=40 +lon_0=-96 +lat_1=20 +lat_2=60 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102009: "+proj=lcc +lat_0=40 +lon_0=-96 +lat_1=20 +lat_2=60 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102010: "+proj=eqdc +lat_0=40 +lon_0=-96 +lat_1=20 +lat_2=60 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102005:
+    "+proj=eqdc +lat_0=39 +lon_0=-96 +lat_1=33 +lat_2=45 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102006:
+    "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102007:
+    "+proj=aea +lat_0=13 +lon_0=-157 +lat_1=8 +lat_2=18 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102008:
+    "+proj=aea +lat_0=40 +lon_0=-96 +lat_1=20 +lat_2=60 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102009:
+    "+proj=lcc +lat_0=40 +lon_0=-96 +lat_1=20 +lat_2=60 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102010:
+    "+proj=eqdc +lat_0=40 +lon_0=-96 +lat_1=20 +lat_2=60 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
   102011: "+proj=sinu +lon_0=15 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102012: "+proj=lcc +lat_0=0 +lon_0=105 +lat_1=30 +lat_2=62 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102013: "+proj=aea +lat_0=30 +lon_0=10 +lat_1=43 +lat_2=62 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
-  102014: "+proj=lcc +lat_0=30 +lon_0=10 +lat_1=43 +lat_2=62 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
-  102026: "+proj=eqdc +lat_0=30 +lon_0=95 +lat_1=15 +lat_2=65 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102015: "+proj=lcc +lat_0=-32 +lon_0=-60 +lat_1=-5 +lat_2=-42 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs",
-  102016: "+proj=aeqd +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102017: "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102018: "+proj=stere +lat_0=90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102019: "+proj=aeqd +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102020: "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102021: "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102022: "+proj=aea +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102023: "+proj=eqdc +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102024: "+proj=lcc +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102025: "+proj=aea +lat_0=30 +lon_0=95 +lat_1=15 +lat_2=65 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102012:
+    "+proj=lcc +lat_0=0 +lon_0=105 +lat_1=30 +lat_2=62 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102013:
+    "+proj=aea +lat_0=30 +lon_0=10 +lat_1=43 +lat_2=62 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
+  102014:
+    "+proj=lcc +lat_0=30 +lon_0=10 +lat_1=43 +lat_2=62 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
+  102026:
+    "+proj=eqdc +lat_0=30 +lon_0=95 +lat_1=15 +lat_2=65 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102015:
+    "+proj=lcc +lat_0=-32 +lon_0=-60 +lat_1=-5 +lat_2=-42 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs",
+  102016:
+    "+proj=aeqd +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102017:
+    "+proj=laea +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102018:
+    "+proj=stere +lat_0=90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102019:
+    "+proj=aeqd +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102020:
+    "+proj=laea +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102021:
+    "+proj=stere +lat_0=-90 +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102022:
+    "+proj=aea +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102023:
+    "+proj=eqdc +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102024:
+    "+proj=lcc +lat_0=0 +lon_0=25 +lat_1=20 +lat_2=-23 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102025:
+    "+proj=aea +lat_0=30 +lon_0=95 +lat_1=15 +lat_2=65 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   104122: "+proj=longlat +ellps=GRS80 +no_defs",
-  102027: "+proj=lcc +lat_0=30 +lon_0=95 +lat_1=15 +lat_2=65 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102028: "+proj=aea +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102029: "+proj=eqdc +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102030: "+proj=lcc +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102031: "+proj=eqdc +lat_0=30 +lon_0=10 +lat_1=43 +lat_2=62 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
-  102032: "+proj=eqdc +lat_0=-32 +lon_0=-60 +lat_1=-5 +lat_2=-42 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs",
-  102033: "+proj=aea +lat_0=-32 +lon_0=-60 +lat_1=-5 +lat_2=-42 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs",
-  102034: "+proj=gnom +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102035: "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102036: "+proj=gnom +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102037: "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102027:
+    "+proj=lcc +lat_0=30 +lon_0=95 +lat_1=15 +lat_2=65 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102028:
+    "+proj=aea +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102029:
+    "+proj=eqdc +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102030:
+    "+proj=lcc +lat_0=-15 +lon_0=125 +lat_1=7 +lat_2=-32 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102031:
+    "+proj=eqdc +lat_0=30 +lon_0=10 +lat_1=43 +lat_2=62 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
+  102032:
+    "+proj=eqdc +lat_0=-32 +lon_0=-60 +lat_1=-5 +lat_2=-42 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs",
+  102033:
+    "+proj=aea +lat_0=-32 +lon_0=-60 +lat_1=-5 +lat_2=-42 +x_0=0 +y_0=0 +ellps=aust_SA +units=m +no_defs",
+  102034:
+    "+proj=gnom +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102035:
+    "+proj=ortho +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102036:
+    "+proj=gnom +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102037:
+    "+proj=ortho +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   104123: "+proj=longlat +ellps=GRS80 +no_defs",
-  102038: "+proj=ortho +lat_0=42.5333333333 +lon_0=-72.5333333334 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs",
-  102039: "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102040: "+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=bessel +units=m +no_defs",
-  102041: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000.070104141 +y_0=0.0731521463042926 +ellps=GRS80 +units=us-ft +no_defs",
-  102042: "+proj=aea +lat_0=35 +lon_0=-82.25 +lat_1=38.25 +lat_2=47.25 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102038:
+    "+proj=ortho +lat_0=42.5333333333 +lon_0=-72.5333333334 +x_0=0 +y_0=0 +ellps=sphere +units=m +no_defs",
+  102039:
+    "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102040:
+    "+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=bessel +units=m +no_defs",
+  102041:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000.070104141 +y_0=0.0731521463042926 +ellps=GRS80 +units=us-ft +no_defs",
+  102042:
+    "+proj=aea +lat_0=35 +lon_0=-82.25 +lat_1=38.25 +lat_2=47.25 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
   102043: "+proj=utm +zone=20 +ellps=GRS80 +units=m +no_defs",
   102044: "+proj=utm +zone=20 +ellps=GRS80 +units=m +no_defs",
   102045: "+proj=utm +zone=20 +ellps=GRS80 +units=m +no_defs",
@@ -6430,73 +7823,131 @@ export const proj4def: Record<number, string> = {
   104125: "+proj=longlat +ellps=intl +no_defs",
   102058: "+proj=utm +zone=11 +ellps=GRS80 +units=m +no_defs",
   102059: "+proj=utm +zone=12 +ellps=GRS80 +units=m +no_defs",
-  102060: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=bessel +units=m +no_defs",
-  102061: "+proj=omerc +no_uoff +lat_0=4 +lonc=102.25 +alpha=-36.974209437118 +gamma=-36.869897645844 +k=0.99984 +x_0=804670.24 +y_0=0 +ellps=evrst69 +units=m +no_defs",
-  102062: "+proj=omerc +no_uoff +lat_0=4 +lonc=102.25 +alpha=-36.974209437118 +gamma=-36.869897645844 +k=0.99984 +x_0=804671.299775 +y_0=0 +ellps=evrst48 +units=m +no_defs",
-  102063: "+proj=tmerc +lat_0=7.00048027777778 +lon_0=80.7717111111111 +k=1 +x_0=160933.56048 +y_0=160933.56048 +ellps=evrst30 +units=m +no_defs",
-  102064: "+proj=tmerc +lat_0=7.00048027777778 +lon_0=80.7717111111111 +k=1 +x_0=160933.56048 +y_0=160933.56048 +ellps=evrst30 +units=ind-yd +no_defs",
-  102065: "+proj=krovak +axis=swu +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
-  102066: "+proj=krovak +lat_0=49.5 +lon_0=42.5 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +units=m +no_defs",
+  102060:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=bessel +units=m +no_defs",
+  102061:
+    "+proj=omerc +no_uoff +lat_0=4 +lonc=102.25 +alpha=-36.974209437118 +gamma=-36.869897645844 +k=0.99984 +x_0=804670.24 +y_0=0 +ellps=evrst69 +units=m +no_defs",
+  102062:
+    "+proj=omerc +no_uoff +lat_0=4 +lonc=102.25 +alpha=-36.974209437118 +gamma=-36.869897645844 +k=0.99984 +x_0=804671.299775 +y_0=0 +ellps=evrst48 +units=m +no_defs",
+  102063:
+    "+proj=tmerc +lat_0=7.00048027777778 +lon_0=80.7717111111111 +k=1 +x_0=160933.56048 +y_0=160933.56048 +ellps=evrst30 +units=m +no_defs",
+  102064:
+    "+proj=tmerc +lat_0=7.00048027777778 +lon_0=80.7717111111111 +k=1 +x_0=160933.56048 +y_0=160933.56048 +ellps=evrst30 +units=ind-yd +no_defs",
+  102065:
+    "+proj=krovak +axis=swu +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
+  102066:
+    "+proj=krovak +lat_0=49.5 +lon_0=42.5 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +pm=ferro +units=m +no_defs",
   104126: "+proj=longlat +ellps=intl +no_defs",
-  102067: "+proj=krovak +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
-  102068: "+proj=stere +lat_0=90 +lat_ts=60 +lon_0=-32 +x_0=400000 +y_0=5500000 +R=6370000 +to_meter=50000 +no_defs",
-  102069: "+proj=stere +lat_0=90 +lat_ts=60 +lon_0=-32 +x_0=450000 +y_0=5550000 +R=6370000 +to_meter=150000 +no_defs",
-  102070: "+proj=tmerc +lat_0=49.5 +lon_0=-2.41666666666667 +k=0.999997 +x_0=47000 +y_0=50000 +datum=WGS84 +units=m +no_defs",
-  102071: "+proj=tmerc +lat_0=0 +lon_0=149.009294833333 +k=1.000086 +x_0=200000 +y_0=4510193.4939 +ellps=aust_SA +units=m +no_defs",
-  102072: "+proj=tmerc +lat_0=0 +lon_0=141 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102073: "+proj=tmerc +lat_0=0 +lon_0=143 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102074: "+proj=tmerc +lat_0=0 +lon_0=145 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102075: "+proj=tmerc +lat_0=0 +lon_0=147 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102076: "+proj=tmerc +lat_0=0 +lon_0=149 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102067:
+    "+proj=krovak +lat_0=49.5 +lon_0=24.8333333333333 +alpha=30.2881397527778 +k=0.9999 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
+  102068:
+    "+proj=stere +lat_0=90 +lat_ts=60 +lon_0=-32 +x_0=400000 +y_0=5500000 +R=6370000 +to_meter=50000 +no_defs",
+  102069:
+    "+proj=stere +lat_0=90 +lat_ts=60 +lon_0=-32 +x_0=450000 +y_0=5550000 +R=6370000 +to_meter=150000 +no_defs",
+  102070:
+    "+proj=tmerc +lat_0=49.5 +lon_0=-2.41666666666667 +k=0.999997 +x_0=47000 +y_0=50000 +datum=WGS84 +units=m +no_defs",
+  102071:
+    "+proj=tmerc +lat_0=0 +lon_0=149.009294833333 +k=1.000086 +x_0=200000 +y_0=4510193.4939 +ellps=aust_SA +units=m +no_defs",
+  102072:
+    "+proj=tmerc +lat_0=0 +lon_0=141 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102073:
+    "+proj=tmerc +lat_0=0 +lon_0=143 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102074:
+    "+proj=tmerc +lat_0=0 +lon_0=145 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102075:
+    "+proj=tmerc +lat_0=0 +lon_0=147 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102076:
+    "+proj=tmerc +lat_0=0 +lon_0=149 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
   104127: "+proj=longlat +ellps=intl +no_defs",
-  102077: "+proj=tmerc +lat_0=0 +lon_0=151 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102078: "+proj=tmerc +lat_0=0 +lon_0=153 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102079: "+proj=tmerc +lat_0=0 +lon_0=155 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
-  102080: "+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  102081: "+proj=tmerc +lat_0=38 +lon_0=125 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
-  102082: "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
-  102083: "+proj=tmerc +lat_0=38 +lon_0=129 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
-  102084: "+proj=tmerc +lat_0=38 +lon_0=131 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
-  102085: "+proj=tmerc +lat_0=38 +lon_0=125.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
-  102086: "+proj=tmerc +lat_0=38 +lon_0=127.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
-  102087: "+proj=tmerc +lat_0=38 +lon_0=127.002890277778 +k=1 +x_0=200000 +y_0=550000 +ellps=bessel +units=m +no_defs",
-  102088: "+proj=tmerc +lat_0=38 +lon_0=129.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
-  102089: "+proj=tmerc +lat_0=38 +lon_0=131.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
-  102090: "+proj=tmerc +lat_0=32 +lon_0=-64.75 +k=1 +x_0=550000 +y_0=100000 +ellps=WGS84 +units=m +no_defs",
-  102091: "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102092: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102093: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102094: "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102095: "+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=750000 +y_0=650000 +ellps=WGS84 +units=m +no_defs",
-  102096: "+proj=aeqd +lat_0=7.35122211111111 +lon_0=134.450444861111 +x_0=50000 +y_0=150000 +ellps=clrk66 +units=m +no_defs",
+  102077:
+    "+proj=tmerc +lat_0=0 +lon_0=151 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102078:
+    "+proj=tmerc +lat_0=0 +lon_0=153 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102079:
+    "+proj=tmerc +lat_0=0 +lon_0=155 +k=0.99994 +x_0=300000 +y_0=5000000 +ellps=aust_SA +units=m +no_defs",
+  102080:
+    "+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  102081:
+    "+proj=tmerc +lat_0=38 +lon_0=125 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
+  102082:
+    "+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
+  102083:
+    "+proj=tmerc +lat_0=38 +lon_0=129 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
+  102084:
+    "+proj=tmerc +lat_0=38 +lon_0=131 +k=1 +x_0=200000 +y_0=600000 +ellps=GRS80 +units=m +no_defs",
+  102085:
+    "+proj=tmerc +lat_0=38 +lon_0=125.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
+  102086:
+    "+proj=tmerc +lat_0=38 +lon_0=127.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
+  102087:
+    "+proj=tmerc +lat_0=38 +lon_0=127.002890277778 +k=1 +x_0=200000 +y_0=550000 +ellps=bessel +units=m +no_defs",
+  102088:
+    "+proj=tmerc +lat_0=38 +lon_0=129.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
+  102089:
+    "+proj=tmerc +lat_0=38 +lon_0=131.002890277778 +k=1 +x_0=200000 +y_0=500000 +ellps=bessel +units=m +no_defs",
+  102090:
+    "+proj=tmerc +lat_0=32 +lon_0=-64.75 +k=1 +x_0=550000 +y_0=100000 +ellps=WGS84 +units=m +no_defs",
+  102091:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102092:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102093:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=2520000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102094:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=1500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102095:
+    "+proj=lcc +lat_1=18 +lat_0=18 +lon_0=-77 +k_0=1 +x_0=750000 +y_0=650000 +ellps=WGS84 +units=m +no_defs",
+  102096:
+    "+proj=aeqd +lat_0=7.35122211111111 +lon_0=134.450444861111 +x_0=50000 +y_0=150000 +ellps=clrk66 +units=m +no_defs",
   102097: "+proj=utm +zone=26 +ellps=GRS80 +units=m +no_defs",
   102098: "+proj=utm +zone=27 +ellps=GRS80 +units=m +no_defs",
   102099: "+proj=utm +zone=39 +ellps=GRS80 +units=m +no_defs",
-  102100: "+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs",
-  102101: "+proj=tmerc +lat_0=58 +lon_0=6.05625 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102102: "+proj=tmerc +lat_0=58 +lon_0=8.38958333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102103: "+proj=tmerc +lat_0=58 +lon_0=10.7229166666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102104: "+proj=tmerc +lat_0=58 +lon_0=13.2229166666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102105: "+proj=tmerc +lat_0=58 +lon_0=16.8895833333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102106: "+proj=tmerc +lat_0=58 +lon_0=20.8895833333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102100:
+    "+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs",
+  102101:
+    "+proj=tmerc +lat_0=58 +lon_0=6.05625 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102102:
+    "+proj=tmerc +lat_0=58 +lon_0=8.38958333333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102103:
+    "+proj=tmerc +lat_0=58 +lon_0=10.7229166666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102104:
+    "+proj=tmerc +lat_0=58 +lon_0=13.2229166666667 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102105:
+    "+proj=tmerc +lat_0=58 +lon_0=16.8895833333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102106:
+    "+proj=tmerc +lat_0=58 +lon_0=20.8895833333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
   104128: "+proj=longlat +R=6370000 +no_defs",
-  102107: "+proj=tmerc +lat_0=58 +lon_0=24.8895833333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102108: "+proj=tmerc +lat_0=58 +lon_0=29.05625 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102109: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  102110: "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=44 +lat_2=49 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
-  102111: "+proj=tmerc +lat_0=-44 +lon_0=-176.5 +k=1 +x_0=350000 +y_0=650000 +ellps=intl +units=m +no_defs",
-  102112: "+proj=tmerc +lat_0=-44 +lon_0=-176.5 +k=1 +x_0=400000 +y_0=800000 +ellps=GRS80 +units=m +no_defs",
-  102113: "+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs",
+  102107:
+    "+proj=tmerc +lat_0=58 +lon_0=24.8895833333333 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102108:
+    "+proj=tmerc +lat_0=58 +lon_0=29.05625 +k=1 +x_0=0 +y_0=0 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102109:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9999 +x_0=500000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  102110:
+    "+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=44 +lat_2=49 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs",
+  102111:
+    "+proj=tmerc +lat_0=-44 +lon_0=-176.5 +k=1 +x_0=350000 +y_0=650000 +ellps=intl +units=m +no_defs",
+  102112:
+    "+proj=tmerc +lat_0=-44 +lon_0=-176.5 +k=1 +x_0=400000 +y_0=800000 +ellps=GRS80 +units=m +no_defs",
+  102113:
+    "+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs",
   102114: "+proj=utm +zone=4 +ellps=clrk66 +units=m +no_defs",
   102115: "+proj=utm +zone=5 +ellps=clrk66 +units=m +no_defs",
   102116: "+proj=utm +zone=2 +south +ellps=clrk66 +units=m +no_defs",
-  102117: "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102118: "+proj=aea +lat_0=23 +lon_0=-83.5 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
-  102119: "+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=914400 +y_0=914400 +datum=NAD27 +units=ft +no_defs",
-  102120: "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.49596139 +y_0=-4354009.81600203 +datum=NAD27 +units=us-ft +no_defs",
-  102121: "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.49596139 +y_0=-4354009.81600203 +datum=NAD83 +units=us-ft +no_defs",
-  102122: "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +datum=NAD27 +units=m +no_defs",
-  102123: "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +datum=NAD83 +units=m +no_defs",
+  102117:
+    "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102118:
+    "+proj=aea +lat_0=23 +lon_0=-83.5 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +datum=NAD27 +units=us-ft +no_defs",
+  102119:
+    "+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=914400 +y_0=914400 +datum=NAD27 +units=ft +no_defs",
+  102120:
+    "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.49596139 +y_0=-4354009.81600203 +datum=NAD27 +units=us-ft +no_defs",
+  102121:
+    "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.49596139 +y_0=-4354009.81600203 +datum=NAD83 +units=us-ft +no_defs",
+  102122:
+    "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +datum=NAD27 +units=m +no_defs",
+  102123:
+    "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +datum=NAD83 +units=m +no_defs",
   102124: "+proj=utm +zone=1 +datum=NAD27 +units=m +no_defs",
   102125: "+proj=utm +zone=2 +datum=NAD27 +units=m +no_defs",
   102126: "+proj=utm +zone=59 +datum=NAD27 +units=m +no_defs",
@@ -6509,11 +7960,15 @@ export const proj4def: Record<number, string> = {
   102133: "+proj=utm +zone=33 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
   102134: "+proj=utm +zone=34 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
   102135: "+proj=utm +zone=35 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102136: "+proj=tmerc +lat_0=58 +lon_0=10.7229166666667 +k=1 +x_0=19999.32 +y_0=-202977.79 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102137: "+proj=tmerc +lat_0=58 +lon_0=6.05625 +k=1 +x_0=100000 +y_0=-200000 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
-  102138: "+proj=tmerc +lat_0=58 +lon_0=10.7229166666667 +k=1 +x_0=0 +y_0=-212979.18 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102136:
+    "+proj=tmerc +lat_0=58 +lon_0=10.7229166666667 +k=1 +x_0=19999.32 +y_0=-202977.79 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102137:
+    "+proj=tmerc +lat_0=58 +lon_0=6.05625 +k=1 +x_0=100000 +y_0=-200000 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
+  102138:
+    "+proj=tmerc +lat_0=58 +lon_0=10.7229166666667 +k=1 +x_0=0 +y_0=-212979.18 +a=6377492.018 +rf=299.1528128 +units=m +no_defs",
   102139: "+proj=utm +zone=35 +ellps=GRS80 +units=m +no_defs",
-  102140: "+proj=tmerc +lat_0=22.3121333333333 +lon_0=114.178555555556 +k=1 +x_0=836694.05 +y_0=819069.8 +ellps=intl +units=m +no_defs",
+  102140:
+    "+proj=tmerc +lat_0=22.3121333333333 +lon_0=114.178555555556 +k=1 +x_0=836694.05 +y_0=819069.8 +ellps=intl +units=m +no_defs",
   102141: "+proj=utm +zone=49 +ellps=intl +units=m +no_defs",
   102142: "+proj=utm +zone=50 +ellps=intl +units=m +no_defs",
   102143: "+proj=utm +zone=39 +ellps=intl +units=m +no_defs",
@@ -6531,237 +7986,435 @@ export const proj4def: Record<number, string> = {
   102154: "+proj=utm +zone=54 +ellps=bessel +units=m +no_defs",
   102155: "+proj=utm +zone=55 +ellps=bessel +units=m +no_defs",
   102156: "+proj=utm +zone=56 +ellps=bessel +units=m +no_defs",
-  102157: "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102158: "+proj=tmerc +lat_0=0 +lon_0=37 +k=0.9998 +x_0=500000 +y_0=-3000000 +ellps=intl +units=m +no_defs",
-  102159: "+proj=tmerc +lat_0=22.2123972222222 +lon_0=113.536469444444 +k=1 +x_0=20000 +y_0=20000 +ellps=intl +units=m +no_defs",
-  102160: "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=200180.598 +y_0=299913.01 +ellps=intl +units=m +no_defs",
-  102161: "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=180.598 +y_0=-86.99 +ellps=intl +units=m +no_defs",
+  102157:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.9999 +x_0=7500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102158:
+    "+proj=tmerc +lat_0=0 +lon_0=37 +k=0.9998 +x_0=500000 +y_0=-3000000 +ellps=intl +units=m +no_defs",
+  102159:
+    "+proj=tmerc +lat_0=22.2123972222222 +lon_0=113.536469444444 +k=1 +x_0=20000 +y_0=20000 +ellps=intl +units=m +no_defs",
+  102160:
+    "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=200180.598 +y_0=299913.01 +ellps=intl +units=m +no_defs",
+  102161:
+    "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=180.598 +y_0=-86.99 +ellps=intl +units=m +no_defs",
   102162: "+proj=utm +zone=26 +ellps=intl +units=m +no_defs",
-  102163: "+proj=bonne +lat_1=39.6666666666667 +lon_0=-8.13190611111111 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
-  102164: "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=200000 +y_0=300000 +ellps=intl +units=m +no_defs",
-  102165: "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
+  102163:
+    "+proj=bonne +lat_1=39.6666666666667 +lon_0=-8.13190611111111 +x_0=0 +y_0=0 +ellps=bessel +units=m +no_defs",
+  102164:
+    "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=200000 +y_0=300000 +ellps=intl +units=m +no_defs",
+  102165:
+    "+proj=tmerc +lat_0=39.6666666666667 +lon_0=-8.13190611111111 +k=1 +x_0=0 +y_0=0 +ellps=intl +units=m +no_defs",
   102166: "+proj=utm +zone=25 +ellps=intl +units=m +no_defs",
   102167: "+proj=utm +zone=28 +ellps=intl +units=m +no_defs",
   102168: "+proj=utm +zone=26 +ellps=intl +units=m +no_defs",
   102169: "+proj=utm +zone=28 +ellps=intl +units=m +no_defs",
-  102170: "+proj=lcc +lat_0=-37 +lon_0=145 +lat_1=-36 +lat_2=-38 +x_0=2500000 +y_0=4500000 +ellps=aust_SA +units=m +no_defs",
-  102171: "+proj=lcc +lat_0=-37 +lon_0=145 +lat_1=-36 +lat_2=-38 +x_0=2500000 +y_0=2500000 +ellps=GRS80 +units=m +no_defs",
-  102172: "+proj=lcc +lat_0=-32 +lon_0=135 +lat_1=-28 +lat_2=-36 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  102173: "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
-  102174: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.999923 +x_0=5500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102175: "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102176: "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.999923 +x_0=7500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102177: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.999923 +x_0=8500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102178: "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=500000 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102179: "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102180: "+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102181: "+proj=tmerc +lat_0=0 +lon_0=-114 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102182: "+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102183: "+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
-  102184: "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102185: "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102186: "+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102187: "+proj=tmerc +lat_0=0 +lon_0=-114 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102170:
+    "+proj=lcc +lat_0=-37 +lon_0=145 +lat_1=-36 +lat_2=-38 +x_0=2500000 +y_0=4500000 +ellps=aust_SA +units=m +no_defs",
+  102171:
+    "+proj=lcc +lat_0=-37 +lon_0=145 +lat_1=-36 +lat_2=-38 +x_0=2500000 +y_0=2500000 +ellps=GRS80 +units=m +no_defs",
+  102172:
+    "+proj=lcc +lat_0=-32 +lon_0=135 +lat_1=-28 +lat_2=-36 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  102173:
+    "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +units=m +no_defs",
+  102174:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.999923 +x_0=5500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102175:
+    "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102176:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.999923 +x_0=7500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102177:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.999923 +x_0=8500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102178:
+    "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=500000 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102179:
+    "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102180:
+    "+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102181:
+    "+proj=tmerc +lat_0=0 +lon_0=-114 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102182:
+    "+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102183:
+    "+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD27 +units=m +no_defs",
+  102184:
+    "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102185:
+    "+proj=tmerc +lat_0=0 +lon_0=-115 +k=0.9992 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102186:
+    "+proj=tmerc +lat_0=0 +lon_0=-111 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102187:
+    "+proj=tmerc +lat_0=0 +lon_0=-114 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
   104130: "+proj=longlat +ellps=intl +no_defs",
-  102188: "+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102189: "+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102190: "+proj=aea +lat_0=45 +lon_0=-126 +lat_1=50 +lat_2=58.5 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102191: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=-5.4 +k_0=0.999625769 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
-  102192: "+proj=lcc +lat_1=29.7 +lat_0=29.7 +lon_0=-5.4 +k_0=0.999615596 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
-  102193: "+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.9996 +x_0=1200000 +y_0=400000 +ellps=clrk80ign +units=m +no_defs",
-  102194: "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=WGS84 +units=m +no_defs",
-  102195: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.999923 +x_0=5500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102196: "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102197: "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.999923 +x_0=7500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102198: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.999923 +x_0=8500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102199: "+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +units=m +no_defs",
+  102188:
+    "+proj=tmerc +lat_0=0 +lon_0=-117 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102189:
+    "+proj=tmerc +lat_0=0 +lon_0=-120 +k=0.9999 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102190:
+    "+proj=aea +lat_0=45 +lon_0=-126 +lat_1=50 +lat_2=58.5 +x_0=1000000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102191:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=-5.4 +k_0=0.999625769 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
+  102192:
+    "+proj=lcc +lat_1=29.7 +lat_0=29.7 +lon_0=-5.4 +k_0=0.999615596 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
+  102193:
+    "+proj=lcc +lat_1=26.1 +lat_0=26.1 +lon_0=-5.4 +k_0=0.9996 +x_0=1200000 +y_0=400000 +ellps=clrk80ign +units=m +no_defs",
+  102194:
+    "+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=WGS84 +units=m +no_defs",
+  102195:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.999923 +x_0=5500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102196:
+    "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.999923 +x_0=6500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102197:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=0.999923 +x_0=7500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102198:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.999923 +x_0=8500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102199:
+    "+proj=lcc +lat_0=50.797815 +lon_0=4.35921583333333 +lat_1=49.8333333333333 +lat_2=51.1666666666667 +x_0=649328 +y_0=665262 +ellps=GRS80 +units=m +no_defs",
   102200: "+proj=utm +zone=2 +south +ellps=GRS80 +units=m +no_defs",
-  102201: "+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
+  102201:
+    "+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
   102202: "+proj=utm +zone=4 +ellps=GRS80 +units=m +no_defs",
   102203: "+proj=utm +zone=5 +ellps=GRS80 +units=m +no_defs",
-  102204: "+proj=lcc +lat_0=24 +lon_0=45 +lat_1=21 +lat_2=27 +x_0=1000000 +y_0=3000000 +ellps=intl +units=m +no_defs",
+  102204:
+    "+proj=lcc +lat_0=24 +lon_0=45 +lat_1=21 +lat_2=27 +x_0=1000000 +y_0=3000000 +ellps=intl +units=m +no_defs",
   102205: "+proj=utm +zone=11 +ellps=GRS80 +units=m +no_defs",
   102206: "+proj=utm +zone=12 +ellps=GRS80 +units=m +no_defs",
   102207: "+proj=utm +zone=13 +ellps=GRS80 +units=m +no_defs",
-  102208: "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102209: "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102210: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102208:
+    "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102209:
+    "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102210:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   102211: "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
-  102212: "+proj=lcc +lat_0=41 +lon_0=-107.5 +lat_1=41 +lat_2=45 +x_0=500000 +y_0=200000 +datum=NAD83 +units=m +no_defs",
+  102212:
+    "+proj=lcc +lat_0=41 +lon_0=-107.5 +lat_1=41 +lat_2=45 +x_0=500000 +y_0=200000 +datum=NAD83 +units=m +no_defs",
   102213: "+proj=utm +zone=58 +datum=NAD83 +units=m +no_defs",
-  102214: "+proj=lcc +lat_0=15.8333333333333 +lon_0=-24 +lat_1=15 +lat_2=16.6666666666667 +x_0=161587.83 +y_0=128511.202 +datum=WGS84 +units=m +no_defs",
-  102215: "+proj=lcc +lat_0=0 +lon_0=-95 +lat_1=49 +lat_2=77 +x_0=0 +y_0=-8000000 +datum=WGS84 +units=m +no_defs",
-  102216: "+proj=tmerc +lat_0=0 +lon_0=115.816666666667 +k=0.99999906 +x_0=50000 +y_0=3800000 +ellps=GRS80 +units=m +no_defs",
+  102214:
+    "+proj=lcc +lat_0=15.8333333333333 +lon_0=-24 +lat_1=15 +lat_2=16.6666666666667 +x_0=161587.83 +y_0=128511.202 +datum=WGS84 +units=m +no_defs",
+  102215:
+    "+proj=lcc +lat_0=0 +lon_0=-95 +lat_1=49 +lat_2=77 +x_0=0 +y_0=-8000000 +datum=WGS84 +units=m +no_defs",
+  102216:
+    "+proj=tmerc +lat_0=0 +lon_0=115.816666666667 +k=0.99999906 +x_0=50000 +y_0=3800000 +ellps=GRS80 +units=m +no_defs",
   102226: "+proj=utm +zone=48 +ellps=GRS80 +units=m +no_defs",
-  102217: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  102218: "+proj=aea +lat_0=34 +lon_0=-120 +lat_1=43 +lat_2=48 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102219: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +datum=NAD83 +units=us-ft +no_defs",
-  102220: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  102221: "+proj=lcc +lat_0=10.4666666666667 +lon_0=-84.3333333333333 +lat_1=9.93333333333333 +lat_2=11 +x_0=500000 +y_0=271820.522 +ellps=clrk66 +units=m +no_defs",
-  102222: "+proj=lcc +lat_0=9 +lon_0=-83.6666666666667 +lat_1=8.46666666666667 +lat_2=9.53333333333333 +x_0=500000 +y_0=327987.436 +ellps=clrk66 +units=m +no_defs",
-  102223: "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9996 +x_0=500000 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102217:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  102218:
+    "+proj=aea +lat_0=34 +lon_0=-120 +lat_1=43 +lat_2=48 +x_0=600000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102219:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +datum=NAD83 +units=us-ft +no_defs",
+  102220:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  102221:
+    "+proj=lcc +lat_0=10.4666666666667 +lon_0=-84.3333333333333 +lat_1=9.93333333333333 +lat_2=11 +x_0=500000 +y_0=271820.522 +ellps=clrk66 +units=m +no_defs",
+  102222:
+    "+proj=lcc +lat_0=9 +lon_0=-83.6666666666667 +lat_1=8.46666666666667 +lat_2=9.53333333333333 +x_0=500000 +y_0=327987.436 +ellps=clrk66 +units=m +no_defs",
+  102223:
+    "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9996 +x_0=500000 +y_0=0 +datum=WGS84 +units=m +no_defs",
   102224: "+proj=utm +zone=46 +ellps=GRS80 +units=m +no_defs",
   102225: "+proj=utm +zone=47 +ellps=GRS80 +units=m +no_defs",
-  102433: "+proj=eqc +lat_ts=-60.32378942 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102433:
+    "+proj=eqc +lat_ts=-60.32378942 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
   102227: "+proj=utm +zone=49 +ellps=GRS80 +units=m +no_defs",
   102228: "+proj=utm +zone=50 +ellps=GRS80 +units=m +no_defs",
-  102229: "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102230: "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102231: "+proj=tmerc +lat_0=4.59904722222222 +lon_0=-80.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +units=m +no_defs",
-  102232: "+proj=tmerc +lat_0=4.68333333333333 +lon_0=-74.15 +k=1.00039978753252 +x_0=92334.879 +y_0=109320.965 +ellps=intl +units=m +no_defs",
-  102233: "+proj=tmerc +lat_0=4.68048611111111 +lon_0=-74.1465916666667 +k=1.00039980326544 +x_0=92334.879 +y_0=109320.965 +ellps=GRS80 +units=m +no_defs",
+  102229:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102230:
+    "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102231:
+    "+proj=tmerc +lat_0=4.59904722222222 +lon_0=-80.0809166666667 +k=1 +x_0=1000000 +y_0=1000000 +ellps=intl +units=m +no_defs",
+  102232:
+    "+proj=tmerc +lat_0=4.68333333333333 +lon_0=-74.15 +k=1.00039978753252 +x_0=92334.879 +y_0=109320.965 +ellps=intl +units=m +no_defs",
+  102233:
+    "+proj=tmerc +lat_0=4.68048611111111 +lon_0=-74.1465916666667 +k=1.00039980326544 +x_0=92334.879 +y_0=109320.965 +ellps=GRS80 +units=m +no_defs",
   102234: "+proj=utm +zone=14 +ellps=GRS80 +units=m +no_defs",
   102235: "+proj=utm +zone=15 +ellps=GRS80 +units=m +no_defs",
   102236: "+proj=utm +zone=16 +ellps=GRS80 +units=m +no_defs",
-  102237: "+proj=aeqd +lat_0=6.96507569444444 +lon_0=158.209299222222 +x_0=80122.82 +y_0=80747.24 +ellps=clrk66 +units=m +no_defs",
-  102238: "+proj=aeqd +lat_0=15.1675572222222 +lon_0=145.711286944444 +x_0=50000 +y_0=50000 +ellps=clrk66 +units=m +no_defs",
-  102239: "+proj=aeqd +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +ellps=clrk66 +units=m +no_defs",
-  102240: "+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
-  102241: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102242: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102243: "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102244: "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102245: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102237:
+    "+proj=aeqd +lat_0=6.96507569444444 +lon_0=158.209299222222 +x_0=80122.82 +y_0=80747.24 +ellps=clrk66 +units=m +no_defs",
+  102238:
+    "+proj=aeqd +lat_0=15.1675572222222 +lon_0=145.711286944444 +x_0=50000 +y_0=50000 +ellps=clrk66 +units=m +no_defs",
+  102239:
+    "+proj=aeqd +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +ellps=clrk66 +units=m +no_defs",
+  102240:
+    "+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
+  102241:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102242:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102243:
+    "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102244:
+    "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102245:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
   104131: "+proj=longlat +ellps=bessel +no_defs",
-  102246: "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102247: "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102248: "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102249: "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102250: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102251: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102252: "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
-  102253: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  102254: "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  102255: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  102256: "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=m +no_defs",
-  102257: "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102258: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102259: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102260: "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102261: "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102262: "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102263: "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102264: "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102265: "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102266: "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102267: "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102268: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102269: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102270: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102271: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102272: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102273: "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
-  102274: "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
-  102275: "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  102276: "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102277: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102278: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
-  102279: "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102280: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102246:
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102247:
+    "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102248:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102249:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102250:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102251:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102252:
+    "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
+  102253:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  102254:
+    "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  102255:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  102256:
+    "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=m +no_defs",
+  102257:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102258:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102259:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102260:
+    "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102261:
+    "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102262:
+    "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102263:
+    "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102264:
+    "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102265:
+    "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102266:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102267:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102268:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102269:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102270:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102271:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102272:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102273:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
+  102274:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
+  102275:
+    "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  102276:
+    "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102277:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102278:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
+  102279:
+    "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102280:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
   104132: "+proj=longlat +ellps=clrk66 +no_defs",
-  102281: "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102282: "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102283: "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102284: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102285: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102286: "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs",
-  102287: "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102288: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102399: "+proj=aea +lat_0=42.5 +lon_0=-106 +lat_1=43.5 +lat_2=48 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102289: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102290: "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102291: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  102292: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  102293: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  102294: "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102295: "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102296: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102319: "+proj=tmerc +lat_0=0 +lon_0=33 +k=0.99995 +x_0=200000 +y_0=-3500000 +ellps=WGS84 +units=m +no_defs",
-  102297: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102298: "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102300: "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102304: "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102305: "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102306: "+proj=tmerc +lat_0=0 +lon_0=84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=evrst30 +units=m +no_defs",
-  102307: "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +units=m +no_defs",
-  102308: "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
-  102309: "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
+  102281:
+    "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102282:
+    "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102283:
+    "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102284:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102285:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102286:
+    "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs",
+  102287:
+    "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102288:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102399:
+    "+proj=aea +lat_0=42.5 +lon_0=-106 +lat_1=43.5 +lat_2=48 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102289:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102290:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102291:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  102292:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  102293:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  102294:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102295:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102296:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102319:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=0.99995 +x_0=200000 +y_0=-3500000 +ellps=WGS84 +units=m +no_defs",
+  102297:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102298:
+    "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102300:
+    "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102304:
+    "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102305:
+    "+proj=tmerc +lat_0=0 +lon_0=-84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102306:
+    "+proj=tmerc +lat_0=0 +lon_0=84 +k=0.9999 +x_0=500000 +y_0=0 +ellps=evrst30 +units=m +no_defs",
+  102307:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +units=m +no_defs",
+  102308:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
+  102309:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
   104133: "+proj=longlat +ellps=WGS84 +no_defs",
-  102310: "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102311: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102312: "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102313: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102314: "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102315: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102316: "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102317: "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102318: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102320: "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102321: "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102322: "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102323: "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102324: "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102325: "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102326: "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102327: "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102310:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102311:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102312:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102313:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102314:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102315:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102316:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102317:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102318:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102320:
+    "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102321:
+    "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102322:
+    "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102323:
+    "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102324:
+    "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102325:
+    "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102326:
+    "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102327:
+    "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104134: "+proj=longlat +ellps=GRS80 +no_defs",
-  102328: "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102329: "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=32500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102330: "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102328:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102329:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=32500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102330:
+    "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   102331: "+proj=utm +zone=25 +ellps=GRS80 +units=m +no_defs",
   102332: "+proj=utm +zone=26 +ellps=GRS80 +units=m +no_defs",
   102333: "+proj=utm +zone=28 +ellps=GRS80 +units=m +no_defs",
-  102334: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102335: "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102336: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102334:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102335:
+    "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102336:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104135: "+proj=longlat +ellps=krass +no_defs",
-  102337: "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  102338: "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  102339: "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
-  102340: "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
-  102341: "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
-  102342: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  102343: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  102344: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
-  102345: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102346: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  102347: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  102348: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102349: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102350: "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102351: "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102352: "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102432: "+proj=eqc +lat_ts=-52.28859923 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102353: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102354: "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102355: "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102356: "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  102357: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102358: "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  102359: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=3500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102360: "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102361: "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
-  102362: "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=32500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102363: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  102337:
+    "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  102338:
+    "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  102339:
+    "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
+  102340:
+    "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
+  102341:
+    "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
+  102342:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  102343:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  102344:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
+  102345:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102346:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  102347:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  102348:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102349:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102350:
+    "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102351:
+    "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102352:
+    "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102432:
+    "+proj=eqc +lat_ts=-52.28859923 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102353:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102354:
+    "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102355:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102356:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  102357:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102358:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  102359:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=3500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102360:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=0.9996 +x_0=33500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102361:
+    "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
+  102362:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.9996 +x_0=32500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102363:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
   102364: "+proj=utm +zone=59 +ellps=GRS80 +units=m +no_defs",
   102365: "+proj=utm +zone=60 +ellps=GRS80 +units=m +no_defs",
-  102366: "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  102367: "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102368: "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102369: "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102370: "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102366:
+    "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  102367:
+    "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102368:
+    "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102369:
+    "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102370:
+    "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104136: "+proj=longlat +ellps=aust_SA +no_defs",
-  102371: "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102372: "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102373: "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102374: "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102375: "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102376: "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102377: "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102378: "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102379: "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102380: "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102381: "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102371:
+    "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102372:
+    "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102373:
+    "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102374:
+    "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102375:
+    "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102376:
+    "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102377:
+    "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102378:
+    "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102379:
+    "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102380:
+    "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102381:
+    "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
   102382: "+proj=utm +zone=13 +ellps=GRS80 +units=m +no_defs",
   102383: "+proj=utm +zone=14 +ellps=GRS80 +units=m +no_defs",
   102384: "+proj=utm +zone=15 +ellps=GRS80 +units=m +no_defs",
@@ -6769,17 +8422,28 @@ export const proj4def: Record<number, string> = {
   102386: "+proj=utm +zone=17 +ellps=GRS80 +units=m +no_defs",
   102387: "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
   102388: "+proj=utm +zone=19 +ellps=GRS80 +units=m +no_defs",
-  102389: "+proj=omerc +no_uoff +lat_0=46.9916361111111 +lonc=-96.8888638888889 +alpha=2.63389226 +gamma=0 +k=1.000038773618 +x_0=874578.083820168 +y_0=-5077268.7778918 +datum=NAD83 +units=us-ft +no_defs",
-  102390: "+proj=omerc +no_uoff +lat_0=46.9916361111111 +lonc=-96.8888638888889 +alpha=2.63389226 +gamma=0 +k=1.000038773618 +x_0=874578.083820168 +y_0=-5077268.7778918 +ellps=GRS80 +units=us-ft +no_defs",
-  102391: "+proj=omerc +no_uoff +lat_0=46.9916361111111 +lonc=-96.8888638888889 +alpha=2.63389226 +gamma=0 +k=1.000038773618 +x_0=874578.083820168 +y_0=-5077268.7778918 +ellps=GRS80 +units=us-ft +no_defs",
-  102392: "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102393: "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102394: "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102395: "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102396: "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102397: "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102398: "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102400: "+proj=tmerc +lat_0=51.1666666666667 +lon_0=-0.158333333333333 +k=0.9999999 +x_0=78250 +y_0=-2800 +ellps=WGS84 +units=m +no_defs",
+  102389:
+    "+proj=omerc +no_uoff +lat_0=46.9916361111111 +lonc=-96.8888638888889 +alpha=2.63389226 +gamma=0 +k=1.000038773618 +x_0=874578.083820168 +y_0=-5077268.7778918 +datum=NAD83 +units=us-ft +no_defs",
+  102390:
+    "+proj=omerc +no_uoff +lat_0=46.9916361111111 +lonc=-96.8888638888889 +alpha=2.63389226 +gamma=0 +k=1.000038773618 +x_0=874578.083820168 +y_0=-5077268.7778918 +ellps=GRS80 +units=us-ft +no_defs",
+  102391:
+    "+proj=omerc +no_uoff +lat_0=46.9916361111111 +lonc=-96.8888638888889 +alpha=2.63389226 +gamma=0 +k=1.000038773618 +x_0=874578.083820168 +y_0=-5077268.7778918 +ellps=GRS80 +units=us-ft +no_defs",
+  102392:
+    "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102393:
+    "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102394:
+    "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102395:
+    "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102396:
+    "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102397:
+    "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102398:
+    "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102400:
+    "+proj=tmerc +lat_0=51.1666666666667 +lon_0=-0.158333333333333 +k=0.9999999 +x_0=78250 +y_0=-2800 +ellps=WGS84 +units=m +no_defs",
   102401: "+proj=utm +zone=1 +ellps=GRS80 +units=m +no_defs",
   102402: "+proj=utm +zone=2 +ellps=GRS80 +units=m +no_defs",
   102403: "+proj=utm +zone=3 +ellps=GRS80 +units=m +no_defs",
@@ -6801,37 +8465,67 @@ export const proj4def: Record<number, string> = {
   102418: "+proj=utm +zone=18 +ellps=GRS80 +units=m +no_defs",
   102419: "+proj=utm +zone=19 +ellps=GRS80 +units=m +no_defs",
   104138: "+proj=longlat +ellps=intl +no_defs",
-  102420: "+proj=lcc +lat_0=65 +lon_0=-19 +lat_1=64.25 +lat_2=65.75 +x_0=1700000 +y_0=300000 +ellps=GRS80 +units=m +no_defs",
-  102421: "+proj=eqc +lat_ts=22.94791772 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102422: "+proj=eqc +lat_ts=41.12682127 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102423: "+proj=eqc +lat_ts=52.28859923 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102424: "+proj=eqc +lat_ts=60.32378942 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102425: "+proj=eqc +lat_ts=66.09421768 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102426: "+proj=eqc +lat_ts=70.10896259 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102427: "+proj=eqc +lat_ts=74.13230145 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102428: "+proj=eqc +lat_ts=78.1728375 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102429: "+proj=aeqd +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102430: "+proj=eqc +lat_ts=-22.94791772 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102431: "+proj=eqc +lat_ts=-41.12682127 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102434: "+proj=eqc +lat_ts=-66.09421768 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102435: "+proj=eqc +lat_ts=-70.10896259 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102436: "+proj=eqc +lat_ts=-74.13230145 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102437: "+proj=eqc +lat_ts=-78.1728375 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102438: "+proj=aeqd +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102439: "+proj=lcc +lat_0=-27 +lon_0=132 +lat_1=-18 +lat_2=-36 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
-  102440: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102441: "+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=aust_SA +units=m +no_defs",
-  102442: "+proj=tmerc +lat_0=0 +lon_0=119 +k=0.9999 +x_0=250000 +y_0=0 +ellps=aust_SA +units=m +no_defs",
-  102443: "+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102444: "+proj=tmerc +lat_0=0 +lon_0=119 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102445: "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000.00000001 +y_0=-5000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
-  102446: "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102447: "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102448: "+proj=tmerc +lat_0=22.2123972222222 +lon_0=113.536469444444 +k=1 +x_0=20000 +y_0=20000 +ellps=intl +units=m +no_defs",
+  102420:
+    "+proj=lcc +lat_0=65 +lon_0=-19 +lat_1=64.25 +lat_2=65.75 +x_0=1700000 +y_0=300000 +ellps=GRS80 +units=m +no_defs",
+  102421:
+    "+proj=eqc +lat_ts=22.94791772 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102422:
+    "+proj=eqc +lat_ts=41.12682127 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102423:
+    "+proj=eqc +lat_ts=52.28859923 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102424:
+    "+proj=eqc +lat_ts=60.32378942 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102425:
+    "+proj=eqc +lat_ts=66.09421768 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102426:
+    "+proj=eqc +lat_ts=70.10896259 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102427:
+    "+proj=eqc +lat_ts=74.13230145 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102428:
+    "+proj=eqc +lat_ts=78.1728375 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102429:
+    "+proj=aeqd +lat_0=90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102430:
+    "+proj=eqc +lat_ts=-22.94791772 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102431:
+    "+proj=eqc +lat_ts=-41.12682127 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102434:
+    "+proj=eqc +lat_ts=-66.09421768 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102435:
+    "+proj=eqc +lat_ts=-70.10896259 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102436:
+    "+proj=eqc +lat_ts=-74.13230145 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102437:
+    "+proj=eqc +lat_ts=-78.1728375 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102438:
+    "+proj=aeqd +lat_0=-90 +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102439:
+    "+proj=lcc +lat_0=-27 +lon_0=132 +lat_1=-18 +lat_2=-36 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs",
+  102440:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102441:
+    "+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=aust_SA +units=m +no_defs",
+  102442:
+    "+proj=tmerc +lat_0=0 +lon_0=119 +k=0.9999 +x_0=250000 +y_0=0 +ellps=aust_SA +units=m +no_defs",
+  102443:
+    "+proj=tmerc +lat_0=0 +lon_0=121 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102444:
+    "+proj=tmerc +lat_0=0 +lon_0=119 +k=0.9999 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102445:
+    "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000.00000001 +y_0=-5000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
+  102446:
+    "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102447:
+    "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102448:
+    "+proj=tmerc +lat_0=22.2123972222222 +lon_0=113.536469444444 +k=1 +x_0=20000 +y_0=20000 +ellps=intl +units=m +no_defs",
   102449: "+proj=utm +zone=55 +ellps=GRS80 +units=m +no_defs",
-  102450: "+proj=tmerc +lat_0=58 +lon_0=0 +k=1 +x_0=19999.32 +y_0=-202977.79 +a=6377492.018 +rf=299.1528128 +pm=oslo +units=m +no_defs",
-  102451: "+proj=tmerc +lat_0=58 +lon_0=-4.66666666666667 +k=1 +x_0=100000 +y_0=-200000 +a=6377492.018 +rf=299.1528128 +pm=oslo +units=m +no_defs",
-  102452: "+proj=tmerc +lat_0=58 +lon_0=0 +k=1 +x_0=0 +y_0=-212979.18 +a=6377492.018 +rf=299.1528128 +pm=oslo +units=m +no_defs",
+  102450:
+    "+proj=tmerc +lat_0=58 +lon_0=0 +k=1 +x_0=19999.32 +y_0=-202977.79 +a=6377492.018 +rf=299.1528128 +pm=oslo +units=m +no_defs",
+  102451:
+    "+proj=tmerc +lat_0=58 +lon_0=-4.66666666666667 +k=1 +x_0=100000 +y_0=-200000 +a=6377492.018 +rf=299.1528128 +pm=oslo +units=m +no_defs",
+  102452:
+    "+proj=tmerc +lat_0=58 +lon_0=0 +k=1 +x_0=0 +y_0=-212979.18 +a=6377492.018 +rf=299.1528128 +pm=oslo +units=m +no_defs",
   102453: "+proj=utm +zone=50 +ellps=clrk66 +units=m +no_defs",
   104139: "+proj=longlat +ellps=clrk80ign +no_defs",
   102454: "+proj=utm +zone=51 +ellps=clrk66 +units=m +no_defs",
@@ -6839,134 +8533,253 @@ export const proj4def: Record<number, string> = {
   102456: "+proj=utm +zone=50 +ellps=clrk66 +units=m +no_defs",
   102457: "+proj=utm +zone=51 +ellps=clrk66 +units=m +no_defs",
   102458: "+proj=utm +zone=52 +ellps=clrk66 +units=m +no_defs",
-  102459: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=1.00011328 +x_0=800143.9664 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102461: "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102462: "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102463: "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102464: "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102465: "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102466: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  102467: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  102468: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  102469: "+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +units=m +no_defs",
-  102470: "+proj=tmerc +lat_0=0 +lon_0=15 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102471: "+proj=tmerc +lat_0=0 +lon_0=17 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102472: "+proj=tmerc +lat_0=0 +lon_0=19 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102473: "+proj=tmerc +lat_0=0 +lon_0=21 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102459:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=1.00011328 +x_0=800143.9664 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102461:
+    "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102462:
+    "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102463:
+    "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102464:
+    "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102465:
+    "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102466:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  102467:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  102468:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  102469:
+    "+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +units=m +no_defs",
+  102470:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102471:
+    "+proj=tmerc +lat_0=0 +lon_0=17 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102472:
+    "+proj=tmerc +lat_0=0 +lon_0=19 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102473:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
   104140: "+proj=longlat +ellps=clrk80ign +no_defs",
-  102474: "+proj=tmerc +lat_0=0 +lon_0=23 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102475: "+proj=tmerc +lat_0=0 +lon_0=25 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102476: "+proj=tmerc +lat_0=0 +lon_0=27 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102477: "+proj=tmerc +lat_0=0 +lon_0=29 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102478: "+proj=tmerc +lat_0=0 +lon_0=31 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102479: "+proj=tmerc +lat_0=0 +lon_0=33 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
-  102480: "+proj=tmerc +lat_0=0 +lon_0=15 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102481: "+proj=tmerc +lat_0=0 +lon_0=17 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102482: "+proj=tmerc +lat_0=0 +lon_0=19 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102483: "+proj=tmerc +lat_0=0 +lon_0=21 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102484: "+proj=tmerc +lat_0=0 +lon_0=23 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102485: "+proj=tmerc +lat_0=0 +lon_0=25 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102486: "+proj=tmerc +lat_0=0 +lon_0=27 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102487: "+proj=tmerc +lat_0=0 +lon_0=29 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102488: "+proj=tmerc +lat_0=0 +lon_0=31 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102489: "+proj=tmerc +lat_0=0 +lon_0=33 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102490: "+proj=omerc +no_uoff +lat_0=4 +lonc=115 +alpha=53.31580995 +gamma=53.130102354156 +k=0.99984 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102491: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
-  102492: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
+  102474:
+    "+proj=tmerc +lat_0=0 +lon_0=23 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102475:
+    "+proj=tmerc +lat_0=0 +lon_0=25 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102476:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102477:
+    "+proj=tmerc +lat_0=0 +lon_0=29 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102478:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102479:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=-1 +x_0=0 +y_0=0 +a=6378249.145 +rf=293.4663077 +units=m +no_defs",
+  102480:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102481:
+    "+proj=tmerc +lat_0=0 +lon_0=17 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102482:
+    "+proj=tmerc +lat_0=0 +lon_0=19 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102483:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102484:
+    "+proj=tmerc +lat_0=0 +lon_0=23 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102485:
+    "+proj=tmerc +lat_0=0 +lon_0=25 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102486:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102487:
+    "+proj=tmerc +lat_0=0 +lon_0=29 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102488:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102489:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=-1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102490:
+    "+proj=omerc +no_uoff +lat_0=4 +lonc=115 +alpha=53.31580995 +gamma=53.130102354156 +k=0.99984 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102491:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
+  102492:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500000 +y_0=300000 +ellps=clrk80ign +units=m +no_defs",
   102493: "+proj=utm +zone=4 +ellps=GRS80 +units=m +no_defs",
   102494: "+proj=utm +zone=5 +ellps=GRS80 +units=m +no_defs",
   104141: "+proj=longlat +ellps=WGS84 +no_defs",
-  102495: "+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
+  102495:
+    "+proj=tmerc +lat_0=13.5 +lon_0=144.75 +k=1 +x_0=100000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
   102496: "+proj=utm +zone=2 +south +ellps=GRS80 +units=m +no_defs",
-  102497: "+proj=geos +lon_0=-75 +h=35786023 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102498: "+proj=geos +lon_0=-75 +h=35786023 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102499: "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=49.8333339 +lat_2=51.1666672333333 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +units=m +no_defs",
-  102500: "+proj=tmerc +lat_0=44.5 +lon_0=-117.833333333333 +k=1.00016 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102501: "+proj=lcc +lat_1=43.6666666666667 +lat_0=43.6666666666667 +lon_0=-119.75 +k_0=1.0002 +x_0=120000 +y_0=60000 +ellps=GRS80 +units=ft +no_defs",
-  102502: "+proj=tmerc +lat_0=41.75 +lon_0=-121.75 +k=1.0002 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102503: "+proj=lcc +lat_1=44.6666666666667 +lat_0=44.6666666666667 +lon_0=-121.25 +k_0=1.00012 +x_0=80000 +y_0=130000 +ellps=GRS80 +units=ft +no_defs",
+  102497:
+    "+proj=geos +lon_0=-75 +h=35786023 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102498:
+    "+proj=geos +lon_0=-75 +h=35786023 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102499:
+    "+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=49.8333339 +lat_2=51.1666672333333 +x_0=150000.01256 +y_0=5400088.4378 +ellps=intl +units=m +no_defs",
+  102500:
+    "+proj=tmerc +lat_0=44.5 +lon_0=-117.833333333333 +k=1.00016 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102501:
+    "+proj=lcc +lat_1=43.6666666666667 +lat_0=43.6666666666667 +lon_0=-119.75 +k_0=1.0002 +x_0=120000 +y_0=60000 +ellps=GRS80 +units=ft +no_defs",
+  102502:
+    "+proj=tmerc +lat_0=41.75 +lon_0=-121.75 +k=1.0002 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102503:
+    "+proj=lcc +lat_1=44.6666666666667 +lat_0=44.6666666666667 +lon_0=-121.25 +k_0=1.00012 +x_0=80000 +y_0=130000 +ellps=GRS80 +units=ft +no_defs",
   104142: "+proj=longlat +ellps=GRS80 +no_defs",
-  102504: "+proj=tmerc +lat_0=42.5 +lon_0=-123.333333333333 +k=1.00007 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102505: "+proj=lcc +lat_1=45.6666666666667 +lat_0=45.6666666666667 +lon_0=-120.5 +k_0=1.000008 +x_0=150000 +y_0=30000 +ellps=GRS80 +units=ft +no_defs",
-  102506: "+proj=omerc +no_uoff +lat_0=45.9166666666667 +lonc=-123 +alpha=-65 +gamma=-65 +k=1 +x_0=7000000.00000001 +y_0=-3000000 +ellps=GRS80 +units=ft +no_defs",
-  102507: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-123.333333333333 +k=1.000023 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102508: "+proj=tmerc +lat_0=44.5 +lon_0=-121 +k=1.00011 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102509: "+proj=tmerc +lat_0=43.75 +lon_0=-123.166666666667 +k=1.000015 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102510: "+proj=tmerc +lat_0=41.75 +lon_0=-123.333333333333 +k=1.000043 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102511: "+proj=tmerc +lat_0=45 +lon_0=-122.333333333333 +k=1.00005 +x_0=10000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102512: "+proj=tmerc +lat_0=45 +lon_0=-118 +k=1.00013 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102513: "+proj=tmerc +lat_0=43.25 +lon_0=-117 +k=1.0001 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102514: "+proj=omerc +no_uoff +lat_0=44.75 +lonc=-124.05 +alpha=5 +gamma=5 +k=1 +x_0=-300000 +y_0=-4600000.00000001 +ellps=GRS80 +units=ft +no_defs",
-  102515: "+proj=tmerc +lat_0=45.0833333333333 +lon_0=-118.333333333333 +k=1.000175 +x_0=30000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102516: "+proj=tmerc +lat_0=45.25 +lon_0=-119.166666666667 +k=1.000045 +x_0=60000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102517: "+proj=lcc +lat_1=45.5 +lat_0=45.5 +lon_0=-122.75 +k_0=1.000002 +x_0=100000 +y_0=50000 +ellps=GRS80 +units=ft +no_defs",
-  102518: "+proj=tmerc +lat_0=44.3333333333333 +lon_0=-123.083333333333 +k=1.00001 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102519: "+proj=tmerc +lat_0=44.0833333333333 +lon_0=-122.5 +k=1.000155 +x_0=0 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102520: "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102521: "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102522: "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102523: "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102524: "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102525: "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102526: "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102527: "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102528: "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102529: "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  102530: "+proj=tmerc +lat_0=44.5 +lon_0=-117.833333333333 +k=1.00016 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102531: "+proj=lcc +lat_1=43.6666666666667 +lat_0=43.6666666666667 +lon_0=-119.75 +k_0=1.0002 +x_0=120000 +y_0=60000 +ellps=GRS80 +units=m +no_defs",
-  102532: "+proj=tmerc +lat_0=41.75 +lon_0=-121.75 +k=1.0002 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102533: "+proj=lcc +lat_1=44.6666666666667 +lat_0=44.6666666666667 +lon_0=-121.25 +k_0=1.00012 +x_0=80000 +y_0=130000 +ellps=GRS80 +units=m +no_defs",
-  102534: "+proj=tmerc +lat_0=42.5 +lon_0=-123.333333333333 +k=1.00007 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102535: "+proj=lcc +lat_1=45.6666666666667 +lat_0=45.6666666666667 +lon_0=-120.5 +k_0=1.000008 +x_0=150000 +y_0=30000 +ellps=GRS80 +units=m +no_defs",
-  102536: "+proj=omerc +no_uoff +lat_0=45.9166666666667 +lonc=-123 +alpha=-65 +gamma=-65 +k=1 +x_0=7000000 +y_0=-3000000 +ellps=GRS80 +units=m +no_defs",
-  102537: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-123.333333333333 +k=1.000023 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102538: "+proj=tmerc +lat_0=44.5 +lon_0=-121 +k=1.00011 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102539: "+proj=tmerc +lat_0=43.75 +lon_0=-123.166666666667 +k=1.000015 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102540: "+proj=tmerc +lat_0=41.75 +lon_0=-123.333333333333 +k=1.000043 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102541: "+proj=tmerc +lat_0=45 +lon_0=-122.333333333333 +k=1.00005 +x_0=10000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102542: "+proj=tmerc +lat_0=45 +lon_0=-118 +k=1.00013 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102543: "+proj=tmerc +lat_0=43.25 +lon_0=-117 +k=1.0001 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102544: "+proj=omerc +no_uoff +lat_0=44.75 +lonc=-124.05 +alpha=5 +gamma=5 +k=1 +x_0=-300000 +y_0=-4600000 +ellps=GRS80 +units=m +no_defs",
-  102545: "+proj=tmerc +lat_0=45.0833333333333 +lon_0=-118.333333333333 +k=1.000175 +x_0=30000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102546: "+proj=tmerc +lat_0=45.25 +lon_0=-119.166666666667 +k=1.000045 +x_0=60000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102547: "+proj=lcc +lat_1=45.5 +lat_0=45.5 +lon_0=-122.75 +k_0=1.000002 +x_0=100000 +y_0=50000 +ellps=GRS80 +units=m +no_defs",
-  102548: "+proj=tmerc +lat_0=44.3333333333333 +lon_0=-123.083333333333 +k=1.00001 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102549: "+proj=tmerc +lat_0=44.0833333333333 +lon_0=-122.5 +k=1.000155 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102550: "+proj=tmerc +lat_0=0 +lon_0=27 +k=0.9996 +x_0=9500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102551: "+proj=tmerc +lat_0=0 +lon_0=30 +k=0.9996 +x_0=10500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102552: "+proj=tmerc +lat_0=0 +lon_0=33 +k=0.9996 +x_0=11500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102553: "+proj=tmerc +lat_0=0 +lon_0=36 +k=0.9996 +x_0=12500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102554: "+proj=tmerc +lat_0=0 +lon_0=39 +k=0.9996 +x_0=13500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102555: "+proj=tmerc +lat_0=0 +lon_0=42 +k=0.9996 +x_0=14500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102556: "+proj=tmerc +lat_0=0 +lon_0=45 +k=0.9996 +x_0=15500000 +y_0=0 +ellps=intl +units=m +no_defs",
-  102557: "+proj=tmerc +lat_0=0 +lon_0=68.5166666666667 +k=1 +x_0=1300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
-  102558: "+proj=tmerc +lat_0=0 +lon_0=71.5166666666667 +k=1 +x_0=2300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
+  102504:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-123.333333333333 +k=1.00007 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102505:
+    "+proj=lcc +lat_1=45.6666666666667 +lat_0=45.6666666666667 +lon_0=-120.5 +k_0=1.000008 +x_0=150000 +y_0=30000 +ellps=GRS80 +units=ft +no_defs",
+  102506:
+    "+proj=omerc +no_uoff +lat_0=45.9166666666667 +lonc=-123 +alpha=-65 +gamma=-65 +k=1 +x_0=7000000.00000001 +y_0=-3000000 +ellps=GRS80 +units=ft +no_defs",
+  102507:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-123.333333333333 +k=1.000023 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102508:
+    "+proj=tmerc +lat_0=44.5 +lon_0=-121 +k=1.00011 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102509:
+    "+proj=tmerc +lat_0=43.75 +lon_0=-123.166666666667 +k=1.000015 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102510:
+    "+proj=tmerc +lat_0=41.75 +lon_0=-123.333333333333 +k=1.000043 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102511:
+    "+proj=tmerc +lat_0=45 +lon_0=-122.333333333333 +k=1.00005 +x_0=10000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102512:
+    "+proj=tmerc +lat_0=45 +lon_0=-118 +k=1.00013 +x_0=40000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102513:
+    "+proj=tmerc +lat_0=43.25 +lon_0=-117 +k=1.0001 +x_0=80000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102514:
+    "+proj=omerc +no_uoff +lat_0=44.75 +lonc=-124.05 +alpha=5 +gamma=5 +k=1 +x_0=-300000 +y_0=-4600000.00000001 +ellps=GRS80 +units=ft +no_defs",
+  102515:
+    "+proj=tmerc +lat_0=45.0833333333333 +lon_0=-118.333333333333 +k=1.000175 +x_0=30000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102516:
+    "+proj=tmerc +lat_0=45.25 +lon_0=-119.166666666667 +k=1.000045 +x_0=60000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102517:
+    "+proj=lcc +lat_1=45.5 +lat_0=45.5 +lon_0=-122.75 +k_0=1.000002 +x_0=100000 +y_0=50000 +ellps=GRS80 +units=ft +no_defs",
+  102518:
+    "+proj=tmerc +lat_0=44.3333333333333 +lon_0=-123.083333333333 +k=1.00001 +x_0=50000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102519:
+    "+proj=tmerc +lat_0=44.0833333333333 +lon_0=-122.5 +k=1.000155 +x_0=0 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102520:
+    "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102521:
+    "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102522:
+    "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102523:
+    "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102524:
+    "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102525:
+    "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102526:
+    "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102527:
+    "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102528:
+    "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102529:
+    "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  102530:
+    "+proj=tmerc +lat_0=44.5 +lon_0=-117.833333333333 +k=1.00016 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102531:
+    "+proj=lcc +lat_1=43.6666666666667 +lat_0=43.6666666666667 +lon_0=-119.75 +k_0=1.0002 +x_0=120000 +y_0=60000 +ellps=GRS80 +units=m +no_defs",
+  102532:
+    "+proj=tmerc +lat_0=41.75 +lon_0=-121.75 +k=1.0002 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102533:
+    "+proj=lcc +lat_1=44.6666666666667 +lat_0=44.6666666666667 +lon_0=-121.25 +k_0=1.00012 +x_0=80000 +y_0=130000 +ellps=GRS80 +units=m +no_defs",
+  102534:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-123.333333333333 +k=1.00007 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102535:
+    "+proj=lcc +lat_1=45.6666666666667 +lat_0=45.6666666666667 +lon_0=-120.5 +k_0=1.000008 +x_0=150000 +y_0=30000 +ellps=GRS80 +units=m +no_defs",
+  102536:
+    "+proj=omerc +no_uoff +lat_0=45.9166666666667 +lonc=-123 +alpha=-65 +gamma=-65 +k=1 +x_0=7000000 +y_0=-3000000 +ellps=GRS80 +units=m +no_defs",
+  102537:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-123.333333333333 +k=1.000023 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102538:
+    "+proj=tmerc +lat_0=44.5 +lon_0=-121 +k=1.00011 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102539:
+    "+proj=tmerc +lat_0=43.75 +lon_0=-123.166666666667 +k=1.000015 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102540:
+    "+proj=tmerc +lat_0=41.75 +lon_0=-123.333333333333 +k=1.000043 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102541:
+    "+proj=tmerc +lat_0=45 +lon_0=-122.333333333333 +k=1.00005 +x_0=10000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102542:
+    "+proj=tmerc +lat_0=45 +lon_0=-118 +k=1.00013 +x_0=40000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102543:
+    "+proj=tmerc +lat_0=43.25 +lon_0=-117 +k=1.0001 +x_0=80000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102544:
+    "+proj=omerc +no_uoff +lat_0=44.75 +lonc=-124.05 +alpha=5 +gamma=5 +k=1 +x_0=-300000 +y_0=-4600000 +ellps=GRS80 +units=m +no_defs",
+  102545:
+    "+proj=tmerc +lat_0=45.0833333333333 +lon_0=-118.333333333333 +k=1.000175 +x_0=30000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102546:
+    "+proj=tmerc +lat_0=45.25 +lon_0=-119.166666666667 +k=1.000045 +x_0=60000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102547:
+    "+proj=lcc +lat_1=45.5 +lat_0=45.5 +lon_0=-122.75 +k_0=1.000002 +x_0=100000 +y_0=50000 +ellps=GRS80 +units=m +no_defs",
+  102548:
+    "+proj=tmerc +lat_0=44.3333333333333 +lon_0=-123.083333333333 +k=1.00001 +x_0=50000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102549:
+    "+proj=tmerc +lat_0=44.0833333333333 +lon_0=-122.5 +k=1.000155 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102550:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=0.9996 +x_0=9500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102551:
+    "+proj=tmerc +lat_0=0 +lon_0=30 +k=0.9996 +x_0=10500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102552:
+    "+proj=tmerc +lat_0=0 +lon_0=33 +k=0.9996 +x_0=11500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102553:
+    "+proj=tmerc +lat_0=0 +lon_0=36 +k=0.9996 +x_0=12500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102554:
+    "+proj=tmerc +lat_0=0 +lon_0=39 +k=0.9996 +x_0=13500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102555:
+    "+proj=tmerc +lat_0=0 +lon_0=42 +k=0.9996 +x_0=14500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102556:
+    "+proj=tmerc +lat_0=0 +lon_0=45 +k=0.9996 +x_0=15500000 +y_0=0 +ellps=intl +units=m +no_defs",
+  102557:
+    "+proj=tmerc +lat_0=0 +lon_0=68.5166666666667 +k=1 +x_0=1300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
+  102558:
+    "+proj=tmerc +lat_0=0 +lon_0=71.5166666666667 +k=1 +x_0=2300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
   104143: "+proj=longlat +ellps=WGS84 +no_defs",
-  102559: "+proj=tmerc +lat_0=0 +lon_0=74.5166666666667 +k=1 +x_0=3300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
-  102560: "+proj=tmerc +lat_0=0 +lon_0=77.5166666666667 +k=1 +x_0=4300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
-  102561: "+proj=tmerc +lat_0=0 +lon_0=80.5166666666667 +k=1 +x_0=5300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
-  102562: "+proj=tmerc +lat_0=0 +lon_0=19 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102563: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102564: "+proj=tmerc +lat_0=0 +lon_0=23 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102565: "+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102566: "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102567: "+proj=tmerc +lat_0=0 +lon_0=29 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  102568: "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102559:
+    "+proj=tmerc +lat_0=0 +lon_0=74.5166666666667 +k=1 +x_0=3300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
+  102560:
+    "+proj=tmerc +lat_0=0 +lon_0=77.5166666666667 +k=1 +x_0=4300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
+  102561:
+    "+proj=tmerc +lat_0=0 +lon_0=80.5166666666667 +k=1 +x_0=5300000 +y_0=14743.5 +ellps=GRS80 +units=m +no_defs",
+  102562:
+    "+proj=tmerc +lat_0=0 +lon_0=19 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102563:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102564:
+    "+proj=tmerc +lat_0=0 +lon_0=23 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102565:
+    "+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102566:
+    "+proj=tmerc +lat_0=0 +lon_0=27 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102567:
+    "+proj=tmerc +lat_0=0 +lon_0=29 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  102568:
+    "+proj=tmerc +lat_0=0 +lon_0=31 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +units=m +no_defs",
   104144: "+proj=longlat +ellps=GRS80 +no_defs",
-  102569: "+proj=tmerc +lat_0=0 +lon_0=132 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs",
-  102581: "+proj=lcc +lat_1=49.5 +lat_0=49.5 +lon_0=2.33722916666667 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +ellps=clrk80ign +units=m +no_defs",
-  102582: "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=2.33722916666667 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +ellps=clrk80ign +units=m +no_defs",
-  102583: "+proj=lcc +lat_1=44.1 +lat_0=44.1 +lon_0=2.33722916666667 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +ellps=clrk80ign +units=m +no_defs",
-  102584: "+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=2.33722916666667 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +ellps=clrk80ign +units=m +no_defs",
-  102585: "+proj=lcc +lat_1=49.5 +lat_0=49.5 +lon_0=2.33722916666667 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +ellps=clrk80ign +units=m +no_defs",
-  102586: "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=2.33722916666667 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +ellps=clrk80ign +units=m +no_defs",
-  102587: "+proj=lcc +lat_1=44.1 +lat_0=44.1 +lon_0=2.33722916666667 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +ellps=clrk80ign +units=m +no_defs",
-  102588: "+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=2.33722916666667 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +ellps=clrk80ign +units=m +no_defs",
+  102569:
+    "+proj=tmerc +lat_0=0 +lon_0=132 +k=1 +x_0=500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  102581:
+    "+proj=lcc +lat_1=49.5 +lat_0=49.5 +lon_0=2.33722916666667 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +ellps=clrk80ign +units=m +no_defs",
+  102582:
+    "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=2.33722916666667 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +ellps=clrk80ign +units=m +no_defs",
+  102583:
+    "+proj=lcc +lat_1=44.1 +lat_0=44.1 +lon_0=2.33722916666667 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +ellps=clrk80ign +units=m +no_defs",
+  102584:
+    "+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=2.33722916666667 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +ellps=clrk80ign +units=m +no_defs",
+  102585:
+    "+proj=lcc +lat_1=49.5 +lat_0=49.5 +lon_0=2.33722916666667 +k_0=0.999877341 +x_0=600000 +y_0=1200000 +ellps=clrk80ign +units=m +no_defs",
+  102586:
+    "+proj=lcc +lat_1=46.8 +lat_0=46.8 +lon_0=2.33722916666667 +k_0=0.99987742 +x_0=600000 +y_0=2200000 +ellps=clrk80ign +units=m +no_defs",
+  102587:
+    "+proj=lcc +lat_1=44.1 +lat_0=44.1 +lon_0=2.33722916666667 +k_0=0.999877499 +x_0=600000 +y_0=3200000 +ellps=clrk80ign +units=m +no_defs",
+  102588:
+    "+proj=lcc +lat_1=42.165 +lat_0=42.165 +lon_0=2.33722916666667 +k_0=0.99994471 +x_0=234.358 +y_0=4185861.369 +ellps=clrk80ign +units=m +no_defs",
   104145: "+proj=longlat +ellps=GRS80 +no_defs",
-  102589: "+proj=aea +lat_0=25 +lon_0=-86 +lat_1=31 +lat_2=41 +x_0=0 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102590: "+proj=labrd +lat_0=-18.9 +lon_0=46.4372291666667 +azi=18.9 +k=0.9995 +x_0=400000 +y_0=800000 +ellps=intl +units=m +no_defs",
-  102591: "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
-  102592: "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
+  102589:
+    "+proj=aea +lat_0=25 +lon_0=-86 +lat_1=31 +lat_2=41 +x_0=0 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102590:
+    "+proj=labrd +lat_0=-18.9 +lon_0=46.4372291666667 +azi=18.9 +k=0.9995 +x_0=400000 +y_0=800000 +ellps=intl +units=m +no_defs",
+  102591:
+    "+proj=lcc +lat_1=36 +lat_0=36 +lon_0=2.7 +k_0=0.999625544 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
+  102592:
+    "+proj=lcc +lat_1=33.3 +lat_0=33.3 +lon_0=2.7 +k_0=0.999625769 +x_0=500135 +y_0=300090 +a=6378249.145 +rf=293.465 +units=m +no_defs",
   102593: "+proj=utm +zone=51 +ellps=GRS80 +units=m +no_defs",
   102594: "+proj=utm +zone=52 +ellps=GRS80 +units=m +no_defs",
   102595: "+proj=utm +zone=53 +ellps=GRS80 +units=m +no_defs",
@@ -6974,1308 +8787,2511 @@ export const proj4def: Record<number, string> = {
   102597: "+proj=utm +zone=55 +ellps=GRS80 +units=m +no_defs",
   102598: "+proj=utm +zone=56 +ellps=GRS80 +units=m +no_defs",
   104179: "+proj=longlat +ellps=GRS80 +no_defs",
-  102599: "+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-1219202.43840488 +datum=WGS84 +units=us-ft +no_defs",
-  102600: "+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-1219202.43840488 +datum=NAD83 +units=us-ft +no_defs",
-  102601: "+proj=aea +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +datum=NAD83 +units=m +no_defs",
-  102602: "+proj=lcc +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=5000000 +datum=NAD83 +units=m +no_defs",
-  102603: "+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=1000000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
-  102604: "+proj=lcc +lat_0=0 +lon_0=-83.5 +lat_1=31.4166666666667 +lat_2=34.2833333333333 +x_0=0 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102605: "+proj=tmerc +lat_0=42 +lon_0=-114 +k=0.9996 +x_0=2500000 +y_0=1200000 +datum=NAD83 +units=m +no_defs",
-  102606: "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102607: "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102599:
+    "+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-1219202.43840488 +datum=WGS84 +units=us-ft +no_defs",
+  102600:
+    "+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-1219202.43840488 +datum=NAD83 +units=us-ft +no_defs",
+  102601:
+    "+proj=aea +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +datum=NAD83 +units=m +no_defs",
+  102602:
+    "+proj=lcc +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=5000000 +datum=NAD83 +units=m +no_defs",
+  102603:
+    "+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=1000000 +y_0=1000000 +datum=NAD83 +units=m +no_defs",
+  102604:
+    "+proj=lcc +lat_0=0 +lon_0=-83.5 +lat_1=31.4166666666667 +lat_2=34.2833333333333 +x_0=0 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102605:
+    "+proj=tmerc +lat_0=42 +lon_0=-114 +k=0.9996 +x_0=2500000 +y_0=1200000 +datum=NAD83 +units=m +no_defs",
+  102606:
+    "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102607:
+    "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +datum=NAD83 +units=m +no_defs",
   104180: "+proj=longlat +ellps=GRS80 +no_defs",
-  102608: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
-  102609: "+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +datum=NAD83 +units=m +no_defs",
-  102610: "+proj=tmerc +lat_0=33 +lon_0=129.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102611: "+proj=tmerc +lat_0=33 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102612: "+proj=tmerc +lat_0=36 +lon_0=132.166666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102613: "+proj=tmerc +lat_0=33 +lon_0=133.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102614: "+proj=tmerc +lat_0=36 +lon_0=134.333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102615: "+proj=tmerc +lat_0=36 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102616: "+proj=tmerc +lat_0=36 +lon_0=137.166666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102617: "+proj=tmerc +lat_0=36 +lon_0=138.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102618: "+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102619: "+proj=tmerc +lat_0=40 +lon_0=140.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102620: "+proj=tmerc +lat_0=44 +lon_0=140.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102621: "+proj=tmerc +lat_0=44 +lon_0=142.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102622: "+proj=tmerc +lat_0=44 +lon_0=144.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102623: "+proj=tmerc +lat_0=26 +lon_0=142 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102624: "+proj=tmerc +lat_0=26 +lon_0=127.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102625: "+proj=tmerc +lat_0=26 +lon_0=124 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102626: "+proj=tmerc +lat_0=26 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102627: "+proj=tmerc +lat_0=20 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102628: "+proj=tmerc +lat_0=26 +lon_0=154 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102629: "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102630: "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102631: "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000.00000001 +y_0=-5000000.00000001 +datum=NAD83 +units=us-ft +no_defs",
-  102632: "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102633: "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102634: "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102635: "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102636: "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102608:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +datum=NAD83 +units=m +no_defs",
+  102609:
+    "+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +datum=NAD83 +units=m +no_defs",
+  102610:
+    "+proj=tmerc +lat_0=33 +lon_0=129.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102611:
+    "+proj=tmerc +lat_0=33 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102612:
+    "+proj=tmerc +lat_0=36 +lon_0=132.166666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102613:
+    "+proj=tmerc +lat_0=33 +lon_0=133.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102614:
+    "+proj=tmerc +lat_0=36 +lon_0=134.333333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102615:
+    "+proj=tmerc +lat_0=36 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102616:
+    "+proj=tmerc +lat_0=36 +lon_0=137.166666666667 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102617:
+    "+proj=tmerc +lat_0=36 +lon_0=138.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102618:
+    "+proj=tmerc +lat_0=36 +lon_0=139.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102619:
+    "+proj=tmerc +lat_0=40 +lon_0=140.833333333333 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102620:
+    "+proj=tmerc +lat_0=44 +lon_0=140.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102621:
+    "+proj=tmerc +lat_0=44 +lon_0=142.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102622:
+    "+proj=tmerc +lat_0=44 +lon_0=144.25 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102623:
+    "+proj=tmerc +lat_0=26 +lon_0=142 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102624:
+    "+proj=tmerc +lat_0=26 +lon_0=127.5 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102625:
+    "+proj=tmerc +lat_0=26 +lon_0=124 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102626:
+    "+proj=tmerc +lat_0=26 +lon_0=131 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102627:
+    "+proj=tmerc +lat_0=20 +lon_0=136 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102628:
+    "+proj=tmerc +lat_0=26 +lon_0=154 +k=0.9999 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102629:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102630:
+    "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102631:
+    "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000.00000001 +y_0=-5000000.00000001 +datum=NAD83 +units=us-ft +no_defs",
+  102632:
+    "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102633:
+    "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102634:
+    "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102635:
+    "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102636:
+    "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   104181: "+proj=longlat +ellps=GRS80 +no_defs",
-  102637: "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102638: "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102639: "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102640: "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=999999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102641: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
-  102642: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
-  102643: "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
-  102644: "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102637:
+    "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102638:
+    "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102639:
+    "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102640:
+    "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=999999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102641:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102642:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102643:
+    "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102644:
+    "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
   102703: "+proj=utm +zone=2 +south +ellps=GRS80 +units=m +no_defs",
-  102645: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
-  102646: "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
-  102647: "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
-  102648: "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102649: "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102650: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102651: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=399999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102652: "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +datum=NAD83 +units=us-ft +no_defs",
+  102645:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102646:
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102647:
+    "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
+  102648:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102649:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102650:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102651:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=399999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102652:
+    "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +datum=NAD83 +units=us-ft +no_defs",
   104182: "+proj=longlat +ellps=GRS80 +no_defs",
-  102653: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.828899998 +y_0=304800.6096 +datum=NAD83 +units=us-ft +no_defs",
-  102654: "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.828899998 +y_0=304800.6096 +datum=NAD83 +units=us-ft +no_defs",
-  102655: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.828899998 +y_0=304800.6096 +datum=NAD83 +units=us-ft +no_defs",
-  102656: "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +datum=NAD83 +units=us-ft +no_defs",
-  102657: "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102658: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102659: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102660: "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102653:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.828899998 +y_0=304800.6096 +datum=NAD83 +units=us-ft +no_defs",
+  102654:
+    "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.828899998 +y_0=304800.6096 +datum=NAD83 +units=us-ft +no_defs",
+  102655:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.828899998 +y_0=304800.6096 +datum=NAD83 +units=us-ft +no_defs",
+  102656:
+    "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +datum=NAD83 +units=us-ft +no_defs",
+  102657:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102658:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102659:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102660:
+    "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   104183: "+proj=longlat +ellps=GRS80 +no_defs",
-  102661: "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102662: "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102663: "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102664: "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102665: "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102666: "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102667: "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=699999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102668: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102669: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102670: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102671: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102672: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=699999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102673: "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +datum=NAD83 +units=us-ft +no_defs",
-  102674: "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +datum=NAD83 +units=us-ft +no_defs",
-  102675: "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
-  102676: "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102677: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=399999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102661:
+    "+proj=tmerc +lat_0=18.8333333333333 +lon_0=-155.5 +k=0.999966666666667 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102662:
+    "+proj=tmerc +lat_0=20.3333333333333 +lon_0=-156.666666666667 +k=0.999966666666667 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102663:
+    "+proj=tmerc +lat_0=21.1666666666667 +lon_0=-158 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102664:
+    "+proj=tmerc +lat_0=21.8333333333333 +lon_0=-159.5 +k=0.99999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102665:
+    "+proj=tmerc +lat_0=21.6666666666667 +lon_0=-160.166666666667 +k=1 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102666:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102667:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=699999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102668:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102669:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102670:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102671:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102672:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=699999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102673:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +datum=NAD83 +units=us-ft +no_defs",
+  102674:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +datum=NAD83 +units=us-ft +no_defs",
+  102675:
+    "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
+  102676:
+    "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102677:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=399999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   104184: "+proj=longlat +ellps=GRS80 +no_defs",
-  102678: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +datum=NAD83 +units=us-ft +no_defs",
-  102679: "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102680: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
-  102681: "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=999999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102682: "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=999999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102683: "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102684: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102685: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=399999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102678:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +datum=NAD83 +units=us-ft +no_defs",
+  102679:
+    "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102680:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +datum=NAD83 +units=us-ft +no_defs",
+  102681:
+    "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=999999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102682:
+    "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=999999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102683:
+    "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102684:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102685:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=399999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   104185: "+proj=longlat +ellps=GRS80 +no_defs",
-  102686: "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +datum=NAD83 +units=us-ft +no_defs",
-  102687: "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102688: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000.00000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102689: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102690: "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=3999999.99999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102691: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
-  102692: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
-  102693: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
-  102694: "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102695: "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=699999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102696: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102697: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102698: "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=849999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102699: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=124358.648717297 +y_0=-81076.9621539243 +datum=NAD27 +units=us-ft +no_defs",
-  102700: "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102686:
+    "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +datum=NAD83 +units=us-ft +no_defs",
+  102687:
+    "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102688:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000.00000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102689:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102690:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=3999999.99999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102691:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
+  102692:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
+  102693:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
+  102694:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102695:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=699999.999999999 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102696:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102697:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102698:
+    "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=849999.999999998 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102699:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=124358.648717297 +y_0=-81076.9621539243 +datum=NAD27 +units=us-ft +no_defs",
+  102700:
+    "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   102701: "+proj=utm +zone=4 +ellps=GRS80 +units=m +no_defs",
   102702: "+proj=utm +zone=5 +ellps=GRS80 +units=m +no_defs",
-  102704: "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102705: "+proj=tmerc +lat_0=40.25 +lon_0=-96.6880555555556 +k=1.000054615 +x_0=50000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102706: "+proj=tmerc +lat_0=31.7340969444444 +lon_0=35.2120805555556 +k=1 +x_0=170251.555 +y_0=126867.909 +a=6378300.789 +b=6356566.435 +units=m +no_defs",
-  102707: "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000.00000001 +datum=NAD83 +units=us-ft +no_defs",
-  102708: "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +datum=NAD83 +units=us-ft +no_defs",
-  102709: "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=3999999.99999999 +datum=NAD83 +units=us-ft +no_defs",
-  102710: "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102711: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102712: "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102713: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102714: "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102715: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102716: "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102717: "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102718: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102719: "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.220000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102720: "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102755: "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102721: "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102722: "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102723: "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102724: "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102725: "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102726: "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102727: "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102728: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102704:
+    "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102705:
+    "+proj=tmerc +lat_0=40.25 +lon_0=-96.6880555555556 +k=1.000054615 +x_0=50000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102706:
+    "+proj=tmerc +lat_0=31.7340969444444 +lon_0=35.2120805555556 +k=1 +x_0=170251.555 +y_0=126867.909 +a=6378300.789 +b=6356566.435 +units=m +no_defs",
+  102707:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000.00000001 +datum=NAD83 +units=us-ft +no_defs",
+  102708:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +datum=NAD83 +units=us-ft +no_defs",
+  102709:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=3999999.99999999 +datum=NAD83 +units=us-ft +no_defs",
+  102710:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102711:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102712:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102713:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102714:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102715:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102716:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102717:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102718:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102719:
+    "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.220000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102720:
+    "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102755:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102721:
+    "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102722:
+    "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102723:
+    "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102724:
+    "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102725:
+    "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102726:
+    "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102727:
+    "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102728:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   104186: "+proj=longlat +ellps=GRS80 +no_defs",
-  102729: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102730: "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102733: "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102734: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102735: "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102736: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102737: "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
-  102738: "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +datum=NAD83 +units=us-ft +no_defs",
+  102729:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102730:
+    "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102733:
+    "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102734:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102735:
+    "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102736:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102737:
+    "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
+  102738:
+    "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +datum=NAD83 +units=us-ft +no_defs",
   104916: "+proj=longlat +R=2632345 +no_defs",
-  102739: "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=699999.999999999 +y_0=3000000 +datum=NAD83 +units=us-ft +no_defs",
-  102740: "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=3999999.99999999 +datum=NAD83 +units=us-ft +no_defs",
-  102741: "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000.00000001 +datum=NAD83 +units=us-ft +no_defs",
-  102742: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
-  102743: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +datum=NAD83 +units=us-ft +no_defs",
-  102744: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +datum=NAD83 +units=us-ft +no_defs",
-  102745: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102746: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000.00000001 +y_0=2000000 +datum=NAD83 +units=us-ft +no_defs",
-  102747: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000.00000001 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
-  102748: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102749: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102750: "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102751: "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102752: "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102753: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102754: "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102739:
+    "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=699999.999999999 +y_0=3000000 +datum=NAD83 +units=us-ft +no_defs",
+  102740:
+    "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=3999999.99999999 +datum=NAD83 +units=us-ft +no_defs",
+  102741:
+    "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000.00000001 +datum=NAD83 +units=us-ft +no_defs",
+  102742:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
+  102743:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +datum=NAD83 +units=us-ft +no_defs",
+  102744:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +datum=NAD83 +units=us-ft +no_defs",
+  102745:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102746:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000.00000001 +y_0=2000000 +datum=NAD83 +units=us-ft +no_defs",
+  102747:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000.00000001 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
+  102748:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102749:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102750:
+    "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102751:
+    "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102752:
+    "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102753:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102754:
+    "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
   104917: "+proj=longlat +R=85000 +no_defs",
-  102756: "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=399999.999999999 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
-  102757: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
-  102758: "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
-  102761: "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +datum=NAD83 +units=us-ft +no_defs",
-  102762: "+proj=lcc +lat_0=-9 +lon_0=26 +lat_1=-6.5 +lat_2=-11.5 +x_0=500000 +y_0=500000 +ellps=clrk66 +units=m +no_defs",
-  102763: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
-  102764: "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +units=m +no_defs",
-  102765: "+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +units=m +no_defs",
-  102766: "+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +datum=NAD83 +units=us-ft +no_defs",
-  102799: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99926 +x_0=261910.5587 +y_0=70975.76209 +ellps=airy +units=m +no_defs",
-  102800: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999314 +x_0=252927.2844 +y_0=70979.59363 +ellps=airy +units=m +no_defs",
-  102801: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999365 +x_0=243942.3084 +y_0=70983.21269 +ellps=airy +units=m +no_defs",
-  102802: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99939 +x_0=243948.4072 +y_0=70984.98734 +ellps=airy +units=m +no_defs",
-  102803: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999415 +x_0=234956.1813 +y_0=70986.76115 +ellps=airy +units=m +no_defs",
-  102804: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999465 +x_0=225969.1556 +y_0=70990.30995 +ellps=airy +units=m +no_defs",
-  102805: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99949 +x_0=225974.8051 +y_0=70992.08478 +ellps=airy +units=m +no_defs",
-  102806: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999516 +x_0=215981.5338 +y_0=70993.93011 +ellps=airy +units=m +no_defs",
-  102807: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999541 +x_0=215986.9336 +y_0=70995.70502 +ellps=airy +units=m +no_defs",
-  102808: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999564 +x_0=205992.2754 +y_0=70997.33764 +ellps=airy +units=m +no_defs",
-  102809: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999589 +x_0=205997.4254 +y_0=70999.11264 +ellps=airy +units=m +no_defs",
-  102810: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999613 +x_0=196002.254 +y_0=71000.81651 +ellps=airy +units=m +no_defs",
-  102811: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999638 +x_0=196007.1543 +y_0=71002.5916 +ellps=airy +units=m +no_defs",
-  102812: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999662 +x_0=185011.1931 +y_0=71004.29572 +ellps=airy +units=m +no_defs",
-  102813: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999687 +x_0=185015.8185 +y_0=71006.07089 +ellps=airy +units=m +no_defs",
-  102814: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999713 +x_0=173019.2914 +y_0=71007.91729 +ellps=airy +units=m +no_defs",
-  102815: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999738 +x_0=173023.6171 +y_0=71009.69256 +ellps=airy +units=m +no_defs",
-  102816: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999767 +x_0=159026.3186 +y_0=71011.75231 +ellps=airy +units=m +no_defs",
-  102817: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999792 +x_0=159030.2944 +y_0=71013.52767 +ellps=airy +units=m +no_defs",
-  102818: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999817 +x_0=159034.2704 +y_0=71015.30312 +ellps=airy +units=m +no_defs",
-  102819: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999817 +x_0=144031.0383 +y_0=71015.30362 +ellps=airy +units=m +no_defs",
-  102820: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999842 +x_0=144034.6392 +y_0=71017.07907 +ellps=airy +units=m +no_defs",
-  102821: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999867 +x_0=144038.2403 +y_0=71018.8546 +ellps=airy +units=m +no_defs",
-  102822: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999865 +x_0=128033.7365 +y_0=71018.71321 +ellps=airy +units=m +no_defs",
-  102823: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99989 +x_0=128036.9375 +y_0=71020.48874 +ellps=airy +units=m +no_defs",
-  102824: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999914 +x_0=111034.6979 +y_0=71022.19417 +ellps=airy +units=m +no_defs",
-  102825: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999939 +x_0=111037.4739 +y_0=71023.96979 +ellps=airy +units=m +no_defs",
-  102826: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=71025.95967 +ellps=airy +units=m +no_defs",
-  102827: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=71027.73539 +ellps=airy +units=m +no_defs",
-  102828: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=71029.15712 +ellps=airy +units=m +no_defs",
-  102829: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=71030.93291 +ellps=airy +units=m +no_defs",
-  102830: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=71026.9544 +ellps=airy +units=m +no_defs",
-  102831: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=71028.73014 +ellps=airy +units=m +no_defs",
-  102832: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=71023.18879 +ellps=airy +units=m +no_defs",
-  102833: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=71024.96444 +ellps=airy +units=m +no_defs",
-  102834: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=71019.35254 +ellps=airy +units=m +no_defs",
-  102835: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999899 +x_0=-88026.18693 +y_0=71021.12809 +ellps=airy +units=m +no_defs",
-  102836: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999826 +x_0=-105023.5775 +y_0=71015.94289 +ellps=airy +units=m +no_defs",
-  102837: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999851 +x_0=-105026.2032 +y_0=71017.71836 +ellps=airy +units=m +no_defs",
-  102838: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999771 +x_0=-122020.6823 +y_0=71012.0364 +ellps=airy +units=m +no_defs",
-  102839: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999796 +x_0=-122023.7329 +y_0=71013.81177 +ellps=airy +units=m +no_defs",
-  102840: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999708 +x_0=-139014.8049 +y_0=71007.56222 +ellps=airy +units=m +no_defs",
-  102841: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999733 +x_0=-139018.2804 +y_0=71009.33748 +ellps=airy +units=m +no_defs",
-  102842: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999656 +x_0=-156008.5024 +y_0=71003.86967 +ellps=airy +units=m +no_defs",
-  102843: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999681 +x_0=-156012.4027 +y_0=71005.64484 +ellps=airy +units=m +no_defs",
-  102844: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999613 +x_0=-165001.8975 +y_0=71000.81651 +ellps=airy +units=m +no_defs",
-  102845: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999638 +x_0=-165006.0227 +y_0=71002.5916 +ellps=airy +units=m +no_defs",
-  102846: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999565 +x_0=-175993.5763 +y_0=70997.40864 +ellps=airy +units=m +no_defs",
-  102847: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99959 +x_0=-175997.9763 +y_0=70999.18364 +ellps=airy +units=m +no_defs",
-  102848: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999517 +x_0=-185984.2846 +y_0=70994.00109 +ellps=airy +units=m +no_defs",
-  102849: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999542 +x_0=-185988.9343 +y_0=70995.77601 +ellps=airy +units=m +no_defs",
-  102850: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999467 +x_0=-195973.6419 +y_0=70990.45191 +ellps=airy +units=m +no_defs",
-  102851: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999492 +x_0=-195978.5414 +y_0=70992.22674 +ellps=airy +units=m +no_defs",
-  102852: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999416 +x_0=-205961.7946 +y_0=70986.83212 +ellps=airy +units=m +no_defs",
-  102853: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999441 +x_0=-205966.9438 +y_0=70988.60686 +ellps=airy +units=m +no_defs",
-  102854: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999366 +x_0=-214949.3801 +y_0=70983.28366 +ellps=airy +units=m +no_defs",
-  102855: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999314 +x_0=-223935.6193 +y_0=70979.59363 +ellps=airy +units=m +no_defs",
-  102856: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=111040.5848 +ellps=airy +units=m +no_defs",
-  102857: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=111043.361 +ellps=airy +units=m +no_defs",
-  102858: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000017 +x_0=88036.57726 +y_0=111046.1372 +ellps=airy +units=m +no_defs",
-  102859: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=111045.5837 +ellps=airy +units=m +no_defs",
-  102860: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=111048.3599 +ellps=airy +units=m +no_defs",
-  102861: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000062 +x_0=54024.87711 +y_0=111051.1363 +ellps=airy +units=m +no_defs",
-  102862: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000087 +x_0=54026.22785 +y_0=111053.9128 +ellps=airy +units=m +no_defs",
-  102863: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=111042.14 +ellps=airy +units=m +no_defs",
-  102864: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=111044.9161 +ellps=airy +units=m +no_defs",
-  102865: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=111036.2529 +ellps=airy +units=m +no_defs",
-  102866: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=111039.0289 +ellps=airy +units=m +no_defs",
-  102867: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=111030.2554 +ellps=airy +units=m +no_defs",
-  102868: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999826 +x_0=-105023.5775 +y_0=111024.9248 +ellps=airy +units=m +no_defs",
-  102869: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999771 +x_0=-122020.6823 +y_0=111018.8175 +ellps=airy +units=m +no_defs",
-  102870: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999709 +x_0=-139014.9439 +y_0=111011.9337 +ellps=airy +units=m +no_defs",
-  102871: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999656 +x_0=-156008.5024 +y_0=111006.0498 +ellps=airy +units=m +no_defs",
-  102872: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999614 +x_0=-165002.0625 +y_0=111001.3875 +ellps=airy +units=m +no_defs",
-  102873: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999565 +x_0=-175993.5763 +y_0=110995.9487 +ellps=airy +units=m +no_defs",
-  102874: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999517 +x_0=-185984.2846 +y_0=110990.6214 +ellps=airy +units=m +no_defs",
-  102875: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999467 +x_0=-195973.6419 +y_0=110985.0727 +ellps=airy +units=m +no_defs",
-  102876: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999416 +x_0=-205961.7946 +y_0=110979.4136 +ellps=airy +units=m +no_defs",
-  102877: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999367 +x_0=-214949.595 +y_0=110973.9769 +ellps=airy +units=m +no_defs",
-  102878: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999315 +x_0=-223935.8432 +y_0=110968.208 +ellps=airy +units=m +no_defs",
-  102879: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999261 +x_0=-232920.6915 +y_0=110962.2179 +ellps=airy +units=m +no_defs",
-  102880: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999206 +x_0=-241904.3281 +y_0=110956.1174 +ellps=airy +units=m +no_defs",
-  102881: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999866 +x_0=128033.8646 +y_0=126033.3354 +ellps=airy +units=m +no_defs",
-  102882: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999914 +x_0=111034.6979 +y_0=126039.3868 +ellps=airy +units=m +no_defs",
-  102883: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999939 +x_0=111037.4739 +y_0=126042.5379 +ellps=airy +units=m +no_defs",
-  102884: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999964 +x_0=111040.25 +y_0=126045.6892 +ellps=airy +units=m +no_defs",
-  102885: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999989 +x_0=111043.0263 +y_0=126048.8406 +ellps=airy +units=m +no_defs",
-  102886: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=126046.0693 +ellps=airy +units=m +no_defs",
-  102887: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=126049.2206 +ellps=airy +units=m +no_defs",
-  102888: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000017 +x_0=88036.57726 +y_0=126052.372 +ellps=airy +units=m +no_defs",
-  102889: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000042 +x_0=88038.77836 +y_0=126055.5236 +ellps=airy +units=m +no_defs",
-  102890: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000067 +x_0=88040.97958 +y_0=126058.6753 +ellps=airy +units=m +no_defs",
-  102891: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=126051.7436 +ellps=airy +units=m +no_defs",
-  102892: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=126054.895 +ellps=airy +units=m +no_defs",
-  102893: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000062 +x_0=54024.87711 +y_0=126058.0466 +ellps=airy +units=m +no_defs",
-  102894: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000087 +x_0=54026.22785 +y_0=126061.1983 +ellps=airy +units=m +no_defs",
-  102895: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=126047.8346 +ellps=airy +units=m +no_defs",
-  102896: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=126050.9859 +ellps=airy +units=m +no_defs",
-  102897: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=126041.1519 +ellps=airy +units=m +no_defs",
-  102898: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=126044.3031 +ellps=airy +units=m +no_defs",
-  102899: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=126034.3439 +ellps=airy +units=m +no_defs",
-  102900: "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999899 +x_0=-88026.18693 +y_0=126037.4949 +ellps=airy +units=m +no_defs",
-  102962: "+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-4000000 +ellps=GRS80 +units=m +no_defs",
-  102963: "+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +units=m +no_defs",
-  102965: "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102966: "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102967: "+proj=aea +lat_0=24 +lon_0=-84 +lat_1=24 +lat_2=31.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102968: "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +ellps=GRS80 +units=m +no_defs",
-  102969: "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102756:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=399999.999999999 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
+  102757:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +datum=NAD83 +units=us-ft +no_defs",
+  102758:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +datum=NAD83 +units=us-ft +no_defs",
+  102761:
+    "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +datum=NAD83 +units=us-ft +no_defs",
+  102762:
+    "+proj=lcc +lat_0=-9 +lon_0=26 +lat_1=-6.5 +lat_2=-11.5 +x_0=500000 +y_0=500000 +ellps=clrk66 +units=m +no_defs",
+  102763:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=999999.999999998 +datum=NAD83 +units=us-ft +no_defs",
+  102764:
+    "+proj=tmerc +lat_0=0 +lon_0=21 +k=1 +x_0=7500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  102765:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=1 +x_0=8500000 +y_0=0 +ellps=krass +units=m +no_defs",
+  102766:
+    "+proj=poly +lat_0=13.4724663527778 +lon_0=144.748750705556 +x_0=50000 +y_0=50000 +datum=NAD83 +units=us-ft +no_defs",
+  102799:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99926 +x_0=261910.5587 +y_0=70975.76209 +ellps=airy +units=m +no_defs",
+  102800:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999314 +x_0=252927.2844 +y_0=70979.59363 +ellps=airy +units=m +no_defs",
+  102801:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999365 +x_0=243942.3084 +y_0=70983.21269 +ellps=airy +units=m +no_defs",
+  102802:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99939 +x_0=243948.4072 +y_0=70984.98734 +ellps=airy +units=m +no_defs",
+  102803:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999415 +x_0=234956.1813 +y_0=70986.76115 +ellps=airy +units=m +no_defs",
+  102804:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999465 +x_0=225969.1556 +y_0=70990.30995 +ellps=airy +units=m +no_defs",
+  102805:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99949 +x_0=225974.8051 +y_0=70992.08478 +ellps=airy +units=m +no_defs",
+  102806:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999516 +x_0=215981.5338 +y_0=70993.93011 +ellps=airy +units=m +no_defs",
+  102807:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999541 +x_0=215986.9336 +y_0=70995.70502 +ellps=airy +units=m +no_defs",
+  102808:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999564 +x_0=205992.2754 +y_0=70997.33764 +ellps=airy +units=m +no_defs",
+  102809:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999589 +x_0=205997.4254 +y_0=70999.11264 +ellps=airy +units=m +no_defs",
+  102810:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999613 +x_0=196002.254 +y_0=71000.81651 +ellps=airy +units=m +no_defs",
+  102811:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999638 +x_0=196007.1543 +y_0=71002.5916 +ellps=airy +units=m +no_defs",
+  102812:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999662 +x_0=185011.1931 +y_0=71004.29572 +ellps=airy +units=m +no_defs",
+  102813:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999687 +x_0=185015.8185 +y_0=71006.07089 +ellps=airy +units=m +no_defs",
+  102814:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999713 +x_0=173019.2914 +y_0=71007.91729 +ellps=airy +units=m +no_defs",
+  102815:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999738 +x_0=173023.6171 +y_0=71009.69256 +ellps=airy +units=m +no_defs",
+  102816:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999767 +x_0=159026.3186 +y_0=71011.75231 +ellps=airy +units=m +no_defs",
+  102817:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999792 +x_0=159030.2944 +y_0=71013.52767 +ellps=airy +units=m +no_defs",
+  102818:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999817 +x_0=159034.2704 +y_0=71015.30312 +ellps=airy +units=m +no_defs",
+  102819:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999817 +x_0=144031.0383 +y_0=71015.30362 +ellps=airy +units=m +no_defs",
+  102820:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999842 +x_0=144034.6392 +y_0=71017.07907 +ellps=airy +units=m +no_defs",
+  102821:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999867 +x_0=144038.2403 +y_0=71018.8546 +ellps=airy +units=m +no_defs",
+  102822:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999865 +x_0=128033.7365 +y_0=71018.71321 +ellps=airy +units=m +no_defs",
+  102823:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99989 +x_0=128036.9375 +y_0=71020.48874 +ellps=airy +units=m +no_defs",
+  102824:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999914 +x_0=111034.6979 +y_0=71022.19417 +ellps=airy +units=m +no_defs",
+  102825:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999939 +x_0=111037.4739 +y_0=71023.96979 +ellps=airy +units=m +no_defs",
+  102826:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=71025.95967 +ellps=airy +units=m +no_defs",
+  102827:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=71027.73539 +ellps=airy +units=m +no_defs",
+  102828:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=71029.15712 +ellps=airy +units=m +no_defs",
+  102829:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=71030.93291 +ellps=airy +units=m +no_defs",
+  102830:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=71026.9544 +ellps=airy +units=m +no_defs",
+  102831:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=71028.73014 +ellps=airy +units=m +no_defs",
+  102832:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=71023.18879 +ellps=airy +units=m +no_defs",
+  102833:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=71024.96444 +ellps=airy +units=m +no_defs",
+  102834:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=71019.35254 +ellps=airy +units=m +no_defs",
+  102835:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999899 +x_0=-88026.18693 +y_0=71021.12809 +ellps=airy +units=m +no_defs",
+  102836:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999826 +x_0=-105023.5775 +y_0=71015.94289 +ellps=airy +units=m +no_defs",
+  102837:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999851 +x_0=-105026.2032 +y_0=71017.71836 +ellps=airy +units=m +no_defs",
+  102838:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999771 +x_0=-122020.6823 +y_0=71012.0364 +ellps=airy +units=m +no_defs",
+  102839:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999796 +x_0=-122023.7329 +y_0=71013.81177 +ellps=airy +units=m +no_defs",
+  102840:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999708 +x_0=-139014.8049 +y_0=71007.56222 +ellps=airy +units=m +no_defs",
+  102841:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999733 +x_0=-139018.2804 +y_0=71009.33748 +ellps=airy +units=m +no_defs",
+  102842:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999656 +x_0=-156008.5024 +y_0=71003.86967 +ellps=airy +units=m +no_defs",
+  102843:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999681 +x_0=-156012.4027 +y_0=71005.64484 +ellps=airy +units=m +no_defs",
+  102844:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999613 +x_0=-165001.8975 +y_0=71000.81651 +ellps=airy +units=m +no_defs",
+  102845:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999638 +x_0=-165006.0227 +y_0=71002.5916 +ellps=airy +units=m +no_defs",
+  102846:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999565 +x_0=-175993.5763 +y_0=70997.40864 +ellps=airy +units=m +no_defs",
+  102847:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.99959 +x_0=-175997.9763 +y_0=70999.18364 +ellps=airy +units=m +no_defs",
+  102848:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999517 +x_0=-185984.2846 +y_0=70994.00109 +ellps=airy +units=m +no_defs",
+  102849:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999542 +x_0=-185988.9343 +y_0=70995.77601 +ellps=airy +units=m +no_defs",
+  102850:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999467 +x_0=-195973.6419 +y_0=70990.45191 +ellps=airy +units=m +no_defs",
+  102851:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999492 +x_0=-195978.5414 +y_0=70992.22674 +ellps=airy +units=m +no_defs",
+  102852:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999416 +x_0=-205961.7946 +y_0=70986.83212 +ellps=airy +units=m +no_defs",
+  102853:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999441 +x_0=-205966.9438 +y_0=70988.60686 +ellps=airy +units=m +no_defs",
+  102854:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999366 +x_0=-214949.3801 +y_0=70983.28366 +ellps=airy +units=m +no_defs",
+  102855:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999314 +x_0=-223935.6193 +y_0=70979.59363 +ellps=airy +units=m +no_defs",
+  102856:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=111040.5848 +ellps=airy +units=m +no_defs",
+  102857:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=111043.361 +ellps=airy +units=m +no_defs",
+  102858:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000017 +x_0=88036.57726 +y_0=111046.1372 +ellps=airy +units=m +no_defs",
+  102859:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=111045.5837 +ellps=airy +units=m +no_defs",
+  102860:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=111048.3599 +ellps=airy +units=m +no_defs",
+  102861:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000062 +x_0=54024.87711 +y_0=111051.1363 +ellps=airy +units=m +no_defs",
+  102862:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000087 +x_0=54026.22785 +y_0=111053.9128 +ellps=airy +units=m +no_defs",
+  102863:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=111042.14 +ellps=airy +units=m +no_defs",
+  102864:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=111044.9161 +ellps=airy +units=m +no_defs",
+  102865:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=111036.2529 +ellps=airy +units=m +no_defs",
+  102866:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=111039.0289 +ellps=airy +units=m +no_defs",
+  102867:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=111030.2554 +ellps=airy +units=m +no_defs",
+  102868:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999826 +x_0=-105023.5775 +y_0=111024.9248 +ellps=airy +units=m +no_defs",
+  102869:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999771 +x_0=-122020.6823 +y_0=111018.8175 +ellps=airy +units=m +no_defs",
+  102870:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999709 +x_0=-139014.9439 +y_0=111011.9337 +ellps=airy +units=m +no_defs",
+  102871:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999656 +x_0=-156008.5024 +y_0=111006.0498 +ellps=airy +units=m +no_defs",
+  102872:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999614 +x_0=-165002.0625 +y_0=111001.3875 +ellps=airy +units=m +no_defs",
+  102873:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999565 +x_0=-175993.5763 +y_0=110995.9487 +ellps=airy +units=m +no_defs",
+  102874:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999517 +x_0=-185984.2846 +y_0=110990.6214 +ellps=airy +units=m +no_defs",
+  102875:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999467 +x_0=-195973.6419 +y_0=110985.0727 +ellps=airy +units=m +no_defs",
+  102876:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999416 +x_0=-205961.7946 +y_0=110979.4136 +ellps=airy +units=m +no_defs",
+  102877:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999367 +x_0=-214949.595 +y_0=110973.9769 +ellps=airy +units=m +no_defs",
+  102878:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999315 +x_0=-223935.8432 +y_0=110968.208 +ellps=airy +units=m +no_defs",
+  102879:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999261 +x_0=-232920.6915 +y_0=110962.2179 +ellps=airy +units=m +no_defs",
+  102880:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999206 +x_0=-241904.3281 +y_0=110956.1174 +ellps=airy +units=m +no_defs",
+  102881:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999866 +x_0=128033.8646 +y_0=126033.3354 +ellps=airy +units=m +no_defs",
+  102882:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999914 +x_0=111034.6979 +y_0=126039.3868 +ellps=airy +units=m +no_defs",
+  102883:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999939 +x_0=111037.4739 +y_0=126042.5379 +ellps=airy +units=m +no_defs",
+  102884:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999964 +x_0=111040.25 +y_0=126045.6892 +ellps=airy +units=m +no_defs",
+  102885:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999989 +x_0=111043.0263 +y_0=126048.8406 +ellps=airy +units=m +no_defs",
+  102886:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999967 +x_0=88032.17537 +y_0=126046.0693 +ellps=airy +units=m +no_defs",
+  102887:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999992 +x_0=88034.37626 +y_0=126049.2206 +ellps=airy +units=m +no_defs",
+  102888:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000017 +x_0=88036.57726 +y_0=126052.372 +ellps=airy +units=m +no_defs",
+  102889:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000042 +x_0=88038.77836 +y_0=126055.5236 +ellps=airy +units=m +no_defs",
+  102890:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000067 +x_0=88040.97958 +y_0=126058.6753 +ellps=airy +units=m +no_defs",
+  102891:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000012 +x_0=54022.17583 +y_0=126051.7436 +ellps=airy +units=m +no_defs",
+  102892:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000037 +x_0=54023.52644 +y_0=126054.895 +ellps=airy +units=m +no_defs",
+  102893:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000062 +x_0=54024.87711 +y_0=126058.0466 +ellps=airy +units=m +no_defs",
+  102894:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000087 +x_0=54026.22785 +y_0=126061.1983 +ellps=airy +units=m +no_defs",
+  102895:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999981 +x_0=-24009.11135 +y_0=126047.8346 +ellps=airy +units=m +no_defs",
+  102896:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=1.000006 +x_0=-24009.7116 +y_0=126050.9859 +ellps=airy +units=m +no_defs",
+  102897:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999928 +x_0=-58018.94296 +y_0=126041.1519 +ellps=airy +units=m +no_defs",
+  102898:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999953 +x_0=-58020.39349 +y_0=126044.3031 +ellps=airy +units=m +no_defs",
+  102899:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999874 +x_0=-88023.98625 +y_0=126034.3439 +ellps=airy +units=m +no_defs",
+  102900:
+    "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.999899 +x_0=-88026.18693 +y_0=126037.4949 +ellps=airy +units=m +no_defs",
+  102962:
+    "+proj=aea +lat_0=0 +lon_0=-120 +lat_1=34 +lat_2=40.5 +x_0=0 +y_0=-4000000 +ellps=GRS80 +units=m +no_defs",
+  102963:
+    "+proj=tmerc +lat_0=32.5 +lon_0=-89.75 +k=0.9998335 +x_0=500000 +y_0=1300000 +ellps=GRS80 +units=m +no_defs",
+  102965:
+    "+proj=aea +lat_0=23 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102966:
+    "+proj=aea +lat_0=50 +lon_0=-154 +lat_1=55 +lat_2=65 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102967:
+    "+proj=aea +lat_0=24 +lon_0=-84 +lat_1=24 +lat_2=31.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102968:
+    "+proj=omerc +no_uoff +lat_0=45.3091666666667 +lonc=-86 +alpha=337.25556 +gamma=337.25556 +k=0.9996 +x_0=2546731.496 +y_0=-4354009.816 +ellps=GRS80 +units=m +no_defs",
+  102969:
+    "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104199: "+proj=longlat +R=6378137 +no_defs",
-  102970: "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102971: "+proj=aea +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
-  102972: "+proj=lcc +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
-  102973: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=520000 +y_0=-4480000 +ellps=GRS80 +units=m +no_defs",
-  102974: "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  102975: "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102976: "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102977: "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  102978: "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102979: "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102980: "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102981: "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102982: "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102983: "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102984: "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102985: "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102986: "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102987: "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102970:
+    "+proj=lcc +lat_0=41.75 +lon_0=-120.5 +lat_1=43 +lat_2=45.5 +x_0=400000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102971:
+    "+proj=aea +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
+  102972:
+    "+proj=lcc +lat_0=18 +lon_0=-100 +lat_1=27.5 +lat_2=35 +x_0=1500000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
+  102973:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=520000 +y_0=-4480000 +ellps=GRS80 +units=m +no_defs",
+  102974:
+    "+proj=tmerc +lat_0=0 +lon_0=-90 +k=0.9996 +x_0=519999.999999999 +y_0=-4479999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  102975:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102976:
+    "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102977:
+    "+proj=omerc +no_uoff +lat_0=57 +lonc=-133.666666666667 +alpha=-36.8698976458333 +gamma=-36.8698976458333 +k=0.9999 +x_0=5000000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  102978:
+    "+proj=tmerc +lat_0=54 +lon_0=-142 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102979:
+    "+proj=tmerc +lat_0=54 +lon_0=-146 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102980:
+    "+proj=tmerc +lat_0=54 +lon_0=-150 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102981:
+    "+proj=tmerc +lat_0=54 +lon_0=-154 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102982:
+    "+proj=tmerc +lat_0=54 +lon_0=-158 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102983:
+    "+proj=tmerc +lat_0=54 +lon_0=-162 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102984:
+    "+proj=tmerc +lat_0=54 +lon_0=-166 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102985:
+    "+proj=tmerc +lat_0=54 +lon_0=-170 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102986:
+    "+proj=lcc +lat_0=51 +lon_0=-176 +lat_1=51.8333333333333 +lat_2=53.8333333333333 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102987:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104223: "+proj=longlat +ellps=GRS80 +no_defs",
-  102988: "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102989: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102990: "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102991: "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102992: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  102993: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102994: "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
-  102995: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103061: "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  102996: "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
-  102997: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102998: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  102999: "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103000: "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103001: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103002: "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103003: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103004: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103005: "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103006: "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103007: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103008: "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103009: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  103010: "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  103011: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  103012: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
-  103013: "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
-  103014: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
-  103015: "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=m +no_defs",
-  103016: "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=us-ft +no_defs",
-  103017: "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103018: "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103019: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103020: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103021: "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103022: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103023: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103024: "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103025: "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103026: "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103027: "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103028: "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103029: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103030: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103031: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103032: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103033: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103034: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103035: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103036: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103087: "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103037: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103038: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103039: "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
-  103040: "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
-  103041: "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
-  103042: "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
-  103043: "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103044: "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102988:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102989:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102990:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102991:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102992:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  102993:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102994:
+    "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
+  102995:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103061:
+    "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  102996:
+    "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
+  102997:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102998:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  102999:
+    "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103000:
+    "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103001:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103002:
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103003:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103004:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103005:
+    "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103006:
+    "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103007:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103008:
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103009:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  103010:
+    "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  103011:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  103012:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
+  103013:
+    "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
+  103014:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
+  103015:
+    "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=m +no_defs",
+  103016:
+    "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=us-ft +no_defs",
+  103017:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103018:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103019:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103020:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103021:
+    "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103022:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103023:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103024:
+    "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103025:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103026:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103027:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103028:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103029:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103030:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103031:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103032:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103033:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103034:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103035:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103036:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103087:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103037:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103038:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103039:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
+  103040:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
+  103041:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
+  103042:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
+  103043:
+    "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103044:
+    "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104248: "+proj=longlat +ellps=intl +no_defs",
-  103045: "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103046: "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103047: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103048: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
-  103049: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103050: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
-  103051: "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103052: "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103053: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103054: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103055: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103056: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103057: "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103058: "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103059: "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103060: "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103062: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103063: "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103064: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103065: "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103066: "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103067: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103068: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103069: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103070: "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs",
-  103071: "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103072: "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=us-ft +no_defs",
-  103073: "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103074: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103075: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103076: "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103077: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103078: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=5999999.99999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103079: "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103080: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103081: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103082: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103083: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103084: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103085: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103086: "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103045:
+    "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103046:
+    "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103047:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103048:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
+  103049:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103050:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103051:
+    "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103052:
+    "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103053:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103054:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103055:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103056:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103057:
+    "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103058:
+    "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103059:
+    "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103060:
+    "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103062:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103063:
+    "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103064:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103065:
+    "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103066:
+    "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103067:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103068:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103069:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103070:
+    "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs",
+  103071:
+    "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103072:
+    "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=us-ft +no_defs",
+  103073:
+    "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103074:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103075:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103076:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103077:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103078:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=5999999.99999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103079:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103080:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103081:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103082:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103083:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103084:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103085:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103086:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104918: "+proj=longlat +R=1821460 +no_defs",
-  103088: "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103089: "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103090: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103091: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103092: "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103093: "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103094: "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103095: "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103096: "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103097: "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +units=m +no_defs",
-  103098: "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
-  103099: "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
-  103100: "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
-  103101: "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103102: "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  103103: "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103104: "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103105: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103106: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103107: "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103108: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103109: "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103110: "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103111: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103112: "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103113: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103114: "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103115: "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103116: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103117: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103118: "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103119: "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103120: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103121: "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103122: "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103088:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103089:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103090:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103091:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103092:
+    "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103093:
+    "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103094:
+    "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103095:
+    "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103096:
+    "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103097:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +units=m +no_defs",
+  103098:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
+  103099:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
+  103100:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
+  103101:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103102:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103103:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103104:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103105:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103106:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103107:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103108:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103109:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103110:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103111:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103112:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103113:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103114:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103115:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103116:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103117:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103118:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103119:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103120:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103121:
+    "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103122:
+    "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
   104256: "+proj=longlat +ellps=evrst30 +no_defs",
-  103123: "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103124: "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103125: "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103126: "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103127: "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103128: "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103129: "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103130: "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103131: "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103132: "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103133: "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103134: "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103135: "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103136: "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103137: "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103138: "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103123:
+    "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103124:
+    "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103125:
+    "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103126:
+    "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103127:
+    "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103128:
+    "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103129:
+    "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103130:
+    "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103131:
+    "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103132:
+    "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103133:
+    "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103134:
+    "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103135:
+    "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103136:
+    "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103137:
+    "+proj=lcc +lat_0=43.6666666666667 +lon_0=-120.5 +lat_1=44.3333333333333 +lat_2=46 +x_0=2500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103138:
+    "+proj=lcc +lat_0=41.6666666666667 +lon_0=-120.5 +lat_1=42.3333333333333 +lat_2=44 +x_0=1500000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
   104919: "+proj=longlat +R=5000 +no_defs",
-  103139: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103140: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103141: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103142: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103143: "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103144: "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103145: "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103146: "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103139:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103140:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103141:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103142:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103143:
+    "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103144:
+    "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103145:
+    "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103146:
+    "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
   104257: "+proj=longlat +ellps=GRS80 +no_defs",
-  103147: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103148: "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103149: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103150: "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103151: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103152: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103153: "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103154: "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  103155: "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
-  103156: "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
-  103157: "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
-  103158: "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103159: "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103160: "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=699999.999999999 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103161: "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  103162: "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
-  103163: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103164: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  103165: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
-  103166: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=ft +no_defs",
-  103167: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=ft +no_defs",
-  103168: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=ft +no_defs",
-  103169: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103170: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103171: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103172: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103173: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103174: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  103175: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103176: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000.00000001 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103177: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000.00000001 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103178: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103147:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103148:
+    "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103149:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103150:
+    "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103151:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103152:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103153:
+    "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103154:
+    "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  103155:
+    "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
+  103156:
+    "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
+  103157:
+    "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
+  103158:
+    "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103159:
+    "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103160:
+    "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=699999.999999999 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103161:
+    "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103162:
+    "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
+  103163:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103164:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  103165:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
+  103166:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=ft +no_defs",
+  103167:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=ft +no_defs",
+  103168:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=ft +no_defs",
+  103169:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103170:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103171:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103172:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103173:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103174:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  103175:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103176:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000.00000001 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103177:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000.00000001 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103178:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104258: "+proj=longlat +ellps=WGS84 +no_defs",
-  103179: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103180: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103181: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103182: "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103183: "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103184: "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103185: "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103186: "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103179:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103180:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103181:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103182:
+    "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103183:
+    "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103184:
+    "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103185:
+    "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103186:
+    "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104259: "+proj=longlat +ellps=GRS80 +no_defs",
-  103187: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103188: "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103189: "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103190: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103191: "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103192: "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103193: "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103194: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103187:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103188:
+    "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103189:
+    "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103190:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103191:
+    "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103192:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103193:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103194:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   103214: "+proj=utm +zone=27 +ellps=GRS80 +units=m +no_defs",
-  103195: "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103196: "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103197: "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=399999.999999999 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103198: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103199: "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103200: "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
-  103201: "+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103202: "+proj=tmerc +lat_0=0 +lon_0=14 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103203: "+proj=tmerc +lat_0=0 +lon_0=16 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103204: "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103205: "+proj=tmerc +lat_0=0 +lon_0=20 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103206: "+proj=tmerc +lat_0=0 +lon_0=22 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103207: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103208: "+proj=tmerc +lat_0=0 +lon_0=26 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
-  103209: "+proj=tmerc +lat_0=0 +lon_0=28 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103195:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103196:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103197:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=399999.999999999 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103198:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103199:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103200:
+    "+proj=lcc +lat_0=17.8333333333333 +lon_0=-66.4333333333333 +lat_1=18.0333333333333 +lat_2=18.4333333333333 +x_0=200000 +y_0=200000 +ellps=GRS80 +units=m +no_defs",
+  103201:
+    "+proj=tmerc +lat_0=0 +lon_0=12 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103202:
+    "+proj=tmerc +lat_0=0 +lon_0=14 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103203:
+    "+proj=tmerc +lat_0=0 +lon_0=16 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103204:
+    "+proj=tmerc +lat_0=0 +lon_0=18 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103205:
+    "+proj=tmerc +lat_0=0 +lon_0=20 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103206:
+    "+proj=tmerc +lat_0=0 +lon_0=22 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103207:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103208:
+    "+proj=tmerc +lat_0=0 +lon_0=26 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
+  103209:
+    "+proj=tmerc +lat_0=0 +lon_0=28 +k=0.9999 +x_0=500000 +y_0=10000000 +ellps=GRS80 +units=m +no_defs",
   103210: "+proj=utm +zone=33 +south +ellps=GRS80 +units=m +no_defs",
   103211: "+proj=utm +zone=34 +south +ellps=GRS80 +units=m +no_defs",
   103212: "+proj=utm +zone=35 +south +ellps=GRS80 +units=m +no_defs",
   103213: "+proj=utm +zone=23 +south +ellps=intl +units=m +no_defs",
   103215: "+proj=utm +zone=28 +ellps=GRS80 +units=m +no_defs",
-  103216: "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.99998 +x_0=200000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  103217: "+proj=tmerc +lat_0=0 +lon_0=10 +k=0.99998 +x_0=400000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  103218: "+proj=tmerc +lat_0=0 +lon_0=11.75 +k=0.99998 +x_0=600000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  103219: "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=800000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
-  103220: "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103221: "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103222: "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103223: "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103216:
+    "+proj=tmerc +lat_0=0 +lon_0=9 +k=0.99998 +x_0=200000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  103217:
+    "+proj=tmerc +lat_0=0 +lon_0=10 +k=0.99998 +x_0=400000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  103218:
+    "+proj=tmerc +lat_0=0 +lon_0=11.75 +k=0.99998 +x_0=600000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  103219:
+    "+proj=tmerc +lat_0=0 +lon_0=15 +k=1 +x_0=800000 +y_0=-5000000 +ellps=GRS80 +units=m +no_defs",
+  103220:
+    "+proj=tmerc +lat_0=30.5 +lon_0=-85.8333333333333 +k=0.99996 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103221:
+    "+proj=tmerc +lat_0=30 +lon_0=-87.5 +k=0.999933333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103222:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103223:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   103534: "+proj=utm +zone=34 +ellps=WGS84 +units=m +no_defs",
-  103224: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103225: "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103226: "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103227: "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103228: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103229: "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
-  103230: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103231: "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103224:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103225:
+    "+proj=tmerc +lat_0=31 +lon_0=-110.166666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103226:
+    "+proj=tmerc +lat_0=31 +lon_0=-111.916666666667 +k=0.9999 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103227:
+    "+proj=tmerc +lat_0=31 +lon_0=-113.75 +k=0.999933333333333 +x_0=213360 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103228:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103229:
+    "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
+  103230:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-92 +lat_1=34.9333333333333 +lat_2=36.2333333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103231:
+    "+proj=lcc +lat_0=32.6666666666667 +lon_0=-92 +lat_1=33.3 +lat_2=34.7666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
   104260: "+proj=longlat +ellps=GRS80 +no_defs",
-  103232: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103233: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103234: "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103235: "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103236: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103237: "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103238: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103239: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103240: "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103241: "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103242: "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103243: "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103244: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  103245: "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  103246: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
-  103247: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
-  103248: "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
-  103249: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
-  103250: "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=m +no_defs",
-  103251: "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=us-ft +no_defs",
-  103252: "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103253: "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103254: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103255: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103232:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103233:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103234:
+    "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103235:
+    "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103236:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103237:
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103238:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-122 +lat_1=40 +lat_2=41.6666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103239:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-122 +lat_1=38.3333333333333 +lat_2=39.8333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103240:
+    "+proj=lcc +lat_0=36.5 +lon_0=-120.5 +lat_1=37.0666666666667 +lat_2=38.4333333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103241:
+    "+proj=lcc +lat_0=35.3333333333333 +lon_0=-119 +lat_1=36 +lat_2=37.25 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103242:
+    "+proj=lcc +lat_0=33.5 +lon_0=-118 +lat_1=34.0333333333333 +lat_2=35.4666666666667 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103243:
+    "+proj=lcc +lat_0=32.1666666666667 +lon_0=-116.25 +lat_1=32.7833333333333 +lat_2=33.8833333333333 +x_0=2000000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103244:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  103245:
+    "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  103246:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.8289 +y_0=304800.6096 +ellps=GRS80 +units=m +no_defs",
+  103247:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-105.5 +lat_1=39.7166666666667 +lat_2=40.7833333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
+  103248:
+    "+proj=lcc +lat_0=37.8333333333333 +lon_0=-105.5 +lat_1=38.45 +lat_2=39.75 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
+  103249:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-105.5 +lat_1=37.2333333333333 +lat_2=38.4333333333333 +x_0=914401.828899998 +y_0=304800.6096 +ellps=GRS80 +units=us-ft +no_defs",
+  103250:
+    "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=m +no_defs",
+  103251:
+    "+proj=lcc +lat_0=40.8333333333333 +lon_0=-72.75 +lat_1=41.2 +lat_2=41.8666666666667 +x_0=304800.6096 +y_0=152400.3048 +ellps=GRS80 +units=us-ft +no_defs",
+  103252:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103253:
+    "+proj=tmerc +lat_0=38 +lon_0=-75.4166666666667 +k=0.999995 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103254:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103255:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   104261: "+proj=longlat +ellps=clrk80ign +no_defs",
-  103256: "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103257: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103258: "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103259: "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103260: "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103261: "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103262: "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103263: "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103264: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103265: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103266: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103267: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103268: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103269: "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103270: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103271: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103272: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103372: "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103273: "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103274: "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
-  103275: "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
-  103276: "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
-  103277: "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
-  103278: "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103279: "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103280: "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103256:
+    "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103257:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-81 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103258:
+    "+proj=tmerc +lat_0=24.3333333333333 +lon_0=-82 +k=0.999941176470588 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103259:
+    "+proj=lcc +lat_0=29 +lon_0=-84.5 +lat_1=29.5833333333333 +lat_2=30.75 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103260:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103261:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103262:
+    "+proj=tmerc +lat_0=30 +lon_0=-82.1666666666667 +k=0.9999 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103263:
+    "+proj=tmerc +lat_0=30 +lon_0=-84.1666666666667 +k=0.9999 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103264:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103265:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103266:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103267:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-112.166666666667 +k=0.999947368421053 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103268:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-114 +k=0.999947368421053 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103269:
+    "+proj=tmerc +lat_0=41.6666666666667 +lon_0=-115.75 +k=0.999933333333333 +x_0=800000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103270:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103271:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103272:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-88.3333333333333 +k=0.999975 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103372:
+    "+proj=tmerc +lat_0=43.8333333333333 +lon_0=-67.875 +k=0.99998 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103273:
+    "+proj=tmerc +lat_0=36.6666666666667 +lon_0=-90.1666666666667 +k=0.999941176470588 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103274:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
+  103275:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=m +no_defs",
+  103276:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-85.6666666666667 +k=0.999966666666667 +x_0=100000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
+  103277:
+    "+proj=tmerc +lat_0=37.5 +lon_0=-87.0833333333333 +k=0.999966666666667 +x_0=900000 +y_0=250000 +ellps=GRS80 +units=us-ft +no_defs",
+  103278:
+    "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103279:
+    "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103280:
+    "+proj=lcc +lat_0=41.5 +lon_0=-93.5 +lat_1=42.0666666666667 +lat_2=43.2666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
   104286: "+proj=longlat +ellps=GRS80 +no_defs",
-  103281: "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103282: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103283: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
-  103284: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103285: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
-  103286: "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103287: "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103288: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103289: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103290: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
-  103291: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
-  103292: "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103293: "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103294: "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103295: "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103296: "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103297: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103298: "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103299: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103300: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.6942 +y_0=0.0037 +ellps=GRS80 +units=m +no_defs",
-  103301: "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=1.0000495683 +x_0=172821.9461 +y_0=0.0017 +ellps=GRS80 +units=m +no_defs",
-  103302: "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=1.0000486665 +x_0=93150 +y_0=0.0029 +ellps=GRS80 +units=m +no_defs",
-  103303: "+proj=lcc +lat_1=46.6696483772222 +lat_0=46.6696483772222 +lon_0=-91.1527777777778 +k_0=1.0000331195 +x_0=228600.4575 +y_0=148551.4837 +ellps=GRS80 +units=m +no_defs",
-  103304: "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31600 +y_0=4600 +ellps=GRS80 +units=m +no_defs",
-  103305: "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1.0000382778 +x_0=175260.3502 +y_0=0.0048 +ellps=GRS80 +units=m +no_defs",
-  103306: "+proj=lcc +lat_1=45.8987148658333 +lat_0=45.8987148658333 +lon_0=-92.4577777777778 +k_0=1.0000383841 +x_0=64008.1276 +y_0=59445.9043 +ellps=GRS80 +units=m +no_defs",
-  103307: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
-  103308: "+proj=lcc +lat_1=44.9778568986111 +lat_0=44.9778568986111 +lon_0=-91.2944444444444 +k_0=1.0000391127 +x_0=60045.72 +y_0=44091.4346 +ellps=GRS80 +units=m +no_defs",
-  103309: "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=1.0000463003 +x_0=199949.1989 +y_0=0.0086 +ellps=GRS80 +units=m +no_defs",
-  103310: "+proj=lcc +lat_1=43.4625466458333 +lat_0=43.4625466458333 +lon_0=-89.3944444444444 +k_0=1.00003498 +x_0=169164.3381 +y_0=111569.6134 +ellps=GRS80 +units=m +no_defs",
-  103311: "+proj=lcc +lat_1=43.200055605 +lat_0=43.200055605 +lon_0=-90.9388888888889 +k_0=1.0000349151 +x_0=113690.6274 +y_0=53703.1201 +ellps=GRS80 +units=m +no_defs",
-  103312: "+proj=lcc +lat_1=43.0695160375 +lat_0=43.0695160375 +lon_0=-89.4222222222222 +k_0=1.0000384786 +x_0=247193.2944 +y_0=146591.9896 +ellps=GRS80 +units=m +no_defs",
-  103313: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.7263 +y_0=0.0076 +ellps=GRS80 +units=m +no_defs",
-  103373: "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103314: "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=1.0000187521 +x_0=158801.1176 +y_0=0.0023 +ellps=GRS80 +units=m +no_defs",
-  103315: "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=1.0000385418 +x_0=59131.3183 +y_0=0.0041 +ellps=GRS80 +units=m +no_defs",
-  103316: "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=1.0000410324 +x_0=51816.104 +y_0=0.003 +ellps=GRS80 +units=m +no_defs",
-  103317: "+proj=lcc +lat_1=44.8722811263889 +lat_0=44.8722811263889 +lon_0=-91.2888888888889 +k_0=1.000035079 +x_0=120091.4402 +y_0=91687.9239 +ellps=GRS80 +units=m +no_defs",
-  103318: "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.6683 +y_0=0.0063 +ellps=GRS80 +units=m +no_defs",
-  103319: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
-  103320: "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=1.0000673004 +x_0=275844.5533 +y_0=0.0157 +ellps=GRS80 +units=m +no_defs",
-  103321: "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=1.0000349452 +x_0=242316.4841 +y_0=0.01 +ellps=GRS80 +units=m +no_defs",
-  103322: "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.7403 +y_0=45830.2947 +ellps=GRS80 +units=m +no_defs",
-  103323: "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.3018 +y_0=79170.7795 +ellps=GRS80 +units=m +no_defs",
-  103324: "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.0261 +y_0=0.0045 +ellps=GRS80 +units=m +no_defs",
-  103325: "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=1.0000677153 +x_0=220980.4419 +y_0=0.0085 +ellps=GRS80 +units=m +no_defs",
-  103326: "+proj=tmerc +lat_0=44.2533351277778 +lon_0=-90.8442965194444 +k=1.0000353 +x_0=27000 +y_0=25000 +ellps=GRS80 +units=m +no_defs",
-  103327: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.7263 +y_0=0.0076 +ellps=GRS80 +units=m +no_defs",
-  103328: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.6942 +y_0=0.0037 +ellps=GRS80 +units=m +no_defs",
-  103329: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
-  103330: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.7614 +y_0=0.0012 +ellps=GRS80 +units=m +no_defs",
-  103331: "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=1.0000319985 +x_0=130454.6598 +y_0=0.0033 +ellps=GRS80 +units=m +no_defs",
-  103332: "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.7403 +y_0=45830.2947 +ellps=GRS80 +units=m +no_defs",
-  103333: "+proj=lcc +lat_1=45.1542371052778 +lat_0=45.1542371052778 +lon_0=-89.0333333333333 +k_0=1.0000627024 +x_0=198425.197 +y_0=105279.7829 +ellps=GRS80 +units=m +no_defs",
-  103334: "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=1.0000599003 +x_0=116129.0323 +y_0=0.0058 +ellps=GRS80 +units=m +no_defs",
-  103335: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.7614 +y_0=0.0012 +ellps=GRS80 +units=m +no_defs",
-  103336: "+proj=lcc +lat_1=44.9009044236111 +lat_0=44.9009044236111 +lon_0=-89.77 +k_0=1.000053289 +x_0=74676.1493 +y_0=55049.2669 +ellps=GRS80 +units=m +no_defs",
-  103337: "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=1.0000234982 +x_0=238658.8794 +y_0=0.0032 +ellps=GRS80 +units=m +no_defs",
-  103338: "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.3018 +y_0=79170.7795 +ellps=GRS80 +units=m +no_defs",
-  103339: "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=1.0000362499 +x_0=105461.0121 +y_0=0.0029 +ellps=GRS80 +units=m +no_defs",
+  103281:
+    "+proj=lcc +lat_0=40 +lon_0=-93.5 +lat_1=40.6166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103282:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103283:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=400000 +y_0=400000 +ellps=GRS80 +units=m +no_defs",
+  103284:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-98 +lat_1=38.7166666666667 +lat_2=39.7833333333333 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103285:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-98.5 +lat_1=37.2666666666667 +lat_2=38.5666666666667 +x_0=399999.999999999 +y_0=399999.999999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103286:
+    "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103287:
+    "+proj=lcc +lat_0=37.5 +lon_0=-84.25 +lat_1=37.9666666666667 +lat_2=38.9666666666667 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103288:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103289:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=37.0833333333333 +lat_2=38.6666666666667 +x_0=1500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103290:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=m +no_defs",
+  103291:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-85.75 +lat_1=36.7333333333333 +lat_2=37.9333333333333 +x_0=500000 +y_0=500000 +ellps=GRS80 +units=us-ft +no_defs",
+  103292:
+    "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103293:
+    "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=1000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103294:
+    "+proj=lcc +lat_0=30.5 +lon_0=-92.5 +lat_1=31.1666666666667 +lat_2=32.6666666666667 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103295:
+    "+proj=lcc +lat_0=28.5 +lon_0=-91.3333333333333 +lat_1=29.3 +lat_2=30.7 +x_0=999999.999999998 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103296:
+    "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103297:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103298:
+    "+proj=tmerc +lat_0=43.6666666666667 +lon_0=-68.5 +k=0.9999 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103299:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.1666666666667 +k=0.999966666666667 +x_0=900000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103300:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.6942 +y_0=0.0037 +ellps=GRS80 +units=m +no_defs",
+  103301:
+    "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=1.0000495683 +x_0=172821.9461 +y_0=0.0017 +ellps=GRS80 +units=m +no_defs",
+  103302:
+    "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=1.0000486665 +x_0=93150 +y_0=0.0029 +ellps=GRS80 +units=m +no_defs",
+  103303:
+    "+proj=lcc +lat_1=46.6696483772222 +lat_0=46.6696483772222 +lon_0=-91.1527777777778 +k_0=1.0000331195 +x_0=228600.4575 +y_0=148551.4837 +ellps=GRS80 +units=m +no_defs",
+  103304:
+    "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31600 +y_0=4600 +ellps=GRS80 +units=m +no_defs",
+  103305:
+    "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1.0000382778 +x_0=175260.3502 +y_0=0.0048 +ellps=GRS80 +units=m +no_defs",
+  103306:
+    "+proj=lcc +lat_1=45.8987148658333 +lat_0=45.8987148658333 +lon_0=-92.4577777777778 +k_0=1.0000383841 +x_0=64008.1276 +y_0=59445.9043 +ellps=GRS80 +units=m +no_defs",
+  103307:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
+  103308:
+    "+proj=lcc +lat_1=44.9778568986111 +lat_0=44.9778568986111 +lon_0=-91.2944444444444 +k_0=1.0000391127 +x_0=60045.72 +y_0=44091.4346 +ellps=GRS80 +units=m +no_defs",
+  103309:
+    "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=1.0000463003 +x_0=199949.1989 +y_0=0.0086 +ellps=GRS80 +units=m +no_defs",
+  103310:
+    "+proj=lcc +lat_1=43.4625466458333 +lat_0=43.4625466458333 +lon_0=-89.3944444444444 +k_0=1.00003498 +x_0=169164.3381 +y_0=111569.6134 +ellps=GRS80 +units=m +no_defs",
+  103311:
+    "+proj=lcc +lat_1=43.200055605 +lat_0=43.200055605 +lon_0=-90.9388888888889 +k_0=1.0000349151 +x_0=113690.6274 +y_0=53703.1201 +ellps=GRS80 +units=m +no_defs",
+  103312:
+    "+proj=lcc +lat_1=43.0695160375 +lat_0=43.0695160375 +lon_0=-89.4222222222222 +k_0=1.0000384786 +x_0=247193.2944 +y_0=146591.9896 +ellps=GRS80 +units=m +no_defs",
+  103313:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.7263 +y_0=0.0076 +ellps=GRS80 +units=m +no_defs",
+  103373:
+    "+proj=tmerc +lat_0=43.5 +lon_0=-69.125 +k=0.99998 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103314:
+    "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=1.0000187521 +x_0=158801.1176 +y_0=0.0023 +ellps=GRS80 +units=m +no_defs",
+  103315:
+    "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=1.0000385418 +x_0=59131.3183 +y_0=0.0041 +ellps=GRS80 +units=m +no_defs",
+  103316:
+    "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=1.0000410324 +x_0=51816.104 +y_0=0.003 +ellps=GRS80 +units=m +no_defs",
+  103317:
+    "+proj=lcc +lat_1=44.8722811263889 +lat_0=44.8722811263889 +lon_0=-91.2888888888889 +k_0=1.000035079 +x_0=120091.4402 +y_0=91687.9239 +ellps=GRS80 +units=m +no_defs",
+  103318:
+    "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.6683 +y_0=0.0063 +ellps=GRS80 +units=m +no_defs",
+  103319:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
+  103320:
+    "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=1.0000673004 +x_0=275844.5533 +y_0=0.0157 +ellps=GRS80 +units=m +no_defs",
+  103321:
+    "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=1.0000349452 +x_0=242316.4841 +y_0=0.01 +ellps=GRS80 +units=m +no_defs",
+  103322:
+    "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.7403 +y_0=45830.2947 +ellps=GRS80 +units=m +no_defs",
+  103323:
+    "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.3018 +y_0=79170.7795 +ellps=GRS80 +units=m +no_defs",
+  103324:
+    "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.0261 +y_0=0.0045 +ellps=GRS80 +units=m +no_defs",
+  103325:
+    "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=1.0000677153 +x_0=220980.4419 +y_0=0.0085 +ellps=GRS80 +units=m +no_defs",
+  103326:
+    "+proj=tmerc +lat_0=44.2533351277778 +lon_0=-90.8442965194444 +k=1.0000353 +x_0=27000 +y_0=25000 +ellps=GRS80 +units=m +no_defs",
+  103327:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.7263 +y_0=0.0076 +ellps=GRS80 +units=m +no_defs",
+  103328:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.6942 +y_0=0.0037 +ellps=GRS80 +units=m +no_defs",
+  103329:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
+  103330:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.7614 +y_0=0.0012 +ellps=GRS80 +units=m +no_defs",
+  103331:
+    "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=1.0000319985 +x_0=130454.6598 +y_0=0.0033 +ellps=GRS80 +units=m +no_defs",
+  103332:
+    "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.7403 +y_0=45830.2947 +ellps=GRS80 +units=m +no_defs",
+  103333:
+    "+proj=lcc +lat_1=45.1542371052778 +lat_0=45.1542371052778 +lon_0=-89.0333333333333 +k_0=1.0000627024 +x_0=198425.197 +y_0=105279.7829 +ellps=GRS80 +units=m +no_defs",
+  103334:
+    "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=1.0000599003 +x_0=116129.0323 +y_0=0.0058 +ellps=GRS80 +units=m +no_defs",
+  103335:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.7614 +y_0=0.0012 +ellps=GRS80 +units=m +no_defs",
+  103336:
+    "+proj=lcc +lat_1=44.9009044236111 +lat_0=44.9009044236111 +lon_0=-89.77 +k_0=1.000053289 +x_0=74676.1493 +y_0=55049.2669 +ellps=GRS80 +units=m +no_defs",
+  103337:
+    "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=1.0000234982 +x_0=238658.8794 +y_0=0.0032 +ellps=GRS80 +units=m +no_defs",
+  103338:
+    "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.3018 +y_0=79170.7795 +ellps=GRS80 +units=m +no_defs",
+  103339:
+    "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=1.0000362499 +x_0=105461.0121 +y_0=0.0029 +ellps=GRS80 +units=m +no_defs",
   103535: "+proj=utm +zone=35 +ellps=WGS84 +units=m +no_defs",
-  103340: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
-  103341: "+proj=lcc +lat_1=44.0000739286111 +lat_0=44.0000739286111 +lon_0=-90.6416666666667 +k_0=1.0000434122 +x_0=204521.209 +y_0=121923.9861 +ellps=GRS80 +units=m +no_defs",
-  103342: "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=1.0000236869 +x_0=182880.3676 +y_0=0.0033 +ellps=GRS80 +units=m +no_defs",
-  103343: "+proj=lcc +lat_1=45.7042237702778 +lat_0=45.7042237702778 +lon_0=-89.5444444444444 +k_0=1.0000686968 +x_0=70104.1401 +y_0=57588.0346 +ellps=GRS80 +units=m +no_defs",
-  103344: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
-  103345: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
-  103346: "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.3354 +y_0=86033.0876 +ellps=GRS80 +units=m +no_defs",
-  103347: "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.3354 +y_0=86033.0876 +ellps=GRS80 +units=m +no_defs",
+  103340:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
+  103341:
+    "+proj=lcc +lat_1=44.0000739286111 +lat_0=44.0000739286111 +lon_0=-90.6416666666667 +k_0=1.0000434122 +x_0=204521.209 +y_0=121923.9861 +ellps=GRS80 +units=m +no_defs",
+  103342:
+    "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=1.0000236869 +x_0=182880.3676 +y_0=0.0033 +ellps=GRS80 +units=m +no_defs",
+  103343:
+    "+proj=lcc +lat_1=45.7042237702778 +lat_0=45.7042237702778 +lon_0=-89.5444444444444 +k_0=1.0000686968 +x_0=70104.1401 +y_0=57588.0346 +ellps=GRS80 +units=m +no_defs",
+  103344:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
+  103345:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
+  103346:
+    "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.3354 +y_0=86033.0876 +ellps=GRS80 +units=m +no_defs",
+  103347:
+    "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.3354 +y_0=86033.0876 +ellps=GRS80 +units=m +no_defs",
   103536: "+proj=utm +zone=36 +ellps=WGS84 +units=m +no_defs",
-  103348: "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1.0000433849 +x_0=141732.2823 +y_0=0.0059 +ellps=GRS80 +units=m +no_defs",
-  103349: "+proj=lcc +lat_1=44.4168239752778 +lat_0=44.4168239752778 +lon_0=-89.5 +k_0=1.000039936 +x_0=56388.1128 +y_0=50022.1874 +ellps=GRS80 +units=m +no_defs",
-  103350: "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=1.0000649554 +x_0=227990.8546 +y_0=0.0109 +ellps=GRS80 +units=m +no_defs",
-  103351: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
-  103352: "+proj=lcc +lat_1=43.3223129275 +lat_0=43.3223129275 +lon_0=-90.4305555555556 +k_0=1.0000375653 +x_0=202387.6048 +y_0=134255.4253 +ellps=GRS80 +units=m +no_defs",
-  103353: "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=1.0000337311 +x_0=146304.2926 +y_0=0.0068 +ellps=GRS80 +units=m +no_defs",
-  103354: "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=1.0000495976 +x_0=250546.1013 +y_0=0.0234 +ellps=GRS80 +units=m +no_defs",
-  103355: "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=1.0000373868 +x_0=185623.5716 +y_0=0.0051 +ellps=GRS80 +units=m +no_defs",
-  103374: "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103356: "+proj=lcc +lat_1=45.9000991313889 +lat_0=45.9000991313889 +lon_0=-91.1166666666667 +k_0=1.0000573461 +x_0=216713.2336 +y_0=120734.1631 +ellps=GRS80 +units=m +no_defs",
-  103357: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=1.000032144 +x_0=262433.3253 +y_0=0.0096 +ellps=GRS80 +units=m +no_defs",
-  103358: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.7614 +y_0=0.0012 +ellps=GRS80 +units=m +no_defs",
-  103359: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=1.0000381803 +x_0=165506.7302 +y_0=0.0103 +ellps=GRS80 +units=m +no_defs",
-  103360: "+proj=lcc +lat_1=45.1778220858333 +lat_0=45.1778220858333 +lon_0=-90.4833333333333 +k_0=1.0000597566 +x_0=187147.5744 +y_0=107746.7522 +ellps=GRS80 +units=m +no_defs",
-  103361: "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=1.0000361538 +x_0=256946.9138 +y_0=0.0041 +ellps=GRS80 +units=m +no_defs",
-  103362: "+proj=lcc +lat_1=43.5750329397222 +lat_0=43.5750329397222 +lon_0=-90.7833333333333 +k_0=1.0000408158 +x_0=222504.4451 +y_0=47532.0602 +ellps=GRS80 +units=m +no_defs",
-  103363: "+proj=lcc +lat_1=46.0778440905556 +lat_0=46.0778440905556 +lon_0=-89.4888888888889 +k_0=1.0000730142 +x_0=134417.0689 +y_0=50337.1092 +ellps=GRS80 +units=m +no_defs",
+  103348:
+    "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1.0000433849 +x_0=141732.2823 +y_0=0.0059 +ellps=GRS80 +units=m +no_defs",
+  103349:
+    "+proj=lcc +lat_1=44.4168239752778 +lat_0=44.4168239752778 +lon_0=-89.5 +k_0=1.000039936 +x_0=56388.1128 +y_0=50022.1874 +ellps=GRS80 +units=m +no_defs",
+  103350:
+    "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=1.0000649554 +x_0=227990.8546 +y_0=0.0109 +ellps=GRS80 +units=m +no_defs",
+  103351:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.3728 +y_0=0.0009 +ellps=GRS80 +units=m +no_defs",
+  103352:
+    "+proj=lcc +lat_1=43.3223129275 +lat_0=43.3223129275 +lon_0=-90.4305555555556 +k_0=1.0000375653 +x_0=202387.6048 +y_0=134255.4253 +ellps=GRS80 +units=m +no_defs",
+  103353:
+    "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=1.0000337311 +x_0=146304.2926 +y_0=0.0068 +ellps=GRS80 +units=m +no_defs",
+  103354:
+    "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=1.0000495976 +x_0=250546.1013 +y_0=0.0234 +ellps=GRS80 +units=m +no_defs",
+  103355:
+    "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=1.0000373868 +x_0=185623.5716 +y_0=0.0051 +ellps=GRS80 +units=m +no_defs",
+  103374:
+    "+proj=tmerc +lat_0=42.8333333333333 +lon_0=-70.375 +k=0.99998 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103356:
+    "+proj=lcc +lat_1=45.9000991313889 +lat_0=45.9000991313889 +lon_0=-91.1166666666667 +k_0=1.0000573461 +x_0=216713.2336 +y_0=120734.1631 +ellps=GRS80 +units=m +no_defs",
+  103357:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=1.000032144 +x_0=262433.3253 +y_0=0.0096 +ellps=GRS80 +units=m +no_defs",
+  103358:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.7614 +y_0=0.0012 +ellps=GRS80 +units=m +no_defs",
+  103359:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=1.0000381803 +x_0=165506.7302 +y_0=0.0103 +ellps=GRS80 +units=m +no_defs",
+  103360:
+    "+proj=lcc +lat_1=45.1778220858333 +lat_0=45.1778220858333 +lon_0=-90.4833333333333 +k_0=1.0000597566 +x_0=187147.5744 +y_0=107746.7522 +ellps=GRS80 +units=m +no_defs",
+  103361:
+    "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=1.0000361538 +x_0=256946.9138 +y_0=0.0041 +ellps=GRS80 +units=m +no_defs",
+  103362:
+    "+proj=lcc +lat_1=43.5750329397222 +lat_0=43.5750329397222 +lon_0=-90.7833333333333 +k_0=1.0000408158 +x_0=222504.4451 +y_0=47532.0602 +ellps=GRS80 +units=m +no_defs",
+  103363:
+    "+proj=lcc +lat_1=46.0778440905556 +lat_0=46.0778440905556 +lon_0=-89.4888888888889 +k_0=1.0000730142 +x_0=134417.0689 +y_0=50337.1092 +ellps=GRS80 +units=m +no_defs",
   103531: "+proj=utm +zone=31 +ellps=WGS84 +units=m +no_defs",
-  103364: "+proj=lcc +lat_1=42.6694620969444 +lat_0=42.6694620969444 +lon_0=-88.5416666666667 +k_0=1.0000367192 +x_0=232562.8651 +y_0=111088.2224 +ellps=GRS80 +units=m +no_defs",
-  103365: "+proj=lcc +lat_1=45.9612198333333 +lat_0=45.9612198333333 +lon_0=-91.7833333333333 +k_0=1.0000475376 +x_0=234086.8682 +y_0=188358.6058 +ellps=GRS80 +units=m +no_defs",
-  103366: "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=1.00003738 +x_0=120091.4415 +y_0=0.003 +ellps=GRS80 +units=m +no_defs",
-  103367: "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=1.0000346179 +x_0=208788.418 +y_0=0.0034 +ellps=GRS80 +units=m +no_defs",
-  103368: "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=1.0000333645 +x_0=185013.9709 +y_0=0.007 +ellps=GRS80 +units=m +no_defs",
-  103369: "+proj=lcc +lat_1=44.1139440458333 +lat_0=44.1139440458333 +lon_0=-89.2416666666667 +k_0=1.0000392096 +x_0=120091.4402 +y_0=45069.7587 +ellps=GRS80 +units=m +no_defs",
-  103370: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
-  103371: "+proj=lcc +lat_1=44.3625954694444 +lat_0=44.3625954694444 +lon_0=-90 +k_0=1.0000421209 +x_0=208483.6173 +y_0=134589.754 +ellps=GRS80 +units=m +no_defs",
+  103364:
+    "+proj=lcc +lat_1=42.6694620969444 +lat_0=42.6694620969444 +lon_0=-88.5416666666667 +k_0=1.0000367192 +x_0=232562.8651 +y_0=111088.2224 +ellps=GRS80 +units=m +no_defs",
+  103365:
+    "+proj=lcc +lat_1=45.9612198333333 +lat_0=45.9612198333333 +lon_0=-91.7833333333333 +k_0=1.0000475376 +x_0=234086.8682 +y_0=188358.6058 +ellps=GRS80 +units=m +no_defs",
+  103366:
+    "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=1.00003738 +x_0=120091.4415 +y_0=0.003 +ellps=GRS80 +units=m +no_defs",
+  103367:
+    "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=1.0000346179 +x_0=208788.418 +y_0=0.0034 +ellps=GRS80 +units=m +no_defs",
+  103368:
+    "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=1.0000333645 +x_0=185013.9709 +y_0=0.007 +ellps=GRS80 +units=m +no_defs",
+  103369:
+    "+proj=lcc +lat_1=44.1139440458333 +lat_0=44.1139440458333 +lon_0=-89.2416666666667 +k_0=1.0000392096 +x_0=120091.4402 +y_0=45069.7587 +ellps=GRS80 +units=m +no_defs",
+  103370:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.8893 +y_0=0.0049 +ellps=GRS80 +units=m +no_defs",
+  103371:
+    "+proj=lcc +lat_1=44.3625954694444 +lat_0=44.3625954694444 +lon_0=-90 +k_0=1.0000421209 +x_0=208483.6173 +y_0=134589.754 +ellps=GRS80 +units=m +no_defs",
   103532: "+proj=utm +zone=32 +ellps=WGS84 +units=m +no_defs",
-  103375: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103376: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103377: "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs",
-  103378: "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103379: "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=us-ft +no_defs",
-  103380: "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103381: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103382: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103383: "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103384: "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103385: "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=5999999.99999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103386: "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103387: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103388: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103389: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103390: "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103391: "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103392: "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103393: "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103394: "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103395: "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103396: "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103397: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103398: "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103375:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=400000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103376:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-77 +lat_1=38.3 +lat_2=39.45 +x_0=399999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103377:
+    "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=m +no_defs",
+  103378:
+    "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103379:
+    "+proj=lcc +lat_0=41 +lon_0=-71.5 +lat_1=41.7166666666667 +lat_2=42.6833333333333 +x_0=200000 +y_0=750000 +ellps=GRS80 +units=us-ft +no_defs",
+  103380:
+    "+proj=lcc +lat_0=41 +lon_0=-70.5 +lat_1=41.2833333333333 +lat_2=41.4833333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103381:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103382:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=6000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103383:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103384:
+    "+proj=lcc +lat_0=44.7833333333333 +lon_0=-87 +lat_1=45.4833333333333 +lat_2=47.0833333333333 +x_0=8000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103385:
+    "+proj=lcc +lat_0=43.3166666666667 +lon_0=-84.3666666666667 +lat_1=44.1833333333333 +lat_2=45.7 +x_0=5999999.99999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103386:
+    "+proj=lcc +lat_0=41.5 +lon_0=-84.3666666666667 +lat_1=42.1 +lat_2=43.6666666666667 +x_0=4000000 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103387:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103388:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103389:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103390:
+    "+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=47.0333333333333 +lat_2=48.6333333333333 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103391:
+    "+proj=lcc +lat_0=45 +lon_0=-94.25 +lat_1=45.6166666666667 +lat_2=47.05 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103392:
+    "+proj=lcc +lat_0=43 +lon_0=-94 +lat_1=43.7833333333333 +lat_2=45.2166666666667 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103393:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103394:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=700000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103395:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-88.8333333333333 +k=0.99995 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103396:
+    "+proj=tmerc +lat_0=29.5 +lon_0=-90.3333333333333 +k=0.99995 +x_0=699999.999999999 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103397:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-90.5 +k=0.999933333333333 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103398:
+    "+proj=tmerc +lat_0=35.8333333333333 +lon_0=-92.5 +k=0.999933333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
   103533: "+proj=utm +zone=33 +ellps=WGS84 +units=m +no_defs",
-  103399: "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103400: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.694132588 +y_0=0.00365760731521463 +ellps=GRS80 +units=us-ft +no_defs",
-  103401: "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=1.0000495683 +x_0=172821.945948692 +y_0=0.00182880365760731 +ellps=GRS80 +units=us-ft +no_defs",
-  103402: "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=1.0000486665 +x_0=93150 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
-  103403: "+proj=lcc +lat_1=46.6696483772222 +lat_0=46.6696483772222 +lon_0=-91.1527777777778 +k_0=1.0000331195 +x_0=228600.457505715 +y_0=148551.483566167 +ellps=GRS80 +units=us-ft +no_defs",
-  103404: "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.9998983998 +y_0=4599.99989839979 +ellps=GRS80 +units=us-ft +no_defs",
-  103405: "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1.0000382778 +x_0=175260.3502159 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
-  103406: "+proj=lcc +lat_1=45.8987148658333 +lat_0=45.8987148658333 +lon_0=-92.4577777777778 +k_0=1.0000383841 +x_0=64008.1277114554 +y_0=59445.9041910083 +ellps=GRS80 +units=us-ft +no_defs",
+  103399:
+    "+proj=tmerc +lat_0=36.1666666666667 +lon_0=-94.5 +k=0.999941176470588 +x_0=850000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103400:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.694132588 +y_0=0.00365760731521463 +ellps=GRS80 +units=us-ft +no_defs",
+  103401:
+    "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=1.0000495683 +x_0=172821.945948692 +y_0=0.00182880365760731 +ellps=GRS80 +units=us-ft +no_defs",
+  103402:
+    "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=1.0000486665 +x_0=93150 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
+  103403:
+    "+proj=lcc +lat_1=46.6696483772222 +lat_0=46.6696483772222 +lon_0=-91.1527777777778 +k_0=1.0000331195 +x_0=228600.457505715 +y_0=148551.483566167 +ellps=GRS80 +units=us-ft +no_defs",
+  103404:
+    "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.9998983998 +y_0=4599.99989839979 +ellps=GRS80 +units=us-ft +no_defs",
+  103405:
+    "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1.0000382778 +x_0=175260.3502159 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
+  103406:
+    "+proj=lcc +lat_1=45.8987148658333 +lat_0=45.8987148658333 +lon_0=-92.4577777777778 +k_0=1.0000383841 +x_0=64008.1277114554 +y_0=59445.9041910083 +ellps=GRS80 +units=us-ft +no_defs",
   104287: "+proj=longlat +ellps=GRS80 +no_defs",
-  103407: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
-  103408: "+proj=lcc +lat_1=44.9778568986111 +lat_0=44.9778568986111 +lon_0=-91.2944444444444 +k_0=1.0000391127 +x_0=60045.7200914401 +y_0=44091.434493269 +ellps=GRS80 +units=us-ft +no_defs",
-  103409: "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=1.0000463003 +x_0=199949.198983998 +y_0=0.00853441706883413 +ellps=GRS80 +units=us-ft +no_defs",
-  103410: "+proj=lcc +lat_1=43.4625466458333 +lat_0=43.4625466458333 +lon_0=-89.3944444444444 +k_0=1.00003498 +x_0=169164.338023876 +y_0=111569.613512827 +ellps=GRS80 +units=us-ft +no_defs",
-  103411: "+proj=lcc +lat_1=43.200055605 +lat_0=43.200055605 +lon_0=-90.9388888888889 +k_0=1.0000349151 +x_0=113690.627381255 +y_0=53703.1202438405 +ellps=GRS80 +units=us-ft +no_defs",
-  103412: "+proj=lcc +lat_1=43.0695160375 +lat_0=43.0695160375 +lon_0=-89.4222222222222 +k_0=1.0000384786 +x_0=247193.294386589 +y_0=146591.989636779 +ellps=GRS80 +units=us-ft +no_defs",
-  103413: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.726390653 +y_0=0.00762001524003048 +ellps=GRS80 +units=us-ft +no_defs",
-  103414: "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=1.0000187521 +x_0=158801.117602235 +y_0=0.00243840487680975 +ellps=GRS80 +units=us-ft +no_defs",
+  103407:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
+  103408:
+    "+proj=lcc +lat_1=44.9778568986111 +lat_0=44.9778568986111 +lon_0=-91.2944444444444 +k_0=1.0000391127 +x_0=60045.7200914401 +y_0=44091.434493269 +ellps=GRS80 +units=us-ft +no_defs",
+  103409:
+    "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=1.0000463003 +x_0=199949.198983998 +y_0=0.00853441706883413 +ellps=GRS80 +units=us-ft +no_defs",
+  103410:
+    "+proj=lcc +lat_1=43.4625466458333 +lat_0=43.4625466458333 +lon_0=-89.3944444444444 +k_0=1.00003498 +x_0=169164.338023876 +y_0=111569.613512827 +ellps=GRS80 +units=us-ft +no_defs",
+  103411:
+    "+proj=lcc +lat_1=43.200055605 +lat_0=43.200055605 +lon_0=-90.9388888888889 +k_0=1.0000349151 +x_0=113690.627381255 +y_0=53703.1202438405 +ellps=GRS80 +units=us-ft +no_defs",
+  103412:
+    "+proj=lcc +lat_1=43.0695160375 +lat_0=43.0695160375 +lon_0=-89.4222222222222 +k_0=1.0000384786 +x_0=247193.294386589 +y_0=146591.989636779 +ellps=GRS80 +units=us-ft +no_defs",
+  103413:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.726390653 +y_0=0.00762001524003048 +ellps=GRS80 +units=us-ft +no_defs",
+  103414:
+    "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=1.0000187521 +x_0=158801.117602235 +y_0=0.00243840487680975 +ellps=GRS80 +units=us-ft +no_defs",
   104304: "+proj=longlat +ellps=clrk80ign +no_defs",
-  103415: "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=1.0000385418 +x_0=59131.3182626365 +y_0=0.00396240792481585 +ellps=GRS80 +units=us-ft +no_defs",
-  103416: "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=1.0000410324 +x_0=51816.1039370078 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
-  103417: "+proj=lcc +lat_1=44.8722811263889 +lat_0=44.8722811263889 +lon_0=-91.2888888888889 +k_0=1.000035079 +x_0=120091.44018288 +y_0=91687.9239014477 +ellps=GRS80 +units=us-ft +no_defs",
-  103418: "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.668224536 +y_0=0.0064008128016256 +ellps=GRS80 +units=us-ft +no_defs",
-  103419: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
-  103420: "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=1.0000673004 +x_0=275844.553213106 +y_0=0.0158496316992634 +ellps=GRS80 +units=us-ft +no_defs",
-  103421: "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=1.0000349452 +x_0=242316.484023368 +y_0=0.0100584201168402 +ellps=GRS80 +units=us-ft +no_defs",
-  103422: "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.74015748 +y_0=45830.2948437897 +ellps=GRS80 +units=us-ft +no_defs",
+  103415:
+    "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=1.0000385418 +x_0=59131.3182626365 +y_0=0.00396240792481585 +ellps=GRS80 +units=us-ft +no_defs",
+  103416:
+    "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=1.0000410324 +x_0=51816.1039370078 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
+  103417:
+    "+proj=lcc +lat_1=44.8722811263889 +lat_0=44.8722811263889 +lon_0=-91.2888888888889 +k_0=1.000035079 +x_0=120091.44018288 +y_0=91687.9239014477 +ellps=GRS80 +units=us-ft +no_defs",
+  103418:
+    "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=1.0000552095 +x_0=133502.668224536 +y_0=0.0064008128016256 +ellps=GRS80 +units=us-ft +no_defs",
+  103419:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
+  103420:
+    "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=1.0000673004 +x_0=275844.553213106 +y_0=0.0158496316992634 +ellps=GRS80 +units=us-ft +no_defs",
+  103421:
+    "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=1.0000349452 +x_0=242316.484023368 +y_0=0.0100584201168402 +ellps=GRS80 +units=us-ft +no_defs",
+  103422:
+    "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.74015748 +y_0=45830.2948437897 +ellps=GRS80 +units=us-ft +no_defs",
   104305: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  103423: "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.301752603 +y_0=79170.7793751587 +ellps=GRS80 +units=us-ft +no_defs",
-  103424: "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.026162052 +y_0=0.00457200914401829 +ellps=GRS80 +units=us-ft +no_defs",
-  103425: "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=1.0000677153 +x_0=220980.441960884 +y_0=0.00853441706883413 +ellps=GRS80 +units=us-ft +no_defs",
-  103426: "+proj=tmerc +lat_0=44.2533351277778 +lon_0=-90.8442965194444 +k=1.0000353 +x_0=27000 +y_0=24999.9998983998 +ellps=GRS80 +units=us-ft +no_defs",
-  103427: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.726390653 +y_0=0.00762001524003048 +ellps=GRS80 +units=us-ft +no_defs",
-  103428: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.694132588 +y_0=0.00365760731521463 +ellps=GRS80 +units=us-ft +no_defs",
-  103429: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
-  103430: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.761544323 +y_0=0.00121920243840488 +ellps=GRS80 +units=us-ft +no_defs",
+  103423:
+    "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.301752603 +y_0=79170.7793751587 +ellps=GRS80 +units=us-ft +no_defs",
+  103424:
+    "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=1.0000394961 +x_0=113081.026162052 +y_0=0.00457200914401829 +ellps=GRS80 +units=us-ft +no_defs",
+  103425:
+    "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=1.0000677153 +x_0=220980.441960884 +y_0=0.00853441706883413 +ellps=GRS80 +units=us-ft +no_defs",
+  103426:
+    "+proj=tmerc +lat_0=44.2533351277778 +lon_0=-90.8442965194444 +k=1.0000353 +x_0=27000 +y_0=24999.9998983998 +ellps=GRS80 +units=us-ft +no_defs",
+  103427:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=1.0000346418 +x_0=263347.726390653 +y_0=0.00762001524003048 +ellps=GRS80 +units=us-ft +no_defs",
+  103428:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=1.0000365285 +x_0=147218.694132588 +y_0=0.00365760731521463 +ellps=GRS80 +units=us-ft +no_defs",
+  103429:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
+  103430:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.761544323 +y_0=0.00121920243840488 +ellps=GRS80 +units=us-ft +no_defs",
   104700: "+proj=longlat +a=6378418.941 +rf=298.257222100883 +no_defs",
-  103431: "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=1.0000319985 +x_0=130454.659690119 +y_0=0.00335280670561341 +ellps=GRS80 +units=us-ft +no_defs",
-  103432: "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.74015748 +y_0=45830.2948437897 +ellps=GRS80 +units=us-ft +no_defs",
-  103433: "+proj=lcc +lat_1=45.1542371052778 +lat_0=45.1542371052778 +lon_0=-89.0333333333333 +k_0=1.0000627024 +x_0=198425.196850394 +y_0=105279.782880366 +ellps=GRS80 +units=us-ft +no_defs",
-  103434: "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=1.0000599003 +x_0=116129.032258064 +y_0=0.00579121158242316 +ellps=GRS80 +units=us-ft +no_defs",
-  103435: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.761544323 +y_0=0.00121920243840488 +ellps=GRS80 +units=us-ft +no_defs",
-  103436: "+proj=lcc +lat_1=44.9009044236111 +lat_0=44.9009044236111 +lon_0=-89.77 +k_0=1.000053289 +x_0=74676.1493522987 +y_0=55049.2669545339 +ellps=GRS80 +units=us-ft +no_defs",
-  103437: "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=1.0000234982 +x_0=238658.879451359 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
-  103438: "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.301752603 +y_0=79170.7793751587 +ellps=GRS80 +units=us-ft +no_defs",
+  103431:
+    "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=1.0000319985 +x_0=130454.659690119 +y_0=0.00335280670561341 +ellps=GRS80 +units=us-ft +no_defs",
+  103432:
+    "+proj=lcc +lat_1=42.6375622769444 +lat_0=42.6375622769444 +lon_0=-89.8388888888889 +k_0=1.0000390487 +x_0=170078.74015748 +y_0=45830.2948437897 +ellps=GRS80 +units=us-ft +no_defs",
+  103433:
+    "+proj=lcc +lat_1=45.1542371052778 +lat_0=45.1542371052778 +lon_0=-89.0333333333333 +k_0=1.0000627024 +x_0=198425.196850394 +y_0=105279.782880366 +ellps=GRS80 +units=us-ft +no_defs",
+  103434:
+    "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=1.0000599003 +x_0=116129.032258064 +y_0=0.00579121158242316 +ellps=GRS80 +units=us-ft +no_defs",
+  103435:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.761544323 +y_0=0.00121920243840488 +ellps=GRS80 +units=us-ft +no_defs",
+  103436:
+    "+proj=lcc +lat_1=44.9009044236111 +lat_0=44.9009044236111 +lon_0=-89.77 +k_0=1.000053289 +x_0=74676.1493522987 +y_0=55049.2669545339 +ellps=GRS80 +units=us-ft +no_defs",
+  103437:
+    "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=1.0000234982 +x_0=238658.879451359 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
+  103438:
+    "+proj=lcc +lat_1=43.8070001177778 +lat_0=43.8070001177778 +lon_0=-89.2416666666667 +k_0=1.0000344057 +x_0=150876.301752603 +y_0=79170.7793751587 +ellps=GRS80 +units=us-ft +no_defs",
   104701: "+proj=longlat +a=6378586.581 +rf=298.257222100883 +no_defs",
-  103439: "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=1.0000362499 +x_0=105461.012141224 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
-  103440: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
-  103441: "+proj=lcc +lat_1=44.0000739286111 +lat_0=44.0000739286111 +lon_0=-90.6416666666667 +k_0=1.0000434122 +x_0=204521.209042418 +y_0=121923.986182372 +ellps=GRS80 +units=us-ft +no_defs",
-  103442: "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=1.0000236869 +x_0=182880.367589535 +y_0=0.00335280670561341 +ellps=GRS80 +units=us-ft +no_defs",
-  103443: "+proj=lcc +lat_1=45.7042237702778 +lat_0=45.7042237702778 +lon_0=-89.5444444444444 +k_0=1.0000686968 +x_0=70104.1402082804 +y_0=57588.0347472695 +ellps=GRS80 +units=us-ft +no_defs",
-  103444: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
-  103445: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
-  103446: "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.33528067 +y_0=86033.0877317754 +ellps=GRS80 +units=us-ft +no_defs",
+  103439:
+    "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=1.0000362499 +x_0=105461.012141224 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
+  103440:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
+  103441:
+    "+proj=lcc +lat_1=44.0000739286111 +lat_0=44.0000739286111 +lon_0=-90.6416666666667 +k_0=1.0000434122 +x_0=204521.209042418 +y_0=121923.986182372 +ellps=GRS80 +units=us-ft +no_defs",
+  103442:
+    "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=1.0000236869 +x_0=182880.367589535 +y_0=0.00335280670561341 +ellps=GRS80 +units=us-ft +no_defs",
+  103443:
+    "+proj=lcc +lat_1=45.7042237702778 +lat_0=45.7042237702778 +lon_0=-89.5444444444444 +k_0=1.0000686968 +x_0=70104.1402082804 +y_0=57588.0347472695 +ellps=GRS80 +units=us-ft +no_defs",
+  103444:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
+  103445:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
+  103446:
+    "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.33528067 +y_0=86033.0877317754 +ellps=GRS80 +units=us-ft +no_defs",
   104702: "+proj=longlat +a=6378505.809 +rf=298.257222100883 +no_defs",
-  103447: "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.33528067 +y_0=86033.0877317754 +ellps=GRS80 +units=us-ft +no_defs",
-  103448: "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1.0000433849 +x_0=141732.282245364 +y_0=0.00579121158242316 +ellps=GRS80 +units=us-ft +no_defs",
-  103449: "+proj=lcc +lat_1=44.4168239752778 +lat_0=44.4168239752778 +lon_0=-89.5 +k_0=1.000039936 +x_0=56388.1127762255 +y_0=50022.1874523749 +ellps=GRS80 +units=us-ft +no_defs",
-  103450: "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=1.0000649554 +x_0=227990.854457709 +y_0=0.0109728219456439 +ellps=GRS80 +units=us-ft +no_defs",
-  103451: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
-  103452: "+proj=lcc +lat_1=43.3223129275 +lat_0=43.3223129275 +lon_0=-90.4305555555556 +k_0=1.0000375653 +x_0=202387.604775209 +y_0=134255.425450851 +ellps=GRS80 +units=us-ft +no_defs",
-  103453: "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=1.0000337311 +x_0=146304.292608585 +y_0=0.00670561341122682 +ellps=GRS80 +units=us-ft +no_defs",
-  103454: "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=1.0000495976 +x_0=250546.101397003 +y_0=0.0234696469392939 +ellps=GRS80 +units=us-ft +no_defs",
+  103447:
+    "+proj=lcc +lat_1=44.6361488719444 +lat_0=44.6361488719444 +lon_0=-92.2277777777778 +k_0=1.0000362977 +x_0=167640.33528067 +y_0=86033.0877317754 +ellps=GRS80 +units=us-ft +no_defs",
+  103448:
+    "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1.0000433849 +x_0=141732.282245364 +y_0=0.00579121158242316 +ellps=GRS80 +units=us-ft +no_defs",
+  103449:
+    "+proj=lcc +lat_1=44.4168239752778 +lat_0=44.4168239752778 +lon_0=-89.5 +k_0=1.000039936 +x_0=56388.1127762255 +y_0=50022.1874523749 +ellps=GRS80 +units=us-ft +no_defs",
+  103450:
+    "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=1.0000649554 +x_0=227990.854457709 +y_0=0.0109728219456439 +ellps=GRS80 +units=us-ft +no_defs",
+  103451:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=1.0000260649 +x_0=185928.372771145 +y_0=0.000914401828803657 +ellps=GRS80 +units=us-ft +no_defs",
+  103452:
+    "+proj=lcc +lat_1=43.3223129275 +lat_0=43.3223129275 +lon_0=-90.4305555555556 +k_0=1.0000375653 +x_0=202387.604775209 +y_0=134255.425450851 +ellps=GRS80 +units=us-ft +no_defs",
+  103453:
+    "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=1.0000337311 +x_0=146304.292608585 +y_0=0.00670561341122682 +ellps=GRS80 +units=us-ft +no_defs",
+  103454:
+    "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=1.0000495976 +x_0=250546.101397003 +y_0=0.0234696469392939 +ellps=GRS80 +units=us-ft +no_defs",
   104703: "+proj=longlat +a=6378544.823 +rf=298.257222100883 +no_defs",
-  103455: "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=1.0000373868 +x_0=185623.571551943 +y_0=0.00518161036322072 +ellps=GRS80 +units=us-ft +no_defs",
-  103456: "+proj=lcc +lat_1=45.9000991313889 +lat_0=45.9000991313889 +lon_0=-91.1166666666667 +k_0=1.0000573461 +x_0=216713.233731267 +y_0=120734.163169926 +ellps=GRS80 +units=us-ft +no_defs",
-  103457: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=1.000032144 +x_0=262433.32517145 +y_0=0.00944881889763779 +ellps=GRS80 +units=us-ft +no_defs",
-  103458: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.761544323 +y_0=0.00121920243840488 +ellps=GRS80 +units=us-ft +no_defs",
-  103459: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=1.0000381803 +x_0=165506.73009906 +y_0=0.0103632207264414 +ellps=GRS80 +units=us-ft +no_defs",
-  103460: "+proj=lcc +lat_1=45.1778220858333 +lat_0=45.1778220858333 +lon_0=-90.4833333333333 +k_0=1.0000597566 +x_0=187147.574295148 +y_0=107746.752146304 +ellps=GRS80 +units=us-ft +no_defs",
-  103461: "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=1.0000361538 +x_0=256946.913893828 +y_0=0.00396240792481585 +ellps=GRS80 +units=us-ft +no_defs",
-  103462: "+proj=lcc +lat_1=43.5750329397222 +lat_0=43.5750329397222 +lon_0=-90.7833333333333 +k_0=1.0000408158 +x_0=222504.44500889 +y_0=47532.0603505207 +ellps=GRS80 +units=us-ft +no_defs",
+  103455:
+    "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=1.0000373868 +x_0=185623.571551943 +y_0=0.00518161036322072 +ellps=GRS80 +units=us-ft +no_defs",
+  103456:
+    "+proj=lcc +lat_1=45.9000991313889 +lat_0=45.9000991313889 +lon_0=-91.1166666666667 +k_0=1.0000573461 +x_0=216713.233731267 +y_0=120734.163169926 +ellps=GRS80 +units=us-ft +no_defs",
+  103457:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=1.000032144 +x_0=262433.32517145 +y_0=0.00944881889763779 +ellps=GRS80 +units=us-ft +no_defs",
+  103458:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1.0000233704 +x_0=79857.761544323 +y_0=0.00121920243840488 +ellps=GRS80 +units=us-ft +no_defs",
+  103459:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=1.0000381803 +x_0=165506.73009906 +y_0=0.0103632207264414 +ellps=GRS80 +units=us-ft +no_defs",
+  103460:
+    "+proj=lcc +lat_1=45.1778220858333 +lat_0=45.1778220858333 +lon_0=-90.4833333333333 +k_0=1.0000597566 +x_0=187147.574295148 +y_0=107746.752146304 +ellps=GRS80 +units=us-ft +no_defs",
+  103461:
+    "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=1.0000361538 +x_0=256946.913893828 +y_0=0.00396240792481585 +ellps=GRS80 +units=us-ft +no_defs",
+  103462:
+    "+proj=lcc +lat_1=43.5750329397222 +lat_0=43.5750329397222 +lon_0=-90.7833333333333 +k_0=1.0000408158 +x_0=222504.44500889 +y_0=47532.0603505207 +ellps=GRS80 +units=us-ft +no_defs",
   104704: "+proj=longlat +a=6378490.569 +rf=298.257222100883 +no_defs",
-  103463: "+proj=lcc +lat_1=46.0778440905556 +lat_0=46.0778440905556 +lon_0=-89.4888888888889 +k_0=1.0000730142 +x_0=134417.068834138 +y_0=50337.1092710185 +ellps=GRS80 +units=us-ft +no_defs",
-  103464: "+proj=lcc +lat_1=42.6694620969444 +lat_0=42.6694620969444 +lon_0=-88.5416666666667 +k_0=1.0000367192 +x_0=232562.86512573 +y_0=111088.222402845 +ellps=GRS80 +units=us-ft +no_defs",
-  103465: "+proj=lcc +lat_1=45.9612198333333 +lat_0=45.9612198333333 +lon_0=-91.7833333333333 +k_0=1.0000475376 +x_0=234086.868173736 +y_0=188358.605943612 +ellps=GRS80 +units=us-ft +no_defs",
-  103466: "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=1.00003738 +x_0=120091.441402083 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
-  103467: "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=1.0000346179 +x_0=208788.417881636 +y_0=0.00335280670561341 +ellps=GRS80 +units=us-ft +no_defs",
-  103468: "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=1.0000333645 +x_0=185013.970942342 +y_0=0.00701041402082804 +ellps=GRS80 +units=us-ft +no_defs",
-  103469: "+proj=lcc +lat_1=44.1139440458333 +lat_0=44.1139440458333 +lon_0=-89.2416666666667 +k_0=1.0000392096 +x_0=120091.44018288 +y_0=45069.7588011176 +ellps=GRS80 +units=us-ft +no_defs",
-  103470: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
+  103463:
+    "+proj=lcc +lat_1=46.0778440905556 +lat_0=46.0778440905556 +lon_0=-89.4888888888889 +k_0=1.0000730142 +x_0=134417.068834138 +y_0=50337.1092710185 +ellps=GRS80 +units=us-ft +no_defs",
+  103464:
+    "+proj=lcc +lat_1=42.6694620969444 +lat_0=42.6694620969444 +lon_0=-88.5416666666667 +k_0=1.0000367192 +x_0=232562.86512573 +y_0=111088.222402845 +ellps=GRS80 +units=us-ft +no_defs",
+  103465:
+    "+proj=lcc +lat_1=45.9612198333333 +lat_0=45.9612198333333 +lon_0=-91.7833333333333 +k_0=1.0000475376 +x_0=234086.868173736 +y_0=188358.605943612 +ellps=GRS80 +units=us-ft +no_defs",
+  103466:
+    "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=1.00003738 +x_0=120091.441402083 +y_0=0.00304800609601219 +ellps=GRS80 +units=us-ft +no_defs",
+  103467:
+    "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=1.0000346179 +x_0=208788.417881636 +y_0=0.00335280670561341 +ellps=GRS80 +units=us-ft +no_defs",
+  103468:
+    "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=1.0000333645 +x_0=185013.970942342 +y_0=0.00701041402082804 +ellps=GRS80 +units=us-ft +no_defs",
+  103469:
+    "+proj=lcc +lat_1=44.1139440458333 +lat_0=44.1139440458333 +lon_0=-89.2416666666667 +k_0=1.0000392096 +x_0=120091.44018288 +y_0=45069.7588011176 +ellps=GRS80 +units=us-ft +no_defs",
+  103470:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=1.0000286569 +x_0=244754.889204978 +y_0=0.0048768097536195 +ellps=GRS80 +units=us-ft +no_defs",
   104725: "+proj=longlat +a=6378518.001 +rf=298.257222100883 +no_defs",
-  103471: "+proj=lcc +lat_1=44.3625954694444 +lat_0=44.3625954694444 +lon_0=-90 +k_0=1.0000421209 +x_0=208483.617272034 +y_0=134589.753924308 +ellps=GRS80 +units=us-ft +no_defs",
-  103472: "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103473: "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103474: "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103475: "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103476: "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +units=m +no_defs",
-  103477: "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
-  103478: "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
-  103479: "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
-  103480: "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103481: "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  103482: "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103483: "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103484: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103485: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103486: "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103487: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103488: "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103489: "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103490: "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103491: "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103492: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103493: "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103494: "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103495: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103496: "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103497: "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103498: "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103499: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103500: "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103501: "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103502: "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103503: "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103504: "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103505: "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
-  103506: "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103507: "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103508: "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103509: "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103510: "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103511: "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103512: "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103513: "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103471:
+    "+proj=lcc +lat_1=44.3625954694444 +lat_0=44.3625954694444 +lon_0=-90 +k_0=1.0000421209 +x_0=208483.617272034 +y_0=134589.753924308 +ellps=GRS80 +units=us-ft +no_defs",
+  103472:
+    "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103473:
+    "+proj=lcc +lat_0=44.25 +lon_0=-109.5 +lat_1=45 +lat_2=49 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103474:
+    "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103475:
+    "+proj=lcc +lat_0=39.8333333333333 +lon_0=-100 +lat_1=40 +lat_2=43 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103476:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000 +ellps=GRS80 +units=m +no_defs",
+  103477:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=m +no_defs",
+  103478:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
+  103479:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-115.583333333333 +k=0.9999 +x_0=200000 +y_0=8000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
+  103480:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-116.666666666667 +k=0.9999 +x_0=500000 +y_0=6000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103481:
+    "+proj=tmerc +lat_0=34.75 +lon_0=-118.583333333333 +k=0.9999 +x_0=800000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103482:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103483:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-71.6666666666667 +k=0.999966666666667 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103484:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103485:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103486:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103487:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103488:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103489:
+    "+proj=tmerc +lat_0=31 +lon_0=-104.333333333333 +k=0.999909090909091 +x_0=165000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103490:
+    "+proj=tmerc +lat_0=31 +lon_0=-106.25 +k=0.9999 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103491:
+    "+proj=tmerc +lat_0=31 +lon_0=-107.833333333333 +k=0.999916666666667 +x_0=830000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103492:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103493:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103494:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103495:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103496:
+    "+proj=tmerc +lat_0=38.8333333333333 +lon_0=-74.5 +k=0.9999 +x_0=150000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103497:
+    "+proj=tmerc +lat_0=40 +lon_0=-76.5833333333333 +k=0.9999375 +x_0=250000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103498:
+    "+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=350000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103499:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-74 +lat_1=40.6666666666667 +lat_2=41.0333333333333 +x_0=300000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103500:
+    "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103501:
+    "+proj=lcc +lat_0=33.75 +lon_0=-79 +lat_1=34.3333333333333 +lat_2=36.1666666666667 +x_0=609601.219202438 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103502:
+    "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103503:
+    "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103504:
+    "+proj=lcc +lat_0=47 +lon_0=-100.5 +lat_1=47.4333333333333 +lat_2=48.7333333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103505:
+    "+proj=lcc +lat_0=45.6666666666667 +lon_0=-100.5 +lat_1=46.1833333333333 +lat_2=47.4833333333333 +x_0=599999.999999999 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103506:
+    "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103507:
+    "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103508:
+    "+proj=lcc +lat_0=39.6666666666667 +lon_0=-82.5 +lat_1=40.4333333333333 +lat_2=41.7 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103509:
+    "+proj=lcc +lat_0=38 +lon_0=-82.5 +lat_1=38.7333333333333 +lat_2=40.0333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103510:
+    "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103511:
+    "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103512:
+    "+proj=lcc +lat_0=35 +lon_0=-98 +lat_1=35.5666666666667 +lat_2=36.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103513:
+    "+proj=lcc +lat_0=33.3333333333333 +lon_0=-98 +lat_1=33.9333333333333 +lat_2=35.2333333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
   104920: "+proj=longlat +R=12000 +no_defs",
-  103514: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103515: "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103516: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103517: "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103518: "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103519: "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103520: "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103521: "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
+  103514:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103515:
+    "+proj=lcc +lat_0=40.1666666666667 +lon_0=-77.75 +lat_1=40.8833333333333 +lat_2=41.95 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103516:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103517:
+    "+proj=lcc +lat_0=39.3333333333333 +lon_0=-77.75 +lat_1=39.9333333333333 +lat_2=40.9666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103518:
+    "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103519:
+    "+proj=tmerc +lat_0=41.0833333333333 +lon_0=-71.5 +k=0.99999375 +x_0=100000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103520:
+    "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103521:
+    "+proj=lcc +lat_0=31.8333333333333 +lon_0=-81 +lat_1=32.5 +lat_2=34.8333333333333 +x_0=609600 +y_0=0 +ellps=GRS80 +units=ft +no_defs",
   104705: "+proj=longlat +a=6378470.757 +rf=298.257222100883 +no_defs",
-  103522: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103523: "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103524: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103525: "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103526: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103527: "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103522:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103523:
+    "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103524:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-100 +lat_1=44.4166666666667 +lat_2=45.6833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103525:
+    "+proj=lcc +lat_0=42.3333333333333 +lon_0=-100.333333333333 +lat_1=42.8333333333333 +lat_2=44.4 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103526:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103527:
+    "+proj=lcc +lat_0=34.3333333333333 +lon_0=-86 +lat_1=35.25 +lat_2=36.4166666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
   103528: "+proj=utm +zone=28 +ellps=WGS84 +units=m +no_defs",
   103529: "+proj=utm +zone=29 +ellps=WGS84 +units=m +no_defs",
   103530: "+proj=utm +zone=30 +ellps=WGS84 +units=m +no_defs",
   103537: "+proj=utm +zone=37 +ellps=WGS84 +units=m +no_defs",
   103538: "+proj=utm +zone=38 +ellps=WGS84 +units=m +no_defs",
-  103539: "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103540: "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  103541: "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
-  103542: "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
-  103543: "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
-  103544: "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103539:
+    "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103540:
+    "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  103541:
+    "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=700000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
+  103542:
+    "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=4000000 +ellps=GRS80 +units=m +no_defs",
+  103543:
+    "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000 +ellps=GRS80 +units=m +no_defs",
+  103544:
+    "+proj=lcc +lat_0=34 +lon_0=-101.5 +lat_1=34.65 +lat_2=36.1833333333333 +x_0=200000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
   103797: "+proj=utm +zone=14 +ellps=GRS80 +units=m +no_defs",
-  103545: "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103546: "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=699999.999999999 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103547: "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
-  103548: "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
-  103549: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103550: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  103551: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
-  103552: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=ft +no_defs",
-  103553: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=ft +no_defs",
-  103554: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=ft +no_defs",
-  103555: "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103556: "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103557: "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103558: "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103559: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
-  103560: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
-  103561: "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000.00000001 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
-  103562: "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000.00000001 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
-  103563: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103564: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103565: "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103566: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103567: "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103568: "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103569: "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103570: "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103571: "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103572: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103573: "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103574: "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103575: "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103576: "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103545:
+    "+proj=lcc +lat_0=31.6666666666667 +lon_0=-98.5 +lat_1=32.1333333333333 +lat_2=33.9666666666667 +x_0=600000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103546:
+    "+proj=lcc +lat_0=29.6666666666667 +lon_0=-100.333333333333 +lat_1=30.1166666666667 +lat_2=31.8833333333333 +x_0=699999.999999999 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103547:
+    "+proj=lcc +lat_0=27.8333333333333 +lon_0=-99 +lat_1=28.3833333333333 +lat_2=30.2833333333333 +x_0=600000 +y_0=3999999.99999999 +ellps=GRS80 +units=us-ft +no_defs",
+  103548:
+    "+proj=lcc +lat_0=25.6666666666667 +lon_0=-98.5 +lat_1=26.1666666666667 +lat_2=27.8333333333333 +x_0=300000 +y_0=5000000.00000001 +ellps=GRS80 +units=us-ft +no_defs",
+  103549:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103550:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  103551:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=m +no_defs",
+  103552:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=1000000 +ellps=GRS80 +units=ft +no_defs",
+  103553:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=ft +no_defs",
+  103554:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=ft +no_defs",
+  103555:
+    "+proj=lcc +lat_0=40.3333333333333 +lon_0=-111.5 +lat_1=40.7166666666667 +lat_2=41.7833333333333 +x_0=500000 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103556:
+    "+proj=lcc +lat_0=38.3333333333333 +lon_0=-111.5 +lat_1=39.0166666666667 +lat_2=40.65 +x_0=500000 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103557:
+    "+proj=lcc +lat_0=36.6666666666667 +lon_0=-111.5 +lat_1=37.2166666666667 +lat_2=38.35 +x_0=500000 +y_0=3000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103558:
+    "+proj=tmerc +lat_0=42.5 +lon_0=-72.5 +k=0.999964285714286 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103559:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs",
+  103560:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000 +y_0=1000000 +ellps=GRS80 +units=m +no_defs",
+  103561:
+    "+proj=lcc +lat_0=37.6666666666667 +lon_0=-78.5 +lat_1=38.0333333333333 +lat_2=39.2 +x_0=3500000.00000001 +y_0=2000000 +ellps=GRS80 +units=us-ft +no_defs",
+  103562:
+    "+proj=lcc +lat_0=36.3333333333333 +lon_0=-78.5 +lat_1=36.7666666666667 +lat_2=37.9666666666667 +x_0=3500000.00000001 +y_0=999999.999999998 +ellps=GRS80 +units=us-ft +no_defs",
+  103563:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103564:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103565:
+    "+proj=lcc +lat_0=47 +lon_0=-120.833333333333 +lat_1=47.5 +lat_2=48.7333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103566:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-120.5 +lat_1=45.8333333333333 +lat_2=47.3333333333333 +x_0=500000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103567:
+    "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103568:
+    "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103569:
+    "+proj=lcc +lat_0=38.5 +lon_0=-79.5 +lat_1=39 +lat_2=40.25 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103570:
+    "+proj=lcc +lat_0=37 +lon_0=-81 +lat_1=37.4833333333333 +lat_2=38.8833333333333 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103571:
+    "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103572:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103573:
+    "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103574:
+    "+proj=lcc +lat_0=45.1666666666667 +lon_0=-90 +lat_1=45.5666666666667 +lat_2=46.7666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103575:
+    "+proj=lcc +lat_0=43.8333333333333 +lon_0=-90 +lat_1=44.25 +lat_2=45.5 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103576:
+    "+proj=lcc +lat_0=42 +lon_0=-90 +lat_1=42.7333333333333 +lat_2=44.0666666666667 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
   104912: "+proj=longlat +R=2409300 +no_defs",
-  103577: "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103578: "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103579: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
-  103580: "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
-  103581: "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103582: "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=399999.999999999 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103583: "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
-  103584: "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
-  103585: "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
-  103600: "+proj=tmerc +lat_0=46.1541666666667 +lon_0=-93.4325 +k=1.000059152669 +x_0=152409.319685395 +y_0=30481.863937079 +ellps=GRS80 +units=m +no_defs",
-  103601: "+proj=tmerc +lat_0=46.63 +lon_0=-96.7 +k=1.000045317862 +x_0=152407.211256591 +y_0=30481.4422513183 +ellps=GRS80 +units=m +no_defs",
-  103602: "+proj=tmerc +lat_0=47.1516666666667 +lon_0=-95.3758333333333 +k=1.000072505661 +x_0=152411.354685446 +y_0=30482.2709370892 +ellps=GRS80 +units=m +no_defs",
-  103603: "+proj=tmerc +lat_0=46.8036111111111 +lon_0=-94.9205555555556 +k=1.000071553661 +x_0=152411.209600356 +y_0=30482.2419200711 +ellps=GRS80 +units=m +no_defs",
-  103604: "+proj=tmerc +lat_0=47.0666666666667 +lon_0=-91.4091666666667 +k=1.000075844621 +x_0=152411.863543968 +y_0=30482.3727087935 +ellps=GRS80 +units=m +no_defs",
-  103605: "+proj=tmerc +lat_0=45.5588888888889 +lon_0=-93.6205555555556 +k=1.000054146138 +x_0=152408.556688545 +y_0=30481.7113377089 +ellps=GRS80 +units=m +no_defs",
-  103606: "+proj=tmerc +lat_0=44.7458333333333 +lon_0=-92.8333333333333 +k=1.000039836799 +x_0=152406.37594092 +y_0=30481.2751881839 +ellps=GRS80 +units=m +no_defs",
-  103607: "+proj=tmerc +lat_0=46.0216666666667 +lon_0=-96.5244444444444 +k=1.000048901066 +x_0=152407.757337973 +y_0=30481.5514675946 +ellps=GRS80 +units=m +no_defs",
+  103577:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103578:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=400000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103579:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=m +no_defs",
+  103580:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=m +no_defs",
+  103581:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-105.166666666667 +k=0.9999375 +x_0=200000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103582:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-107.333333333333 +k=0.9999375 +x_0=399999.999999999 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103583:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-108.75 +k=0.9999375 +x_0=600000 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs",
+  103584:
+    "+proj=tmerc +lat_0=0 +lon_0=24 +k=0.9996 +x_0=500000 +y_0=0 +ellps=WGS84 +units=m +no_defs",
+  103585:
+    "+proj=tmerc +lat_0=40.5 +lon_0=-110.083333333333 +k=0.9999375 +x_0=800000 +y_0=100000 +ellps=GRS80 +units=us-ft +no_defs",
+  103600:
+    "+proj=tmerc +lat_0=46.1541666666667 +lon_0=-93.4325 +k=1.000059152669 +x_0=152409.319685395 +y_0=30481.863937079 +ellps=GRS80 +units=m +no_defs",
+  103601:
+    "+proj=tmerc +lat_0=46.63 +lon_0=-96.7 +k=1.000045317862 +x_0=152407.211256591 +y_0=30481.4422513183 +ellps=GRS80 +units=m +no_defs",
+  103602:
+    "+proj=tmerc +lat_0=47.1516666666667 +lon_0=-95.3758333333333 +k=1.000072505661 +x_0=152411.354685446 +y_0=30482.2709370892 +ellps=GRS80 +units=m +no_defs",
+  103603:
+    "+proj=tmerc +lat_0=46.8036111111111 +lon_0=-94.9205555555556 +k=1.000071553661 +x_0=152411.209600356 +y_0=30482.2419200711 +ellps=GRS80 +units=m +no_defs",
+  103604:
+    "+proj=tmerc +lat_0=47.0666666666667 +lon_0=-91.4091666666667 +k=1.000075844621 +x_0=152411.863543968 +y_0=30482.3727087935 +ellps=GRS80 +units=m +no_defs",
+  103605:
+    "+proj=tmerc +lat_0=45.5588888888889 +lon_0=-93.6205555555556 +k=1.000054146138 +x_0=152408.556688545 +y_0=30481.7113377089 +ellps=GRS80 +units=m +no_defs",
+  103606:
+    "+proj=tmerc +lat_0=44.7458333333333 +lon_0=-92.8333333333333 +k=1.000039836799 +x_0=152406.37594092 +y_0=30481.2751881839 +ellps=GRS80 +units=m +no_defs",
+  103607:
+    "+proj=tmerc +lat_0=46.0216666666667 +lon_0=-96.5244444444444 +k=1.000048901066 +x_0=152407.757337973 +y_0=30481.5514675946 +ellps=GRS80 +units=m +no_defs",
   103798: "+proj=utm +zone=15 +ellps=GRS80 +units=m +no_defs",
-  103608: "+proj=lcc +lat_0=45.0352777777778 +lon_0=-93.2666666666667 +lat_1=45.0666666666667 +lat_2=45.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=m +no_defs",
-  103609: "+proj=lcc +lat_0=46.7177777777778 +lon_0=-95.6833333333333 +lat_1=46.7833333333333 +lat_2=47.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=m +no_defs",
-  103610: "+proj=lcc +lat_0=48.02 +lon_0=-95.0166666666667 +lat_1=48.1166666666667 +lat_2=48.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378505.809 +rf=298.257222100883 +units=m +no_defs",
-  103611: "+proj=lcc +lat_0=47.4125 +lon_0=-94.85 +lat_1=47.5 +lat_2=47.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378544.823 +rf=298.257222100883 +units=m +no_defs",
-  103612: "+proj=lcc +lat_0=45.5591666666667 +lon_0=-94.05 +lat_1=45.5833333333333 +lat_2=45.7833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378490.569 +rf=298.257222100883 +units=m +no_defs",
-  103613: "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=m +no_defs",
-  103614: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=m +no_defs",
+  103608:
+    "+proj=lcc +lat_0=45.0352777777778 +lon_0=-93.2666666666667 +lat_1=45.0666666666667 +lat_2=45.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=m +no_defs",
+  103609:
+    "+proj=lcc +lat_0=46.7177777777778 +lon_0=-95.6833333333333 +lat_1=46.7833333333333 +lat_2=47.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=m +no_defs",
+  103610:
+    "+proj=lcc +lat_0=48.02 +lon_0=-95.0166666666667 +lat_1=48.1166666666667 +lat_2=48.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378505.809 +rf=298.257222100883 +units=m +no_defs",
+  103611:
+    "+proj=lcc +lat_0=47.4125 +lon_0=-94.85 +lat_1=47.5 +lat_2=47.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378544.823 +rf=298.257222100883 +units=m +no_defs",
+  103612:
+    "+proj=lcc +lat_0=45.5591666666667 +lon_0=-94.05 +lat_1=45.5833333333333 +lat_2=45.7833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378490.569 +rf=298.257222100883 +units=m +no_defs",
+  103613:
+    "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=m +no_defs",
+  103614:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=m +no_defs",
   104706: "+proj=longlat +a=6378403.701 +rf=298.257222100883 +no_defs",
-  103615: "+proj=lcc +lat_0=44.1080555555556 +lon_0=-94.7333333333333 +lat_1=44.1666666666667 +lat_2=44.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
-  103616: "+proj=lcc +lat_0=46.4172222222222 +lon_0=-92.6833333333333 +lat_1=46.4666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378454.907 +rf=298.257222100883 +units=m +no_defs",
-  103617: "+proj=lcc +lat_0=44.6397222222222 +lon_0=-93.7666666666667 +lat_1=44.6833333333333 +lat_2=44.9 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378400.653 +rf=298.257222100883 +units=m +no_defs",
-  103618: "+proj=lcc +lat_0=46.8036111111111 +lon_0=-94.2166666666667 +lat_1=46.9166666666667 +lat_2=47.3166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378567.378 +rf=298.257222100883 +units=m +no_defs",
-  103619: "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=m +no_defs",
-  103620: "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=m +no_defs",
-  103621: "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=m +no_defs",
+  103615:
+    "+proj=lcc +lat_0=44.1080555555556 +lon_0=-94.7333333333333 +lat_1=44.1666666666667 +lat_2=44.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
+  103616:
+    "+proj=lcc +lat_0=46.4172222222222 +lon_0=-92.6833333333333 +lat_1=46.4666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378454.907 +rf=298.257222100883 +units=m +no_defs",
+  103617:
+    "+proj=lcc +lat_0=44.6397222222222 +lon_0=-93.7666666666667 +lat_1=44.6833333333333 +lat_2=44.9 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378400.653 +rf=298.257222100883 +units=m +no_defs",
+  103618:
+    "+proj=lcc +lat_0=46.8036111111111 +lon_0=-94.2166666666667 +lat_1=46.9166666666667 +lat_2=47.3166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378567.378 +rf=298.257222100883 +units=m +no_defs",
+  103619:
+    "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=m +no_defs",
+  103620:
+    "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=m +no_defs",
+  103621:
+    "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=m +no_defs",
   104707: "+proj=longlat +a=6378434.181 +rf=298.257222100883 +no_defs",
-  103622: "+proj=lcc +lat_0=47.8833333333333 +lon_0=-90.25 +lat_1=47.9333333333333 +lat_2=48.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=m +no_defs",
-  103623: "+proj=lcc +lat_0=47.4388888888889 +lon_0=-90.25 +lat_1=47.55 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=m +no_defs",
-  103624: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=m +no_defs",
-  103625: "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=m +no_defs",
-  103626: "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=m +no_defs",
-  103627: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
-  103628: "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=m +no_defs",
+  103622:
+    "+proj=lcc +lat_0=47.8833333333333 +lon_0=-90.25 +lat_1=47.9333333333333 +lat_2=48.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=m +no_defs",
+  103623:
+    "+proj=lcc +lat_0=47.4388888888889 +lon_0=-90.25 +lat_1=47.55 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=m +no_defs",
+  103624:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=m +no_defs",
+  103625:
+    "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=m +no_defs",
+  103626:
+    "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=m +no_defs",
+  103627:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
+  103628:
+    "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=m +no_defs",
   104708: "+proj=longlat +a=6378454.907 +rf=298.257222100883 +no_defs",
-  103629: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
-  103630: "+proj=lcc +lat_0=43.5 +lon_0=-92.0833333333333 +lat_1=43.55 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378464.661 +rf=298.257222100883 +units=m +no_defs",
-  103631: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
-  103632: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
-  103633: "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=m +no_defs",
-  103634: "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=m +no_defs",
-  103635: "+proj=lcc +lat_0=43.5 +lon_0=-91.4666666666667 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378436.619 +rf=298.257222100883 +units=m +no_defs",
+  103629:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
+  103630:
+    "+proj=lcc +lat_0=43.5 +lon_0=-92.0833333333333 +lat_1=43.55 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378464.661 +rf=298.257222100883 +units=m +no_defs",
+  103631:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
+  103632:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
+  103633:
+    "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=m +no_defs",
+  103634:
+    "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=m +no_defs",
+  103635:
+    "+proj=lcc +lat_0=43.5 +lon_0=-91.4666666666667 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378436.619 +rf=298.257222100883 +units=m +no_defs",
   103799: "+proj=utm +zone=16 +ellps=GRS80 +units=m +no_defs",
-  103636: "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=m +no_defs",
-  103637: "+proj=lcc +lat_0=47.5 +lon_0=-93.7333333333333 +lat_1=47.5666666666667 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=m +no_defs",
-  103638: "+proj=lcc +lat_0=47.0263888888889 +lon_0=-93.7333333333333 +lat_1=47.0833333333333 +lat_2=47.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=m +no_defs",
-  103639: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
-  103640: "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=m +no_defs",
-  103641: "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=m +no_defs",
-  103642: "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=m +no_defs",
+  103636:
+    "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=m +no_defs",
+  103637:
+    "+proj=lcc +lat_0=47.5 +lon_0=-93.7333333333333 +lat_1=47.5666666666667 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=m +no_defs",
+  103638:
+    "+proj=lcc +lat_0=47.0263888888889 +lon_0=-93.7333333333333 +lat_1=47.0833333333333 +lat_2=47.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=m +no_defs",
+  103639:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
+  103640:
+    "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=m +no_defs",
+  103641:
+    "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=m +no_defs",
+  103642:
+    "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=m +no_defs",
   104012: "+proj=longlat +ellps=WGS84 +no_defs",
-  103643: "+proj=lcc +lat_0=47.8458333333333 +lon_0=-93.75 +lat_1=48 +lat_2=48.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=m +no_defs",
-  103644: "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=m +no_defs",
-  103645: "+proj=lcc +lat_0=49.15 +lon_0=-94.9833333333333 +lat_1=49.1833333333333 +lat_2=49.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378466.185 +rf=298.257222100883 +units=m +no_defs",
-  103646: "+proj=lcc +lat_0=48.3661111111111 +lon_0=-94.8833333333333 +lat_1=48.45 +lat_2=48.8833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378496.665 +rf=298.257222100883 +units=m +no_defs",
-  103647: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
-  103648: "+proj=lcc +lat_0=44.1966666666667 +lon_0=-96.2666666666667 +lat_1=44.2833333333333 +lat_2=44.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378643.579 +rf=298.257222100883 +units=m +no_defs",
-  103649: "+proj=lcc +lat_0=44.1955555555556 +lon_0=-95.85 +lat_1=44.25 +lat_2=44.5833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378559.758 +rf=298.257222100883 +units=m +no_defs",
+  103643:
+    "+proj=lcc +lat_0=47.8458333333333 +lon_0=-93.75 +lat_1=48 +lat_2=48.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=m +no_defs",
+  103644:
+    "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=m +no_defs",
+  103645:
+    "+proj=lcc +lat_0=49.15 +lon_0=-94.9833333333333 +lat_1=49.1833333333333 +lat_2=49.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378466.185 +rf=298.257222100883 +units=m +no_defs",
+  103646:
+    "+proj=lcc +lat_0=48.3661111111111 +lon_0=-94.8833333333333 +lat_1=48.45 +lat_2=48.8833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378496.665 +rf=298.257222100883 +units=m +no_defs",
+  103647:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
+  103648:
+    "+proj=lcc +lat_0=44.1966666666667 +lon_0=-96.2666666666667 +lat_1=44.2833333333333 +lat_2=44.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378643.579 +rf=298.257222100883 +units=m +no_defs",
+  103649:
+    "+proj=lcc +lat_0=44.1955555555556 +lon_0=-95.85 +lat_1=44.25 +lat_2=44.5833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378559.758 +rf=298.257222100883 +units=m +no_defs",
   104013: "+proj=longlat +ellps=WGS84 +no_defs",
-  103650: "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=m +no_defs",
-  103651: "+proj=lcc +lat_0=47.1516666666667 +lon_0=-95.8166666666667 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=m +no_defs",
-  103652: "+proj=lcc +lat_0=48.1730555555555 +lon_0=-96.3833333333333 +lat_1=48.2333333333333 +lat_2=48.4833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378441.801 +rf=298.257222100883 +units=m +no_defs",
-  103653: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
-  103654: "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=m +no_defs",
-  103655: "+proj=lcc +lat_0=45.7738888888889 +lon_0=-94.2 +lat_1=45.85 +lat_2=46.2666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
-  103656: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
+  103650:
+    "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=m +no_defs",
+  103651:
+    "+proj=lcc +lat_0=47.1516666666667 +lon_0=-95.8166666666667 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=m +no_defs",
+  103652:
+    "+proj=lcc +lat_0=48.1730555555555 +lon_0=-96.3833333333333 +lat_1=48.2333333333333 +lat_2=48.4833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378441.801 +rf=298.257222100883 +units=m +no_defs",
+  103653:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
+  103654:
+    "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=m +no_defs",
+  103655:
+    "+proj=lcc +lat_0=45.7738888888889 +lon_0=-94.2 +lat_1=45.85 +lat_2=46.2666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
+  103656:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=m +no_defs",
   104014: "+proj=longlat +ellps=WGS84 +no_defs",
   104015: "+proj=longlat +ellps=WGS84 +no_defs",
-  103657: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-95.7666666666667 +lat_1=43.9166666666667 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378617.061 +rf=298.257222100883 +units=m +no_defs",
-  103658: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=m +no_defs",
-  103659: "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=m +no_defs",
-  103660: "+proj=lcc +lat_0=47.1505555555556 +lon_0=-96.45 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378468.623 +rf=298.257222100883 +units=m +no_defs",
-  103661: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
-  103662: "+proj=lcc +lat_0=46.1063888888889 +lon_0=-95.7166666666667 +lat_1=46.1833333333333 +lat_2=46.65 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=m +no_defs",
-  103663: "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=m +no_defs",
+  103657:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-95.7666666666667 +lat_1=43.9166666666667 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378617.061 +rf=298.257222100883 +units=m +no_defs",
+  103658:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=m +no_defs",
+  103659:
+    "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=m +no_defs",
+  103660:
+    "+proj=lcc +lat_0=47.1505555555556 +lon_0=-96.45 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378468.623 +rf=298.257222100883 +units=m +no_defs",
+  103661:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
+  103662:
+    "+proj=lcc +lat_0=46.1063888888889 +lon_0=-95.7166666666667 +lat_1=46.1833333333333 +lat_2=46.65 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=m +no_defs",
+  103663:
+    "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=m +no_defs",
   104016: "+proj=longlat +ellps=WGS84 +no_defs",
-  103664: "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=m +no_defs",
-  103665: "+proj=lcc +lat_0=43.8491666666667 +lon_0=-96.25 +lat_1=43.8833333333333 +lat_2=44.15 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378670.401 +rf=298.257222100883 +units=m +no_defs",
-  103666: "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=m +no_defs",
-  103667: "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
-  103668: "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=m +no_defs",
-  103669: "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=m +no_defs",
-  103670: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-95.2333333333333 +lat_1=44.2666666666667 +lat_2=44.5666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378438.753 +rf=298.257222100883 +units=m +no_defs",
+  103664:
+    "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=m +no_defs",
+  103665:
+    "+proj=lcc +lat_0=43.8491666666667 +lon_0=-96.25 +lat_1=43.8833333333333 +lat_2=44.15 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378670.401 +rf=298.257222100883 +units=m +no_defs",
+  103666:
+    "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=m +no_defs",
+  103667:
+    "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
+  103668:
+    "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=m +no_defs",
+  103669:
+    "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=m +no_defs",
+  103670:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-95.2333333333333 +lat_1=44.2666666666667 +lat_2=44.5666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378438.753 +rf=298.257222100883 +units=m +no_defs",
   104017: "+proj=longlat +a=6378136 +rf=298.257839303 +no_defs",
-  103671: "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=m +no_defs",
-  103672: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
-  103673: "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=m +no_defs",
-  103674: "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=m +no_defs",
-  103675: "+proj=lcc +lat_0=47.8333333333333 +lon_0=-92.45 +lat_1=47.9833333333333 +lat_2=48.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378543.909 +rf=298.257222100883 +units=m +no_defs",
-  103676: "+proj=lcc +lat_0=47.25 +lon_0=-92.45 +lat_1=47.3333333333333 +lat_2=47.75 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378605.783 +rf=298.257222100883 +units=m +no_defs",
-  103677: "+proj=lcc +lat_0=46.65 +lon_0=-92.45 +lat_1=46.7833333333333 +lat_2=47.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378540.861 +rf=298.257222100883 +units=m +no_defs",
+  103671:
+    "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=m +no_defs",
+  103672:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=m +no_defs",
+  103673:
+    "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=m +no_defs",
+  103674:
+    "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=m +no_defs",
+  103675:
+    "+proj=lcc +lat_0=47.8333333333333 +lon_0=-92.45 +lat_1=47.9833333333333 +lat_2=48.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378543.909 +rf=298.257222100883 +units=m +no_defs",
+  103676:
+    "+proj=lcc +lat_0=47.25 +lon_0=-92.45 +lat_1=47.3333333333333 +lat_2=47.75 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378605.783 +rf=298.257222100883 +units=m +no_defs",
+  103677:
+    "+proj=lcc +lat_0=46.65 +lon_0=-92.45 +lat_1=46.7833333333333 +lat_2=47.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378540.861 +rf=298.257222100883 +units=m +no_defs",
   104018: "+proj=longlat +a=6378136 +rf=298.257839303 +no_defs",
-  103678: "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=m +no_defs",
-  103679: "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=m +no_defs",
-  103680: "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=m +no_defs",
-  103681: "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
-  103682: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
-  103683: "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
-  103684: "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=m +no_defs",
+  103678:
+    "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=m +no_defs",
+  103679:
+    "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=m +no_defs",
+  103680:
+    "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=m +no_defs",
+  103681:
+    "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
+  103682:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
+  103683:
+    "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=m +no_defs",
+  103684:
+    "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=m +no_defs",
   104019: "+proj=longlat +ellps=GRS80 +no_defs",
-  103685: "+proj=lcc +lat_0=45.7733333333333 +lon_0=-94.9 +lat_1=45.8666666666667 +lat_2=46.2833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378548.481 +rf=298.257222100883 +units=m +no_defs",
-  103686: "+proj=lcc +lat_0=45.5855555555556 +lon_0=-96.55 +lat_1=45.6333333333333 +lat_2=45.9666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378463.746 +rf=298.257222100883 +units=m +no_defs",
-  103687: "+proj=lcc +lat_0=44.1069444444444 +lon_0=-92.2666666666667 +lat_1=44.15 +lat_2=44.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378426.561 +rf=298.257222100883 +units=m +no_defs",
-  103688: "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=m +no_defs",
-  103689: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
-  103690: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=m +no_defs",
-  103691: "+proj=lcc +lat_0=43.8472222222222 +lon_0=-91.6166666666667 +lat_1=43.9 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378453.688 +rf=298.257222100883 +units=m +no_defs",
+  103685:
+    "+proj=lcc +lat_0=45.7733333333333 +lon_0=-94.9 +lat_1=45.8666666666667 +lat_2=46.2833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378548.481 +rf=298.257222100883 +units=m +no_defs",
+  103686:
+    "+proj=lcc +lat_0=45.5855555555556 +lon_0=-96.55 +lat_1=45.6333333333333 +lat_2=45.9666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378463.746 +rf=298.257222100883 +units=m +no_defs",
+  103687:
+    "+proj=lcc +lat_0=44.1069444444444 +lon_0=-92.2666666666667 +lat_1=44.15 +lat_2=44.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378426.561 +rf=298.257222100883 +units=m +no_defs",
+  103688:
+    "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=m +no_defs",
+  103689:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=m +no_defs",
+  103690:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=m +no_defs",
+  103691:
+    "+proj=lcc +lat_0=43.8472222222222 +lon_0=-91.6166666666667 +lat_1=43.9 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378453.688 +rf=298.257222100883 +units=m +no_defs",
   104020: "+proj=longlat +ellps=GRS80 +no_defs",
-  103692: "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=m +no_defs",
-  103693: "+proj=lcc +lat_0=44.5416666666667 +lon_0=-95.9 +lat_1=44.6666666666667 +lat_2=44.95 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378530.193 +rf=298.257222100883 +units=m +no_defs",
-  103694: "+proj=tmerc +lat_0=46.6166666666667 +lon_0=-92.45 +k=0.99998529 +x_0=1450000 +y_0=1000000 +a=6378523 +rf=298.2752724 +units=m +no_defs",
-  103695: "+proj=tmerc +lat_0=46.6166666666667 +lon_0=-92.45 +k=0.99998529 +x_0=1449999.9999999 +y_0=999999.999999898 +a=6378523 +rf=298.2752724 +units=us-ft +no_defs",
-  103700: "+proj=tmerc +lat_0=46.1541666666667 +lon_0=-93.4325 +k=1.000059152669 +x_0=152409.319685395 +y_0=30481.863937079 +ellps=GRS80 +units=us-ft +no_defs",
-  103701: "+proj=tmerc +lat_0=46.63 +lon_0=-96.7 +k=1.000045317862 +x_0=152407.211256591 +y_0=30481.4422513182 +ellps=GRS80 +units=us-ft +no_defs",
-  103702: "+proj=tmerc +lat_0=47.1516666666667 +lon_0=-95.3758333333333 +k=1.000072505661 +x_0=152411.354685446 +y_0=30482.2709370891 +ellps=GRS80 +units=us-ft +no_defs",
-  103703: "+proj=tmerc +lat_0=46.8036111111111 +lon_0=-94.9205555555556 +k=1.000071553661 +x_0=152411.209600356 +y_0=30482.2419200711 +ellps=GRS80 +units=us-ft +no_defs",
+  103692:
+    "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=m +no_defs",
+  103693:
+    "+proj=lcc +lat_0=44.5416666666667 +lon_0=-95.9 +lat_1=44.6666666666667 +lat_2=44.95 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378530.193 +rf=298.257222100883 +units=m +no_defs",
+  103694:
+    "+proj=tmerc +lat_0=46.6166666666667 +lon_0=-92.45 +k=0.99998529 +x_0=1450000 +y_0=1000000 +a=6378523 +rf=298.2752724 +units=m +no_defs",
+  103695:
+    "+proj=tmerc +lat_0=46.6166666666667 +lon_0=-92.45 +k=0.99998529 +x_0=1449999.9999999 +y_0=999999.999999898 +a=6378523 +rf=298.2752724 +units=us-ft +no_defs",
+  103700:
+    "+proj=tmerc +lat_0=46.1541666666667 +lon_0=-93.4325 +k=1.000059152669 +x_0=152409.319685395 +y_0=30481.863937079 +ellps=GRS80 +units=us-ft +no_defs",
+  103701:
+    "+proj=tmerc +lat_0=46.63 +lon_0=-96.7 +k=1.000045317862 +x_0=152407.211256591 +y_0=30481.4422513182 +ellps=GRS80 +units=us-ft +no_defs",
+  103702:
+    "+proj=tmerc +lat_0=47.1516666666667 +lon_0=-95.3758333333333 +k=1.000072505661 +x_0=152411.354685446 +y_0=30482.2709370891 +ellps=GRS80 +units=us-ft +no_defs",
+  103703:
+    "+proj=tmerc +lat_0=46.8036111111111 +lon_0=-94.9205555555556 +k=1.000071553661 +x_0=152411.209600356 +y_0=30482.2419200711 +ellps=GRS80 +units=us-ft +no_defs",
   104021: "+proj=longlat +ellps=GRS80 +no_defs",
-  103704: "+proj=tmerc +lat_0=47.0666666666667 +lon_0=-91.4091666666667 +k=1.000075844621 +x_0=152411.863543967 +y_0=30482.3727087935 +ellps=GRS80 +units=us-ft +no_defs",
-  103705: "+proj=tmerc +lat_0=45.5588888888889 +lon_0=-93.6205555555556 +k=1.000054146138 +x_0=152408.556688544 +y_0=30481.7113377089 +ellps=GRS80 +units=us-ft +no_defs",
-  103706: "+proj=tmerc +lat_0=44.7458333333333 +lon_0=-92.8333333333333 +k=1.000039836799 +x_0=152406.375940919 +y_0=30481.2751881839 +ellps=GRS80 +units=us-ft +no_defs",
-  103707: "+proj=tmerc +lat_0=46.0216666666667 +lon_0=-96.5244444444444 +k=1.000048901066 +x_0=152407.757337973 +y_0=30481.5514675946 +ellps=GRS80 +units=us-ft +no_defs",
-  103708: "+proj=lcc +lat_0=45.0352777777778 +lon_0=-93.2666666666667 +lat_1=45.0666666666667 +lat_2=45.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=us-ft +no_defs",
-  103709: "+proj=lcc +lat_0=46.7177777777778 +lon_0=-95.6833333333333 +lat_1=46.7833333333333 +lat_2=47.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=us-ft +no_defs",
-  103710: "+proj=lcc +lat_0=48.02 +lon_0=-95.0166666666667 +lat_1=48.1166666666667 +lat_2=48.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378505.809 +rf=298.257222100883 +units=us-ft +no_defs",
-  103711: "+proj=lcc +lat_0=47.4125 +lon_0=-94.85 +lat_1=47.5 +lat_2=47.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378544.823 +rf=298.257222100883 +units=us-ft +no_defs",
-  103712: "+proj=lcc +lat_0=45.5591666666667 +lon_0=-94.05 +lat_1=45.5833333333333 +lat_2=45.7833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378490.569 +rf=298.257222100883 +units=us-ft +no_defs",
-  103713: "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=us-ft +no_defs",
-  103714: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=us-ft +no_defs",
-  103715: "+proj=lcc +lat_0=44.1080555555556 +lon_0=-94.7333333333333 +lat_1=44.1666666666667 +lat_2=44.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
-  103716: "+proj=lcc +lat_0=46.4172222222222 +lon_0=-92.6833333333333 +lat_1=46.4666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378454.907 +rf=298.257222100883 +units=us-ft +no_defs",
-  103717: "+proj=lcc +lat_0=44.6397222222222 +lon_0=-93.7666666666667 +lat_1=44.6833333333333 +lat_2=44.9 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378400.653 +rf=298.257222100883 +units=us-ft +no_defs",
-  103718: "+proj=lcc +lat_0=46.8036111111111 +lon_0=-94.2166666666667 +lat_1=46.9166666666667 +lat_2=47.3166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378567.378 +rf=298.257222100883 +units=us-ft +no_defs",
+  103704:
+    "+proj=tmerc +lat_0=47.0666666666667 +lon_0=-91.4091666666667 +k=1.000075844621 +x_0=152411.863543967 +y_0=30482.3727087935 +ellps=GRS80 +units=us-ft +no_defs",
+  103705:
+    "+proj=tmerc +lat_0=45.5588888888889 +lon_0=-93.6205555555556 +k=1.000054146138 +x_0=152408.556688544 +y_0=30481.7113377089 +ellps=GRS80 +units=us-ft +no_defs",
+  103706:
+    "+proj=tmerc +lat_0=44.7458333333333 +lon_0=-92.8333333333333 +k=1.000039836799 +x_0=152406.375940919 +y_0=30481.2751881839 +ellps=GRS80 +units=us-ft +no_defs",
+  103707:
+    "+proj=tmerc +lat_0=46.0216666666667 +lon_0=-96.5244444444444 +k=1.000048901066 +x_0=152407.757337973 +y_0=30481.5514675946 +ellps=GRS80 +units=us-ft +no_defs",
+  103708:
+    "+proj=lcc +lat_0=45.0352777777778 +lon_0=-93.2666666666667 +lat_1=45.0666666666667 +lat_2=45.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=us-ft +no_defs",
+  103709:
+    "+proj=lcc +lat_0=46.7177777777778 +lon_0=-95.6833333333333 +lat_1=46.7833333333333 +lat_2=47.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=us-ft +no_defs",
+  103710:
+    "+proj=lcc +lat_0=48.02 +lon_0=-95.0166666666667 +lat_1=48.1166666666667 +lat_2=48.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378505.809 +rf=298.257222100883 +units=us-ft +no_defs",
+  103711:
+    "+proj=lcc +lat_0=47.4125 +lon_0=-94.85 +lat_1=47.5 +lat_2=47.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378544.823 +rf=298.257222100883 +units=us-ft +no_defs",
+  103712:
+    "+proj=lcc +lat_0=45.5591666666667 +lon_0=-94.05 +lat_1=45.5833333333333 +lat_2=45.7833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378490.569 +rf=298.257222100883 +units=us-ft +no_defs",
+  103713:
+    "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=us-ft +no_defs",
+  103714:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=us-ft +no_defs",
+  103715:
+    "+proj=lcc +lat_0=44.1080555555556 +lon_0=-94.7333333333333 +lat_1=44.1666666666667 +lat_2=44.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
+  103716:
+    "+proj=lcc +lat_0=46.4172222222222 +lon_0=-92.6833333333333 +lat_1=46.4666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378454.907 +rf=298.257222100883 +units=us-ft +no_defs",
+  103717:
+    "+proj=lcc +lat_0=44.6397222222222 +lon_0=-93.7666666666667 +lat_1=44.6833333333333 +lat_2=44.9 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378400.653 +rf=298.257222100883 +units=us-ft +no_defs",
+  103718:
+    "+proj=lcc +lat_0=46.8036111111111 +lon_0=-94.2166666666667 +lat_1=46.9166666666667 +lat_2=47.3166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378567.378 +rf=298.257222100883 +units=us-ft +no_defs",
   104022: "+proj=longlat +ellps=GRS80 +no_defs",
-  103719: "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=us-ft +no_defs",
-  103720: "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=us-ft +no_defs",
-  103721: "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=us-ft +no_defs",
-  103722: "+proj=lcc +lat_0=47.8833333333333 +lon_0=-90.25 +lat_1=47.9333333333333 +lat_2=48.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=us-ft +no_defs",
-  103723: "+proj=lcc +lat_0=47.4388888888889 +lon_0=-90.25 +lat_1=47.55 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=us-ft +no_defs",
-  103724: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=us-ft +no_defs",
-  103725: "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=us-ft +no_defs",
+  103719:
+    "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=us-ft +no_defs",
+  103720:
+    "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=us-ft +no_defs",
+  103721:
+    "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=us-ft +no_defs",
+  103722:
+    "+proj=lcc +lat_0=47.8833333333333 +lon_0=-90.25 +lat_1=47.9333333333333 +lat_2=48.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=us-ft +no_defs",
+  103723:
+    "+proj=lcc +lat_0=47.4388888888889 +lon_0=-90.25 +lat_1=47.55 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378647.541 +rf=298.257222100883 +units=us-ft +no_defs",
+  103724:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=us-ft +no_defs",
+  103725:
+    "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=us-ft +no_defs",
   104023: "+proj=longlat +ellps=aust_SA +no_defs",
-  103726: "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=us-ft +no_defs",
-  103727: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
-  103728: "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=us-ft +no_defs",
-  103729: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
-  103730: "+proj=lcc +lat_0=43.5 +lon_0=-92.0833333333333 +lat_1=43.55 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378464.661 +rf=298.257222100883 +units=us-ft +no_defs",
-  103731: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
-  103732: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
+  103726:
+    "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=us-ft +no_defs",
+  103727:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
+  103728:
+    "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=us-ft +no_defs",
+  103729:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
+  103730:
+    "+proj=lcc +lat_0=43.5 +lon_0=-92.0833333333333 +lat_1=43.55 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378464.661 +rf=298.257222100883 +units=us-ft +no_defs",
+  103731:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
+  103732:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
   104024: "+proj=longlat +ellps=GRS80 +no_defs",
-  103733: "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=us-ft +no_defs",
-  103734: "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=us-ft +no_defs",
-  103735: "+proj=lcc +lat_0=43.5 +lon_0=-91.4666666666667 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378436.619 +rf=298.257222100883 +units=us-ft +no_defs",
-  103736: "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=us-ft +no_defs",
-  103737: "+proj=lcc +lat_0=47.5 +lon_0=-93.7333333333333 +lat_1=47.5666666666667 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=us-ft +no_defs",
-  103738: "+proj=lcc +lat_0=47.0263888888889 +lon_0=-93.7333333333333 +lat_1=47.0833333333333 +lat_2=47.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=us-ft +no_defs",
-  103739: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
+  103733:
+    "+proj=lcc +lat_0=45.7588888888889 +lon_0=-96.05 +lat_1=45.8 +lat_2=46.05 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378518.001 +rf=298.257222100883 +units=us-ft +no_defs",
+  103734:
+    "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=us-ft +no_defs",
+  103735:
+    "+proj=lcc +lat_0=43.5 +lon_0=-91.4666666666667 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378436.619 +rf=298.257222100883 +units=us-ft +no_defs",
+  103736:
+    "+proj=lcc +lat_0=45.2963888888889 +lon_0=-93.0833333333333 +lat_1=45.3333333333333 +lat_2=45.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378411.321 +rf=298.257222100883 +units=us-ft +no_defs",
+  103737:
+    "+proj=lcc +lat_0=47.5 +lon_0=-93.7333333333333 +lat_1=47.5666666666667 +lat_2=47.8166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=us-ft +no_defs",
+  103738:
+    "+proj=lcc +lat_0=47.0263888888889 +lon_0=-93.7333333333333 +lat_1=47.0833333333333 +lat_2=47.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378574.389 +rf=298.257222100883 +units=us-ft +no_defs",
+  103739:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
   104025: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  103740: "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=us-ft +no_defs",
-  103741: "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=us-ft +no_defs",
-  103742: "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=us-ft +no_defs",
-  103743: "+proj=lcc +lat_0=47.8458333333333 +lon_0=-93.75 +lat_1=48 +lat_2=48.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=us-ft +no_defs",
-  103744: "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=us-ft +no_defs",
-  103745: "+proj=lcc +lat_0=49.15 +lon_0=-94.9833333333333 +lat_1=49.1833333333333 +lat_2=49.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378466.185 +rf=298.257222100883 +units=us-ft +no_defs",
-  103746: "+proj=lcc +lat_0=48.3661111111111 +lon_0=-94.8833333333333 +lat_1=48.45 +lat_2=48.8833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378496.665 +rf=298.257222100883 +units=us-ft +no_defs",
+  103740:
+    "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=us-ft +no_defs",
+  103741:
+    "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=us-ft +no_defs",
+  103742:
+    "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=us-ft +no_defs",
+  103743:
+    "+proj=lcc +lat_0=47.8458333333333 +lon_0=-93.75 +lat_1=48 +lat_2=48.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=us-ft +no_defs",
+  103744:
+    "+proj=lcc +lat_0=44.7527777777778 +lon_0=-95.85 +lat_1=44.8333333333333 +lat_2=45.2 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378476.853 +rf=298.257222100883 +units=us-ft +no_defs",
+  103745:
+    "+proj=lcc +lat_0=49.15 +lon_0=-94.9833333333333 +lat_1=49.1833333333333 +lat_2=49.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378466.185 +rf=298.257222100883 +units=us-ft +no_defs",
+  103746:
+    "+proj=lcc +lat_0=48.3661111111111 +lon_0=-94.8833333333333 +lat_1=48.45 +lat_2=48.8833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378496.665 +rf=298.257222100883 +units=us-ft +no_defs",
   104026: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  103747: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
-  103748: "+proj=lcc +lat_0=44.1966666666667 +lon_0=-96.2666666666667 +lat_1=44.2833333333333 +lat_2=44.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378643.579 +rf=298.257222100883 +units=us-ft +no_defs",
-  103749: "+proj=lcc +lat_0=44.1955555555556 +lon_0=-95.85 +lat_1=44.25 +lat_2=44.5833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378559.758 +rf=298.257222100883 +units=us-ft +no_defs",
-  103750: "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=us-ft +no_defs",
-  103751: "+proj=lcc +lat_0=47.1516666666667 +lon_0=-95.8166666666667 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=us-ft +no_defs",
-  103752: "+proj=lcc +lat_0=48.1730555555555 +lon_0=-96.3833333333333 +lat_1=48.2333333333333 +lat_2=48.4833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378441.801 +rf=298.257222100883 +units=us-ft +no_defs",
-  103753: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
+  103747:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
+  103748:
+    "+proj=lcc +lat_0=44.1966666666667 +lon_0=-96.2666666666667 +lat_1=44.2833333333333 +lat_2=44.6166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378643.579 +rf=298.257222100883 +units=us-ft +no_defs",
+  103749:
+    "+proj=lcc +lat_0=44.1955555555556 +lon_0=-95.85 +lat_1=44.25 +lat_2=44.5833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378559.758 +rf=298.257222100883 +units=us-ft +no_defs",
+  103750:
+    "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=us-ft +no_defs",
+  103751:
+    "+proj=lcc +lat_0=47.1516666666667 +lon_0=-95.8166666666667 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378586.581 +rf=298.257222100883 +units=us-ft +no_defs",
+  103752:
+    "+proj=lcc +lat_0=48.1730555555555 +lon_0=-96.3833333333333 +lat_1=48.2333333333333 +lat_2=48.4833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378441.801 +rf=298.257222100883 +units=us-ft +no_defs",
+  103753:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
   104047: "+proj=longlat +R=6371008.7714 +no_defs",
-  103754: "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=us-ft +no_defs",
-  103755: "+proj=lcc +lat_0=45.7738888888889 +lon_0=-94.2 +lat_1=45.85 +lat_2=46.2666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
-  103756: "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
-  103757: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-95.7666666666667 +lat_1=43.9166666666667 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378617.061 +rf=298.257222100883 +units=us-ft +no_defs",
-  103758: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=us-ft +no_defs",
-  103759: "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=us-ft +no_defs",
-  103760: "+proj=lcc +lat_0=47.1505555555556 +lon_0=-96.45 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378468.623 +rf=298.257222100883 +units=us-ft +no_defs",
+  103754:
+    "+proj=lcc +lat_0=44.8913888888889 +lon_0=-94.75 +lat_1=44.9666666666667 +lat_2=45.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378498.189 +rf=298.257222100883 +units=us-ft +no_defs",
+  103755:
+    "+proj=lcc +lat_0=45.7738888888889 +lon_0=-94.2 +lat_1=45.85 +lat_2=46.2666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
+  103756:
+    "+proj=lcc +lat_0=43.5 +lon_0=-93.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378521.049 +rf=298.257222100883 +units=us-ft +no_defs",
+  103757:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-95.7666666666667 +lat_1=43.9166666666667 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378617.061 +rf=298.257222100883 +units=us-ft +no_defs",
+  103758:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.2666666666667 +lat_1=43.9333333333333 +lat_2=44.3666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378403.701 +rf=298.257222100883 +units=us-ft +no_defs",
+  103759:
+    "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=us-ft +no_defs",
+  103760:
+    "+proj=lcc +lat_0=47.1505555555556 +lon_0=-96.45 +lat_1=47.2 +lat_2=47.45 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378468.623 +rf=298.257222100883 +units=us-ft +no_defs",
   104050: "+proj=longlat +ellps=WGS84 +no_defs",
   104100: "+proj=longlat +ellps=GRS80 +no_defs",
-  103761: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
-  103762: "+proj=lcc +lat_0=46.1063888888889 +lon_0=-95.7166666666667 +lat_1=46.1833333333333 +lat_2=46.65 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=us-ft +no_defs",
-  103763: "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=us-ft +no_defs",
-  103764: "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=us-ft +no_defs",
-  103765: "+proj=lcc +lat_0=43.8491666666667 +lon_0=-96.25 +lat_1=43.8833333333333 +lat_2=44.15 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378670.401 +rf=298.257222100883 +units=us-ft +no_defs",
-  103766: "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=us-ft +no_defs",
-  103767: "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
+  103761:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
+  103762:
+    "+proj=lcc +lat_0=46.1063888888889 +lon_0=-95.7166666666667 +lat_1=46.1833333333333 +lat_2=46.65 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378525.621 +rf=298.257222100883 +units=us-ft +no_defs",
+  103763:
+    "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=us-ft +no_defs",
+  103764:
+    "+proj=lcc +lat_0=45.73 +lon_0=-92.9 +lat_1=45.8166666666667 +lat_2=46.3333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378472.281 +rf=298.257222100883 +units=us-ft +no_defs",
+  103765:
+    "+proj=lcc +lat_0=43.8491666666667 +lon_0=-96.25 +lat_1=43.8833333333333 +lat_2=44.15 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378670.401 +rf=298.257222100883 +units=us-ft +no_defs",
+  103766:
+    "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=us-ft +no_defs",
+  103767:
+    "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
   104101: "+proj=longlat +ellps=bessel +no_defs",
-  103768: "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=us-ft +no_defs",
-  103769: "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=us-ft +no_defs",
-  103770: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-95.2333333333333 +lat_1=44.2666666666667 +lat_2=44.5666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378438.753 +rf=298.257222100883 +units=us-ft +no_defs",
-  103771: "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=us-ft +no_defs",
-  103772: "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
-  103773: "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=us-ft +no_defs",
-  103774: "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=us-ft +no_defs",
+  103768:
+    "+proj=lcc +lat_0=44.7911111111111 +lon_0=-93.3833333333333 +lat_1=44.8833333333333 +lat_2=45.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378418.941 +rf=298.257222100883 +units=us-ft +no_defs",
+  103769:
+    "+proj=lcc +lat_0=47.4988888888889 +lon_0=-96.3666666666667 +lat_1=47.6 +lat_2=48.0833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378445.763 +rf=298.257222100883 +units=us-ft +no_defs",
+  103770:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-95.2333333333333 +lat_1=44.2666666666667 +lat_2=44.5666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378438.753 +rf=298.257222100883 +units=us-ft +no_defs",
+  103771:
+    "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=us-ft +no_defs",
+  103772:
+    "+proj=lcc +lat_0=44.1947222222222 +lon_0=-93.1333333333333 +lat_1=44.3 +lat_2=44.6666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378434.181 +rf=298.257222100883 +units=us-ft +no_defs",
+  103773:
+    "+proj=lcc +lat_0=43.5 +lon_0=-95.95 +lat_1=43.5666666666667 +lat_2=43.8 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378624.681 +rf=298.257222100883 +units=us-ft +no_defs",
+  103774:
+    "+proj=lcc +lat_0=48.5438888888889 +lon_0=-96.15 +lat_1=48.6 +lat_2=48.9333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378449.421 +rf=298.257222100883 +units=us-ft +no_defs",
   104102: "+proj=longlat +ellps=bessel +no_defs",
-  103775: "+proj=lcc +lat_0=47.8333333333333 +lon_0=-92.45 +lat_1=47.9833333333333 +lat_2=48.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378543.909 +rf=298.257222100883 +units=us-ft +no_defs",
-  103776: "+proj=lcc +lat_0=47.25 +lon_0=-92.45 +lat_1=47.3333333333333 +lat_2=47.75 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378605.783 +rf=298.257222100883 +units=us-ft +no_defs",
-  103777: "+proj=lcc +lat_0=46.65 +lon_0=-92.45 +lat_1=46.7833333333333 +lat_2=47.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378540.861 +rf=298.257222100883 +units=us-ft +no_defs",
-  103778: "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=us-ft +no_defs",
-  103779: "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=us-ft +no_defs",
-  103780: "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=us-ft +no_defs",
-  103781: "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
+  103775:
+    "+proj=lcc +lat_0=47.8333333333333 +lon_0=-92.45 +lat_1=47.9833333333333 +lat_2=48.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378543.909 +rf=298.257222100883 +units=us-ft +no_defs",
+  103776:
+    "+proj=lcc +lat_0=47.25 +lon_0=-92.45 +lat_1=47.3333333333333 +lat_2=47.75 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378605.783 +rf=298.257222100883 +units=us-ft +no_defs",
+  103777:
+    "+proj=lcc +lat_0=46.65 +lon_0=-92.45 +lat_1=46.7833333333333 +lat_2=47.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378540.861 +rf=298.257222100883 +units=us-ft +no_defs",
+  103778:
+    "+proj=lcc +lat_0=44.4719444444445 +lon_0=-93.3166666666667 +lat_1=44.5166666666667 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378421.989 +rf=298.257222100883 +units=us-ft +no_defs",
+  103779:
+    "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=us-ft +no_defs",
+  103780:
+    "+proj=lcc +lat_0=44.4561111111111 +lon_0=-94.6333333333333 +lat_1=44.5333333333333 +lat_2=44.9166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378414.369 +rf=298.257222100883 +units=us-ft +no_defs",
+  103781:
+    "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
   104103: "+proj=longlat +a=6378249.145 +rf=293.465 +no_defs",
-  103782: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
-  103783: "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
-  103784: "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=us-ft +no_defs",
-  103785: "+proj=lcc +lat_0=45.7733333333333 +lon_0=-94.9 +lat_1=45.8666666666667 +lat_2=46.2833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378548.481 +rf=298.257222100883 +units=us-ft +no_defs",
-  103786: "+proj=lcc +lat_0=45.5855555555556 +lon_0=-96.55 +lat_1=45.6333333333333 +lat_2=45.9666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378463.746 +rf=298.257222100883 +units=us-ft +no_defs",
-  103787: "+proj=lcc +lat_0=44.1069444444444 +lon_0=-92.2666666666667 +lat_1=44.15 +lat_2=44.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378426.561 +rf=298.257222100883 +units=us-ft +no_defs",
-  103788: "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=us-ft +no_defs",
+  103782:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
+  103783:
+    "+proj=lcc +lat_0=45.2827777777778 +lon_0=-95.15 +lat_1=45.35 +lat_2=45.7 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378502.761 +rf=298.257222100883 +units=us-ft +no_defs",
+  103784:
+    "+proj=lcc +lat_0=45.1522222222222 +lon_0=-96.05 +lat_1=45.2166666666667 +lat_2=45.5333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378470.757 +rf=298.257222100883 +units=us-ft +no_defs",
+  103785:
+    "+proj=lcc +lat_0=45.7733333333333 +lon_0=-94.9 +lat_1=45.8666666666667 +lat_2=46.2833333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378548.481 +rf=298.257222100883 +units=us-ft +no_defs",
+  103786:
+    "+proj=lcc +lat_0=45.5855555555556 +lon_0=-96.55 +lat_1=45.6333333333333 +lat_2=45.9666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378463.746 +rf=298.257222100883 +units=us-ft +no_defs",
+  103787:
+    "+proj=lcc +lat_0=44.1069444444444 +lon_0=-92.2666666666667 +lat_1=44.15 +lat_2=44.4166666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378426.561 +rf=298.257222100883 +units=us-ft +no_defs",
+  103788:
+    "+proj=lcc +lat_0=46.1563888888889 +lon_0=-94.4666666666667 +lat_1=46.2666666666667 +lat_2=46.7333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378546.957 +rf=298.257222100883 +units=us-ft +no_defs",
   104104: "+proj=longlat +ellps=intl +no_defs",
-  103789: "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
-  103790: "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=us-ft +no_defs",
-  103791: "+proj=lcc +lat_0=43.8472222222222 +lon_0=-91.6166666666667 +lat_1=43.9 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378453.688 +rf=298.257222100883 +units=us-ft +no_defs",
-  103792: "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=us-ft +no_defs",
-  103793: "+proj=lcc +lat_0=44.5416666666667 +lon_0=-95.9 +lat_1=44.6666666666667 +lat_2=44.95 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378530.193 +rf=298.257222100883 +units=us-ft +no_defs",
+  103789:
+    "+proj=lcc +lat_0=43.8338888888889 +lon_0=-92.9166666666667 +lat_1=43.8833333333333 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378481.425 +rf=298.257222100883 +units=us-ft +no_defs",
+  103790:
+    "+proj=lcc +lat_0=43.8480555555556 +lon_0=-94.9166666666667 +lat_1=43.9 +lat_2=44.1666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378514.953 +rf=298.257222100883 +units=us-ft +no_defs",
+  103791:
+    "+proj=lcc +lat_0=43.8472222222222 +lon_0=-91.6166666666667 +lat_1=43.9 +lat_2=44.1333333333333 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378453.688 +rf=298.257222100883 +units=us-ft +no_defs",
+  103792:
+    "+proj=lcc +lat_0=44.9775 +lon_0=-93.8833333333333 +lat_1=45.0333333333333 +lat_2=45.4666666666667 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378443.325 +rf=298.257222100883 +units=us-ft +no_defs",
+  103793:
+    "+proj=lcc +lat_0=44.5416666666667 +lon_0=-95.9 +lat_1=44.6666666666667 +lat_2=44.95 +x_0=152400.30480061 +y_0=30480.0609601219 +a=6378530.193 +rf=298.257222100883 +units=us-ft +no_defs",
   103794: "+proj=utm +zone=11 +ellps=GRS80 +units=m +no_defs",
   103795: "+proj=utm +zone=12 +ellps=GRS80 +units=m +no_defs",
   103796: "+proj=utm +zone=13 +ellps=GRS80 +units=m +no_defs",
   104105: "+proj=longlat +ellps=bessel +no_defs",
-  103800: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=m +no_defs",
-  103801: "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=m +no_defs",
-  103802: "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=0.999996 +x_0=93150 +y_0=0 +a=6378472.931 +rf=298.272931052052 +units=m +no_defs",
-  103803: "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.99998984 +y_0=4599.98983997968 +ellps=GRS80 +units=m +no_defs",
-  103804: "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1 +x_0=175260.350520701 +y_0=0 +a=6378380.991 +rf=298.268631713702 +units=m +no_defs",
-  103805: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
-  103806: "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=0.999994 +x_0=199949.1998984 +y_0=0 +a=6378470.401 +rf=298.272812743089 +units=m +no_defs",
-  103807: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=m +no_defs",
+  103800:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=m +no_defs",
+  103801:
+    "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=m +no_defs",
+  103802:
+    "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=0.999996 +x_0=93150 +y_0=0 +a=6378472.931 +rf=298.272931052052 +units=m +no_defs",
+  103803:
+    "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.99998984 +y_0=4599.98983997968 +ellps=GRS80 +units=m +no_defs",
+  103804:
+    "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1 +x_0=175260.350520701 +y_0=0 +a=6378380.991 +rf=298.268631713702 +units=m +no_defs",
+  103805:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
+  103806:
+    "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=0.999994 +x_0=199949.1998984 +y_0=0 +a=6378470.401 +rf=298.272812743089 +units=m +no_defs",
+  103807:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=m +no_defs",
   104106: "+proj=longlat +ellps=intl +no_defs",
-  103808: "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=0.999991 +x_0=158801.117602235 +y_0=0 +a=6378313.92 +rf=298.26549531037 +units=m +no_defs",
-  103809: "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=0.999995 +x_0=59131.3182626365 +y_0=0 +a=6378414.93 +rf=298.270218784012 +units=m +no_defs",
-  103810: "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=0.999998 +x_0=51816.1036322073 +y_0=0 +a=6378413.021 +rf=298.270129514522 +units=m +no_defs",
-  103811: "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=0.999993 +x_0=133502.667005334 +y_0=0 +a=6378530.851 +rf=298.275639532334 +units=m +no_defs",
-  103812: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
-  103813: "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=0.999996 +x_0=275844.551689103 +y_0=0 +a=6378591.521 +rf=298.278476609315 +units=m +no_defs",
-  103814: "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=0.999997 +x_0=242316.484632969 +y_0=0 +a=6378378.881 +rf=298.268533044963 +units=m +no_defs",
-  103815: "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=0.999997 +x_0=113081.026162052 +y_0=0 +a=6378408.041 +rf=298.269896637591 +units=m +no_defs",
+  103808:
+    "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=0.999991 +x_0=158801.117602235 +y_0=0 +a=6378313.92 +rf=298.26549531037 +units=m +no_defs",
+  103809:
+    "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=0.999995 +x_0=59131.3182626365 +y_0=0 +a=6378414.93 +rf=298.270218784012 +units=m +no_defs",
+  103810:
+    "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=0.999998 +x_0=51816.1036322073 +y_0=0 +a=6378413.021 +rf=298.270129514522 +units=m +no_defs",
+  103811:
+    "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=0.999993 +x_0=133502.667005334 +y_0=0 +a=6378530.851 +rf=298.275639532334 +units=m +no_defs",
+  103812:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
+  103813:
+    "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=0.999996 +x_0=275844.551689103 +y_0=0 +a=6378591.521 +rf=298.278476609315 +units=m +no_defs",
+  103814:
+    "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=0.999997 +x_0=242316.484632969 +y_0=0 +a=6378378.881 +rf=298.268533044963 +units=m +no_defs",
+  103815:
+    "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=0.999997 +x_0=113081.026162052 +y_0=0 +a=6378408.041 +rf=298.269896637591 +units=m +no_defs",
   104107: "+proj=longlat +ellps=GRS80 +no_defs",
-  103816: "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=m +no_defs",
-  103817: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=m +no_defs",
-  103818: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=m +no_defs",
-  103819: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
-  103820: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs",
-  103821: "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=0.999994 +x_0=130454.660909322 +y_0=0 +a=6378379.301 +rf=298.268552685186 +units=m +no_defs",
-  103822: "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=0.999998 +x_0=116129.032258065 +y_0=0 +a=6378531.821 +rf=298.275684891897 +units=m +no_defs",
-  103823: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs",
+  103816:
+    "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=m +no_defs",
+  103817:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=m +no_defs",
+  103818:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=m +no_defs",
+  103819:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
+  103820:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs",
+  103821:
+    "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=0.999994 +x_0=130454.660909322 +y_0=0 +a=6378379.301 +rf=298.268552685186 +units=m +no_defs",
+  103822:
+    "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=0.999998 +x_0=116129.032258065 +y_0=0 +a=6378531.821 +rf=298.275684891897 +units=m +no_defs",
+  103823:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs",
   104108: "+proj=longlat +ellps=GRS80 +no_defs",
-  103824: "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=0.999986 +x_0=238658.877317755 +y_0=0 +a=6378376.041 +rf=298.268400239645 +units=m +no_defs",
-  103825: "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=0.999994 +x_0=105461.010922022 +y_0=0 +a=6378406.601 +rf=298.269829299684 +units=m +no_defs",
-  103826: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
-  103827: "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760732 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=m +no_defs",
-  103828: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
-  103829: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
-  103830: "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1 +x_0=141732.283464567 +y_0=0 +a=6378413.671 +rf=298.270159910105 +units=m +no_defs",
-  103831: "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=0.999998 +x_0=227990.855981712 +y_0=0 +a=6378563.891 +rf=298.277184563214 +units=m +no_defs",
+  103824:
+    "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=0.999986 +x_0=238658.877317755 +y_0=0 +a=6378376.041 +rf=298.268400239645 +units=m +no_defs",
+  103825:
+    "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=0.999994 +x_0=105461.010922022 +y_0=0 +a=6378406.601 +rf=298.269829299684 +units=m +no_defs",
+  103826:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
+  103827:
+    "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760732 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=m +no_defs",
+  103828:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
+  103829:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
+  103830:
+    "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1 +x_0=141732.283464567 +y_0=0 +a=6378413.671 +rf=298.270159910105 +units=m +no_defs",
+  103831:
+    "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=0.999998 +x_0=227990.855981712 +y_0=0 +a=6378563.891 +rf=298.277184563214 +units=m +no_defs",
   104109: "+proj=longlat +ellps=clrk66 +no_defs",
-  103832: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
-  103833: "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=m +no_defs",
-  103834: "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=0.999997 +x_0=250546.101092202 +y_0=0 +a=6378472.751 +rf=298.272922634813 +units=m +no_defs",
-  103835: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=0.999995 +x_0=165506.731013462 +y_0=0 +a=6378412.511 +rf=298.270105665679 +units=m +no_defs",
-  103836: "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=0.999995 +x_0=185623.571247143 +y_0=0 +a=6378407.281 +rf=298.26986109814 +units=m +no_defs",
-  103837: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=0.99999 +x_0=262433.32486665 +y_0=0 +a=6378406.051 +rf=298.269803580344 +units=m +no_defs",
-  103838: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs",
-  103839: "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=0.999998 +x_0=256946.913893828 +y_0=0 +a=6378380.091 +rf=298.26858962751 +units=m +no_defs",
+  103832:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=m +no_defs",
+  103833:
+    "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=m +no_defs",
+  103834:
+    "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=0.999997 +x_0=250546.101092202 +y_0=0 +a=6378472.751 +rf=298.272922634813 +units=m +no_defs",
+  103835:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=0.999995 +x_0=165506.731013462 +y_0=0 +a=6378412.511 +rf=298.270105665679 +units=m +no_defs",
+  103836:
+    "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=0.999995 +x_0=185623.571247143 +y_0=0 +a=6378407.281 +rf=298.26986109814 +units=m +no_defs",
+  103837:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=0.99999 +x_0=262433.32486665 +y_0=0 +a=6378406.051 +rf=298.269803580344 +units=m +no_defs",
+  103838:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=m +no_defs",
+  103839:
+    "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=0.999998 +x_0=256946.913893828 +y_0=0 +a=6378380.091 +rf=298.26858962751 +units=m +no_defs",
   104110: "+proj=longlat +ellps=GRS80 +no_defs",
-  103840: "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=0.999995 +x_0=120091.44018288 +y_0=0 +a=6378407.141 +rf=298.269854551399 +units=m +no_defs",
-  103841: "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=0.999997 +x_0=208788.417576835 +y_0=0 +a=6378376.871 +rf=298.268439052467 +units=m +no_defs",
-  103842: "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=0.999996 +x_0=185013.97002794 +y_0=0 +a=6378375.251 +rf=298.268363297321 +units=m +no_defs",
-  103843: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
-  103844: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-91.1527777777778 +lat_1=46.4138888888889 +lat_2=46.925 +x_0=228600.457200914 +y_0=0 +a=6378411.351 +rf=298.270051421254 +units=m +no_defs",
-  103845: "+proj=lcc +lat_0=45.3638888888889 +lon_0=-92.4577777777778 +lat_1=45.7138888888889 +lat_2=46.0833333333333 +x_0=64008.128016256 +y_0=0 +a=6378414.96 +rf=298.270220186885 +units=m +no_defs",
-  103846: "+proj=lcc +lat_0=44.5811111111111 +lon_0=-91.2944444444444 +lat_1=44.8138888888889 +lat_2=45.1416666666667 +x_0=60045.7200914402 +y_0=0 +a=6378412.542 +rf=298.270107115315 +units=m +no_defs",
-  103847: "+proj=lcc +lat_0=42.4583333333333 +lon_0=-89.3944444444444 +lat_1=43.3333333333333 +lat_2=43.5916666666667 +x_0=169164.338328677 +y_0=0 +a=6378376.331 +rf=298.268413800752 +units=m +no_defs",
-  103848: "+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=m +no_defs",
-  103849: "+proj=lcc +lat_0=41.75 +lon_0=-89.4222222222222 +lat_1=42.9083333333333 +lat_2=43.2305555555555 +x_0=247193.294386589 +y_0=0 +a=6378407.621 +rf=298.269876997368 +units=m +no_defs",
-  103850: "+proj=lcc +lat_0=44.0472222222222 +lon_0=-91.2888888888889 +lat_1=44.7305555555555 +lat_2=45.0138888888889 +x_0=120091.44018288 +y_0=0 +a=6378380.381 +rf=298.268603188617 +units=m +no_defs",
-  103851: "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=m +no_defs",
-  103852: "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=m +no_defs",
-  103853: "+proj=lcc +lat_0=43.7944444444444 +lon_0=-90.7388888888889 +lat_1=44.1638888888889 +lat_2=44.4194444444444 +x_0=125882.651765303 +y_0=0 +a=6378409.151 +rf=298.269948543895 +units=m +no_defs",
-  103854: "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=m +no_defs",
+  103840:
+    "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=0.999995 +x_0=120091.44018288 +y_0=0 +a=6378407.141 +rf=298.269854551399 +units=m +no_defs",
+  103841:
+    "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=0.999997 +x_0=208788.417576835 +y_0=0 +a=6378376.871 +rf=298.268439052467 +units=m +no_defs",
+  103842:
+    "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=0.999996 +x_0=185013.97002794 +y_0=0 +a=6378375.251 +rf=298.268363297321 +units=m +no_defs",
+  103843:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=m +no_defs",
+  103844:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-91.1527777777778 +lat_1=46.4138888888889 +lat_2=46.925 +x_0=228600.457200914 +y_0=0 +a=6378411.351 +rf=298.270051421254 +units=m +no_defs",
+  103845:
+    "+proj=lcc +lat_0=45.3638888888889 +lon_0=-92.4577777777778 +lat_1=45.7138888888889 +lat_2=46.0833333333333 +x_0=64008.128016256 +y_0=0 +a=6378414.96 +rf=298.270220186885 +units=m +no_defs",
+  103846:
+    "+proj=lcc +lat_0=44.5811111111111 +lon_0=-91.2944444444444 +lat_1=44.8138888888889 +lat_2=45.1416666666667 +x_0=60045.7200914402 +y_0=0 +a=6378412.542 +rf=298.270107115315 +units=m +no_defs",
+  103847:
+    "+proj=lcc +lat_0=42.4583333333333 +lon_0=-89.3944444444444 +lat_1=43.3333333333333 +lat_2=43.5916666666667 +x_0=169164.338328677 +y_0=0 +a=6378376.331 +rf=298.268413800752 +units=m +no_defs",
+  103848:
+    "+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=m +no_defs",
+  103849:
+    "+proj=lcc +lat_0=41.75 +lon_0=-89.4222222222222 +lat_1=42.9083333333333 +lat_2=43.2305555555555 +x_0=247193.294386589 +y_0=0 +a=6378407.621 +rf=298.269876997368 +units=m +no_defs",
+  103850:
+    "+proj=lcc +lat_0=44.0472222222222 +lon_0=-91.2888888888889 +lat_1=44.7305555555555 +lat_2=45.0138888888889 +x_0=120091.44018288 +y_0=0 +a=6378380.381 +rf=298.268603188617 +units=m +no_defs",
+  103851:
+    "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=m +no_defs",
+  103852:
+    "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=m +no_defs",
+  103853:
+    "+proj=lcc +lat_0=43.7944444444444 +lon_0=-90.7388888888889 +lat_1=44.1638888888889 +lat_2=44.4194444444444 +x_0=125882.651765303 +y_0=0 +a=6378409.151 +rf=298.269948543895 +units=m +no_defs",
+  103854:
+    "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=m +no_defs",
   104111: "+proj=longlat +ellps=GRS80 +no_defs",
-  103855: "+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=m +no_defs",
-  103856: "+proj=lcc +lat_0=44.4055555555556 +lon_0=-89.77 +lat_1=44.7452777777778 +lat_2=45.0563888888889 +x_0=74676.1493522987 +y_0=0 +a=6378500.6 +rf=298.274224921888 +units=m +no_defs",
-  103857: "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=m +no_defs",
-  103858: "+proj=lcc +lat_0=42.9027777777778 +lon_0=-90.6416666666667 +lat_1=43.8388888888889 +lat_2=44.1611111111111 +x_0=204521.209042418 +y_0=0 +a=6378438.991 +rf=298.27134393498 +units=m +no_defs",
-  103859: "+proj=lcc +lat_0=45.1861111111111 +lon_0=-89.5444444444444 +lat_1=45.5666666666667 +lat_2=45.8416666666667 +x_0=70104.1402082804 +y_0=0 +a=6378593.86 +rf=298.278585986653 +units=m +no_defs",
-  103860: "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=m +no_defs",
-  103861: "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=m +no_defs",
+  103855:
+    "+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=m +no_defs",
+  103856:
+    "+proj=lcc +lat_0=44.4055555555556 +lon_0=-89.77 +lat_1=44.7452777777778 +lat_2=45.0563888888889 +x_0=74676.1493522987 +y_0=0 +a=6378500.6 +rf=298.274224921888 +units=m +no_defs",
+  103857:
+    "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=m +no_defs",
+  103858:
+    "+proj=lcc +lat_0=42.9027777777778 +lon_0=-90.6416666666667 +lat_1=43.8388888888889 +lat_2=44.1611111111111 +x_0=204521.209042418 +y_0=0 +a=6378438.991 +rf=298.27134393498 +units=m +no_defs",
+  103859:
+    "+proj=lcc +lat_0=45.1861111111111 +lon_0=-89.5444444444444 +lat_1=45.5666666666667 +lat_2=45.8416666666667 +x_0=70104.1402082804 +y_0=0 +a=6378593.86 +rf=298.278585986653 +units=m +no_defs",
+  103860:
+    "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=m +no_defs",
+  103861:
+    "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.335280671 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=m +no_defs",
   104112: "+proj=longlat +ellps=clrk66 +no_defs",
-  103862: "+proj=lcc +lat_0=43.9666666666667 +lon_0=-89.5 +lat_1=44.1833333333333 +lat_2=44.65 +x_0=56388.1127762256 +y_0=0 +a=6378344.377 +rf=298.266919538913 +units=m +no_defs",
-  103863: "+proj=lcc +lat_0=42.1138888888889 +lon_0=-90.4305555555556 +lat_1=43.1416666666667 +lat_2=43.5027777777778 +x_0=202387.60477521 +y_0=0 +a=6378408.091 +rf=298.269898975713 +units=m +no_defs",
-  103864: "+proj=lcc +lat_0=44.8138888888889 +lon_0=-91.1166666666667 +lat_1=45.7194444444444 +lat_2=46.0805555555556 +x_0=216713.233426467 +y_0=0 +a=6378534.451 +rf=298.275807877103 +units=m +no_defs",
-  103865: "+proj=lcc +lat_0=44.2083333333333 +lon_0=-90.4833333333333 +lat_1=45.0555555555556 +lat_2=45.3 +x_0=187147.574295149 +y_0=0 +a=6378532.921 +rf=298.275736330576 +units=m +no_defs",
-  103866: "+proj=lcc +lat_0=43.1472222222222 +lon_0=-90.7833333333333 +lat_1=43.4666666666667 +lat_2=43.6833333333333 +x_0=222504.44500889 +y_0=0 +a=6378408.941 +rf=298.269938723784 +units=m +no_defs",
-  103867: "+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=m +no_defs",
-  103868: "+proj=lcc +lat_0=41.6694444444444 +lon_0=-88.5416666666667 +lat_1=42.5888888888889 +lat_2=42.75 +x_0=232562.86512573 +y_0=0 +a=6378377.411 +rf=298.268464304182 +units=m +no_defs",
+  103862:
+    "+proj=lcc +lat_0=43.9666666666667 +lon_0=-89.5 +lat_1=44.1833333333333 +lat_2=44.65 +x_0=56388.1127762256 +y_0=0 +a=6378344.377 +rf=298.266919538913 +units=m +no_defs",
+  103863:
+    "+proj=lcc +lat_0=42.1138888888889 +lon_0=-90.4305555555556 +lat_1=43.1416666666667 +lat_2=43.5027777777778 +x_0=202387.60477521 +y_0=0 +a=6378408.091 +rf=298.269898975713 +units=m +no_defs",
+  103864:
+    "+proj=lcc +lat_0=44.8138888888889 +lon_0=-91.1166666666667 +lat_1=45.7194444444444 +lat_2=46.0805555555556 +x_0=216713.233426467 +y_0=0 +a=6378534.451 +rf=298.275807877103 +units=m +no_defs",
+  103865:
+    "+proj=lcc +lat_0=44.2083333333333 +lon_0=-90.4833333333333 +lat_1=45.0555555555556 +lat_2=45.3 +x_0=187147.574295149 +y_0=0 +a=6378532.921 +rf=298.275736330576 +units=m +no_defs",
+  103866:
+    "+proj=lcc +lat_0=43.1472222222222 +lon_0=-90.7833333333333 +lat_1=43.4666666666667 +lat_2=43.6833333333333 +x_0=222504.44500889 +y_0=0 +a=6378408.941 +rf=298.269938723784 +units=m +no_defs",
+  103867:
+    "+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=m +no_defs",
+  103868:
+    "+proj=lcc +lat_0=41.6694444444444 +lon_0=-88.5416666666667 +lat_1=42.5888888888889 +lat_2=42.75 +x_0=232562.86512573 +y_0=0 +a=6378377.411 +rf=298.268464304182 +units=m +no_defs",
   104113: "+proj=longlat +ellps=clrk66 +no_defs",
   104114: "+proj=longlat +ellps=WGS84 +no_defs",
-  103869: "+proj=lcc +lat_0=44.2666666666667 +lon_0=-91.7833333333333 +lat_1=45.7722222222222 +lat_2=46.15 +x_0=234086.868173736 +y_0=0 +a=6378474.591 +rf=298.273008677695 +units=m +no_defs",
-  103870: "+proj=lcc +lat_0=43.7083333333333 +lon_0=-89.2416666666667 +lat_1=43.975 +lat_2=44.2527777777778 +x_0=120091.44018288 +y_0=0 +a=6378405.971 +rf=298.269799839349 +units=m +no_defs",
-  103871: "+proj=lcc +lat_0=43.1513888888889 +lon_0=-90 +lat_1=44.1805555555556 +lat_2=44.5444444444444 +x_0=208483.616967234 +y_0=0 +a=6378437.651 +rf=298.271281273316 +units=m +no_defs",
-  103900: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=us-ft +no_defs",
-  103901: "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=us-ft +no_defs",
-  103902: "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=0.999996 +x_0=93150 +y_0=0 +a=6378472.931 +rf=298.272931052052 +units=us-ft +no_defs",
-  103903: "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.99998984 +y_0=4599.98983997968 +ellps=GRS80 +units=us-ft +no_defs",
-  103904: "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1 +x_0=175260.350520701 +y_0=0 +a=6378380.991 +rf=298.268631713702 +units=us-ft +no_defs",
-  103905: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
-  103906: "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=0.999994 +x_0=199949.1998984 +y_0=0 +a=6378470.401 +rf=298.272812743089 +units=us-ft +no_defs",
-  103907: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=us-ft +no_defs",
-  103908: "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=0.999991 +x_0=158801.117602235 +y_0=0 +a=6378313.92 +rf=298.26549531037 +units=us-ft +no_defs",
-  103909: "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=0.999995 +x_0=59131.3182626365 +y_0=0 +a=6378414.93 +rf=298.270218784012 +units=us-ft +no_defs",
-  103910: "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=0.999998 +x_0=51816.1036322072 +y_0=0 +a=6378413.021 +rf=298.270129514522 +units=us-ft +no_defs",
-  103911: "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=0.999993 +x_0=133502.667005334 +y_0=0 +a=6378530.851 +rf=298.275639532334 +units=us-ft +no_defs",
-  103912: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
+  103869:
+    "+proj=lcc +lat_0=44.2666666666667 +lon_0=-91.7833333333333 +lat_1=45.7722222222222 +lat_2=46.15 +x_0=234086.868173736 +y_0=0 +a=6378474.591 +rf=298.273008677695 +units=m +no_defs",
+  103870:
+    "+proj=lcc +lat_0=43.7083333333333 +lon_0=-89.2416666666667 +lat_1=43.975 +lat_2=44.2527777777778 +x_0=120091.44018288 +y_0=0 +a=6378405.971 +rf=298.269799839349 +units=m +no_defs",
+  103871:
+    "+proj=lcc +lat_0=43.1513888888889 +lon_0=-90 +lat_1=44.1805555555556 +lat_2=44.5444444444444 +x_0=208483.616967234 +y_0=0 +a=6378437.651 +rf=298.271281273316 +units=m +no_defs",
+  103900:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=us-ft +no_defs",
+  103901:
+    "+proj=tmerc +lat_0=45.7061111111111 +lon_0=-90.6222222222222 +k=0.999997 +x_0=172821.945643891 +y_0=0 +a=6378471.92 +rf=298.272883775229 +units=us-ft +no_defs",
+  103902:
+    "+proj=tmerc +lat_0=45.1333333333333 +lon_0=-91.85 +k=0.999996 +x_0=93150 +y_0=0 +a=6378472.931 +rf=298.272931052052 +units=us-ft +no_defs",
+  103903:
+    "+proj=tmerc +lat_0=43 +lon_0=-88 +k=1.00002 +x_0=31599.99998984 +y_0=4599.98983997968 +ellps=GRS80 +units=us-ft +no_defs",
+  103904:
+    "+proj=tmerc +lat_0=43.4813888888889 +lon_0=-91.7972222222222 +k=1 +x_0=175260.350520701 +y_0=0 +a=6378380.991 +rf=298.268631713702 +units=us-ft +no_defs",
+  103905:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
+  103906:
+    "+proj=tmerc +lat_0=43.6 +lon_0=-90.7083333333333 +k=0.999994 +x_0=199949.1998984 +y_0=0 +a=6378470.401 +rf=298.272812743089 +units=us-ft +no_defs",
+  103907:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=us-ft +no_defs",
+  103908:
+    "+proj=tmerc +lat_0=44.4 +lon_0=-87.2722222222222 +k=0.999991 +x_0=158801.117602235 +y_0=0 +a=6378313.92 +rf=298.26549531037 +units=us-ft +no_defs",
+  103909:
+    "+proj=tmerc +lat_0=45.8833333333333 +lon_0=-91.9166666666667 +k=0.999995 +x_0=59131.3182626365 +y_0=0 +a=6378414.93 +rf=298.270218784012 +units=us-ft +no_defs",
+  103910:
+    "+proj=tmerc +lat_0=44.4083333333333 +lon_0=-91.8944444444444 +k=0.999998 +x_0=51816.1036322072 +y_0=0 +a=6378413.021 +rf=298.270129514522 +units=us-ft +no_defs",
+  103911:
+    "+proj=tmerc +lat_0=45.4388888888889 +lon_0=-88.1416666666667 +k=0.999993 +x_0=133502.667005334 +y_0=0 +a=6378530.851 +rf=298.275639532334 +units=us-ft +no_defs",
+  103912:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
   104913: "+proj=longlat +R=15000 +no_defs",
-  103913: "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=0.999996 +x_0=275844.551689103 +y_0=0 +a=6378591.521 +rf=298.278476609315 +units=us-ft +no_defs",
-  103914: "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=0.999997 +x_0=242316.484632969 +y_0=0 +a=6378378.881 +rf=298.268533044963 +units=us-ft +no_defs",
-  103915: "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=0.999997 +x_0=113081.026162052 +y_0=0 +a=6378408.041 +rf=298.269896637591 +units=us-ft +no_defs",
-  103916: "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=us-ft +no_defs",
-  103917: "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=us-ft +no_defs",
-  103918: "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=us-ft +no_defs",
-  103919: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
-  103920: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs",
+  103913:
+    "+proj=tmerc +lat_0=44.0055555555556 +lon_0=-88.6333333333333 +k=0.999996 +x_0=275844.551689103 +y_0=0 +a=6378591.521 +rf=298.278476609315 +units=us-ft +no_defs",
+  103914:
+    "+proj=tmerc +lat_0=41.4111111111111 +lon_0=-90.8 +k=0.999997 +x_0=242316.484632969 +y_0=0 +a=6378378.881 +rf=298.268533044963 +units=us-ft +no_defs",
+  103915:
+    "+proj=tmerc +lat_0=42.5388888888889 +lon_0=-90.1611111111111 +k=0.999997 +x_0=113081.026162052 +y_0=0 +a=6378408.041 +rf=298.269896637591 +units=us-ft +no_defs",
+  103916:
+    "+proj=tmerc +lat_0=45.4333333333333 +lon_0=-90.2555555555556 +k=0.999996 +x_0=220980.441960884 +y_0=0 +a=6378655.071 +rf=298.281448362111 +units=us-ft +no_defs",
+  103917:
+    "+proj=tmerc +lat_0=41.4722222222222 +lon_0=-88.775 +k=0.999997 +x_0=263347.726695453 +y_0=0 +a=6378376.811 +rf=298.268436246721 +units=us-ft +no_defs",
+  103918:
+    "+proj=tmerc +lat_0=43.3666666666667 +lon_0=-90 +k=0.999999 +x_0=147218.694437389 +y_0=0 +a=6378376.271 +rf=298.268410995005 +units=us-ft +no_defs",
+  103919:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
+  103920:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs",
   104914: "+proj=longlat +R=40000 +no_defs",
-  103921: "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=0.999994 +x_0=130454.660909322 +y_0=0 +a=6378379.301 +rf=298.268552685186 +units=us-ft +no_defs",
-  103922: "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=0.999998 +x_0=116129.032258064 +y_0=0 +a=6378531.821 +rf=298.275684891897 +units=us-ft +no_defs",
-  103923: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs",
-  103924: "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=0.999986 +x_0=238658.877317754 +y_0=0 +a=6378376.041 +rf=298.268400239645 +units=us-ft +no_defs",
-  103925: "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=0.999994 +x_0=105461.010922022 +y_0=0 +a=6378406.601 +rf=298.269829299684 +units=us-ft +no_defs",
-  103926: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
-  103927: "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760731 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=us-ft +no_defs",
-  103928: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
-  103929: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
-  103930: "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1 +x_0=141732.283464567 +y_0=0 +a=6378413.671 +rf=298.270159910105 +units=us-ft +no_defs",
-  103931: "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=0.999998 +x_0=227990.855981712 +y_0=0 +a=6378563.891 +rf=298.277184563214 +units=us-ft +no_defs",
-  103932: "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
-  103933: "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=us-ft +no_defs",
-  103934: "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=0.999997 +x_0=250546.101092202 +y_0=0 +a=6378472.751 +rf=298.272922634813 +units=us-ft +no_defs",
-  103935: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=0.999995 +x_0=165506.731013462 +y_0=0 +a=6378412.511 +rf=298.270105665679 +units=us-ft +no_defs",
-  103936: "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=0.999995 +x_0=185623.571247142 +y_0=0 +a=6378407.281 +rf=298.26986109814 +units=us-ft +no_defs",
-  103937: "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=0.99999 +x_0=262433.32486665 +y_0=0 +a=6378406.051 +rf=298.269803580344 +units=us-ft +no_defs",
-  103938: "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs",
-  103939: "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=0.999998 +x_0=256946.913893828 +y_0=0 +a=6378380.091 +rf=298.26858962751 +units=us-ft +no_defs",
-  103940: "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=0.999995 +x_0=120091.44018288 +y_0=0 +a=6378407.141 +rf=298.269854551399 +units=us-ft +no_defs",
-  103941: "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=0.999997 +x_0=208788.417576835 +y_0=0 +a=6378376.871 +rf=298.268439052467 +units=us-ft +no_defs",
-  103942: "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=0.999996 +x_0=185013.97002794 +y_0=0 +a=6378375.251 +rf=298.268363297321 +units=us-ft +no_defs",
-  103943: "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
-  103944: "+proj=lcc +lat_0=45.3333333333333 +lon_0=-91.1527777777778 +lat_1=46.4138888888889 +lat_2=46.925 +x_0=228600.457200914 +y_0=0 +a=6378411.351 +rf=298.270051421254 +units=us-ft +no_defs",
-  103945: "+proj=lcc +lat_0=45.3638888888889 +lon_0=-92.4577777777778 +lat_1=45.7138888888889 +lat_2=46.0833333333333 +x_0=64008.128016256 +y_0=0 +a=6378414.96 +rf=298.270220186885 +units=us-ft +no_defs",
-  103946: "+proj=lcc +lat_0=44.5811111111111 +lon_0=-91.2944444444444 +lat_1=44.8138888888889 +lat_2=45.1416666666667 +x_0=60045.7200914401 +y_0=0 +a=6378412.542 +rf=298.270107115315 +units=us-ft +no_defs",
-  103947: "+proj=lcc +lat_0=42.4583333333333 +lon_0=-89.3944444444444 +lat_1=43.3333333333333 +lat_2=43.5916666666667 +x_0=169164.338328677 +y_0=0 +a=6378376.331 +rf=298.268413800752 +units=us-ft +no_defs",
-  103948: "+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=us-ft +no_defs",
-  103949: "+proj=lcc +lat_0=41.75 +lon_0=-89.4222222222222 +lat_1=42.9083333333333 +lat_2=43.2305555555555 +x_0=247193.294386589 +y_0=0 +a=6378407.621 +rf=298.269876997368 +units=us-ft +no_defs",
-  103950: "+proj=lcc +lat_0=44.0472222222222 +lon_0=-91.2888888888889 +lat_1=44.7305555555555 +lat_2=45.0138888888889 +x_0=120091.44018288 +y_0=0 +a=6378380.381 +rf=298.268603188617 +units=us-ft +no_defs",
-  103951: "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=us-ft +no_defs",
+  103921:
+    "+proj=tmerc +lat_0=43.4511111111111 +lon_0=-91.3166666666667 +k=0.999994 +x_0=130454.660909322 +y_0=0 +a=6378379.301 +rf=298.268552685186 +units=us-ft +no_defs",
+  103922:
+    "+proj=tmerc +lat_0=44.8444444444444 +lon_0=-89.7333333333333 +k=0.999998 +x_0=116129.032258064 +y_0=0 +a=6378531.821 +rf=298.275684891897 +units=us-ft +no_defs",
+  103923:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs",
+  103924:
+    "+proj=tmerc +lat_0=44.6916666666667 +lon_0=-87.7111111111111 +k=0.999986 +x_0=238658.877317754 +y_0=0 +a=6378376.041 +rf=298.268400239645 +units=us-ft +no_defs",
+  103925:
+    "+proj=tmerc +lat_0=44.7166666666667 +lon_0=-88.4166666666667 +k=0.999994 +x_0=105461.010922022 +y_0=0 +a=6378406.601 +rf=298.269829299684 +units=us-ft +no_defs",
+  103926:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
+  103927:
+    "+proj=tmerc +lat_0=44.3972222222222 +lon_0=-87.9083333333333 +k=0.999991 +x_0=182880.365760731 +y_0=0 +a=6378345.42 +rf=298.266968327098 +units=us-ft +no_defs",
+  103928:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
+  103929:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
+  103930:
+    "+proj=tmerc +lat_0=44.6611111111111 +lon_0=-92.6333333333333 +k=1 +x_0=141732.283464567 +y_0=0 +a=6378413.671 +rf=298.270159910105 +units=us-ft +no_defs",
+  103931:
+    "+proj=tmerc +lat_0=44.5555555555556 +lon_0=-90.4888888888889 +k=0.999998 +x_0=227990.855981712 +y_0=0 +a=6378563.891 +rf=298.277184563214 +units=us-ft +no_defs",
+  103932:
+    "+proj=tmerc +lat_0=42.2166666666667 +lon_0=-87.8944444444444 +k=0.999998 +x_0=185928.371856744 +y_0=0 +a=6378315.7 +rf=298.265578547505 +units=us-ft +no_defs",
+  103933:
+    "+proj=tmerc +lat_0=41.9444444444444 +lon_0=-89.0722222222222 +k=0.999996 +x_0=146304.292608585 +y_0=0 +a=6378377.671 +rf=298.268476462415 +units=us-ft +no_defs",
+  103934:
+    "+proj=tmerc +lat_0=43.9194444444444 +lon_0=-91.0666666666667 +k=0.999997 +x_0=250546.101092202 +y_0=0 +a=6378472.751 +rf=298.272922634813 +units=us-ft +no_defs",
+  103935:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-92.6333333333333 +k=0.999995 +x_0=165506.731013462 +y_0=0 +a=6378412.511 +rf=298.270105665679 +units=us-ft +no_defs",
+  103936:
+    "+proj=tmerc +lat_0=42.8194444444444 +lon_0=-89.9 +k=0.999995 +x_0=185623.571247142 +y_0=0 +a=6378407.281 +rf=298.26986109814 +units=us-ft +no_defs",
+  103937:
+    "+proj=tmerc +lat_0=44.0361111111111 +lon_0=-88.6055555555556 +k=0.99999 +x_0=262433.32486665 +y_0=0 +a=6378406.051 +rf=298.269803580344 +units=us-ft +no_defs",
+  103938:
+    "+proj=tmerc +lat_0=43.2666666666667 +lon_0=-87.55 +k=1 +x_0=79857.7597155194 +y_0=0 +a=6378285.86 +rf=298.264183156421 +units=us-ft +no_defs",
+  103939:
+    "+proj=tmerc +lat_0=43.1611111111111 +lon_0=-91.3666666666667 +k=0.999998 +x_0=256946.913893828 +y_0=0 +a=6378380.091 +rf=298.26858962751 +units=us-ft +no_defs",
+  103940:
+    "+proj=tmerc +lat_0=42.9180555555555 +lon_0=-88.0638888888889 +k=0.999995 +x_0=120091.44018288 +y_0=0 +a=6378407.141 +rf=298.269854551399 +units=us-ft +no_defs",
+  103941:
+    "+proj=tmerc +lat_0=42.5694444444444 +lon_0=-88.225 +k=0.999997 +x_0=208788.417576835 +y_0=0 +a=6378376.871 +rf=298.268439052467 +units=us-ft +no_defs",
+  103942:
+    "+proj=tmerc +lat_0=43.4202777777778 +lon_0=-88.8166666666667 +k=0.999996 +x_0=185013.97002794 +y_0=0 +a=6378375.251 +rf=298.268363297321 +units=us-ft +no_defs",
+  103943:
+    "+proj=tmerc +lat_0=42.7194444444444 +lon_0=-88.5 +k=0.999996 +x_0=244754.889509779 +y_0=0 +a=6378345.09 +rf=298.266952895494 +units=us-ft +no_defs",
+  103944:
+    "+proj=lcc +lat_0=45.3333333333333 +lon_0=-91.1527777777778 +lat_1=46.4138888888889 +lat_2=46.925 +x_0=228600.457200914 +y_0=0 +a=6378411.351 +rf=298.270051421254 +units=us-ft +no_defs",
+  103945:
+    "+proj=lcc +lat_0=45.3638888888889 +lon_0=-92.4577777777778 +lat_1=45.7138888888889 +lat_2=46.0833333333333 +x_0=64008.128016256 +y_0=0 +a=6378414.96 +rf=298.270220186885 +units=us-ft +no_defs",
+  103946:
+    "+proj=lcc +lat_0=44.5811111111111 +lon_0=-91.2944444444444 +lat_1=44.8138888888889 +lat_2=45.1416666666667 +x_0=60045.7200914401 +y_0=0 +a=6378412.542 +rf=298.270107115315 +units=us-ft +no_defs",
+  103947:
+    "+proj=lcc +lat_0=42.4583333333333 +lon_0=-89.3944444444444 +lat_1=43.3333333333333 +lat_2=43.5916666666667 +x_0=169164.338328677 +y_0=0 +a=6378376.331 +rf=298.268413800752 +units=us-ft +no_defs",
+  103948:
+    "+proj=lcc +lat_0=42.7166666666667 +lon_0=-90.9388888888889 +lat_1=43.0583333333333 +lat_2=43.3416666666667 +x_0=113690.627381255 +y_0=0 +a=6378379.031 +rf=298.268540059328 +units=us-ft +no_defs",
+  103949:
+    "+proj=lcc +lat_0=41.75 +lon_0=-89.4222222222222 +lat_1=42.9083333333333 +lat_2=43.2305555555555 +x_0=247193.294386589 +y_0=0 +a=6378407.621 +rf=298.269876997368 +units=us-ft +no_defs",
+  103950:
+    "+proj=lcc +lat_0=44.0472222222222 +lon_0=-91.2888888888889 +lat_1=44.7305555555555 +lat_2=45.0138888888889 +x_0=120091.44018288 +y_0=0 +a=6378380.381 +rf=298.268603188617 +units=us-ft +no_defs",
+  103951:
+    "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=us-ft +no_defs",
   104115: "+proj=longlat +ellps=GRS80 +no_defs",
-  103952: "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=us-ft +no_defs",
-  103953: "+proj=lcc +lat_0=43.7944444444444 +lon_0=-90.7388888888889 +lat_1=44.1638888888889 +lat_2=44.4194444444444 +x_0=125882.651765303 +y_0=0 +a=6378409.151 +rf=298.269948543895 +units=us-ft +no_defs",
-  103954: "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=us-ft +no_defs",
-  103955: "+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=us-ft +no_defs",
-  103956: "+proj=lcc +lat_0=44.4055555555556 +lon_0=-89.77 +lat_1=44.7452777777778 +lat_2=45.0563888888889 +x_0=74676.1493522987 +y_0=0 +a=6378500.6 +rf=298.274224921888 +units=us-ft +no_defs",
-  103957: "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=us-ft +no_defs",
-  103958: "+proj=lcc +lat_0=42.9027777777778 +lon_0=-90.6416666666667 +lat_1=43.8388888888889 +lat_2=44.1611111111111 +x_0=204521.209042418 +y_0=0 +a=6378438.991 +rf=298.27134393498 +units=us-ft +no_defs",
+  103952:
+    "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=us-ft +no_defs",
+  103953:
+    "+proj=lcc +lat_0=43.7944444444444 +lon_0=-90.7388888888889 +lat_1=44.1638888888889 +lat_2=44.4194444444444 +x_0=125882.651765303 +y_0=0 +a=6378409.151 +rf=298.269948543895 +units=us-ft +no_defs",
+  103954:
+    "+proj=lcc +lat_0=42.225 +lon_0=-89.8388888888889 +lat_1=42.4861111111111 +lat_2=42.7888888888889 +x_0=170078.74015748 +y_0=0 +a=6378408.481 +rf=298.269917213063 +units=us-ft +no_defs",
+  103955:
+    "+proj=lcc +lat_0=44.2069444444445 +lon_0=-89.0333333333333 +lat_1=45 +lat_2=45.3083333333333 +x_0=198425.196850394 +y_0=0 +a=6378560.121 +rf=298.277008268831 +units=us-ft +no_defs",
+  103956:
+    "+proj=lcc +lat_0=44.4055555555556 +lon_0=-89.77 +lat_1=44.7452777777778 +lat_2=45.0563888888889 +x_0=74676.1493522987 +y_0=0 +a=6378500.6 +rf=298.274224921888 +units=us-ft +no_defs",
+  103957:
+    "+proj=lcc +lat_0=43.0944444444444 +lon_0=-89.2416666666667 +lat_1=43.6666666666667 +lat_2=43.9472222222222 +x_0=150876.301752603 +y_0=0 +a=6378375.601 +rf=298.268379664173 +units=us-ft +no_defs",
+  103958:
+    "+proj=lcc +lat_0=42.9027777777778 +lon_0=-90.6416666666667 +lat_1=43.8388888888889 +lat_2=44.1611111111111 +x_0=204521.209042418 +y_0=0 +a=6378438.991 +rf=298.27134393498 +units=us-ft +no_defs",
   104116: "+proj=longlat +ellps=GRS80 +no_defs",
-  103959: "+proj=lcc +lat_0=45.1861111111111 +lon_0=-89.5444444444444 +lat_1=45.5666666666667 +lat_2=45.8416666666667 +x_0=70104.1402082804 +y_0=0 +a=6378593.86 +rf=298.278585986653 +units=us-ft +no_defs",
-  103960: "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.33528067 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=us-ft +no_defs",
-  103961: "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.33528067 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=us-ft +no_defs",
-  103962: "+proj=lcc +lat_0=43.9666666666667 +lon_0=-89.5 +lat_1=44.1833333333333 +lat_2=44.65 +x_0=56388.1127762255 +y_0=0 +a=6378344.377 +rf=298.266919538913 +units=us-ft +no_defs",
-  103963: "+proj=lcc +lat_0=42.1138888888889 +lon_0=-90.4305555555556 +lat_1=43.1416666666667 +lat_2=43.5027777777778 +x_0=202387.604775209 +y_0=0 +a=6378408.091 +rf=298.269898975713 +units=us-ft +no_defs",
-  103964: "+proj=lcc +lat_0=44.8138888888889 +lon_0=-91.1166666666667 +lat_1=45.7194444444444 +lat_2=46.0805555555556 +x_0=216713.233426467 +y_0=0 +a=6378534.451 +rf=298.275807877103 +units=us-ft +no_defs",
-  103965: "+proj=lcc +lat_0=44.2083333333333 +lon_0=-90.4833333333333 +lat_1=45.0555555555556 +lat_2=45.3 +x_0=187147.574295148 +y_0=0 +a=6378532.921 +rf=298.275736330576 +units=us-ft +no_defs",
+  103959:
+    "+proj=lcc +lat_0=45.1861111111111 +lon_0=-89.5444444444444 +lat_1=45.5666666666667 +lat_2=45.8416666666667 +x_0=70104.1402082804 +y_0=0 +a=6378593.86 +rf=298.278585986653 +units=us-ft +no_defs",
+  103960:
+    "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.33528067 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=us-ft +no_defs",
+  103961:
+    "+proj=lcc +lat_0=43.8619444444444 +lon_0=-92.2277777777778 +lat_1=44.5222222222222 +lat_2=44.75 +x_0=167640.33528067 +y_0=0 +a=6378381.271 +rf=298.268644807185 +units=us-ft +no_defs",
+  103962:
+    "+proj=lcc +lat_0=43.9666666666667 +lon_0=-89.5 +lat_1=44.1833333333333 +lat_2=44.65 +x_0=56388.1127762255 +y_0=0 +a=6378344.377 +rf=298.266919538913 +units=us-ft +no_defs",
+  103963:
+    "+proj=lcc +lat_0=42.1138888888889 +lon_0=-90.4305555555556 +lat_1=43.1416666666667 +lat_2=43.5027777777778 +x_0=202387.604775209 +y_0=0 +a=6378408.091 +rf=298.269898975713 +units=us-ft +no_defs",
+  103964:
+    "+proj=lcc +lat_0=44.8138888888889 +lon_0=-91.1166666666667 +lat_1=45.7194444444444 +lat_2=46.0805555555556 +x_0=216713.233426467 +y_0=0 +a=6378534.451 +rf=298.275807877103 +units=us-ft +no_defs",
+  103965:
+    "+proj=lcc +lat_0=44.2083333333333 +lon_0=-90.4833333333333 +lat_1=45.0555555555556 +lat_2=45.3 +x_0=187147.574295148 +y_0=0 +a=6378532.921 +rf=298.275736330576 +units=us-ft +no_defs",
   104117: "+proj=longlat +ellps=GRS80 +no_defs",
-  103966: "+proj=lcc +lat_0=43.1472222222222 +lon_0=-90.7833333333333 +lat_1=43.4666666666667 +lat_2=43.6833333333333 +x_0=222504.44500889 +y_0=0 +a=6378408.941 +rf=298.269938723784 +units=us-ft +no_defs",
-  103967: "+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=us-ft +no_defs",
-  103968: "+proj=lcc +lat_0=41.6694444444444 +lon_0=-88.5416666666667 +lat_1=42.5888888888889 +lat_2=42.75 +x_0=232562.86512573 +y_0=0 +a=6378377.411 +rf=298.268464304182 +units=us-ft +no_defs",
-  103969: "+proj=lcc +lat_0=44.2666666666667 +lon_0=-91.7833333333333 +lat_1=45.7722222222222 +lat_2=46.15 +x_0=234086.868173736 +y_0=0 +a=6378474.591 +rf=298.273008677695 +units=us-ft +no_defs",
-  103970: "+proj=lcc +lat_0=43.7083333333333 +lon_0=-89.2416666666667 +lat_1=43.975 +lat_2=44.2527777777778 +x_0=120091.44018288 +y_0=0 +a=6378405.971 +rf=298.269799839349 +units=us-ft +no_defs",
-  103971: "+proj=lcc +lat_0=43.1513888888889 +lon_0=-90 +lat_1=44.1805555555556 +lat_2=44.5444444444444 +x_0=208483.616967234 +y_0=0 +a=6378437.651 +rf=298.271281273316 +units=us-ft +no_defs",
+  103966:
+    "+proj=lcc +lat_0=43.1472222222222 +lon_0=-90.7833333333333 +lat_1=43.4666666666667 +lat_2=43.6833333333333 +x_0=222504.44500889 +y_0=0 +a=6378408.941 +rf=298.269938723784 +units=us-ft +no_defs",
+  103967:
+    "+proj=lcc +lat_0=45.625 +lon_0=-89.4888888888889 +lat_1=45.9305555555556 +lat_2=46.225 +x_0=134417.068834138 +y_0=0 +a=6378624.171 +rf=298.280003402845 +units=us-ft +no_defs",
+  103968:
+    "+proj=lcc +lat_0=41.6694444444444 +lon_0=-88.5416666666667 +lat_1=42.5888888888889 +lat_2=42.75 +x_0=232562.86512573 +y_0=0 +a=6378377.411 +rf=298.268464304182 +units=us-ft +no_defs",
+  103969:
+    "+proj=lcc +lat_0=44.2666666666667 +lon_0=-91.7833333333333 +lat_1=45.7722222222222 +lat_2=46.15 +x_0=234086.868173736 +y_0=0 +a=6378474.591 +rf=298.273008677695 +units=us-ft +no_defs",
+  103970:
+    "+proj=lcc +lat_0=43.7083333333333 +lon_0=-89.2416666666667 +lat_1=43.975 +lat_2=44.2527777777778 +x_0=120091.44018288 +y_0=0 +a=6378405.971 +rf=298.269799839349 +units=us-ft +no_defs",
+  103971:
+    "+proj=lcc +lat_0=43.1513888888889 +lon_0=-90 +lat_1=44.1805555555556 +lat_2=44.5444444444444 +x_0=208483.616967234 +y_0=0 +a=6378437.651 +rf=298.271281273316 +units=us-ft +no_defs",
   104000: "+proj=longlat +datum=NAD27 +no_defs",
   104009: "+proj=longlat +ellps=GRS80 +no_defs",
   104010: "+proj=longlat +ellps=GRS80 +no_defs",
@@ -8496,5 +11512,6 @@ export const proj4def: Record<number, string> = {
   104990: "+proj=longlat +ellps=bessel +no_defs",
   104991: "+proj=longlat +ellps=GRS80 +no_defs",
   104992: "+proj=longlat +ellps=bessel +no_defs",
-  900913: "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs",
-}
+  900913:
+    "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs",
+};

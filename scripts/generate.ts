@@ -74,15 +74,15 @@ client.query<SpatialRefRow>(
 
     if (proj4function) {
       stringData =
-        "export default function (Proj4js: { defs: (name: string, projection: string) => void }) {\r\n";
+        "export default function (Proj4js: { defs: Record<string, unknown> }) {\r\n";
       res.rows.forEach((row) => {
-        stringData += `  Proj4js.defs("EPSG:${row.srid}", "${row.proj4text}");\r\n`;
+        stringData += `Proj4js.defs["EPSG:${row.srid}"] = "${row.proj4text}";\r\n`;
       });
       stringData += "}";
     } else {
       stringData = "export const proj4def: Record<number, string> = {\r\n";
       res.rows.forEach((row) => {
-        stringData += `  ${row.srid}: "${row.proj4text}",\r\n`;
+        stringData += `${row.srid}: "${row.proj4text}",\r\n`;
       });
       stringData += "}";
     }

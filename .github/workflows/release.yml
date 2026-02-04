@@ -56,7 +56,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          npm version "$VERSION_TYPE" -m "chore: release v%s"
+          if [ "${{ env.VERSION_TYPE }}" = "prerelease" ]; then
+            npm version prerelease --preid=alpha -m "chore: release v%s"
+          else
+            npm version ${{ env.VERSION_TYPE }} -m "chore: release v%s"
+          fi
           git push --follow-tags
         env:
           VERSION_TYPE: ${{ github.event.inputs.version }}

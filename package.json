@@ -7,7 +7,7 @@
     "build": "tsc",
     "generate": "node scripts/generate.ts",
     "format": "prettier --write .",
-    "preversion": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "type": "module",
   "author": "Zoran Kokeza",

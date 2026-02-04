@@ -1,0 +1,90 @@
+name: Release to npm
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version bump type"
+        required: true
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+          - prerelease
+      tag:
+        description: "Tag to publish under"
+        required: false
+        default: "latest"
+        type: string
+
+permissions:
+  id-token: write
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required for OIDC
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          registry-url: "https://registry.npmjs.org"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Bump version (manual workflow)
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          npm version "$VERSION_TYPE" -m "chore: release v%s"
+          git push --follow-tags
+        env:
+          VERSION_TYPE: ${{ github.event.inputs.version }}
+          TAG: ${{ github.event.inputs.tag }}
+
+      - name: Get version from package.json
+        id: version
+        run: echo "version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
+      - name: Determine npm tag and prerelease status
+        id: release-info
+        run: |
+          # Check if version contains prerelease identifier (alpha, beta, rc, etc.)
+          if echo "$VERSION" | grep -qE '\-(alpha|beta|rc|next|canary)'; then
+            # Extract the prerelease tag (e.g., "alpha" from "1.0.0-alpha.1")
+            TAG=$(echo "$VERSION" | sed -E 's/.*-(alpha|beta|rc|next|canary).*/\1/')
+            IS_PRERELEASE="true"
+          else
+            TAG="latest"
+            IS_PRERELEASE="false"
+          fi
+
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+          echo "is_prerelease=$IS_PRERELEASE" >> $GITHUB_OUTPUT
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+
+      - name: Publish to npm
+        run: npm publish --access public --tag "$NPM_TAG"
+        env:
+          NPM_TAG: ${{ steps.release-info.outputs.tag }}

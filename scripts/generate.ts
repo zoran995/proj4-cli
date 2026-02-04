@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import { Client, type QueryResult } from "pg";
-import fs from "node:fs";
+import { writeFileSync } from "node:fs";
 import { Command } from "commander";
-import prettier from "prettier";
+import { format } from "prettier";
 
 type Options = {
   host: string;
@@ -87,13 +87,13 @@ client.query<SpatialRefRow>(
       stringData += "}";
     }
 
-    const formatted = await prettier.format(stringData, {
+    const formatted = await format(stringData, {
       parser: "typescript",
       filepath: options.filename,
     });
 
-    fs.writeFileSync(options.filename, formatted);
-    console.log(`Successfully generated ${options.filename}`);
+    writeFileSync(options.filename, formatted);
+    console.log(`Successfully generated and formatted ${options.filename}`);
 
     client.end();
   },

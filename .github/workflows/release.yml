@@ -108,6 +108,6 @@ jobs:
           gh release create "v${{ steps.version.outputs.version }}" \                                                                  
             --title "v${{ steps.version.outputs.version }}" \                                                                          
             ${{ steps.release-info.outputs.is_prerelease == 'true' && '--prerelease' || '' }}
-            --generate-notes \
+            --generate-notes
         env:
           GH_TOKEN: ${{ github.token }}

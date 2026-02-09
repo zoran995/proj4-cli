@@ -11,6 +11,10 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    env:
+      GH_TOKEN: ${{ secrets.ACTIONS_TOKEN }}
 
     services:
       postgres:
@@ -30,6 +34,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.ACTIONS_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
@@ -72,6 +78,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
           git add epsg.ts epsg-fn.ts
           git commit -m "chore: update EPSG definitions from PostGIS"
           npm version patch -m "chore: release v%s"
